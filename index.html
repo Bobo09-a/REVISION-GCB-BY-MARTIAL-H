@@ -6,22 +6,16 @@
   <title>QCM Futuriste – Révision Licence GCB</title>
   <meta name="theme-color" content="#0b0f1a" />
   <style>
-    :root{
-      --bg:#0b0f1a;--panel:#10162a;--panel2:#0e1324;--acc:#6df0ff;--acc2:#7d7bff;--ok:#2ee59d;--bad:#ff5577;--text:#e9f3ff;--muted:#9fb2c7;--chip:#16213a;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial; background:radial-gradient(1200px 700px at 70% -10%,rgba(125,123,255,.16),transparent),
-      radial-gradient(900px 600px at -20% 120%,rgba(109,240,255,.18),transparent), var(--bg); color:var(--text);
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-    }
+    :root{ --bg:#0b0f1a;--panel:#10162a;--panel2:#0e1324;--acc:#6df0ff;--acc2:#7d7bff;--ok:#2ee59d;--bad:#ff5577;--text:#e9f3ff;--muted:#9fb2c7;--chip:#16213a; }
+    *{box-sizing:border-box} html,body{height:100%}
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial;
+      background:radial-gradient(1200px 700px at 70% -10%,rgba(125,123,255,.16),transparent),
+                 radial-gradient(900px 600px at -20% 120%,rgba(109,240,255,.18),transparent), var(--bg);
+      color:var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
     .app{max-width:760px; margin:0 auto; padding:12px 12px 80px;}
-    header{
-      position:sticky; top:0; z-index:5; backdrop-filter:saturate(130%) blur(10px);
+    header{ position:sticky; top:0; z-index:5; backdrop-filter:saturate(130%) blur(10px);
       background:linear-gradient(180deg, rgba(11,15,26,.92), rgba(11,15,26,.65));
-      border-bottom:1px solid rgba(125,123,255,.25);
-    }
+      border-bottom:1px solid rgba(125,123,255,.25); }
     .bar{display:flex; align-items:center; gap:8px; padding:10px 12px; flex-wrap:wrap}
     .title{font-weight:700; letter-spacing:.2px;}
     .chip{background:var(--chip); border:1px solid rgba(109,240,255,.25); padding:6px 10px; border-radius:999px; font-size:12px; color:var(--muted)}
@@ -29,15 +23,10 @@
       background:linear-gradient(180deg,var(--panel),var(--panel2)); color:var(--text); border:1px solid rgba(125,123,255,.35); border-radius:12px;
       padding:10px 12px; font-size:14px; outline:none; width:100%;
     }
-    button{cursor:pointer; transition:.2s transform ease, .2s box-shadow ease;}
-    button:hover{transform:translateY(-1px)}
-    .row{display:flex; gap:8px;}
-    .row>*{flex:1}
+    button{cursor:pointer; transition:.2s transform ease, .2s box-shadow ease;} button:hover{transform:translateY(-1px)}
+    .row{display:flex; gap:8px;} .row>*{flex:1}
     .grid{display:grid; grid-template-columns:1fr; gap:12px}
-    @media(min-width:520px){
-      .grid-2{grid-template-columns: 1fr 1fr}
-      .grid-3{grid-template-columns: 1fr 1fr 1fr}
-    }
+    @media(min-width:520px){ .grid-2{grid-template-columns:1fr 1fr} .grid-3{grid-template-columns:1fr 1fr 1fr} }
     .panel{border:1px solid rgba(109,240,255,.2); border-radius:16px; background:linear-gradient(180deg, rgba(22,28,50,.72), rgba(12,17,33,.72)); box-shadow:0 8px 24px rgba(0,0,0,.25);}
     .panel .p{padding:14px;}
     .ghost{background:transparent; border:1px dashed rgba(125,123,255,.35)}
@@ -51,8 +40,7 @@
     .actions{display:flex; gap:10px;}
     .h{height:1px; background:linear-gradient(90deg, transparent, rgba(109,240,255,.35), transparent); border:0; margin:12px 0}
     .score{font-weight:700}
-    .pill{padding:4px 8px; border-radius:999px;}
-    .ok{color:#062; background:linear-gradient(180deg, rgba(46,229,157,.25), rgba(46,229,157,.1)); border:1px solid rgba(46,229,157,.4)}
+    .pill{padding:4px 8px; border-radius:999px;} .ok{color:#062; background:linear-gradient(180deg, rgba(46,229,157,.25), rgba(46,229,157,.1)); border:1px solid rgba(46,229,157,.4)}
     .bad{color:#620; background:linear-gradient(180deg, rgba(255,85,119,.25), rgba(255,85,119,.1)); border:1px solid rgba(255,85,119,.4)}
     .imgwrap{border:1px solid rgba(125,123,255,.35); border-radius:12px; overflow:hidden; background:#0b1120}
     .imgwrap img{display:block; width:100%; height:auto}
@@ -63,7 +51,7 @@
   <header>
     <div class="bar">
       <div class="title">📚 Révisions GCB – QCM Futuriste</div>
-      <div class="chip" id="version">v1.1</div>
+      <div class="chip" id="version">v1.3</div>
       <div class="chip" id="timerBadge">Sans minuteur</div>
     </div>
     <div class="bar" style="gap:10px;">
@@ -194,7 +182,13 @@
     timer: {active:false, left:0, t:null}, // examen
   };
 
-  // --- Demo bank (remplacée via Import) ---
+  // ---- fichiers JSON à la racine (ajoute ici d'autres fichiers si tu veux) ----
+  const DATA_FILES = [
+    './bacteriologie.json'
+    // './biochimie.json', './microbiologie_avancee.json', etc.
+  ];
+
+  // --- Demo bank (utilisée si aucun fichier trouvé) ---
   const demo = {
     subjects:[
       { name:"Bactériologie", sections:[
@@ -206,30 +200,41 @@
           {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
         ]},
         {name:"IDENTIFICATION IMAGE", questions:[
-          {type:"image-id", prompt:"Identifier la morphologie.", image:"demo_gram.jpg", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
+          {type:"image-id", prompt:"Identifier la morphologie.", image:"gram_cocci_amas.png", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
         ]},
         {name:"ÉTUDES DE CAS", questions:[
           {type:"short", prompt:"Fièvre + BU nitrites/leucocytes, entérobactérie lactose+ : germe probable ?", answer_text:"Escherichia coli", explain:"IU communautaire fréquente ; MacConkey lactose+ oriente E. coli."}
-        ]}
-      ]},
-      { name:"Biochimie structurale", sections:[
-        {name:"QCM", questions:[
-          {type:"mcq", prompt:"Le monomère des protéines est :", choices:["Acide gras","Acide aminé","Nucléotide"], answer:1, explain:"Les acides aminés forment des polypeptides."}
-        ]},
-        {name:"Questions/Réponses", questions:[
-          {type:"short", prompt:"Définir une enzyme.", answer_text:"Protéine catalytique qui accélère une réaction sans être consommée.", explain:"Abaisse l'énergie d'activation."}
-        ]},
-        {name:"IDENTIFICATION IMAGE", questions:[
-          {type:"image-id", prompt:"Nommer la structure.", image:"demo_aa.png", mode:"text", answer_text:"Acide aminé", explain:"Groupe amine + carboxyle + R."}
         ]}
       ]}
     ]
   };
 
+  // ---- Auto-chargement depuis la racine ----
+  async function loadBankFromFiles() {
+    const merged = { subjects: [] };
+    for (const url of DATA_FILES) {
+      try {
+        const res = await fetch(url + '?v=' + Date.now()); // anti-cache GitHub Pages
+        if (!res.ok) continue;
+        const json = await res.json();
+        if (Array.isArray(json.subjects)) merged.subjects.push(...json.subjects);
+      } catch(e) { /* ignore */ }
+    }
+    return merged.subjects.length ? merged : null;
+  }
+
   // --- Init ---
-  function init(){
-    const saved = localStorage.getItem('qcm_bank_v1');
-    S.bank = saved ? JSON.parse(saved) : demo;
+  async function init(){
+    // 1) essaie de charger depuis la racine (DATA_FILES)
+    const repoBank = await loadBankFromFiles();
+    if (repoBank) {
+      S.bank = repoBank;
+      localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
+    } else {
+      // 2) sinon, localStorage, sinon demo
+      const saved = localStorage.getItem('qcm_bank_v1');
+      S.bank = saved ? JSON.parse(saved) : demo;
+    }
     refreshSubjectList();
     bind();
     renderIdle();
@@ -308,23 +313,14 @@
     }
   }
 
-  function stopTimer(){
-    if(S.timer.t){ clearInterval(S.timer.t); }
-    S.timer = {active:false,left:0,t:null};
-    updateTimerBadge();
-  }
-
+  function stopTimer(){ if(S.timer.t){ clearInterval(S.timer.t); } S.timer = {active:false,left:0,t:null}; updateTimerBadge(); }
   function updateTimerBadge(){
     const b = el('timerBadge');
     if(S.mode === 'exam30'){
       const m = Math.floor(S.timer.left/60), s = S.timer.left%60;
-      b.textContent = `⏱ Examen ${pad(m)}:${pad(s)}`;
-    } else {
-      b.textContent = 'Sans minuteur';
-    }
+      b.textContent = `⏱ Examen ${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    } else { b.textContent = 'Sans minuteur'; }
   }
-
-  function pad(n){ return (n<10?'0':'')+n; }
 
   function getCurrent(){
     const subj = S.bank.subjects[S.subjectIndex];
@@ -335,7 +331,7 @@
   function renderIdle(){
     el('stage').innerHTML = `<div class="p">
       <h2 style="margin:0 0 6px">Bienvenue 👋</h2>
-      <p style="color:var(--muted)">Choisis la matière, le mode (normal, aléatoire, faiblesses, examen 30 min, flashcards) et le filtre par type. Réponse juste = <b>+1</b>, erreur = <b>−1</b>. Importe ton JSON pour charger tes cours.</p>
+      <p style="color:var(--muted)">Choisis la matière, le mode (normal, aléatoire, faiblesses, examen 30 min, flashcards) et le filtre par type. Réponse juste = <b>+1</b>, erreur = <b>−1</b>. Place tes <b>.json</b> et <b>images</b> à la racine du dépôt pour chargement auto.</p>
     </div>`;
   }
 
@@ -351,56 +347,40 @@
 
     el('stage').innerHTML = renderQuestion(q);
     const form = el('qForm');
-    if(form){
-      form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)};
-      const choices = form.querySelectorAll('input[name="c"]');
-      choices.forEach(c=> c.addEventListener('change', ()=>{}));
-    }
-
-    updateExplain(false);
-    updateReviewBadge();
+    if(form){ form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)}; }
+    updateExplain(false); updateReviewBadge();
   }
 
   function renderQuestion(q){
-    const commonTop = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
+    // Mode Flashcards
+    if (S.mode === 'flash'){
+      const media = (q.type==='image-id' && q.image) ? `<div class="imgwrap" style="margin-bottom:10px"><img src="${q.image}" alt="image"/></div>` : '';
+      return `<div class="grid">
+        <div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
+          <div class="badge">Section: ${q._section||''}</div>
+          <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
+        </div>
+        <div class="q-title">${escapeHTML(q.prompt||'')}</div>
+        <hr class="h"/>
+        ${media}
+        <div id="flashAnswer" style="display:none">${renderAnswerBlock(q)}</div>
+        <div class="actions"><button id="btnReveal">Afficher la réponse</button>
+          <button id="btnKnow" class="ghost">Je savais (+1)</button>
+          <button id="btnDont" class="ghost">Je ne savais pas (−1)</button></div>
+      </div>
+      <script>(function(){const r=document.getElementById('btnReveal'),k=document.getElementById('btnKnow'),d=document.getElementById('btnDont'),a=document.getElementById('flashAnswer'); if(r) r.onclick=()=>a.style.display='block'; if(k) k.onclick=()=>window.__flashJudge&&window.__flashJudge(true); if(d) d.onclick=()=>window.__flashJudge&&window.__flashJudge(false);})();</script>`;
+    }
+
+    const common = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
         <div class="badge">Section: ${q._section||''}</div>
         <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
       </div>
       <div class="q-title">${escapeHTML(q.prompt||'')}</div>
       <hr class="h"/>`;
 
-    // Mode Flashcards : affichage dédié
-    if (S.mode === 'flash'){
-      // flash supporte mcq/short/image-id mais en mode “révéler réponse”
-      const media = (q.type==='image-id' && q.image) ? `<div class="imgwrap" style="margin-bottom:10px"><img src="${q.image}" alt="image"/></div>` : '';
-      return `<div class="grid">
-        ${commonTop}
-        ${media}
-        <div id="flashAnswer" style="display:none">
-          ${renderAnswerBlock(q)}
-        </div>
-        <div class="actions">
-          <button id="btnReveal">Afficher la réponse</button>
-          <button id="btnKnow" class="ghost">Je savais (+1)</button>
-          <button id="btnDont" class="ghost">Je ne savais pas (−1)</button>
-        </div>
-      </div>
-      <script>
-        (function(){
-          const r = document.getElementById('btnReveal');
-          const k = document.getElementById('btnKnow');
-          const d = document.getElementById('btnDont');
-          const a = document.getElementById('flashAnswer');
-          if(r){ r.onclick = ()=>{ a.style.display='block'; }; }
-          if(k){ k.onclick = ()=>{ window.__flashJudge && window.__flashJudge(true); }; }
-          if(d){ d.onclick = ()=>{ window.__flashJudge && window.__flashJudge(false); }; }
-        })();
-      </script>`;
-    }
-
     if(q.type === 'mcq'){
       const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
-      return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
+      return `<form id="qForm" class="grid" autocomplete="off">${common}
         <div class="choices">${opts}</div>
         <div class="actions"><button id="btnSubmit">Valider</button></div>
         <div id="feedback"></div>
@@ -408,7 +388,7 @@
       </form>`;
     }
     if(q.type === 'short'){
-      return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
+      return `<form id="qForm" class="grid" autocomplete="off">${common}
         <input type="text" id="shortAns" placeholder="Écris ta réponse" required />
         <div class="actions"><button id="btnSubmit">Valider</button></div>
         <div id="feedback"></div>
@@ -419,7 +399,7 @@
       const img = q.image ? `<div class="imgwrap"><img src="${q.image}" alt="image à identifier" onerror="this.alt='(image introuvable)'; this.style.opacity=.6;"/></div>` : '';
       if(q.mode === 'mcq'){
         const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
-        return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
+        return `<form id="qForm" class="grid" autocomplete="off">${common}
           ${img}
           <div class="choices">${opts}</div>
           <div class="actions"><button id="btnSubmit">Valider</button></div>
@@ -427,7 +407,7 @@
           <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
         </form>`;
       } else {
-        return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
+        return `<form id="qForm" class="grid" autocomplete="off">${common}
           ${img}
           <input type="text" id="shortAns" placeholder="Nom exact…" required />
           <div class="actions"><button id="btnSubmit">Valider</button></div>
@@ -482,24 +462,20 @@
     judgeAndLock(q, ok, /*isFlash*/true);
   }
 
-  function judgeAndLock(q, ok, isFlash=false){
+  function judgeAndLock(q, ok){
     S.score += ok ? 1 : -1; el('score').textContent = S.score;
     S.streak = ok ? (S.streak+1) : 0;
     const fb = el('feedback');
     if(fb) fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
 
-    // mise à jour perf
+    // perf
     const k = keyFor(q);
     if(!S.perf[k]) S.perf[k] = {seen:0,good:0,bad:0};
     S.perf[k].seen++; ok ? S.perf[k].good++ : S.perf[k].bad++;
     updateStatsPanel();
 
-    // Lock inputs
-    const form = el('qForm');
-    if(form){ form.querySelectorAll('input, button').forEach(x=> x.disabled = true); }
-    // En flash, pas de form : on passe direct
-
-    // passage auto en examen/flash (optionnel) : on laisse “Suivant”
+    // lock
+    const form = el('qForm'); if(form){ form.querySelectorAll('input, button').forEach(x=> x.disabled = true); }
   }
 
   function nav(dir){
@@ -517,7 +493,6 @@
   }
 
   function endSession(msg){
-    // Résumé simple
     const good = totalGood(), bad = totalBad(), seen = good+bad;
     const acc = seen? Math.round(good/seen*100):0;
     el('stage').innerHTML = `<div class="p">
@@ -529,16 +504,8 @@
     stopTimer();
   }
 
-  function reset(){
-    stopTimer();
-    S.qIndex=0; S.score=0; S.answered=false; S.streak=0;
-    render();
-  }
-
-  function toggleExplain(){
-    const d = document.getElementById('explain');
-    if(d) d.open = !d.open;
-  }
+  function reset(){ stopTimer(); S.qIndex=0; S.score=0; S.answered=false; S.streak=0; render(); }
+  function toggleExplain(){ const d = document.getElementById('explain'); if(d) d.open = !d.open; }
 
   function toggleReview(){
     const cur = getCurrent().q; if(!cur) return;
@@ -548,10 +515,8 @@
   }
   function updateReviewBadge(){
     const cur = getCurrent().q; if(!cur) return;
-    const badge = document.querySelector('.badge.ok, .badge.ghost');
-    if(!badge) return;
-    const k = keyFor(cur);
-    badge.className = 'badge ' + (S.reviewSet.has(k)?'ok':'ghost');
+    const badge = document.querySelector('.badge.ok, .badge.ghost'); if(!badge) return;
+    const k = keyFor(cur); badge.className = 'badge ' + (S.reviewSet.has(k)?'ok':'ghost');
   }
 
   function saveBank(){
@@ -566,41 +531,25 @@
       const json = JSON.parse(text);
       if(!json.subjects) throw new Error('Format invalide: clé "subjects" manquante');
       S.bank = json; localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
-      refreshSubjectList();
-      // Maintenir filtres et mode choisis, construire queue
-      buildQueue(); renderIdle();
-    }catch(e){
-      alert('Erreur d\'import: '+ e.message);
-    } finally {
-      ev.target.value = '';
-    }
+      refreshSubjectList(); buildQueue(); renderIdle();
+    }catch(e){ alert('Erreur d\'import: '+ e.message); }
+    finally { ev.target.value = ''; }
   }
 
   // --- Stats helpers ---
   function totalSeen(){ return Object.values(S.perf).reduce((a,p)=>a+p.seen,0); }
   function totalGood(){ return Object.values(S.perf).reduce((a,p)=>a+p.good,0); }
   function totalBad(){ return Object.values(S.perf).reduce((a,p)=>a+p.bad,0); }
-
   function updateStatsPanel(){
     const seen = totalSeen(), good = totalGood(), bad = totalBad();
     const acc = seen? Math.round(good/seen*100):0;
-    el('stSeen').textContent = seen;
-    el('stGood').textContent = good;
-    el('stBad').textContent = bad;
-    el('stAcc').textContent = acc + '%';
-    el('stStreak').textContent = S.streak;
-    el('stToReview').textContent = S.reviewSet.size;
+    el('stSeen').textContent = seen; el('stGood').textContent = good; el('stBad').textContent = bad;
+    el('stAcc').textContent = acc + '%'; el('stStreak').textContent = S.streak; el('stToReview').textContent = S.reviewSet.size;
   }
 
   // --- utils ---
   function escapeHTML(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
-  function normalize(s){
-    return (s||'')
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/\p{Diacritic}/gu,'')
-      .replace(/[^a-z0-9]+/g,'')
-  }
+  function normalize(s){ return (s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/[^a-z0-9]+/g,''); }
   function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
   init();
