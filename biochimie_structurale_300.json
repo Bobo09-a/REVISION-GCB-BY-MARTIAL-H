@@ -1,0 +1,3028 @@
+{
+  "subjects": [
+    {
+      "name": "Biochimie structurale",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Les glucides sont définis comme des polyhydroxylés portant :",
+              "choices": [
+                "une fonction aldéhyde ou cétone",
+                "uniquement une fonction amine",
+                "uniquement une fonction acide",
+                "aucune fonction carbonylée"
+              ],
+              "answer": 0,
+              "explain": "Définition générale : aldéhyde/cétone polyhydroxylée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ose est :",
+              "choices": [
+                "un polyoside",
+                "un hétéroside",
+                "un monosaccharide non hydrolysable",
+                "un diholoside"
+              ],
+              "answer": 2,
+              "explain": "Ose = monosaccharide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oside est :",
+              "choices": [
+                "un acide gras",
+                "un monosaccharide",
+                "un polymère hydrolysable libérant des oses",
+                "une base azotée"
+              ],
+              "answer": 2,
+              "explain": "Osides = holosides/hétérosides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldose se distingue d’un cétose par :",
+              "choices": [
+                "la position de la fonction carbonyle (C1 vs C2)",
+                "l’absence d’hydroxyles",
+                "le nombre d’atomes d’hydrogène",
+                "la présence d’un soufre"
+              ],
+              "answer": 0,
+              "explain": "Aldéhyde en C1 vs cétone en C2 le plus souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La dénomination triose, pentose, hexose dépend :",
+              "choices": [
+                "de la solubilité",
+                "du nombre d’oxygènes",
+                "du pouvoir rotatoire",
+                "du nombre d’atomes de carbone"
+              ],
+              "answer": 3,
+              "explain": "Trioses C3, pentoses C5, hexoses C6, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La notation D/L pour les oses est basée sur :",
+              "choices": [
+                "la masse molaire",
+                "le rapport à la configuration du glycéraldéhyde",
+                "le sens du pouvoir rotatoire",
+                "la solubilité dans l’eau"
+              ],
+              "answer": 1,
+              "explain": "D/L ≠ dextro/lévo; référence glycéraldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’anomérie α/β apparaît :",
+              "choices": [
+                "pour les acides uroniques seulement",
+                "après cyclisation au niveau du carbone anomérique",
+                "chez les acides aminés",
+                "uniquement à l’état linéaire"
+              ],
+              "answer": 1,
+              "explain": "Carbone anomérique devient chiral → α/β."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La mutarotation correspond à :",
+              "choices": [
+                "l’interconversion α⇄β en solution",
+                "la réduction en alditols",
+                "la caramélisation",
+                "l’hydrolyse osidique"
+              ],
+              "answer": 0,
+              "explain": "Équilibre anomérique en solution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La représentation de Fischer est :",
+              "choices": [
+                "forme chaise uniquement",
+                "projection de Newman",
+                "cyclique en 3D",
+                "linéaire en 2D"
+              ],
+              "answer": 3,
+              "explain": "Fischer (linéaire), Haworth (cyclique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La représentation de Haworth :",
+              "choices": [
+                "n’est valable que pour les lipides",
+                "montre la forme cyclique (pyranose/furanose)",
+                "correspond à l’UV-Visible",
+                "montre la forme linéaire"
+              ],
+              "answer": 1,
+              "explain": "Cyclisation intramoléculaire OH + carbonyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un diholoside réducteur est formé par :",
+              "choices": [
+                "liaison osido-ose (fonction hémiacétalique libre)",
+                "liaison osido-oside",
+                "liaison peptidique",
+                "liaison phosphoanhydride"
+              ],
+              "answer": 0,
+              "explain": "Conserve un OH anomérique libre → pouvoir réducteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est :",
+              "choices": [
+                "un diholoside non réducteur",
+                "un polyoside",
+                "un hétéroside à base de lipides",
+                "un diholoside réducteur"
+              ],
+              "answer": 0,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lactose est formé de :",
+              "choices": [
+                "galactose + glucose en β(1→4)",
+                "glucose + mannose en β(1→6)",
+                "glucose + fructose",
+                "glucose + glucose en α(1→1)"
+              ],
+              "answer": 0,
+              "explain": "Diholoside réducteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le maltose résulte :",
+              "choices": [
+                "de la condensation glucose+fructose α1→2",
+                "de l’hydrolyse de l’amidon (α1→4)",
+                "de la dégradation de la cellulose",
+                "d’une liaison peptidique"
+              ],
+              "answer": 1,
+              "explain": "Produit d’amylase : Glc-α(1→4)-Glc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylose est :",
+              "choices": [
+                "un polymère ramifié α(1→6) uniquement",
+                "un polymère linéaire α(1→4) de glucose",
+                "un polymère de fructose",
+                "un polymère β(1→4) de glucose"
+              ],
+              "answer": 1,
+              "explain": "Constituant de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient :",
+              "choices": [
+                "des liaisons β(1→4) seulement",
+                "uniquement α(1→6)",
+                "aucune ramification",
+                "des liaisons α(1→4) et des branchements α(1→6)"
+              ],
+              "answer": 3,
+              "explain": "Structure ramifiée de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le glycogène :",
+              "choices": [
+                "est un β-glucane",
+                "est plus ramifié que l’amylopectine",
+                "ne possède pas de branchements",
+                "contient du galactose"
+              ],
+              "answer": 1,
+              "explain": "Branches fréquentes α(1→6)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cellulose :",
+              "choices": [
+                "est un polymère β(1→4) de glucose",
+                "est un polymère α(1→4)",
+                "est un hétéropolymère Glc+Gal",
+                "est soluble dans l’eau"
+              ],
+              "answer": 0,
+              "explain": "Structure linéaire, non digérée par l’homme."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent :",
+              "choices": [
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de la réduction de l’aldéhyde",
+                "de l’addition de NH2 en C2",
+                "de l’oxydation forte des deux extrémités"
+              ],
+              "answer": 0,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent :",
+              "choices": [
+                "de la réduction des oses (NaBH4)",
+                "de la mutarotation",
+                "de la méthylation",
+                "de l’oxydation par Fehling"
+              ],
+              "answer": 0,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Fehling met en évidence :",
+              "choices": [
+                "la chiralité",
+                "la présence de phosphate",
+                "la masse molaire",
+                "le pouvoir réducteur des oses"
+              ],
+              "answer": 3,
+              "explain": "Cu2+ → Cu2O brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines :",
+              "choices": [
+                "sont des oses réduits en aldéhydes",
+                "sont des oses dépourvus d’oxygènes",
+                "sont des oses où un OH est remplacé par NH2",
+                "sont des acides aldoniques"
+              ],
+              "answer": 2,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison osidique est :",
+              "choices": [
+                "une liaison éther C–O–C entre un OH anomérique et un OH",
+                "une liaison hydrogène",
+                "une liaison peptidique",
+                "une liaison amide"
+              ],
+              "answer": 0,
+              "explain": "Condensation avec perte d’eau."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hétérosides sont :",
+              "choices": [
+                "des bases nucléiques",
+                "des homopolymères de glucose",
+                "des osides liés à une aglycone non glucidique",
+                "des oligopeptides"
+              ],
+              "answer": 2,
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les gangliosides sont :",
+              "choices": [
+                "des polyamines",
+                "des glycérides simples",
+                "des stérols",
+                "des sphingolipides avec oligosides et acide sialique"
+              ],
+              "answer": 3,
+              "explain": "Présents dans membranes; NANA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides aminés protéiques partagent :",
+              "choices": [
+                "une fonction amine α et un acide carboxylique α",
+                "une fonction aldéhyde",
+                "une fonction cétone",
+                "une fonction amide en C2 toujours"
+              ],
+              "answer": 0,
+              "explain": "AA standards α-aminés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La glycine est particulière car :",
+              "choices": [
+                "elle possède deux carbones chiraux",
+                "elle est aromatique",
+                "elle n’a pas de carbone α chiral",
+                "elle est basique"
+              ],
+              "answer": 2,
+              "explain": "R = H, pas de chiralité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La proline est :",
+              "choices": [
+                "un acide dibasique",
+                "une amide",
+                "une hydroxylysine",
+                "un iminoacide (cycle pyrrolidine)"
+              ],
+              "answer": 3,
+              "explain": "Structure secondaire contrainte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA aromatiques absorbent :",
+              "choices": [
+                "pas de lumière",
+                "en IR moyen 3000 cm-1 uniquement",
+                "dans l’UV vers 250–280 nm",
+                "au visible 600–700 nm"
+              ],
+              "answer": 2,
+              "explain": "Tyr, Trp, Phe → dosage à 280 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA essentiels doivent :",
+              "choices": [
+                "provenir des lipides uniquement",
+                "être produits par le foie",
+                "être transformés en acétyl-CoA",
+                "être apportés par l’alimentation"
+              ],
+              "answer": 3,
+              "explain": "8–9 selon l’âge."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La forme zwitterion des AA a :",
+              "choices": [
+                "une charge nette nulle au pHi",
+                "une charge toujours négative",
+                "une charge dépendant uniquement de la température",
+                "une charge toujours positive"
+              ],
+              "answer": 0,
+              "explain": "NH3+ / COO-."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement :",
+              "choices": [
+                "la somme des pKa",
+                "indépendant des pKa",
+                "le produit des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)"
+              ],
+              "answer": 3,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La liaison peptidique est :",
+              "choices": [
+                "une liaison amide plane partiellement rigide",
+                "une liaison hydrogène",
+                "une liaison éther très flexible",
+                "une liaison ionique"
+              ],
+              "answer": 0,
+              "explain": "Résonance → planéité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit :",
+              "choices": [
+                "au hasard",
+                "de l’extrémité N-terminale vers C-terminale",
+                "de C vers N",
+                "par masse décroissante"
+              ],
+              "answer": 1,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La carboxypeptidase B clive préférentiellement :",
+              "choices": [
+                "les résidus Pro suivis de Gly",
+                "les résidus Met",
+                "les résidus aromatiques",
+                "les résidus Lys/Arg en C‑terminal"
+              ],
+              "answer": 3,
+              "explain": "Spécificité basique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une protéine globulaire se caractérise par :",
+              "choices": [
+                "un rôle uniquement structural",
+                "une conformation compacte soluble",
+                "des fibres insolubles",
+                "absence de domaines"
+              ],
+              "answer": 1,
+              "explain": "Ex : enzymes, Ig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hélice α comporte environ :",
+              "choices": [
+                "2,0 résidus par tour",
+                "1,6 résidus par tour",
+                "5,6 résidus par tour",
+                "3,6 résidus par tour"
+              ],
+              "answer": 3,
+              "explain": "Stabilisée par liaisons H i→i+4."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le feuillet β est stabilisé par :",
+              "choices": [
+                "des liaisons ioniques uniquement",
+                "des liaisons ester",
+                "des liaisons H entre brins",
+                "des liaisons disulfure exclusivement"
+              ],
+              "answer": 2,
+              "explain": "Parallèle/antiparallèle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les interactions suivantes stabilisent la structure tertiaire :",
+              "choices": [
+                "covalences sucre‑phosphate",
+                "liaisons peptidiques seulement",
+                "liaisons halogène",
+                "hydrophobes, H, ioniques, ponts disulfure"
+              ],
+              "answer": 3,
+              "explain": "Repliement 3D."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémoglobine est :",
+              "choices": [
+                "un monomère",
+                "un hexamère",
+                "un tétramère (2α2β)",
+                "un dimère αβ uniquement"
+              ],
+              "answer": 2,
+              "explain": "Exemple de structure quaternaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lipides sont caractérisés par :",
+              "choices": [
+                "leur forte solubilité aqueuse",
+                "l’absence d’acides gras",
+                "leur charge nette permanente",
+                "leur insolubilité dans l’eau et solubilité dans solvants apolaires"
+              ],
+              "answer": 3,
+              "explain": "Définition structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un acide gras saturé :",
+              "choices": [
+                "ne possède pas de double liaison",
+                "porte un cycle purine",
+                "possède une triple liaison",
+                "est toujours essentiel"
+              ],
+              "answer": 0,
+              "explain": "Ex : palmitate, stéarate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides gras essentiels comprennent :",
+              "choices": [
+                "linoléique et α‑linolénique",
+                "arachidonique (semi‑essentiel)",
+                "oléique",
+                "stéarique"
+              ],
+              "answer": 0,
+              "explain": "Doivent être apportés par l’alimentation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un triacylglycérol est composé de :",
+              "choices": [
+                "stérol + sucre",
+                "glycérol + 3 acides gras esterifiés",
+                "sphingosine + AG + phosphate",
+                "glycérol + 2 AG + sucre"
+              ],
+              "answer": 1,
+              "explain": "Lipide de réserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent :",
+              "choices": [
+                "un sucre sur C1",
+                "un groupement guanidinium",
+                "un groupe phosphate sur le glycérol",
+                "une base purique"
+              ],
+              "answer": 2,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La sphingomyéline contient :",
+              "choices": [
+                "stérol + sulfate",
+                "céramide + glucose",
+                "sphingosine + AG (céramide) + phosphate + choline",
+                "glycérol + 2 AG + phosphate"
+              ],
+              "answer": 2,
+              "explain": "Phosphosphingolipide membranaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un cérébroside (glucosylcéramide) contient :",
+              "choices": [
+                "glycérol + phosphate + Ser",
+                "cholestérol + acide gras",
+                "sphingosine + AG + glucose (β‑osidique)",
+                "AG + ribose"
+              ],
+              "answer": 2,
+              "explain": "Glycosphingolipide simple."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les gangliosides :",
+              "choices": [
+                "contiennent des oligosides + acides sialiques (NANA)",
+                "sont des stérols",
+                "sont des hormones peptidiques",
+                "sont des glycérides simples"
+              ],
+              "answer": 0,
+              "explain": "Spécificité membranaire, antigènes de surface."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lipides membranaires sont :",
+              "choices": [
+                "strictement hydrophiles",
+                "strictement hydrophobes",
+                "uniquement chargés +",
+                "amphiphiles (tête polaire + queue hydrophobe)"
+              ],
+              "answer": 3,
+              "explain": "Forment bicouches/micelles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "1 g de lipides libère environ :",
+              "choices": [
+                "4 kcal",
+                "12 kcal",
+                "7 kcal",
+                "9 kcal"
+              ],
+              "answer": 3,
+              "explain": "Valeur énergétique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléotide est formé de :",
+              "choices": [
+                "base azotée + ose pentose + phosphate",
+                "deux bases + phosphate",
+                "base + acide gras + phosphate",
+                "ose + phosphate sans base"
+              ],
+              "answer": 0,
+              "explain": "Nucléoside + phosphate = nucléotide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les purines comprennent :",
+              "choices": [
+                "uracile et thymine",
+                "xanthine et thymine uniquement",
+                "adénine et guanine",
+                "cytosine et thymine"
+              ],
+              "answer": 2,
+              "explain": "Bases bicycliques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les pyrimidines comprennent :",
+              "choices": [
+                "xanthine, hypoxanthine",
+                "adénine, guanine",
+                "cytosine, thymine, uracile",
+                "tyrosine, tryptophane"
+              ],
+              "answer": 2,
+              "explain": "Bases monocycliques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le sucre de l’ADN est :",
+              "choices": [
+                "le fructose",
+                "le 2’-désoxyribose",
+                "le galactose",
+                "le ribose"
+              ],
+              "answer": 1,
+              "explain": "ARN : ribose ; ADN : désoxyribose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lien entre base et sucre est :",
+              "choices": [
+                "une liaison peptidique",
+                "une liaison S‑glycosidique",
+                "une liaison N‑glycosidique",
+                "une liaison O‑glycosidique"
+              ],
+              "answer": 2,
+              "explain": "Nucléoside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ADN, A s’apparie avec :",
+              "choices": [
+                "U (deux liaisons H)",
+                "T (deux liaisons H)",
+                "G (une liaison H)",
+                "C (trois liaisons H)"
+              ],
+              "answer": 1,
+              "explain": "Règles de complémentarité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ARN, l’uracile remplace :",
+              "choices": [
+                "la guanine",
+                "l’adénine",
+                "la thymine",
+                "la cytosine"
+              ],
+              "answer": 2,
+              "explain": "ARN = U au lieu de T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par :",
+              "choices": [
+                "liaisons ester 1’→2’",
+                "liaisons phosphodiester 3’→5’",
+                "liaisons disulfure",
+                "liaisons amide 2’→3’"
+              ],
+              "answer": 1,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La double hélice d’ADN est :",
+              "choices": [
+                "parallèle",
+                "ramifiée α(1→6)",
+                "antiparallèle (5’→3’ / 3’→5’)",
+                "cyclique non polaire"
+              ],
+              "answer": 2,
+              "explain": "Deux brins complémentaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent :",
+              "choices": [
+                "ARNp, ARNo",
+                "ARNQ, ARNY",
+                "ADNmt, ADNcp",
+                "ARNm, ARNr, ARNt"
+              ],
+              "answer": 3,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lien entre base et sucre est : (formulation 2)",
+              "choices": [
+                "une liaison peptidique",
+                "une liaison O‑glycosidique",
+                "une liaison S‑glycosidique",
+                "une liaison N‑glycosidique"
+              ],
+              "answer": 3,
+              "explain": "Nucléoside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent : (variante)",
+              "choices": [
+                "de l’oxydation par Fehling",
+                "de la réduction des oses (NaBH4)",
+                "de la mutarotation",
+                "de la méthylation"
+              ],
+              "answer": 1,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les gangliosides : (formulation 2)",
+              "choices": [
+                "sont des hormones peptidiques",
+                "sont des stérols",
+                "sont des glycérides simples",
+                "contiennent des oligosides + acides sialiques (NANA)"
+              ],
+              "answer": 3,
+              "explain": "Spécificité membranaire, antigènes de surface."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante)",
+              "choices": [
+                "au hasard",
+                "de l’extrémité N-terminale vers C-terminale",
+                "par masse décroissante",
+                "de C vers N"
+              ],
+              "answer": 1,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation)",
+              "choices": [
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’addition de NH2 en C2",
+                "de l’oxydation forte des deux extrémités",
+                "de la réduction de l’aldéhyde"
+              ],
+              "answer": 0,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est : (reformulation)",
+              "choices": [
+                "un polyoside",
+                "un hétéroside à base de lipides",
+                "un diholoside non réducteur",
+                "un diholoside réducteur"
+              ],
+              "answer": 2,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines : (formulation 2)",
+              "choices": [
+                "sont des oses réduits en aldéhydes",
+                "sont des oses où un OH est remplacé par NH2",
+                "sont des acides aldoniques",
+                "sont des oses dépourvus d’oxygènes"
+              ],
+              "answer": 1,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA aromatiques absorbent : (reformulation)",
+              "choices": [
+                "au visible 600–700 nm",
+                "dans l’UV vers 250–280 nm",
+                "pas de lumière",
+                "en IR moyen 3000 cm-1 uniquement"
+              ],
+              "answer": 1,
+              "explain": "Tyr, Trp, Phe → dosage à 280 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA essentiels doivent : (variante)",
+              "choices": [
+                "être transformés en acétyl-CoA",
+                "provenir des lipides uniquement",
+                "être produits par le foie",
+                "être apportés par l’alimentation"
+              ],
+              "answer": 3,
+              "explain": "8–9 selon l’âge."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldose se distingue d’un cétose par : (formulation 2)",
+              "choices": [
+                "la présence d’un soufre",
+                "l’absence d’hydroxyles",
+                "le nombre d’atomes d’hydrogène",
+                "la position de la fonction carbonyle (C1 vs C2)"
+              ],
+              "answer": 3,
+              "explain": "Aldéhyde en C1 vs cétone en C2 le plus souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2)",
+              "choices": [
+                "un groupe phosphate sur le glycérol",
+                "un sucre sur C1",
+                "un groupement guanidinium",
+                "une base purique"
+              ],
+              "answer": 0,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA aromatiques absorbent : (variante)",
+              "choices": [
+                "au visible 600–700 nm",
+                "pas de lumière",
+                "dans l’UV vers 250–280 nm",
+                "en IR moyen 3000 cm-1 uniquement"
+              ],
+              "answer": 2,
+              "explain": "Tyr, Trp, Phe → dosage à 280 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un triacylglycérol est composé de : (variante)",
+              "choices": [
+                "sphingosine + AG + phosphate",
+                "stérol + sucre",
+                "glycérol + 2 AG + sucre",
+                "glycérol + 3 acides gras esterifiés"
+              ],
+              "answer": 3,
+              "explain": "Lipide de réserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent : (variante) (reformulation)",
+              "choices": [
+                "de la mutarotation",
+                "de l’oxydation par Fehling",
+                "de la réduction des oses (NaBH4)",
+                "de la méthylation"
+              ],
+              "answer": 2,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient : (formulation 2)",
+              "choices": [
+                "aucune ramification",
+                "des liaisons β(1→4) seulement",
+                "des liaisons α(1→4) et des branchements α(1→6)",
+                "uniquement α(1→6)"
+              ],
+              "answer": 2,
+              "explain": "Structure ramifiée de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ADN, A s’apparie avec : (reformulation)",
+              "choices": [
+                "T (deux liaisons H)",
+                "G (une liaison H)",
+                "U (deux liaisons H)",
+                "C (trois liaisons H)"
+              ],
+              "answer": 0,
+              "explain": "Règles de complémentarité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (formulation 2)",
+              "choices": [
+                "ARNQ, ARNY",
+                "ARNm, ARNr, ARNt",
+                "ADNmt, ADNcp",
+                "ARNp, ARNo"
+              ],
+              "answer": 1,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines : (variante)",
+              "choices": [
+                "sont des acides aldoniques",
+                "sont des oses dépourvus d’oxygènes",
+                "sont des oses où un OH est remplacé par NH2",
+                "sont des oses réduits en aldéhydes"
+              ],
+              "answer": 2,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation)",
+              "choices": [
+                "de la réduction de l’aldéhyde",
+                "de l’addition de NH2 en C2",
+                "de l’oxydation forte des deux extrémités",
+                "de l’oxydation de l’alcool primaire en acide carboxylique"
+              ],
+              "answer": 3,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent : (reformulation)",
+              "choices": [
+                "de la réduction des oses (NaBH4)",
+                "de l’oxydation par Fehling",
+                "de la mutarotation",
+                "de la méthylation"
+              ],
+              "answer": 0,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le maltose résulte : (reformulation)",
+              "choices": [
+                "d’une liaison peptidique",
+                "de la condensation glucose+fructose α1→2",
+                "de l’hydrolyse de l’amidon (α1→4)",
+                "de la dégradation de la cellulose"
+              ],
+              "answer": 2,
+              "explain": "Produit d’amylase : Glc-α(1→4)-Glc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La proline est : (variante)",
+              "choices": [
+                "un iminoacide (cycle pyrrolidine)",
+                "une amide",
+                "un acide dibasique",
+                "une hydroxylysine"
+              ],
+              "answer": 0,
+              "explain": "Structure secondaire contrainte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (variante)",
+              "choices": [
+                "de l’addition de NH2 en C2",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’oxydation forte des deux extrémités",
+                "de la réduction de l’aldéhyde"
+              ],
+              "answer": 1,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le glycogène : (variante)",
+              "choices": [
+                "est un β-glucane",
+                "est plus ramifié que l’amylopectine",
+                "ne possède pas de branchements",
+                "contient du galactose"
+              ],
+              "answer": 1,
+              "explain": "Branches fréquentes α(1→6)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (variante)",
+              "choices": [
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’addition de NH2 en C2",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités"
+              ],
+              "answer": 0,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ARN, l’uracile remplace : (variante)",
+              "choices": [
+                "l’adénine",
+                "la cytosine",
+                "la thymine",
+                "la guanine"
+              ],
+              "answer": 2,
+              "explain": "ARN = U au lieu de T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (formulation 2)",
+              "choices": [
+                "de l’addition de NH2 en C2",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’oxydation forte des deux extrémités",
+                "de la réduction de l’aldéhyde"
+              ],
+              "answer": 1,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un acide gras saturé : (reformulation)",
+              "choices": [
+                "possède une triple liaison",
+                "est toujours essentiel",
+                "porte un cycle purine",
+                "ne possède pas de double liaison"
+              ],
+              "answer": 3,
+              "explain": "Ex : palmitate, stéarate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante)",
+              "choices": [
+                "indépendant des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "la somme des pKa",
+                "le produit des pKa"
+              ],
+              "answer": 1,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (formulation 2)",
+              "choices": [
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’addition de NH2 en C2"
+              ],
+              "answer": 2,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un acide gras saturé : (reformulation)",
+              "choices": [
+                "porte un cycle purine",
+                "ne possède pas de double liaison",
+                "est toujours essentiel",
+                "possède une triple liaison"
+              ],
+              "answer": 1,
+              "explain": "Ex : palmitate, stéarate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par : (reformulation)",
+              "choices": [
+                "liaisons disulfure",
+                "liaisons ester 1’→2’",
+                "liaisons amide 2’→3’",
+                "liaisons phosphodiester 3’→5’"
+              ],
+              "answer": 3,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (formulation 2) (reformulation)",
+              "choices": [
+                "de l’oxydation forte des deux extrémités",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’addition de NH2 en C2"
+              ],
+              "answer": 2,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par : (variante)",
+              "choices": [
+                "liaisons amide 2’→3’",
+                "liaisons disulfure",
+                "liaisons ester 1’→2’",
+                "liaisons phosphodiester 3’→5’"
+              ],
+              "answer": 3,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ARN, l’uracile remplace : (formulation 2)",
+              "choices": [
+                "l’adénine",
+                "la thymine",
+                "la cytosine",
+                "la guanine"
+              ],
+              "answer": 1,
+              "explain": "ARN = U au lieu de T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lien entre base et sucre est : (variante)",
+              "choices": [
+                "une liaison peptidique",
+                "une liaison N‑glycosidique",
+                "une liaison O‑glycosidique",
+                "une liaison S‑glycosidique"
+              ],
+              "answer": 1,
+              "explain": "Nucléoside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient : (variante)",
+              "choices": [
+                "des liaisons α(1→4) et des branchements α(1→6)",
+                "uniquement α(1→6)",
+                "des liaisons β(1→4) seulement",
+                "aucune ramification"
+              ],
+              "answer": 0,
+              "explain": "Structure ramifiée de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cellulose : (formulation 2)",
+              "choices": [
+                "est un polymère β(1→4) de glucose",
+                "est un polymère α(1→4)",
+                "est soluble dans l’eau",
+                "est un hétéropolymère Glc+Gal"
+              ],
+              "answer": 0,
+              "explain": "Structure linéaire, non digérée par l’homme."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléotide est formé de : (formulation 2)",
+              "choices": [
+                "base azotée + ose pentose + phosphate",
+                "deux bases + phosphate",
+                "ose + phosphate sans base",
+                "base + acide gras + phosphate"
+              ],
+              "answer": 0,
+              "explain": "Nucléoside + phosphate = nucléotide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Fehling met en évidence : (reformulation)",
+              "choices": [
+                "la chiralité",
+                "la présence de phosphate",
+                "la masse molaire",
+                "le pouvoir réducteur des oses"
+              ],
+              "answer": 3,
+              "explain": "Cu2+ → Cu2O brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un triacylglycérol est composé de : (formulation 2)",
+              "choices": [
+                "stérol + sucre",
+                "glycérol + 2 AG + sucre",
+                "glycérol + 3 acides gras esterifiés",
+                "sphingosine + AG + phosphate"
+              ],
+              "answer": 2,
+              "explain": "Lipide de réserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est : (reformulation)",
+              "choices": [
+                "un diholoside non réducteur",
+                "un hétéroside à base de lipides",
+                "un polyoside",
+                "un diholoside réducteur"
+              ],
+              "answer": 0,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2) (formulation 2)",
+              "choices": [
+                "un groupement guanidinium",
+                "un sucre sur C1",
+                "une base purique",
+                "un groupe phosphate sur le glycérol"
+              ],
+              "answer": 3,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "1 g de lipides libère environ : (formulation 2)",
+              "choices": [
+                "12 kcal",
+                "4 kcal",
+                "9 kcal",
+                "7 kcal"
+              ],
+              "answer": 2,
+              "explain": "Valeur énergétique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylose est : (variante)",
+              "choices": [
+                "un polymère β(1→4) de glucose",
+                "un polymère de fructose",
+                "un polymère linéaire α(1→4) de glucose",
+                "un polymère ramifié α(1→6) uniquement"
+              ],
+              "answer": 2,
+              "explain": "Constituant de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La carboxypeptidase B clive préférentiellement : (variante)",
+              "choices": [
+                "les résidus aromatiques",
+                "les résidus Pro suivis de Gly",
+                "les résidus Lys/Arg en C‑terminal",
+                "les résidus Met"
+              ],
+              "answer": 2,
+              "explain": "Spécificité basique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylose est : (variante) (formulation 2)",
+              "choices": [
+                "un polymère linéaire α(1→4) de glucose",
+                "un polymère β(1→4) de glucose",
+                "un polymère de fructose",
+                "un polymère ramifié α(1→6) uniquement"
+              ],
+              "answer": 0,
+              "explain": "Constituant de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA essentiels doivent : (variante) (reformulation)",
+              "choices": [
+                "être transformés en acétyl-CoA",
+                "provenir des lipides uniquement",
+                "être produits par le foie",
+                "être apportés par l’alimentation"
+              ],
+              "answer": 3,
+              "explain": "8–9 selon l’âge."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est : (formulation 2)",
+              "choices": [
+                "un hétéroside à base de lipides",
+                "un diholoside non réducteur",
+                "un diholoside réducteur",
+                "un polyoside"
+              ],
+              "answer": 1,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lien entre base et sucre est : (variante)",
+              "choices": [
+                "une liaison S‑glycosidique",
+                "une liaison N‑glycosidique",
+                "une liaison peptidique",
+                "une liaison O‑glycosidique"
+              ],
+              "answer": 1,
+              "explain": "Nucléoside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2) (formulation 2) (formulation 2)",
+              "choices": [
+                "un sucre sur C1",
+                "un groupe phosphate sur le glycérol",
+                "une base purique",
+                "un groupement guanidinium"
+              ],
+              "answer": 1,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La représentation de Fischer est : (formulation 2)",
+              "choices": [
+                "cyclique en 3D",
+                "linéaire en 2D",
+                "projection de Newman",
+                "forme chaise uniquement"
+              ],
+              "answer": 1,
+              "explain": "Fischer (linéaire), Haworth (cyclique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un triacylglycérol est composé de : (reformulation)",
+              "choices": [
+                "glycérol + 2 AG + sucre",
+                "stérol + sucre",
+                "sphingosine + AG + phosphate",
+                "glycérol + 3 acides gras esterifiés"
+              ],
+              "answer": 3,
+              "explain": "Lipide de réserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La notation D/L pour les oses est basée sur : (reformulation)",
+              "choices": [
+                "le rapport à la configuration du glycéraldéhyde",
+                "la solubilité dans l’eau",
+                "la masse molaire",
+                "le sens du pouvoir rotatoire"
+              ],
+              "answer": 0,
+              "explain": "D/L ≠ dextro/lévo; référence glycéraldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante)",
+              "choices": [
+                "par masse décroissante",
+                "de l’extrémité N-terminale vers C-terminale",
+                "au hasard",
+                "de C vers N"
+              ],
+              "answer": 1,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le maltose résulte : (reformulation) (formulation 2)",
+              "choices": [
+                "d’une liaison peptidique",
+                "de la dégradation de la cellulose",
+                "de l’hydrolyse de l’amidon (α1→4)",
+                "de la condensation glucose+fructose α1→2"
+              ],
+              "answer": 2,
+              "explain": "Produit d’amylase : Glc-α(1→4)-Glc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (reformulation)",
+              "choices": [
+                "de l’addition de NH2 en C2",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’oxydation forte des deux extrémités"
+              ],
+              "answer": 2,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2) (formulation 2) (variante)",
+              "choices": [
+                "un sucre sur C1",
+                "un groupe phosphate sur le glycérol",
+                "un groupement guanidinium",
+                "une base purique"
+              ],
+              "answer": 1,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oside est : (reformulation)",
+              "choices": [
+                "un acide gras",
+                "un polymère hydrolysable libérant des oses",
+                "une base azotée",
+                "un monosaccharide"
+              ],
+              "answer": 1,
+              "explain": "Osides = holosides/hétérosides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (formulation 2)",
+              "choices": [
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "indépendant des pKa",
+                "le produit des pKa",
+                "la somme des pKa"
+              ],
+              "answer": 0,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "de l’addition de NH2 en C2",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités",
+                "de l’oxydation de l’alcool primaire en acide carboxylique"
+              ],
+              "answer": 3,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (variante)",
+              "choices": [
+                "le produit des pKa",
+                "indépendant des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "la somme des pKa"
+              ],
+              "answer": 2,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylose est : (variante) (formulation 2) (reformulation)",
+              "choices": [
+                "un polymère β(1→4) de glucose",
+                "un polymère ramifié α(1→6) uniquement",
+                "un polymère linéaire α(1→4) de glucose",
+                "un polymère de fructose"
+              ],
+              "answer": 2,
+              "explain": "Constituant de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’anomérie α/β apparaît : (variante)",
+              "choices": [
+                "uniquement à l’état linéaire",
+                "chez les acides aminés",
+                "après cyclisation au niveau du carbone anomérique",
+                "pour les acides uroniques seulement"
+              ],
+              "answer": 2,
+              "explain": "Carbone anomérique devient chiral → α/β."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ADN, A s’apparie avec : (variante)",
+              "choices": [
+                "C (trois liaisons H)",
+                "G (une liaison H)",
+                "T (deux liaisons H)",
+                "U (deux liaisons H)"
+              ],
+              "answer": 2,
+              "explain": "Règles de complémentarité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La représentation de Fischer est : (formulation 2) (reformulation)",
+              "choices": [
+                "projection de Newman",
+                "cyclique en 3D",
+                "linéaire en 2D",
+                "forme chaise uniquement"
+              ],
+              "answer": 2,
+              "explain": "Fischer (linéaire), Haworth (cyclique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (formulation 2)",
+              "choices": [
+                "le produit des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "la somme des pKa",
+                "indépendant des pKa"
+              ],
+              "answer": 1,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Fehling met en évidence : (formulation 2)",
+              "choices": [
+                "la masse molaire",
+                "la présence de phosphate",
+                "la chiralité",
+                "le pouvoir réducteur des oses"
+              ],
+              "answer": 3,
+              "explain": "Cu2+ → Cu2O brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par : (variante) (formulation 2)",
+              "choices": [
+                "liaisons disulfure",
+                "liaisons phosphodiester 3’→5’",
+                "liaisons amide 2’→3’",
+                "liaisons ester 1’→2’"
+              ],
+              "answer": 1,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent : (reformulation) (variante)",
+              "choices": [
+                "de la mutarotation",
+                "de la réduction des oses (NaBH4)",
+                "de l’oxydation par Fehling",
+                "de la méthylation"
+              ],
+              "answer": 1,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ARN, l’uracile remplace : (variante) (formulation 2)",
+              "choices": [
+                "la thymine",
+                "la guanine",
+                "la cytosine",
+                "l’adénine"
+              ],
+              "answer": 0,
+              "explain": "ARN = U au lieu de T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par : (variante) (formulation 2) (reformulation)",
+              "choices": [
+                "liaisons phosphodiester 3’→5’",
+                "liaisons ester 1’→2’",
+                "liaisons disulfure",
+                "liaisons amide 2’→3’"
+              ],
+              "answer": 0,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hétérosides sont : (formulation 2)",
+              "choices": [
+                "des oligopeptides",
+                "des homopolymères de glucose",
+                "des osides liés à une aglycone non glucidique",
+                "des bases nucléiques"
+              ],
+              "answer": 2,
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un diholoside réducteur est formé par : (formulation 2)",
+              "choices": [
+                "liaison osido-ose (fonction hémiacétalique libre)",
+                "liaison phosphoanhydride",
+                "liaison peptidique",
+                "liaison osido-oside"
+              ],
+              "answer": 0,
+              "explain": "Conserve un OH anomérique libre → pouvoir réducteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (variante)",
+              "choices": [
+                "ARNp, ARNo",
+                "ARNm, ARNr, ARNt",
+                "ADNmt, ADNcp",
+                "ARNQ, ARNY"
+              ],
+              "answer": 1,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le glycogène : (variante) (reformulation)",
+              "choices": [
+                "contient du galactose",
+                "ne possède pas de branchements",
+                "est un β-glucane",
+                "est plus ramifié que l’amylopectine"
+              ],
+              "answer": 3,
+              "explain": "Branches fréquentes α(1→6)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le feuillet β est stabilisé par : (variante)",
+              "choices": [
+                "des liaisons ester",
+                "des liaisons ioniques uniquement",
+                "des liaisons disulfure exclusivement",
+                "des liaisons H entre brins"
+              ],
+              "answer": 3,
+              "explain": "Parallèle/antiparallèle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (variante) (reformulation)",
+              "choices": [
+                "ADNmt, ADNcp",
+                "ARNm, ARNr, ARNt",
+                "ARNQ, ARNY",
+                "ARNp, ARNo"
+              ],
+              "answer": 1,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines : (variante)",
+              "choices": [
+                "sont des acides aldoniques",
+                "sont des oses dépourvus d’oxygènes",
+                "sont des oses où un OH est remplacé par NH2",
+                "sont des oses réduits en aldéhydes"
+              ],
+              "answer": 2,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La glycine est particulière car : (formulation 2)",
+              "choices": [
+                "elle est aromatique",
+                "elle possède deux carbones chiraux",
+                "elle est basique",
+                "elle n’a pas de carbone α chiral"
+              ],
+              "answer": 3,
+              "explain": "R = H, pas de chiralité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La dénomination triose, pentose, hexose dépend : (reformulation)",
+              "choices": [
+                "de la solubilité",
+                "du pouvoir rotatoire",
+                "du nombre d’atomes de carbone",
+                "du nombre d’oxygènes"
+              ],
+              "answer": 2,
+              "explain": "Trioses C3, pentoses C5, hexoses C6, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les glucides sont définis comme des polyhydroxylés portant : (formulation 2)",
+              "choices": [
+                "uniquement une fonction acide",
+                "une fonction aldéhyde ou cétone",
+                "aucune fonction carbonylée",
+                "uniquement une fonction amine"
+              ],
+              "answer": 1,
+              "explain": "Définition générale : aldéhyde/cétone polyhydroxylée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (variante) (variante)",
+              "choices": [
+                "ARNQ, ARNY",
+                "ARNp, ARNo",
+                "ADNmt, ADNcp",
+                "ARNm, ARNr, ARNt"
+              ],
+              "answer": 3,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les AA aromatiques absorbent : (reformulation) (variante)",
+              "choices": [
+                "en IR moyen 3000 cm-1 uniquement",
+                "dans l’UV vers 250–280 nm",
+                "au visible 600–700 nm",
+                "pas de lumière"
+              ],
+              "answer": 1,
+              "explain": "Tyr, Trp, Phe → dosage à 280 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (formulation 2) (formulation 2)",
+              "choices": [
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "indépendant des pKa",
+                "la somme des pKa",
+                "le produit des pKa"
+              ],
+              "answer": 0,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est : (reformulation)",
+              "choices": [
+                "un diholoside non réducteur",
+                "un diholoside réducteur",
+                "un polyoside",
+                "un hétéroside à base de lipides"
+              ],
+              "answer": 0,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "de la réduction de l’aldéhyde",
+                "de l’addition de NH2 en C2",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’oxydation forte des deux extrémités"
+              ],
+              "answer": 2,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldose se distingue d’un cétose par : (formulation 2)",
+              "choices": [
+                "la position de la fonction carbonyle (C1 vs C2)",
+                "la présence d’un soufre",
+                "le nombre d’atomes d’hydrogène",
+                "l’absence d’hydroxyles"
+              ],
+              "answer": 0,
+              "explain": "Aldéhyde en C1 vs cétone en C2 le plus souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides aminés protéiques partagent : (reformulation)",
+              "choices": [
+                "une fonction aldéhyde",
+                "une fonction amine α et un acide carboxylique α",
+                "une fonction amide en C2 toujours",
+                "une fonction cétone"
+              ],
+              "answer": 1,
+              "explain": "AA standards α-aminés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient : (formulation 2) (reformulation)",
+              "choices": [
+                "aucune ramification",
+                "des liaisons α(1→4) et des branchements α(1→6)",
+                "des liaisons β(1→4) seulement",
+                "uniquement α(1→6)"
+              ],
+              "answer": 1,
+              "explain": "Structure ramifiée de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (formulation 2) (variante)",
+              "choices": [
+                "la somme des pKa",
+                "indépendant des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "le produit des pKa"
+              ],
+              "answer": 2,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (variante) (variante)",
+              "choices": [
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "le produit des pKa",
+                "indépendant des pKa",
+                "la somme des pKa"
+              ],
+              "answer": 0,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alditols résultent : (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "de la réduction des oses (NaBH4)",
+                "de la mutarotation",
+                "de l’oxydation par Fehling",
+                "de la méthylation"
+              ],
+              "answer": 0,
+              "explain": "Ex : sorbitol à partir du glucose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le sucre de l’ADN est : (variante)",
+              "choices": [
+                "le ribose",
+                "le galactose",
+                "le 2’-désoxyribose",
+                "le fructose"
+              ],
+              "answer": 2,
+              "explain": "ARN : ribose ; ADN : désoxyribose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (formulation 2) (reformulation) (variante)",
+              "choices": [
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités",
+                "de l’addition de NH2 en C2"
+              ],
+              "answer": 0,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (formulation 2)",
+              "choices": [
+                "ADNmt, ADNcp",
+                "ARNp, ARNo",
+                "ARNQ, ARNY",
+                "ARNm, ARNr, ARNt"
+              ],
+              "answer": 3,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lipides sont caractérisés par : (variante)",
+              "choices": [
+                "leur forte solubilité aqueuse",
+                "l’absence d’acides gras",
+                "leur charge nette permanente",
+                "leur insolubilité dans l’eau et solubilité dans solvants apolaires"
+              ],
+              "answer": 3,
+              "explain": "Définition structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "1 g de lipides libère environ : (formulation 2) (formulation 2)",
+              "choices": [
+                "12 kcal",
+                "7 kcal",
+                "9 kcal",
+                "4 kcal"
+              ],
+              "answer": 2,
+              "explain": "Valeur énergétique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient : (variante) (formulation 2)",
+              "choices": [
+                "aucune ramification",
+                "des liaisons α(1→4) et des branchements α(1→6)",
+                "des liaisons β(1→4) seulement",
+                "uniquement α(1→6)"
+              ],
+              "answer": 1,
+              "explain": "Structure ramifiée de l’amidon."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le glycogène : (variante) (formulation 2)",
+              "choices": [
+                "ne possède pas de branchements",
+                "contient du galactose",
+                "est un β-glucane",
+                "est plus ramifié que l’amylopectine"
+              ],
+              "answer": 3,
+              "explain": "Branches fréquentes α(1→6)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldose se distingue d’un cétose par : (reformulation)",
+              "choices": [
+                "l’absence d’hydroxyles",
+                "la position de la fonction carbonyle (C1 vs C2)",
+                "le nombre d’atomes d’hydrogène",
+                "la présence d’un soufre"
+              ],
+              "answer": 1,
+              "explain": "Aldéhyde en C1 vs cétone en C2 le plus souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le glycogène : (formulation 2)",
+              "choices": [
+                "ne possède pas de branchements",
+                "est un β-glucane",
+                "contient du galactose",
+                "est plus ramifié que l’amylopectine"
+              ],
+              "answer": 3,
+              "explain": "Branches fréquentes α(1→6)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (formulation 2) (reformulation) (formulation 2)",
+              "choices": [
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités",
+                "de l’addition de NH2 en C2"
+              ],
+              "answer": 0,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La glycine est particulière car : (variante)",
+              "choices": [
+                "elle est aromatique",
+                "elle possède deux carbones chiraux",
+                "elle n’a pas de carbone α chiral",
+                "elle est basique"
+              ],
+              "answer": 2,
+              "explain": "R = H, pas de chiralité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante) (formulation 2)",
+              "choices": [
+                "au hasard",
+                "par masse décroissante",
+                "de C vers N",
+                "de l’extrémité N-terminale vers C-terminale"
+              ],
+              "answer": 3,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lipides membranaires sont : (formulation 2)",
+              "choices": [
+                "uniquement chargés +",
+                "strictement hydrophobes",
+                "strictement hydrophiles",
+                "amphiphiles (tête polaire + queue hydrophobe)"
+              ],
+              "answer": 3,
+              "explain": "Forment bicouches/micelles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les glucides sont définis comme des polyhydroxylés portant : (formulation 2) (reformulation)",
+              "choices": [
+                "une fonction aldéhyde ou cétone",
+                "uniquement une fonction acide",
+                "uniquement une fonction amine",
+                "aucune fonction carbonylée"
+              ],
+              "answer": 0,
+              "explain": "Définition générale : aldéhyde/cétone polyhydroxylée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lactose est formé de : (reformulation)",
+              "choices": [
+                "glucose + glucose en α(1→1)",
+                "glucose + mannose en β(1→6)",
+                "glucose + fructose",
+                "galactose + glucose en β(1→4)"
+              ],
+              "answer": 3,
+              "explain": "Diholoside réducteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante) (formulation 2) (formulation 2)",
+              "choices": [
+                "par masse décroissante",
+                "de C vers N",
+                "au hasard",
+                "de l’extrémité N-terminale vers C-terminale"
+              ],
+              "answer": 3,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un triacylglycérol est composé de : (formulation 2)",
+              "choices": [
+                "stérol + sucre",
+                "glycérol + 2 AG + sucre",
+                "sphingosine + AG + phosphate",
+                "glycérol + 3 acides gras esterifiés"
+              ],
+              "answer": 3,
+              "explain": "Lipide de réserve."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (formulation 2) (formulation 2)",
+              "choices": [
+                "ARNm, ARNr, ARNt",
+                "ARNQ, ARNY",
+                "ADNmt, ADNcp",
+                "ARNp, ARNo"
+              ],
+              "answer": 0,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines : (variante) (formulation 2)",
+              "choices": [
+                "sont des oses dépourvus d’oxygènes",
+                "sont des oses réduits en aldéhydes",
+                "sont des acides aldoniques",
+                "sont des oses où un OH est remplacé par NH2"
+              ],
+              "answer": 3,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante) (formulation 2) (variante)",
+              "choices": [
+                "de C vers N",
+                "par masse décroissante",
+                "de l’extrémité N-terminale vers C-terminale",
+                "au hasard"
+              ],
+              "answer": 2,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La dénomination triose, pentose, hexose dépend : (reformulation) (variante)",
+              "choices": [
+                "de la solubilité",
+                "du nombre d’oxygènes",
+                "du pouvoir rotatoire",
+                "du nombre d’atomes de carbone"
+              ],
+              "answer": 3,
+              "explain": "Trioses C3, pentoses C5, hexoses C6, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le lien entre base et sucre est : (variante) (variante)",
+              "choices": [
+                "une liaison N‑glycosidique",
+                "une liaison O‑glycosidique",
+                "une liaison S‑glycosidique",
+                "une liaison peptidique"
+              ],
+              "answer": 0,
+              "explain": "Nucléoside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2)",
+              "choices": [
+                "une base purique",
+                "un groupe phosphate sur le glycérol",
+                "un groupement guanidinium",
+                "un sucre sur C1"
+              ],
+              "answer": 1,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’ARN, l’uracile remplace : (formulation 2) (formulation 2)",
+              "choices": [
+                "la guanine",
+                "la thymine",
+                "l’adénine",
+                "la cytosine"
+              ],
+              "answer": 1,
+              "explain": "ARN = U au lieu de T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléotide est formé de : (formulation 2) (formulation 2)",
+              "choices": [
+                "deux bases + phosphate",
+                "base + acide gras + phosphate",
+                "base azotée + ose pentose + phosphate",
+                "ose + phosphate sans base"
+              ],
+              "answer": 2,
+              "explain": "Nucléoside + phosphate = nucléotide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (formulation 2) (variante)",
+              "choices": [
+                "de l’addition de NH2 en C2",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation forte des deux extrémités",
+                "de l’oxydation de l’alcool primaire en acide carboxylique"
+              ],
+              "answer": 3,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La liaison peptidique est : (reformulation)",
+              "choices": [
+                "une liaison ionique",
+                "une liaison amide plane partiellement rigide",
+                "une liaison hydrogène",
+                "une liaison éther très flexible"
+              ],
+              "answer": 1,
+              "explain": "Résonance → planéité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante) (formulation 2)",
+              "choices": [
+                "au hasard",
+                "par masse décroissante",
+                "de C vers N",
+                "de l’extrémité N-terminale vers C-terminale"
+              ],
+              "answer": 3,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2) (formulation 2) (formulation 2) (formulation 2)",
+              "choices": [
+                "une base purique",
+                "un groupement guanidinium",
+                "un groupe phosphate sur le glycérol",
+                "un sucre sur C1"
+              ],
+              "answer": 2,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le saccharose est : (formulation 2) (reformulation)",
+              "choices": [
+                "un hétéroside à base de lipides",
+                "un diholoside réducteur",
+                "un polyoside",
+                "un diholoside non réducteur"
+              ],
+              "answer": 3,
+              "explain": "Glc(α1→2)Fru; osido-oside."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les glucides sont définis comme des polyhydroxylés portant : (variante)",
+              "choices": [
+                "uniquement une fonction amine",
+                "uniquement une fonction acide",
+                "aucune fonction carbonylée",
+                "une fonction aldéhyde ou cétone"
+              ],
+              "answer": 3,
+              "explain": "Définition générale : aldéhyde/cétone polyhydroxylée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la nomenclature peptidique on écrit : (variante) (variante)",
+              "choices": [
+                "au hasard",
+                "de C vers N",
+                "de l’extrémité N-terminale vers C-terminale",
+                "par masse décroissante"
+              ],
+              "answer": 2,
+              "explain": "Convention internationale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les interactions suivantes stabilisent la structure tertiaire : (reformulation)",
+              "choices": [
+                "hydrophobes, H, ioniques, ponts disulfure",
+                "liaisons peptidiques seulement",
+                "liaisons halogène",
+                "covalences sucre‑phosphate"
+              ],
+              "answer": 0,
+              "explain": "Repliement 3D."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les osamines : (reformulation)",
+              "choices": [
+                "sont des oses dépourvus d’oxygènes",
+                "sont des acides aldoniques",
+                "sont des oses où un OH est remplacé par NH2",
+                "sont des oses réduits en aldéhydes"
+              ],
+              "answer": 2,
+              "explain": "Ex : GlcN, GalN, N-acétylés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (reformulation)",
+              "choices": [
+                "ARNm, ARNr, ARNt",
+                "ARNQ, ARNY",
+                "ADNmt, ADNcp",
+                "ARNp, ARNo"
+              ],
+              "answer": 0,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La liaison peptidique est : (reformulation)",
+              "choices": [
+                "une liaison hydrogène",
+                "une liaison éther très flexible",
+                "une liaison amide plane partiellement rigide",
+                "une liaison ionique"
+              ],
+              "answer": 2,
+              "explain": "Résonance → planéité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (formulation 2) (variante) (variante)",
+              "choices": [
+                "de l’oxydation forte des deux extrémités",
+                "de la réduction de l’aldéhyde",
+                "de l’oxydation de l’alcool primaire en acide carboxylique",
+                "de l’addition de NH2 en C2"
+              ],
+              "answer": 2,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les types d’ARN incluent : (variante) (reformulation)",
+              "choices": [
+                "ARNp, ARNo",
+                "ARNQ, ARNY",
+                "ARNm, ARNr, ARNt",
+                "ADNmt, ADNcp"
+              ],
+              "answer": 2,
+              "explain": "Principaux ARN cellulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chaîne polynucléotidique est liée par : (reformulation)",
+              "choices": [
+                "liaisons amide 2’→3’",
+                "liaisons disulfure",
+                "liaisons phosphodiester 3’→5’",
+                "liaisons ester 1’→2’"
+              ],
+              "answer": 2,
+              "explain": "Dos squelette sucre‑phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les phosphoglycérides portent : (formulation 2) (formulation 2) (variante) (formulation 2)",
+              "choices": [
+                "un groupement guanidinium",
+                "un sucre sur C1",
+                "un groupe phosphate sur le glycérol",
+                "une base purique"
+              ],
+              "answer": 2,
+              "explain": "Constituants majeurs des membranes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (variante) (reformulation)",
+              "choices": [
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "le produit des pKa",
+                "la somme des pKa",
+                "indépendant des pKa"
+              ],
+              "answer": 0,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La mutarotation correspond à : (formulation 2)",
+              "choices": [
+                "la caramélisation",
+                "l’interconversion α⇄β en solution",
+                "la réduction en alditols",
+                "l’hydrolyse osidique"
+              ],
+              "answer": 1,
+              "explain": "Équilibre anomérique en solution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "1 g de lipides libère environ : (formulation 2)",
+              "choices": [
+                "7 kcal",
+                "12 kcal",
+                "4 kcal",
+                "9 kcal"
+              ],
+              "answer": 3,
+              "explain": "Valeur énergétique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La double hélice d’ADN est : (reformulation)",
+              "choices": [
+                "cyclique non polaire",
+                "parallèle",
+                "ramifiée α(1→6)",
+                "antiparallèle (5’→3’ / 3’→5’)"
+              ],
+              "answer": 3,
+              "explain": "Deux brins complémentaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le point isoélectrique d’un AA neutre est approximativement : (variante) (formulation 2) (variante)",
+              "choices": [
+                "le produit des pKa",
+                "la somme des pKa",
+                "la moyenne des pKa (COOH) et pKb (NH3+)",
+                "indépendant des pKa"
+              ],
+              "answer": 2,
+              "explain": "pHi = (pK1 + pK2)/2 pour AA non ionisable sur R."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les acides uroniques proviennent : (reformulation) (formulation 2) (reformulation) (reformulation)",
+              "choices": [
+                "de la réduction de l’aldéhyde",
+                "de l’addition de NH2 en C2",
+                "de l’oxydation forte des deux extrémités",
+                "de l’oxydation de l’alcool primaire en acide carboxylique"
+              ],
+              "answer": 3,
+              "explain": "Ex : acide glucuronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’amylopectine contient : (formulation 2) (reformulation)",
+              "choices": [
+                "uniquement α(1→6)",
+                "des liaisons β(1→4) seulement",
+                "des liaisons α(1→4) et des branchements α(1→6)",
+                "aucune ramification"
+              ],
+              "answer": 2,
+              "explain": "Structure ramifiée de l’amidon."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir un diholoside réducteur.",
+              "answer_text": "Diholoside avec OH anomérique libre (liaison osido-ose).",
+              "explain": "Pouvoir réducteur et mutarotation."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux exemples de polyosides de réserve.",
+              "answer_text": "Amidon, glycogène.",
+              "explain": "Réserve énergétique végétaux/animaux."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux hétérosides d’intérêt biologique.",
+              "answer_text": "Glycoprotéines, glycolipides.",
+              "explain": "Glycoconjugués des membranes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le point isoélectrique (pHi).",
+              "answer_text": "pH auquel la charge nette d’un AA/peptide est nulle.",
+              "explain": "Forme zwitterion prédominante."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer 4 AA aromatiques ou associés.",
+              "answer_text": "Phénylalanine, Tyrosine, Tryptophane (aromatiques) ; Histidine (cycle imidazole).",
+              "explain": "Absorbance UV : Tyr/Trp > Phe."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes de séparation d’AA.",
+              "answer_text": "Chromatographie échangeuse d’ions ; électrophorèse.",
+              "explain": "Selon la charge/pKa et polarité."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un glycosphingolipide.",
+              "answer_text": "Céramide portant une ou plusieurs unités osidiques.",
+              "explain": "Inclut cérébrosides et gangliosides."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des lipides.",
+              "answer_text": "Réserve énergétique ; constituants membranaires.",
+              "explain": "Inclut précurseurs hormonaux/vitamines."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir nucléoside vs nucléotide.",
+              "answer_text": "Nucléoside = base + sucre ; Nucléotide = nucléoside + phosphate.",
+              "explain": "Unité de base des acides nucléiques."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la nature de la liaison phosphodiester.",
+              "answer_text": "Liaison entre 3’OH d’un sucre et phosphate lié au 5’OH suivant.",
+              "explain": "Forme le squelette sucre‑phosphate."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un hétéroside.",
+              "answer_text": "Glucide lié à une aglycone non glucidique.",
+              "explain": "Ex : glycoprotéines, glycolipides."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une holoprotéine ?",
+              "answer_text": "Protéine ne donnant que des AA à l’hydrolyse.",
+              "explain": "Opposée à hétéroprotéine."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle générale de notation D/L d’un ose.",
+              "answer_text": "Position de l’OH sur le carbone asymétrique le plus éloigné du carbonyle par rapport au D‑glycéraldéhyde.",
+              "explain": "D à droite, L à gauche en Fischer."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘liaison N‑glycosidique’ ?",
+              "answer_text": "Liaison entre l’azote d’une base et le C1’ du sucre.",
+              "explain": "Constitue un nucléoside."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes d’analyse des oses.",
+              "answer_text": "Chromatographie ; réactions colorimétriques (Fehling, GOD/POD).",
+              "explain": "Séparation + détection."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Dosage protéique par UV — Protéine riche en Trp/Tyr ; mesure à 280 nm\n\nQuel principe analytique exploité ?",
+              "answer_text": "Absorbance des cycles aromatiques.",
+              "explain": "A(280 nm) ∝ Tyr/Trp."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Détermination de séquence — Peptide inconnu ; traitement BrCN\n\nQuel site de coupure ?",
+              "answer_text": "Après la méthionine (côté carboxyle).",
+              "explain": "Spécificité du BrCN."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Structure secondaire — Protéine fibreuse ; diagramme de diffraction compatible hélice\n\nStructure dominante ?",
+              "answer_text": "Hélice α.",
+              "explain": "3,6 résidus/tour ; fibres kératine."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Point isoélectrique — Peptide net + à pH 3 et net – à pH 10\n\nOù se trouve le pHi ?",
+              "answer_text": "Entre les deux (≈ pH 6–7 selon pKa).",
+              "explain": "Charge nette nulle au pHi."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Structure secondaire — Protéine fibreuse ; diagramme de diffraction compatible hélice\n\nStructure dominante ?",
+              "answer_text": "Hélice α.",
+              "explain": "3,6 résidus/tour ; fibres kératine."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Structure secondaire — Protéine fibreuse ; diagramme de diffraction compatible hélice\n\nStructure dominante ?",
+              "answer_text": "Hélice α.",
+              "explain": "3,6 résidus/tour ; fibres kératine."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] ADN vs ARN — Acide nucléique contenant U et ribose\n\nNature ?",
+              "answer_text": "ARN.",
+              "explain": "Uracile et ribose caractéristiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Structure secondaire — Protéine fibreuse ; diagramme de diffraction compatible hélice\n\nStructure dominante ?",
+              "answer_text": "Hélice α.",
+              "explain": "3,6 résidus/tour ; fibres kératine."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaissance d’un diholoside — Échantillon sucré ; test Fehling positif ; hydrolyse libère Glc+Gal\n\nQuel diholoside probable ?",
+              "answer_text": "Lactose.",
+              "explain": "Réducteur β(1→4)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Point isoélectrique — Peptide net + à pH 3 et net – à pH 10\n\nOù se trouve le pHi ?",
+              "answer_text": "Entre les deux (≈ pH 6–7 selon pKa).",
+              "explain": "Charge nette nulle au pHi."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Membrane plasmique — Modèle bicouche ; présence de gangliosides\n\nRôle des oligosides ?",
+              "answer_text": "Reconnaissance cellulaire/antigénicité.",
+              "explain": "NANA exposé côté extra‑cellulaire."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}
