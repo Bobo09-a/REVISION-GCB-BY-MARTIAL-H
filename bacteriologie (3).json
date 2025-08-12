@@ -1,0 +1,1919 @@
+{
+  "subjects": [
+    {
+      "name": "Bactériologie",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "La coloration de Gram différencie principalement selon :",
+              "choices": [
+                "La forme (cocci/bacilles)",
+                "La composition/épaisseur de la paroi",
+                "La présence de flagelles",
+                "La présence de capsule"
+              ],
+              "answer": 1,
+              "explain": "Gram+ : paroi épaisse riche en peptidoglycane ; Gram− : membrane externe avec LPS."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Staphylococcus aureus est :",
+              "choices": [
+                "Cocci Gram+ en amas",
+                "Bacille Gram−",
+                "Cocci Gram− en diplocoques",
+                "Bacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "Staphylocoques : cocci Gram+ en amas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus pyogenes est :",
+              "choices": [
+                "Cocci Gram+ en chaînettes",
+                "Cocci Gram− en diplocoques",
+                "Bacille Gram−",
+                "Coccobacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "Streptocoques : cocci Gram+ en chaînettes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Neisseria meningitidis est :",
+              "choices": [
+                "Diplocoque Gram−",
+                "Cocci Gram+ en amas",
+                "Bacille Gram−",
+                "Coccobacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "Neisseria : diplocoques Gram−."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Escherichia coli est :",
+              "choices": [
+                "Bacille Gram−",
+                "Bacille Gram+",
+                "Cocci Gram+",
+                "Diplocoque Gram+"
+              ],
+              "answer": 0,
+              "explain": "E. coli : entérobactérie, bacille Gram−."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Listeria monocytogenes est :",
+              "choices": [
+                "Bacille Gram+",
+                "Bacille Gram−",
+                "Cocci Gram−",
+                "Spirochète"
+              ],
+              "answer": 0,
+              "explain": "Bacille Gram+ mobile à 25°C."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycobacterium tuberculosis est :",
+              "choices": [
+                "Gram+ typique",
+                "Gram− typique",
+                "Acido-alcoolo-résistant (Ziehl-Neelsen)",
+                "Sans paroi"
+              ],
+              "answer": 2,
+              "explain": "AAR grâce aux acides mycoliques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycoplasma pneumoniae se caractérise par :",
+              "choices": [
+                "Capsule épaisse",
+                "Absence de paroi",
+                "Pigment vert",
+                "Production de spores"
+              ],
+              "answer": 1,
+              "explain": "Pas de paroi → résistance naturelle aux β-lactamines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridium tetani est :",
+              "choices": [
+                "Anaérobie strict sporulé",
+                "Aérobie strict",
+                "Aéro-anaérobie facultatif",
+                "Microaérophile"
+              ],
+              "answer": 0,
+              "explain": "Clostridium : Gram+ anaérobies stricts sporulés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacillus anthracis est :",
+              "choices": [
+                "Bacille Gram+ sporulé aérobie",
+                "Bacille Gram− non sporulé",
+                "Cocci Gram+",
+                "Spirochète"
+              ],
+              "answer": 0,
+              "explain": "Bacillus : sporulé aérobie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité des pathogènes humains sont :",
+              "choices": [
+                "Psychrophiles",
+                "Mésophiles (30–37°C)",
+                "Thermophiles",
+                "Hyperthermophiles"
+              ],
+              "answer": 1,
+              "explain": "Optimum proche de 37°C."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aérobie strict :",
+              "choices": [
+                "Meurt en présence d’oxygène",
+                "Exige l’oxygène pour croître",
+                "Croît mieux sans O2 mais tolère l’O2",
+                "Est indifférent à l’O2"
+              ],
+              "answer": 1,
+              "explain": "Ex : Pseudomonas aeruginosa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un anaérobie strict :",
+              "choices": [
+                "A besoin d’O2",
+                "Tolère l’O2",
+                "Est inhibé par l’O2",
+                "Est indifférent à l’O2"
+              ],
+              "answer": 2,
+              "explain": "Ex : Clostridium."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MacConkey est un milieu :",
+              "choices": [
+                "Sélectif + différentiel pour entérobactéries (lactose)",
+                "Enrichi pour bactéries exigeantes",
+                "Sélectif pour Gram+",
+                "Strictement anaérobie"
+              ],
+              "answer": 0,
+              "explain": "Bile + cristal violet (sélectif Gram−) ; rouge neutre (différentiel lactose)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Colonies roses sur MacConkey indiquent :",
+              "choices": [
+                "Fermentation du lactose",
+                "Hydrolyse de l’esculine",
+                "Hémolyse β",
+                "Production d’H2S"
+              ],
+              "answer": 0,
+              "explain": "Acidification → virage en rose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gélose au sang est un milieu :",
+              "choices": [
+                "Sélectif pour Gram−",
+                "Enrichi, met en évidence l’hémolyse",
+                "Spécifique d’une espèce",
+                "Chromogène pour carbapénémases"
+              ],
+              "answer": 1,
+              "explain": "Observation α/β/γ-hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La phase de latence correspond à :",
+              "choices": [
+                "Doublement rapide",
+                "Aucune activité métabolique",
+                "Adaptation sans division nette",
+                "Mort cellulaire massive"
+              ],
+              "answer": 2,
+              "explain": "Synthèse d’enzymes d’adaptation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Courbe batch classique :",
+              "choices": [
+                "Exponentielle puis déclin",
+                "Latence → exponentielle → stationnaire → déclin",
+                "Latence → stationnaire",
+                "Stationnaire → exponentielle"
+              ],
+              "answer": 1,
+              "explain": "Modèle standard."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Temps de génération (Tg) :",
+              "choices": [
+                "Temps d’éradication de 90%",
+                "Durée d’un doublement",
+                "Durée de sporulation",
+                "Durée d’un cycle respiratoire"
+              ],
+              "answer": 1,
+              "explain": "Doublement par scissiparité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu chocolat :",
+              "choices": [
+                "Milieu enrichi pour germes exigeants (Haemophilus, Neisseria)",
+                "Sélectif pour entérobactéries",
+                "Spécifique Salmonella",
+                "Anaérobie strict"
+              ],
+              "answer": 0,
+              "explain": "Érythrocytes lysés libérant X et V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Stérilisation =",
+              "choices": [
+                "Réduction de la charge microbienne",
+                "Destruction de toutes les formes vivantes, spores incluses",
+                "Inactivation virale seulement",
+                "Nettoyage mécanique"
+              ],
+              "answer": 1,
+              "explain": "Ex : autoclave 121°C/15–20 min."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Désinfection s’applique à :",
+              "choices": [
+                "Tissus vivants",
+                "Milieux inertes/objets",
+                "Sang humain",
+                "Solution stérile"
+              ],
+              "answer": 1,
+              "explain": "Antisepsie = tissus vivants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un filtre 0,22 µm retient :",
+              "choices": [
+                "Toutes les spores",
+                "La plupart des bactéries",
+                "La plupart des virus nus",
+                "Rien"
+              ],
+              "answer": 1,
+              "explain": "Ne retient pas tous les virus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gaz d’oxyde d’éthylène :",
+              "choices": [
+                "Stérilisation à froid pour dispositifs thermosensibles",
+                "Désinfection rapide des mains",
+                "Coloration de Gram",
+                "Milieu de culture"
+              ],
+              "answer": 0,
+              "explain": "Pour matériel sensible à la chaleur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Indice phénol :",
+              "choices": [
+                "Mesure activité antiseptique comparative",
+                "Mesure CMI",
+                "Mesure charge virale",
+                "Mesure activité sporicide"
+              ],
+              "answer": 0,
+              "explain": "Comparaison vs phénol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "β-lactamines agissent sur :",
+              "choices": [
+                "Synthèse protéique 50S",
+                "Synthèse de la paroi",
+                "Métabolisme folique",
+                "Topoisomérases"
+              ],
+              "answer": 1,
+              "explain": "Inhibition PLP/transpeptidation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Glycopeptides (vancomycine) :",
+              "choices": [
+                "Membrane externe",
+                "Paroi des Gram+ (D-Ala-D-Ala)",
+                "50S",
+                "ARN polymérase"
+              ],
+              "answer": 1,
+              "explain": "Inefficaces sur Gram− (barrière)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quinolones :",
+              "choices": [
+                "Gyrase/Topoisomérase IV",
+                "Synthèse folate",
+                "30S",
+                "Peptidoglycane"
+              ],
+              "answer": 0,
+              "explain": "Inhibent topoisomérases."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aminoglycosides :",
+              "choices": [
+                "50S",
+                "30S bactéricide, nécessite O2",
+                "Actifs sur anaérobies stricts",
+                "Actifs en milieu acide uniquement"
+              ],
+              "answer": 1,
+              "explain": "Entrée dépendante de l’O2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Macrolides :",
+              "choices": [
+                "30S",
+                "50S (translocation)",
+                "MurA",
+                "LPS"
+              ],
+              "answer": 1,
+              "explain": "Inhibent translocation 50S."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rifampicine :",
+              "choices": [
+                "ARN polymérase bactérienne",
+                "ADN polymérase",
+                "Gyrase",
+                "Dihydrofolate réductase"
+              ],
+              "answer": 0,
+              "explain": "Blocage transcription."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Linezolide :",
+              "choices": [
+                "50S (initiation)",
+                "30S",
+                "Topoisomérase",
+                "Acide mycolique"
+              ],
+              "answer": 0,
+              "explain": "Oxazolidinone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Colistine :",
+              "choices": [
+                "Membrane externe des Gram− (polymyxine)",
+                "Paroi Gram+",
+                "Gyrase",
+                "50S"
+              ],
+              "answer": 0,
+              "explain": "Déstabilisation membrane externe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "TMP-SMX :",
+              "choices": [
+                "Voie folate (DHPS + DHFR)",
+                "50S",
+                "Paroi",
+                "ARN polymérase"
+              ],
+              "answer": 0,
+              "explain": "Inhibition séquentielle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Daptomycine :",
+              "choices": [
+                "Membrane Gram+ (dépend Ca2+)",
+                "LPS",
+                "50S",
+                "Gyrase"
+              ],
+              "answer": 0,
+              "explain": "Dépolarisation membrane des Gram+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MRSA : mécanisme principal :",
+              "choices": [
+                "Efflux macrolides",
+                "Mutation gyrA",
+                "PLP modifiée (mecA → PBP2a)",
+                "Porines modifiées"
+              ],
+              "answer": 2,
+              "explain": "PBP2a ↓ affinité β-lactamines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ESBL confère résistance à :",
+              "choices": [
+                "Carbapénèmes",
+                "Céphalosporines 3G",
+                "Glycopeptides",
+                "Fosfomycine"
+              ],
+              "answer": 1,
+              "explain": "Hydrolysent 3G."
+            },
+            {
+              "type": "mcq",
+              "prompt": "KPC est :",
+              "choices": [
+                "Métallo-β-lactamase",
+                "Sérine-β-lactamase (classe A)",
+                "Pompe d’efflux",
+                "Mutation cible"
+              ],
+              "answer": 1,
+              "explain": "Hydrolyse carbapénèmes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "VRE signifie :",
+              "choices": [
+                "Staphylocoque résistant Vanco",
+                "Entérocoque résistant Vanco",
+                "Pseudomonas multirésistant",
+                "Mycobactérie résistante"
+              ],
+              "answer": 1,
+              "explain": "VanA/VanB notamment."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mécanisme d’Acinetobacter multi-R :",
+              "choices": [
+                "Uniquement PBP2a",
+                "Biofilm + efflux + porines + enzymes",
+                "Capsule uniquement",
+                "Transformation naturelle seule"
+              ],
+              "answer": 1,
+              "explain": "Résistance multifactorielle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Perte porine OprD affecte :",
+              "choices": [
+                "Ciprofloxacine",
+                "Imipénème chez Pseudomonas",
+                "Vancomycine",
+                "Rifampicine"
+              ],
+              "answer": 1,
+              "explain": "↓ entrée imipénème."
+            },
+            {
+              "type": "mcq",
+              "prompt": "NDM-1 est :",
+              "choices": [
+                "Métallo-β-lactamase (Zn)",
+                "Sérine β-lactamase",
+                "Pompe d’efflux",
+                "Altération cible 23S"
+              ],
+              "answer": 0,
+              "explain": "Hydrolyse carbapénèmes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MLS_B décrit :",
+              "choices": [
+                "Résistance macrolides-lincosamides-streptogramines",
+                "Résistance β-lactamines",
+                "Résistance glycopeptides",
+                "Résistance quinolones"
+              ],
+              "answer": 0,
+              "explain": "Souvent via erm (23S)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mécanisme vancomycine-R (VanA) :",
+              "choices": [
+                "Remplacement D-Ala-D-Ala par D-Ala-D-Lac",
+                "Mutation gyrA",
+                "Perte porine",
+                "Pompes d’efflux"
+              ],
+              "answer": 0,
+              "explain": "↓ affinité vancomycine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Biofilm augmente :",
+              "choices": [
+                "Diffusion AB",
+                "Tolérance et persistance",
+                "CMI mesurée",
+                "Sensibilité"
+              ],
+              "answer": 1,
+              "explain": "Barrière + phénotypes persisters."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas aeruginosa :",
+              "choices": [
+                "Pigment pyocyanine, odeur sucrée, aérobie strict",
+                "Fermente lactose",
+                "Anaérobie strict",
+                "Diplocoque Gram+"
+              ],
+              "answer": 0,
+              "explain": "Non fermentant pigmenté."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Salmonella typhi : transmission :",
+              "choices": [
+                "Aérosols",
+                "Fécale-orale",
+                "Transfusion",
+                "Sexuelle"
+              ],
+              "answer": 1,
+              "explain": "Eau/aliments contaminés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Shigella : tableau :",
+              "choices": [
+                "Diarrhée aqueuse sans sang",
+                "Dysenterie (sang+mucus)",
+                "Choléra",
+                "Constipation"
+              ],
+              "answer": 1,
+              "explain": "Invasion colique + toxine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Campylobacter jejuni :",
+              "choices": [
+                "Bacille courbé, microaérophile",
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Cocci Gram−"
+              ],
+              "answer": 0,
+              "explain": "Diarrhée inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vibrio cholerae :",
+              "choices": [
+                "Cocci Gram−",
+                "Bacille courbé, toxine cholérique",
+                "Bacille Gram+",
+                "Diplocoque Gram+"
+              ],
+              "answer": 1,
+              "explain": "Eau de riz."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus influenzae :",
+              "choices": [
+                "Bacille Gram− exigeant (X,V)",
+                "Bacille Gram+ sporulé",
+                "Diplocoque Gram+",
+                "Cocci Gram−"
+              ],
+              "answer": 0,
+              "explain": "Facteurs X (hème) et V (NAD)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Legionella pneumophila se cultive :",
+              "choices": [
+                "Sur MacConkey",
+                "Sur BCYE (charbon, levure, cystéine)",
+                "Sur gélose au sang simple",
+                "Sur milieux sans fer"
+              ],
+              "answer": 1,
+              "explain": "BCYE obligatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bordetella pertussis :",
+              "choices": [
+                "Coqueluche, toxine pertussique",
+                "Rougeole",
+                "Tétanos",
+                "Diphtérie"
+              ],
+              "answer": 0,
+              "explain": "Toux quinteuse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Corynebacterium diphtheriae :",
+              "choices": [
+                "Pseudomembrane pharyngée + toxine",
+                "Méningite purulente",
+                "Coqueluche",
+                "Diarrhée cholérique"
+              ],
+              "answer": 0,
+              "explain": "Inhibe EF-2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Treponema pallidum :",
+              "choices": [
+                "Mycose",
+                "Spirochète syphilis",
+                "Virus",
+                "Protozoaire"
+              ],
+              "answer": 1,
+              "explain": "Sérologie VDRL/RPR puis TPHA/FTA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Borrelia burgdorferi :",
+              "choices": [
+                "Paludisme",
+                "Maladie de Lyme",
+                "Tuberculose",
+                "Leptospirose"
+              ],
+              "answer": 1,
+              "explain": "Érythème migrant ; tique Ixodes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rickettsia rickettsii :",
+              "choices": [
+                "Bactérie intracellulaire transmise par tiques",
+                "Virus",
+                "Champignon",
+                "Bacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "Fièvre pourprée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chlamydia trachomatis :",
+              "choices": [
+                "Culture facile sur gélose",
+                "Strictement intracellulaire",
+                "Bacille Gram+",
+                "Diplocoque"
+              ],
+              "answer": 1,
+              "explain": "PCR de référence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Helicobacter pylori :",
+              "choices": [
+                "Bacille spiralé, uréase+",
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Diplocoque Gram−"
+              ],
+              "answer": 0,
+              "explain": "Test urée respiratoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Klebsiella pneumoniae :",
+              "choices": [
+                "Bacille Gram− encapsulé, lactose+",
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Spirochète"
+              ],
+              "answer": 0,
+              "explain": "Capsule → aspect muqueux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Proteus mirabilis :",
+              "choices": [
+                "Motilité en voile (swarming), uréase+",
+                "Fermente lactose",
+                "Aérobie strict pigmenté",
+                "Diplocoque"
+              ],
+              "answer": 0,
+              "explain": "Calculs struvite."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Yersinia pestis :",
+              "choices": [
+                "Peste, bacille Gram− bipolaire",
+                "Choléra",
+                "Syphilis",
+                "Légionellose"
+              ],
+              "answer": 0,
+              "explain": "Réservoir rongeurs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterococcus faecalis :",
+              "choices": [
+                "Cocci Gram+ en chaînettes",
+                "Bacille Gram−",
+                "Cocci Gram−",
+                "Bacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "Hydrolyse esculine ; tolère sels biliaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "S. pneumoniae :",
+              "choices": [
+                "Diplocoque Gram+ encapsulé, optochine sensible",
+                "Diplocoque Gram−",
+                "Bacille Gram−",
+                "Cocci Gram+ en amas"
+              ],
+              "answer": 0,
+              "explain": "Alpha-hémolyse ; bile soluble."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterobacter cloacae est :",
+              "choices": [
+                "Bacille Gram− fermentant",
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Diplocoque Gram−"
+              ],
+              "answer": 0,
+              "explain": "Entérobactérie, souvent ESBL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Acinetobacter baumannii :",
+              "choices": [
+                "Cocco-bacille Gram− non fermentant, multirésistant",
+                "Bacille Gram+ sporulé",
+                "Cocci Gram+",
+                "Diplocoque Gram+"
+              ],
+              "answer": 0,
+              "explain": "Survit sur surfaces."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus agalactiae (GBS) :",
+              "choices": [
+                "Infections néonatales, méningite",
+                "Peste",
+                "Choléra",
+                "Rougeole"
+              ],
+              "answer": 0,
+              "explain": "Dépistage périnatal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile produit :",
+              "choices": [
+                "Toxines A/B → colite pseudomembraneuse",
+                "Coagulase",
+                "Catalase",
+                "Lactose+"
+              ],
+              "answer": 0,
+              "explain": "Diarrhée post-AB."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus ducreyi provoque :",
+              "choices": [
+                "Chancre mou",
+                "Chancre dur",
+                "Herpès",
+                "Gonorrhée"
+              ],
+              "answer": 0,
+              "explain": "Ulcération douloureuse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Brucella spp. transmission :",
+              "choices": [
+                "Contact animal/produits laitiers non pasteurisés",
+                "Moustiques",
+                "Sexuelle",
+                "Transfusion"
+              ],
+              "answer": 0,
+              "explain": "Zoonose pro."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Francisella tularensis est :",
+              "choices": [
+                "Agent de tularémie",
+                "Agent choléra",
+                "Agent peste",
+                "Agent syphilis"
+              ],
+              "answer": 0,
+              "explain": "Zoonose ; tiques/lapins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coxiella burnetii :",
+              "choices": [
+                "Fièvre Q",
+                "Fièvre typhoïde",
+                "Diphtérie",
+                "Coqueluche"
+              ],
+              "answer": 0,
+              "explain": "Produits animaux ; inhalation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gardnerella vaginalis :",
+              "choices": [
+                "Vaginose bactérienne (odeur poisson, pH↑)",
+                "Syphilis",
+                "Candidose",
+                "Gonorrhée"
+              ],
+              "answer": 0,
+              "explain": "Clue cells."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Moraxella catarrhalis :",
+              "choices": [
+                "Otites/sinusites/bronchites ; β-lactamase fréquente",
+                "Tuberculose",
+                "Légionellose",
+                "Syphilis"
+              ],
+              "answer": 0,
+              "explain": "Voies respiratoires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bartonella henselae :",
+              "choices": [
+                "Maladie des griffes du chat",
+                "Peste",
+                "Choléra",
+                "Tétanos"
+              ],
+              "answer": 0,
+              "explain": "Adénopathies régionales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leptospira interrogans :",
+              "choices": [
+                "Leptospirose (eaux souillées)",
+                "Lyme",
+                "Syphilis",
+                "Fièvre Q"
+              ],
+              "answer": 0,
+              "explain": "Syndrome de Weil possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pasteurella multocida :",
+              "choices": [
+                "Infection morsures de chat/chien",
+                "Choléra",
+                "Rougeole",
+                "Coqueluche"
+              ],
+              "answer": 0,
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nocardia spp. :",
+              "choices": [
+                "AAR partielle, filamenteuse, opportuniste",
+                "Diplocoque",
+                "Spirochète",
+                "Entérobactérie"
+              ],
+              "answer": 0,
+              "explain": "Atteinte pulmonaire/cérébrale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacteroides fragilis :",
+              "choices": [
+                "Anaérobie strict, flore colique, capsule",
+                "Aérobie strict",
+                "Mycobactérie",
+                "Chlamydia"
+              ],
+              "answer": 0,
+              "explain": "Infections abdominales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "HACEK comprend :",
+              "choices": [
+                "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella",
+                "Hafnia, Aeromonas, Citrobacter, Enterobacter, Klebsiella",
+                "Helicobacter, Arcobacter, Campylobacter, E. coli, Klebsiella",
+                "Aucune"
+              ],
+              "answer": 0,
+              "explain": "Endocardites subaiguës."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aeromonas hydrophila :",
+              "choices": [
+                "Infections eau douce, gastro-entérite",
+                "Fièvre Q",
+                "Syphilis",
+                "Tularémie"
+              ],
+              "answer": 0,
+              "explain": "Bacille aquatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ziehl-Neelsen détecte :",
+              "choices": [
+                "Bacilles Gram−",
+                "Bactéries acido-alcoolo-résistantes",
+                "Capsules",
+                "Spores"
+              ],
+              "answer": 1,
+              "explain": "Mycobacterium spp., Nocardia (modifié)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Catalase+ différencie :",
+              "choices": [
+                "Staphylococcus (catalase+) vs Streptococcus (−)",
+                "E. coli vs Salmonella",
+                "Klebsiella vs Proteus",
+                "Pseudomonas vs Acinetobacter"
+              ],
+              "answer": 0,
+              "explain": "Mousse avec H2O2 chez Staph."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coagulase+ oriente vers :",
+              "choices": [
+                "S. epidermidis",
+                "S. aureus",
+                "S. pyogenes",
+                "Enterococcus faecalis"
+              ],
+              "answer": 1,
+              "explain": "Tube/latex coagulase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Oxydase+ oriente vers :",
+              "choices": [
+                "Entérobactéries",
+                "Pseudomonas/Neisseria/Vibrio",
+                "Streptocoques",
+                "Anaérobies stricts"
+              ],
+              "answer": 1,
+              "explain": "Cytochrome c oxydase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Production H2S (Kligler/TSI) :",
+              "choices": [
+                "Noircissement du milieu",
+                "Virage rose",
+                "Hémolyse β",
+                "Halo précipitation"
+              ],
+              "answer": 0,
+              "explain": "Salmonella H2S+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "PCR en microbiologie :",
+              "choices": [
+                "Peu sensible",
+                "Détection rapide d’ADN/ARN",
+                "Toujours qualitative",
+                "Remplace la culture partout"
+              ],
+              "answer": 1,
+              "explain": "Très sensible, complémentaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Antibiogramme :",
+              "choices": [
+                "Identique toutes souches",
+                "Mesure sensibilité (CMI/zones)",
+                "Évalue immunité",
+                "Culture anaérobie"
+              ],
+              "answer": 1,
+              "explain": "Diffusion/disques/microdilution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CMI est :",
+              "choices": [
+                "Concentration maximale inhibitrice",
+                "Concentration minimale inhibitrice",
+                "Concentration minimale bactéricide",
+                "Aucune"
+              ],
+              "answer": 1,
+              "explain": "Plus faible concentration inhibant la croissance visible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test uréase+ est typique de :",
+              "choices": [
+                "H. pylori",
+                "S. aureus",
+                "E. faecalis",
+                "S. pyogenes"
+              ],
+              "answer": 0,
+              "explain": "Cliniquement : test respiratoire à l’urée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test CAMP positif :",
+              "choices": [
+                "S. agalactiae",
+                "S. pyogenes",
+                "S. aureus",
+                "Enterococcus"
+              ],
+              "answer": 0,
+              "explain": "Hémolyse en flèche."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Optochine sensible :",
+              "choices": [
+                "S. pneumoniae",
+                "S. pyogenes",
+                "S. agalactiae",
+                "S. aureus"
+              ],
+              "answer": 0,
+              "explain": "Et bile soluble."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Croissance à 42°C :",
+              "choices": [
+                "Campylobacter jejuni",
+                "E. coli",
+                "Klebsiella",
+                "Listeria"
+              ],
+              "answer": 0,
+              "explain": "Aide diagnostique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu BCYE requis pour :",
+              "choices": [
+                "Legionella",
+                "Salmonella",
+                "Shigella",
+                "Vibrio"
+              ],
+              "answer": 0,
+              "explain": "Cystéine/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Satellitisme autour de S. aureus :",
+              "choices": [
+                "Haemophilus influenzae",
+                "E. coli",
+                "Pseudomonas",
+                "Enterococcus"
+              ],
+              "answer": 0,
+              "explain": "Facteur V fourni par S. aureus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test hippurate+ :",
+              "choices": [
+                "S. agalactiae",
+                "S. pyogenes",
+                "S. aureus",
+                "Enterococcus"
+              ],
+              "answer": 0,
+              "explain": "Hydrolyse hippurate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hygiène des mains à l’alcool :",
+              "choices": [
+                "Inefficace sur spores",
+                "Stérilisant",
+                "Inefficace sur virus enveloppés",
+                "Inutile"
+              ],
+              "answer": 0,
+              "explain": "Actif sur bactéries/virus enveloppés ; pas sur spores."
+            },
+            {
+              "type": "mcq",
+              "prompt": "BCG est :",
+              "choices": [
+                "Vaccin M. tuberculosis (atténué)",
+                "Vaccin méningocoque",
+                "Vaccin coqueluche",
+                "Vaccin choléra"
+              ],
+              "answer": 0,
+              "explain": "M. bovis atténué."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Prophylaxie ménigocoque contact étroit :",
+              "choices": [
+                "Rifampicine/Ciprofloxacine",
+                "Amoxicilline",
+                "Vancomycine",
+                "Métronidazole"
+              ],
+              "answer": 0,
+              "explain": "Ou ceftriaxone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Précautions contact pour :",
+              "choices": [
+                "C. difficile",
+                "Legionella",
+                "Chlamydia",
+                "Treponema"
+              ],
+              "answer": 0,
+              "explain": "Spores ; lavage eau+savon recommandé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne de froid des prélèvements :",
+              "choices": [
+                "Maintenir conditions adaptées jusqu’au labo",
+                "Sans importance",
+                "Toujours congeler",
+                "Toujours à température ambiante"
+              ],
+              "answer": 0,
+              "explain": "Conservation selon germe/test."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu sélectif Staphylococcus (milieu salé mannitol) :",
+              "choices": [
+                "Milieu Chapman (MSA) avec NaCl élevé, mannitol et rouge de phénol.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Sélectif et différentiel : Staphylococcus tolère sel ; S. aureus fermente le mannitol (jaune)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entérocoque : tolérance particulière :",
+              "choices": [
+                "Tolère sels biliaires et NaCl 6,5%.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Caractéristique de genre Enterococcus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Toxine tétanique agit sur :",
+              "choices": [
+                "Blocage libération GABA/glycine → spasticité.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Neurotoxine clostridienne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Toxine botulinique agit sur :",
+              "choices": [
+                "Blocage libération acétylcholine → paralysie flasque.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Neurotoxine clostridienne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de virulence S. aureus :",
+              "choices": [
+                "Protéine A se lie au Fc des IgG.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Échappe à l’opsonisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Listeria : mobilité particulière :",
+              "choices": [
+                "Tumblin/tumbling à 25°C, actin rocket en cellule.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Aide au diagnostic."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Corynebacterium diphtheriae : milieu sélectif :",
+              "choices": [
+                "Milieux Tinsdale/Loeffler.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Isolement et détection toxine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vibrio cholerae : milieu sélectif :",
+              "choices": [
+                "TCBS (thiosulfate-citrate-bile-sucrose) : colonies jaunes.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Fermentation saccharose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Salmonella/Shigella : milieu :",
+              "choices": [
+                "Hektoen : H2S (noir) pour Salmonella ; Shigella vertes.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Différentiel entériques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile : test diagnostic de 1ère ligne :",
+              "choices": [
+                "Recherche antigène glutamate déshydrogénase + toxines A/B.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Algorithme avec PCR selon contexte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycobacterium : test rapide",
+              "choices": [
+                "GeneXpert MTB/RIF : détection MTB + résistance rifampicine.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "PCR cartouche."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Treponema : 2 temps sérologiques :",
+              "choices": [
+                "Test non tréponémique (VDRL/RPR) puis tréponémique (TPHA/FTA).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Diagnostic syphilis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Proteus : particularité culture :",
+              "choices": [
+                "Voiles concentriques (swarming) sur géloses non inhibitrices.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Motilité remarquable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Klebsiella : aspect coloniaire :",
+              "choices": [
+                "Muqueux, visqueux (capsule épaisse).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Test filant possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas : odeur :",
+              "choices": [
+                "Odeur ‘raisin/bonbon’ caractéristique.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Associée à pyocyanine/pyoverdine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus pyogenes : hémolyse :",
+              "choices": [
+                "β-hémolyse franche sur gélose au sang.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Groupe A (Lancefield)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "S. pneumoniae : hémolyse :",
+              "choices": [
+                "α-hémolyse (verdure), optochine sensible.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Diplocoques encapsulés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterobacteriaceae : enzyme commune :",
+              "choices": [
+                "Oxydase négative (sauf exceptions).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Caractéristique de la famille."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Neisseria gonorrhoeae : prélèvement :",
+              "choices": [
+                "Milieu sélectif Thayer-Martin/NYC.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Antibiogramme guidé par PCR résistance."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus influenzae : besoin en facteurs :",
+              "choices": [
+                "X (hème) et V (NAD).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Satellitisme autour S. aureus."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir antisepsie.",
+              "answer_text": "Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.",
+              "explain": "À distinguer de la désinfection des surfaces."
+            },
+            {
+              "type": "short",
+              "prompt": "Phases d’une croissance en batch.",
+              "answer_text": "Latence, exponentielle, stationnaire, déclin.",
+              "explain": "Séquence classique."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle du peptidoglycane.",
+              "answer_text": "Rigide la cellule et résiste à la pression osmotique.",
+              "explain": "Charpente de la paroi."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir LPS.",
+              "answer_text": "Lipopolysaccharide de la membrane externe des Gram −.",
+              "explain": "Endotoxine."
+            },
+            {
+              "type": "short",
+              "prompt": "Un exemple de bactérie AAR.",
+              "answer_text": "Mycobacterium tuberculosis.",
+              "explain": "Ziehl-Neelsen positive."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible des β-lactamines.",
+              "answer_text": "PLP de la paroi (transpeptidation).",
+              "explain": "Affaiblit la paroi."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux anaérobies stricts.",
+              "answer_text": "Clostridium et Bacteroides.",
+              "explain": "Ne tolèrent pas l’oxygène."
+            },
+            {
+              "type": "short",
+              "prompt": "Milieu sélectif Gram − intestinaux.",
+              "answer_text": "MacConkey.",
+              "explain": "Bile + cristal violet."
+            },
+            {
+              "type": "short",
+              "prompt": "Test catalase.",
+              "answer_text": "Staphylococcus catalase+, Streptococcus catalase−.",
+              "explain": "Différenciation rapide."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonie rose sur MacConkey =",
+              "answer_text": "Fermentation du lactose.",
+              "explain": "Virage du rouge neutre."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe toxine diphtérique.",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Inhibe EF-2."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe pigment vert/bleu.",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pyocyanine."
+            },
+            {
+              "type": "short",
+              "prompt": "MRSA signifie…",
+              "answer_text": "Staphylococcus aureus résistant à la méthicilline.",
+              "explain": "PBP2a (mecA)."
+            },
+            {
+              "type": "short",
+              "prompt": "ESBL signifie…",
+              "answer_text": "β-lactamases à spectre étendu.",
+              "explain": "Hydrolyse céphalosporines 3G."
+            },
+            {
+              "type": "short",
+              "prompt": "Bactérie lactose+ fréquente en IU.",
+              "answer_text": "Escherichia coli.",
+              "explain": "Entérobactérie commune."
+            },
+            {
+              "type": "short",
+              "prompt": "Test rapide H. pylori.",
+              "answer_text": "Test respiratoire à l’urée.",
+              "explain": "Uréase."
+            },
+            {
+              "type": "short",
+              "prompt": "Milieu pour Legionella.",
+              "answer_text": "BCYE.",
+              "explain": "Cystéine/fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Spore bactérienne.",
+              "answer_text": "Forme de résistance dormante (Bacillus/Clostridium).",
+              "explain": "Très résistante."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux facteurs de virulence de S. aureus.",
+              "answer_text": "Protéine A et coagulase.",
+              "explain": "Virulence et échappement immunitaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Test pour S. pneumoniae.",
+              "answer_text": "Optochine sensible + solubilité biliaire.",
+              "explain": "Diplocoque encapsulé."
+            },
+            {
+              "type": "short",
+              "prompt": "But antibiogramme.",
+              "answer_text": "Déterminer la sensibilité aux antibiotiques.",
+              "explain": "Adapter la thérapie."
+            },
+            {
+              "type": "short",
+              "prompt": "Biofilm.",
+              "answer_text": "Communauté adhérente en matrice, tolérante.",
+              "explain": "Persistance accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence désinfection/stérilisation.",
+              "answer_text": "Désinfection réduit ; stérilisation élimine toutes formes (spores incluses).",
+              "explain": "Niveau d’exigence différent."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe morsure de chat.",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "short",
+              "prompt": "Agent de la coqueluche.",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Toxine pertussique."
+            },
+            {
+              "type": "short",
+              "prompt": "Agent de la syphilis.",
+              "answer_text": "Treponema pallidum.",
+              "explain": "Spirochète."
+            },
+            {
+              "type": "short",
+              "prompt": "Entérobactérie nosocomiale encapsulée.",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule, multi-R."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir aérobie facultatif.",
+              "answer_text": "Utilise O2 mais peut croître sans O2.",
+              "explain": "Ex : E. coli."
+            },
+            {
+              "type": "short",
+              "prompt": "Anaérobie strict digestif.",
+              "answer_text": "Bacteroides fragilis.",
+              "explain": "Flore colique."
+            },
+            {
+              "type": "short",
+              "prompt": "Enzyme recherchée chez E. coli.",
+              "answer_text": "β-glucuronidase.",
+              "explain": "Certaines souches en sont dépourvues."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe PCR.",
+              "answer_text": "Amplification d’une séquence d’ADN/ARN spécifique.",
+              "explain": "Très sensible."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle des porines.",
+              "answer_text": "Passage sélectif petites molécules chez Gram−.",
+              "explain": "Impliquées dans résistances."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible des macrolides.",
+              "answer_text": "Sous-unité 50S.",
+              "explain": "Inhibition translocation."
+            },
+            {
+              "type": "short",
+              "prompt": "AB actif sur anaérobies stricts.",
+              "answer_text": "Métronidazole.",
+              "explain": "Activation en milieu réducteur."
+            },
+            {
+              "type": "short",
+              "prompt": "Dépistage MRSA rapide.",
+              "answer_text": "PCR mecA ou PBP2a (ag).",
+              "explain": "Détection résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir CMI.",
+              "answer_text": "Concentration minimale inhibitrice.",
+              "explain": "Microdilution."
+            },
+            {
+              "type": "short",
+              "prompt": "Réservoir Yersinia pestis.",
+              "answer_text": "Rongeurs (vecteur puces).",
+              "explain": "Peste."
+            },
+            {
+              "type": "short",
+              "prompt": "Coloration simple utile.",
+              "answer_text": "Bleu de méthylène.",
+              "explain": "Moins spécifique que Gram."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux facteurs risque Pseudomonas.",
+              "answer_text": "Immunodépression et dispositifs invasifs.",
+              "explain": "Opportuniste."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible TMP-SMX.",
+              "answer_text": "Voie folate (DHPS + DHFR).",
+              "explain": "Inhibition séquentielle."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonisation vs infection.",
+              "answer_text": "Présence sans symptômes vs invasion avec signes cliniques.",
+              "explain": "Contexte clinique clé."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir bactériémie.",
+              "answer_text": "Présence de bactéries dans le sang.",
+              "explain": "Peut être transitoire ou persistante."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir septicémie/sepsis.",
+              "answer_text": "Réponse inflammatoire systémique à une infection.",
+              "explain": "Atteinte organe/fonction possible."
+            },
+            {
+              "type": "short",
+              "prompt": "Règle 3 prélèvements hémocultures.",
+              "answer_text": "3 paires à distance (temps/sites) avant ATB.",
+              "explain": "Augmente rendement."
+            },
+            {
+              "type": "short",
+              "prompt": "Précautions TB pulmonaire.",
+              "answer_text": "Air (gouttelettes) + isolement respiratoire.",
+              "explain": "Masque FFP2."
+            },
+            {
+              "type": "short",
+              "prompt": "Antigènes K, H, O (entérobactéries).",
+              "answer_text": "K=capsule, H=flagelle, O=LPS.",
+              "explain": "Sérotypage."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémolyse α vs β.",
+              "answer_text": "α=verdure partielle ; β=lyse complète.",
+              "explain": "Observation gélose sang."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir MBE (MBC).",
+              "answer_text": "Concentration minimale bactéricide.",
+              "explain": "Tuer 99,9% inoculum."
+            },
+            {
+              "type": "short",
+              "prompt": "Action des β-lactamases.",
+              "answer_text": "Hydrolysent cycle β-lactame.",
+              "explain": "Résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘intrinsèquement résistant’ ?",
+              "answer_text": "Résistance naturelle liée à l’espèce.",
+              "explain": "Ex : Enterococcus aux céphalosporines."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible fosfomycine.",
+              "answer_text": "MurA (synthèse peptidoglycane).",
+              "explain": "Utilisée IU."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible tigécycline.",
+              "answer_text": "30S (glycylcycline).",
+              "explain": "Large spectre sauf Pseudomonas."
+            },
+            {
+              "type": "short",
+              "prompt": "Effet inoculum.",
+              "answer_text": "CMI apparente ↑ si inoculum élevé.",
+              "explain": "Peut fausser interprétation."
+            },
+            {
+              "type": "short",
+              "prompt": "Hétéro-résistance.",
+              "answer_text": "Sous-population + résistante dans clone.",
+              "explain": "Ex : colistine."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe E-test.",
+              "answer_text": "Gradient d’antibiotique → ellipse d’inhibition → CMI.",
+              "explain": "Alternative disques/microdilution."
+            },
+            {
+              "type": "short",
+              "prompt": "Contrôles qualité usuels antibiogramme.",
+              "answer_text": "E. coli ATCC 25922 ; S. aureus ATCC 25923 ; P. aeruginosa ATCC 27853.",
+              "explain": "Normes QC."
+            },
+            {
+              "type": "short",
+              "prompt": "Souches de référence pour coloration Gram.",
+              "answer_text": "S. aureus (Gram+) ; E. coli (Gram−).",
+              "explain": "Contrôle qualité technique."
+            },
+            {
+              "type": "short",
+              "prompt": "Transport des prélèvements anaérobies.",
+              "answer_text": "Milieu de transport anaérobie, délai court.",
+              "explain": "Éviter O2."
+            },
+            {
+              "type": "short",
+              "prompt": "Sécurité labo : hotte microbiologique.",
+              "answer_text": "Classe II pour manipulation clinique.",
+              "explain": "Protection opérateur/échantillon."
+            },
+            {
+              "type": "short",
+              "prompt": "Question de rappel courte #60.",
+              "answer_text": "Réponse attendue concise.",
+              "explain": "Note explicative brève."
+            }
+          ]
+        },
+        {
+          "name": "ÉTUDES DE CAS",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Homme ventilé en réa, sécrétions verdâtres, odeur sucrée, culture oxydase+, non fermentant. Germe probable ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pneumonie nosocomiale ; pigment pyocyanine."
+            },
+            {
+              "type": "short",
+              "prompt": "Femme 23 ans, cystite fébrile, nitrites+ leucocytes+, colonies roses sur MacConkey. Germe ?",
+              "answer_text": "Escherichia coli.",
+              "explain": "IU communautaire lactose+."
+            },
+            {
+              "type": "short",
+              "prompt": "Enfant non vacciné, fausses membranes pharyngées, atteinte myocardique. Germe ?",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Toxine diphtérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Adolescent toux quinteuse, vomissements post-quinte, lymphocytose. Germe ?",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Coqueluche."
+            },
+            {
+              "type": "short",
+              "prompt": "Patient VIH, lésion pulmonaire, AAR partielle, filaments ramifiés. Agent ?",
+              "answer_text": "Nocardia spp.",
+              "explain": "Opportuniste ; sulfonamides."
+            },
+            {
+              "type": "short",
+              "prompt": "Touriste diarrhée aqueuse profuse après eau non traitée, bacille incurvé. Agent ?",
+              "answer_text": "Vibrio cholerae.",
+              "explain": "Toxine cholérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Éleveur fièvre ondulante, douleurs, lait cru. Agent ?",
+              "answer_text": "Brucella spp.",
+              "explain": "Fièvre de Malte."
+            },
+            {
+              "type": "short",
+              "prompt": "Travailleur abattoir, ulcère noir (pustule maligne). Agent ?",
+              "answer_text": "Bacillus anthracis.",
+              "explain": "Anthrax cutané."
+            },
+            {
+              "type": "short",
+              "prompt": "Agriculteur blessure souillée, spasmes, trismus. Agent ?",
+              "answer_text": "Clostridium tetani.",
+              "explain": "Toxine tétanique."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée post-antibiotiques, pseudomembranes coliques. Agent ?",
+              "answer_text": "Clostridioides difficile.",
+              "explain": "Toxines A/B."
+            },
+            {
+              "type": "short",
+              "prompt": "Méningite purulente, diplocoques Gram−, éruption pétéchiale. Agent ?",
+              "answer_text": "Neisseria meningitidis.",
+              "explain": "Prophylaxie rifampicine entourage."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcération génitale douloureuse + adénopathies suppurées. Agent ?",
+              "answer_text": "Haemophilus ducreyi.",
+              "explain": "Chancre mou."
+            },
+            {
+              "type": "short",
+              "prompt": "Morsure de chat, cellulite rapide. Agent ?",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cocco-bacille Gram−."
+            },
+            {
+              "type": "short",
+              "prompt": "Voyageur fièvre typhoïde. Transmission ?",
+              "answer_text": "Voie fécale-orale (Salmonella typhi).",
+              "explain": "Eau/aliments contaminés."
+            },
+            {
+              "type": "short",
+              "prompt": "Patient alcoolique, pneumonie avec expectoration « gelée de groseille ». Agent ?",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule épaisse."
+            },
+            {
+              "type": "short",
+              "prompt": "Nourrisson méningite néonatale, mère colonisée. Agent ?",
+              "answer_text": "Streptococcus agalactiae (GBS).",
+              "explain": "Transmission périnatale."
+            },
+            {
+              "type": "short",
+              "prompt": "Douleur pseudo-appendiculaire + diarrhée sanglante ; bacille courbé 42°C. Agent ?",
+              "answer_text": "Campylobacter jejuni.",
+              "explain": "Microaérophile."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcer gastrique, test urée respiratoire positif. Agent ?",
+              "answer_text": "Helicobacter pylori.",
+              "explain": "Uréase forte."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre + éruption après tique ; IgM/IgG Borrelia. Agent ?",
+              "answer_text": "Borrelia burgdorferi.",
+              "explain": "Lyme."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T17:08:26.022949Z",
+    "counts": {
+      "mcq": 121,
+      "short": 60,
+      "cases": 19,
+      "total": 200
+    }
+  }
+}
