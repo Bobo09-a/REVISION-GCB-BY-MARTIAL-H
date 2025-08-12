@@ -1,0 +1,2982 @@
+{
+  "subjects": [
+    {
+      "name": "Biochimie médicale",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "L’ALT (alanine aminotransférase) est principalement localisée dans…",
+              "choices": [
+                "la rate",
+                "les reins",
+                "le foie",
+                "les os"
+              ],
+              "answer": 2,
+              "explain": "ALT est surtout hépatique; l’élévation traduit souvent une cytolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Face à une cytolyse hépatique aiguë, l’enzyme la plus sensible est :",
+              "choices": [
+                "ALT",
+                "Amylase",
+                "ALP",
+                "GGT"
+              ],
+              "answer": 0,
+              "explain": "ALT est plus spécifique/sensible du foie que l’AST."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une augmentation isolée d’ALP avec GGT normale oriente vers :",
+              "choices": [
+                "une origine pancréatique",
+                "une origine osseuse",
+                "une hémolyse",
+                "une origine biliaire"
+              ],
+              "answer": 1,
+              "explain": "GGT aide à trancher l’origine hépatobiliaire vs os."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’AST est présente dans le foie mais aussi dans :",
+              "choices": [
+                "la moelle osseuse uniquement",
+                "les cartilages uniquement",
+                "la cornée uniquement",
+                "le muscle squelettique et le myocarde"
+              ],
+              "answer": 3,
+              "explain": "AST est moins spécifique que l’ALT car présente dans d’autres tissus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un AST élevé sans élévation franche d’ALT peut évoquer :",
+              "choices": [
+                "une hypocalcémie",
+                "une hypoglycémie",
+                "une atteinte musculaire",
+                "une polyglobulie"
+              ],
+              "answer": 2,
+              "explain": "Traumatisme musculaire, myopathie, IM, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une ALP élevée avec GGT élevée suggère :",
+              "choices": [
+                "une hypocalcémie",
+                "une cholestase d’origine hépatobiliaire",
+                "une hyponatrémie",
+                "une anémie hémolytique"
+              ],
+              "answer": 1,
+              "explain": "Le couple ALP+GGT soutient une origine biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "sanguine vs urinaire",
+                "rénale vs hépatique",
+                "pancréatique vs biliaire",
+                "hépatobiliaire vs osseuse"
+              ],
+              "answer": 3,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "hyponatrémie",
+                "cholestase ou obstruction biliaire",
+                "hémolyse pure",
+                "acidose métabolique"
+              ],
+              "answer": 1,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La bilirubine non conjuguée (indirecte) augmente surtout en cas de :",
+              "choices": [
+                "cholestase",
+                "hypothyroïdie",
+                "insuffisance cardiaque droite",
+                "hémolyse"
+              ],
+              "answer": 3,
+              "explain": "Production accrue ou défaut de conjugaison."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ictère avec urines foncées et selles décolorées évoque surtout :",
+              "choices": [
+                "une acidocétose",
+                "une cholestase",
+                "une hémolyse isolée",
+                "une insuffisance surrénalienne"
+              ],
+              "answer": 1,
+              "explain": "Absence de bilirubine dans le tube digestif → selles décolorées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’EDTA ne doit pas être utilisé pour les dosages enzymatiques dépendants du calcium car :",
+              "choices": [
+                "il dénature la bilirubine",
+                "il oxyde le fer",
+                "il chélate Ca2+ et inhibe des enzymes",
+                "il précipite le potassium"
+              ],
+              "answer": 2,
+              "explain": "EDTA/Citrate/Oxalate lient le calcium cofacteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un échantillon fortement hémolysé peut fausser :",
+              "choices": [
+                "LDH et phosphatase acide",
+                "bilirubine directe uniquement",
+                "urée uniquement",
+                "chlorure et sodium uniquement"
+              ],
+              "answer": 0,
+              "explain": "Libération intracellulaire des enzymes érythrocytaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour le dosage du glucose sanguin, on recommande souvent :",
+              "choices": [
+                "NaF/oxalate pour inhiber la glycolyse",
+                "Heparinate d’aluminium",
+                "EDTA uniquement",
+                "Aucun additif"
+              ],
+              "answer": 0,
+              "explain": "Le fluorure inhibe la glycolyse dans le tube."
+            },
+            {
+              "type": "mcq",
+              "prompt": "En cas d’obstruction biliaire, l’ALP et la GGT augmentent habituellement.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’ALT est plus spécifique hépatique que l’AST.",
+              "choices": [
+                "Faux",
+                "Vrai"
+              ],
+              "answer": 1,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La bilirubine non conjuguée s’élève typiquement dans la cholestase pure.",
+              "choices": [
+                "Faux",
+                "Vrai"
+              ],
+              "answer": 0,
+              "explain": "Se référer aux définitions bilirubine/GGT."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La GGT est un bon marqueur osseux isolé.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 1,
+              "explain": "Se référer aux définitions bilirubine/GGT."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La clairance rénale (Cl) d’une substance est définie comme :",
+              "choices": [
+                "le volume urinaire par 24 h",
+                "la quantité filtrée par minute",
+                "le volume de plasma totalement épuré par unité de temps",
+                "la fraction excrétée par néphron"
+              ],
+              "answer": 2,
+              "explain": "Cl = UV/P (ml/min)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule de la clairance basée sur la créatinine est :",
+              "choices": [
+                "Cl = (U + V) / P",
+                "Cl = (P × V) / U",
+                "Cl = (U × V) / P",
+                "Cl = P / (U × V)"
+              ],
+              "answer": 2,
+              "explain": "Avec U concentration urinaire, P plasmatique, V débit urinaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La substance de référence pour mesurer le DFG en physiologie est :",
+              "choices": [
+                "l’albumine",
+                "l’inuline",
+                "l’urée",
+                "la bilirubine"
+              ],
+              "answer": 1,
+              "explain": "Inuline: librement filtrée, non réabsorbée, non sécrétée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La diurèse normale chez l’adulte est de :",
+              "choices": [
+                "0,75 à 1,5 L/24 h",
+                "Exactement 500 ml/24 h",
+                "3–5 L/24 h toujours",
+                "< 200 ml/24 h"
+              ],
+              "answer": 0,
+              "explain": "Polyurie > 2,5 L/24 h; oligourie < 600 ml/24 h; anurie < 100 ml/24 h."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une polyurie peut être observée en cas de :",
+              "choices": [
+                "obstruction biliaire",
+                "hyponatrémie sévère",
+                "hypocalcémie",
+                "diabète sucré avec polyurie osmotique"
+              ],
+              "answer": 3,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sur bandelette, un test nitrites positif suggère :",
+              "choices": [
+                "une protéinurie sélective",
+                "une hématurie glomérulaire",
+                "une bactériurie (entérobactéries)",
+                "une hyperuricosurie"
+              ],
+              "answer": 2,
+              "explain": "Réduction des nitrates par certaines bactéries."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "500 mg/24 h",
+                "150 mg/24 h",
+                "3 g/24 h",
+                "50 mg/24 h"
+              ],
+              "answer": 1,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’ionogramme urinaire (Na+u/K+u) peut aider à :",
+              "choices": [
+                "mesurer la calcémie",
+                "différencier des causes d’IRA",
+                "détecter une hyperthyroïdie",
+                "diagnostiquer une cholestase"
+              ],
+              "answer": 1,
+              "explain": "Approche fonctionnelle tubulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour standardiser la clairance, on corrige souvent à :",
+              "choices": [
+                "0,8 m²",
+                "1,73 m² de surface corporelle",
+                "1,5 m²",
+                "2,0 m²"
+              ],
+              "answer": 1,
+              "explain": "SC (m²) ≈ [4×Poids+7]/(Poids+90)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une déshydratation légère",
+                "une cause urologique basse",
+                "une hyperbilirubinémie",
+                "une origine glomérulaire"
+              ],
+              "answer": 3,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "0,20–0,40 g/L",
+                "0,70–1,10 g/L",
+                "1,40–2,0 g/L",
+                "2,0–3,0 g/L"
+              ],
+              "answer": 1,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises",
+                "HGPO H2 = 1,30 g/L",
+                "glycémie aléatoire 1,50 g/L sans symptôme",
+                "glycémie à jeun de 1,10 g/L unique"
+              ],
+              "answer": 0,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une glycémie aléatoire ≥ 2 g/L avec polyuro-polydipsie permet :",
+              "choices": [
+                "de conclure à un DT1 certain sans autre examen",
+                "d’affirmer un diabète patent",
+                "de conclure à une hypoglycémie",
+                "d’exclure une intolérance au glucose"
+              ],
+              "answer": 1,
+              "explain": "Critère ‘au hasard’ + symptômes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ?",
+              "choices": [
+                "insuline",
+                "adrénaline",
+                "glucagon",
+                "cortisol"
+              ],
+              "answer": 0,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le diabète de type 1 est caractérisé par :",
+              "choices": [
+                "une insulinorésistance isolée",
+                "une surcharge pondérale obligatoire",
+                "une absence d’auto-anticorps",
+                "une insulinopénie par destruction auto-immune des cellules β"
+              ],
+              "answer": 3,
+              "explain": "Insulite, auto-anticorps, début souvent jeune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une tumeur des îlots uniquement",
+                "une absence complète d’insuline dès le début",
+                "une insulinorésistance",
+                "une infection virale aiguë"
+              ],
+              "answer": 2,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La polyurie osmotique est liée à :",
+              "choices": [
+                "une hyponatrémie sévère",
+                "une glycémie élevée dépassant le seuil rénal glucosurie",
+                "une cholestase",
+                "une hypoprotéinémie"
+              ],
+              "answer": 1,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "la transferrine",
+                "la céruloplasmine",
+                "le fibrinogène",
+                "l’albumine"
+              ],
+              "answer": 3,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rôle majeur de l’albumine est :",
+              "choices": [
+                "synthèse d’Ig",
+                "maintien de la pression oncotique et transport",
+                "activation de la thrombine",
+                "hémolyse"
+              ],
+              "answer": 1,
+              "explain": "Oncoticité + transport d’acides gras, bilirubine, médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypoalbuminémie peut être due à :",
+              "choices": [
+                "une polyglobulie",
+                "une alcalose respiratoire",
+                "une hyperthyroïdie isolée",
+                "une insuffisance hépatique"
+              ],
+              "answer": 3,
+              "explain": "Diminution de synthèse; aussi pertes rénales (SN)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La transferrine est une glycoprotéine de :",
+              "choices": [
+                "transport du calcium",
+                "détoxication de l’ammoniac",
+                "transport du fer",
+                "transport du cuivre"
+              ],
+              "answer": 2,
+              "explain": "Synthèse hépatique; inversement corrélée aux réserves en fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les immunoglobulines sont synthétisées par :",
+              "choices": [
+                "les cellules endothéliales",
+                "les hépatocytes",
+                "les ostéoclastes",
+                "les plasmocytes"
+              ],
+              "answer": 3,
+              "explain": "Support de l’immunité humorale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’électrophorèse des protéines sériques permet :",
+              "choices": [
+                "de mesurer le sodium",
+                "de dépister une cholestase",
+                "de déterminer l’hématocrite",
+                "d’identifier les fractions albumine, α, β, γ"
+              ],
+              "answer": 3,
+              "explain": "Méthode de profil protéique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La parathormone (PTH) a un effet principalement :",
+              "choices": [
+                "neutre sur Ca2+ et Pi",
+                "hypocalcémiante et hyperphosphatémiante",
+                "hypercalcémiante et hypophosphatémiante",
+                "uniquement hypocalcémiante"
+              ],
+              "answer": 2,
+              "explain": "Agit sur os et rein; augmente Ca2+, diminue réabsorption de phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La calcitonine a un effet :",
+              "choices": [
+                "hypocalcémiante",
+                "aucun effet calcique",
+                "hyperphosphatémiante marquée",
+                "hypercalcémiante"
+              ],
+              "answer": 0,
+              "explain": "Sécrétée par cellules C thyroïdiennes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La vitamine D active (1,25-(OH)2D3) a un effet :",
+              "choices": [
+                "hypercalcémiante (↑absorption intestinale)",
+                "strictement neutre",
+                "hypocalcémiante",
+                "hyperkaliémiante"
+              ],
+              "answer": 0,
+              "explain": "Augmente absorption Ca2+/phosphate intestinale, effet osseux/rénal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La réabsorption du calcium rénal est maximale au niveau :",
+              "choices": [
+                "de l’uretère",
+                "du glomérule",
+                "de la branche descendante (impermeable!)",
+                "du tube contourné proximal"
+              ],
+              "answer": 3,
+              "explain": "Une grande part est réabsorbée au TCP; ADH/aldostérone jouent ailleurs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypercalcémie avec PTH élevée évoque en premier :",
+              "choices": [
+                "une hyperparathyroïdie primaire",
+                "un déficit en vitamine D",
+                "une hypoparathyroïdie",
+                "un excès de calcitonine"
+              ],
+              "answer": 0,
+              "explain": "Contexte biologique d’hyperPTH et Ca2+ ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ?",
+              "choices": [
+                "ALP↑ + GGT↑",
+                "ALT↑ isolée",
+                "LDH↑ isolée",
+                "Bilirubine indirecte↑ isolée"
+              ],
+              "answer": 0,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans l’hémolyse isolée, la bilirubine qui augmente surtout est :",
+              "choices": [
+                "totale normalisée",
+                "directe (conjuguée)",
+                "indirecte (non conjuguée)",
+                "delta-bilirubine seulement"
+              ],
+              "answer": 2,
+              "explain": "Production accrue non conjuguée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour surveiller une cytolyse aiguë, on dose prioritairement :",
+              "choices": [
+                "TSH",
+                "lipase",
+                "ALT et AST",
+                "CK-MB seule"
+              ],
+              "answer": 2,
+              "explain": "Transaminases reflètent la cytolyse hépatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "urines de 24 heures",
+                "plasma seulement",
+                "salive 24 heures",
+                "spot urinaire aléatoire obligatoire"
+              ],
+              "answer": 0,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une bandelette positive aux leucocytes suggère :",
+              "choices": [
+                "une cholestase",
+                "une hypercalcémie",
+                "une glycosurie",
+                "une réaction inflammatoire/infectieuse urinaire"
+              ],
+              "answer": 3,
+              "explain": "Estérase leucocytaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La standardisation de la clairance utilise une SC de :",
+              "choices": [
+                "1,73 m²",
+                "2,73 m²",
+                "0,73 m²",
+                "1,00 m²"
+              ],
+              "answer": 0,
+              "explain": "Surface corporelle ‘moyenne’ adulte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les signes cardinaux du diabète incluent :",
+              "choices": [
+                "ictère franc",
+                "photosensibilité",
+                "polyurie, polydipsie, amaigrissement",
+                "hémoptysie, cyanose"
+              ],
+              "answer": 2,
+              "explain": "Hyperglycémie chronique symptomatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces hormones, laquelle n’est PAS hyperglycémiante ?",
+              "choices": [
+                "insuline",
+                "adrénaline",
+                "cortisol",
+                "glucagon"
+              ],
+              "answer": 0,
+              "explain": "Seule hormone hypoglycémiante majeure."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ?",
+              "choices": [
+                "fibrinogène",
+                "albumine",
+                "transferrine",
+                "IgG"
+              ],
+              "answer": 1,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une augmentation globale des protéines plasmatiques peut refléter :",
+              "choices": [
+                "une hémodilution",
+                "une hémoconcentration (déshydratation)",
+                "une hémolyse in vitro",
+                "une hypoglycémie"
+              ],
+              "answer": 1,
+              "explain": "Concentration relative accrue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un excès de vitamine D entraîne classiquement :",
+              "choices": [
+                "une hypocalcémie",
+                "une hyponatrémie",
+                "une hypercalcémie",
+                "une hyperkaliémie isolée"
+              ],
+              "answer": 2,
+              "explain": "Augmentation absorption intestinale de Ca2+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La calcémie et la phosphorémie sont souvent :",
+              "choices": [
+                "inversement corrélées",
+                "strictement parallèles",
+                "dépendent uniquement de l’aldostérone",
+                "sans relation"
+              ],
+              "answer": 0,
+              "explain": "Boucles PTH/Vit D/Calcitonine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante)",
+              "choices": [
+                "ALT↑ isolée",
+                "ALP↑ + GGT↑",
+                "LDH↑ isolée",
+                "Bilirubine indirecte↑ isolée"
+              ],
+              "answer": 1,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie aléatoire 1,50 g/L sans symptôme",
+                "glycémie à jeun de 1,10 g/L unique",
+                "HGPO H2 = 1,30 g/L",
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises"
+              ],
+              "answer": 3,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’ALT est plus spécifique hépatique que l’AST.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "hyponatrémie sévère",
+                "diabète sucré avec polyurie osmotique",
+                "hypocalcémie",
+                "obstruction biliaire"
+              ],
+              "answer": 1,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La transferrine est une glycoprotéine de :",
+              "choices": [
+                "transport du fer",
+                "transport du cuivre",
+                "transport du calcium",
+                "détoxication de l’ammoniac"
+              ],
+              "answer": 0,
+              "explain": "Synthèse hépatique; inversement corrélée aux réserves en fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante)",
+              "choices": [
+                "LDH↑ isolée",
+                "Bilirubine indirecte↑ isolée",
+                "ALP↑ + GGT↑",
+                "ALT↑ isolée"
+              ],
+              "answer": 2,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante) (variante)",
+              "choices": [
+                "Bilirubine indirecte↑ isolée",
+                "ALP↑ + GGT↑",
+                "LDH↑ isolée",
+                "ALT↑ isolée"
+              ],
+              "answer": 1,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante)",
+              "choices": [
+                "adrénaline",
+                "glucagon",
+                "insuline",
+                "cortisol"
+              ],
+              "answer": 2,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "0,20–0,40 g/L",
+                "0,70–1,10 g/L",
+                "2,0–3,0 g/L",
+                "1,40–2,0 g/L"
+              ],
+              "answer": 1,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le diabète de type 1 est caractérisé par :",
+              "choices": [
+                "une absence d’auto-anticorps",
+                "une insulinorésistance isolée",
+                "une surcharge pondérale obligatoire",
+                "une insulinopénie par destruction auto-immune des cellules β"
+              ],
+              "answer": 3,
+              "explain": "Insulite, auto-anticorps, début souvent jeune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Pour le dosage du glucose sanguin, on recommande souvent :",
+              "choices": [
+                "NaF/oxalate pour inhiber la glycolyse",
+                "EDTA uniquement",
+                "Aucun additif",
+                "Heparinate d’aluminium"
+              ],
+              "answer": 0,
+              "explain": "Le fluorure inhibe la glycolyse dans le tube."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante)",
+              "choices": [
+                "ALT↑ isolée",
+                "Bilirubine indirecte↑ isolée",
+                "LDH↑ isolée",
+                "ALP↑ + GGT↑"
+              ],
+              "answer": 3,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "pancréatique vs biliaire",
+                "rénale vs hépatique",
+                "hépatobiliaire vs osseuse",
+                "sanguine vs urinaire"
+              ],
+              "answer": 2,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La réabsorption du calcium rénal est maximale au niveau :",
+              "choices": [
+                "du glomérule",
+                "de la branche descendante (impermeable!)",
+                "du tube contourné proximal",
+                "de l’uretère"
+              ],
+              "answer": 2,
+              "explain": "Une grande part est réabsorbée au TCP; ADH/aldostérone jouent ailleurs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’ionogramme urinaire (Na+u/K+u) peut aider à :",
+              "choices": [
+                "diagnostiquer une cholestase",
+                "détecter une hyperthyroïdie",
+                "mesurer la calcémie",
+                "différencier des causes d’IRA"
+              ],
+              "answer": 3,
+              "explain": "Approche fonctionnelle tubulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "150 mg/24 h",
+                "500 mg/24 h",
+                "3 g/24 h",
+                "50 mg/24 h"
+              ],
+              "answer": 0,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Un ictère avec urines foncées et selles décolorées évoque surtout :",
+              "choices": [
+                "une hémolyse isolée",
+                "une acidocétose",
+                "une insuffisance surrénalienne",
+                "une cholestase"
+              ],
+              "answer": 3,
+              "explain": "Absence de bilirubine dans le tube digestif → selles décolorées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "rénale vs hépatique",
+                "pancréatique vs biliaire",
+                "hépatobiliaire vs osseuse",
+                "sanguine vs urinaire"
+              ],
+              "answer": 2,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "obstruction biliaire",
+                "hypocalcémie",
+                "hyponatrémie sévère",
+                "diabète sucré avec polyurie osmotique"
+              ],
+              "answer": 3,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "1,40–2,0 g/L",
+                "2,0–3,0 g/L",
+                "0,20–0,40 g/L",
+                "0,70–1,10 g/L"
+              ],
+              "answer": 3,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "urines de 24 heures",
+                "spot urinaire aléatoire obligatoire",
+                "salive 24 heures",
+                "plasma seulement"
+              ],
+              "answer": 0,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie aléatoire 1,50 g/L sans symptôme",
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises",
+                "glycémie à jeun de 1,10 g/L unique",
+                "HGPO H2 = 1,30 g/L"
+              ],
+              "answer": 1,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La substance de référence pour mesurer le DFG en physiologie est :",
+              "choices": [
+                "la bilirubine",
+                "l’albumine",
+                "l’inuline",
+                "l’urée"
+              ],
+              "answer": 2,
+              "explain": "Inuline: librement filtrée, non réabsorbée, non sécrétée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "cholestase ou obstruction biliaire",
+                "hémolyse pure",
+                "acidose métabolique",
+                "hyponatrémie"
+              ],
+              "answer": 0,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "cholestase ou obstruction biliaire",
+                "hémolyse pure",
+                "acidose métabolique",
+                "hyponatrémie"
+              ],
+              "answer": 0,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "insuline",
+                "cortisol",
+                "adrénaline",
+                "glucagon"
+              ],
+              "answer": 0,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "3 g/24 h",
+                "150 mg/24 h",
+                "50 mg/24 h",
+                "500 mg/24 h"
+              ],
+              "answer": 1,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante)",
+              "choices": [
+                "glucagon",
+                "cortisol",
+                "adrénaline",
+                "insuline"
+              ],
+              "answer": 3,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "pancréatique vs biliaire",
+                "hépatobiliaire vs osseuse",
+                "sanguine vs urinaire",
+                "rénale vs hépatique"
+              ],
+              "answer": 1,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ? (variante)",
+              "choices": [
+                "albumine",
+                "fibrinogène",
+                "transferrine",
+                "IgG"
+              ],
+              "answer": 0,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "hépatobiliaire vs osseuse",
+                "sanguine vs urinaire",
+                "pancréatique vs biliaire",
+                "rénale vs hépatique"
+              ],
+              "answer": 0,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La standardisation de la clairance utilise une SC de :",
+              "choices": [
+                "2,73 m²",
+                "1,73 m²",
+                "1,00 m²",
+                "0,73 m²"
+              ],
+              "answer": 1,
+              "explain": "Surface corporelle ‘moyenne’ adulte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie à jeun de 1,10 g/L unique",
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises",
+                "glycémie aléatoire 1,50 g/L sans symptôme",
+                "HGPO H2 = 1,30 g/L"
+              ],
+              "answer": 1,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie à jeun de 1,10 g/L unique",
+                "HGPO H2 = 1,30 g/L",
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises",
+                "glycémie aléatoire 1,50 g/L sans symptôme"
+              ],
+              "answer": 2,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "insuline",
+                "glucagon",
+                "adrénaline",
+                "cortisol"
+              ],
+              "answer": 0,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La bilirubine non conjuguée (indirecte) augmente surtout en cas de :",
+              "choices": [
+                "cholestase",
+                "insuffisance cardiaque droite",
+                "hémolyse",
+                "hypothyroïdie"
+              ],
+              "answer": 2,
+              "explain": "Production accrue ou défaut de conjugaison."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La diurèse normale chez l’adulte est de :",
+              "choices": [
+                "Exactement 500 ml/24 h",
+                "3–5 L/24 h toujours",
+                "< 200 ml/24 h",
+                "0,75 à 1,5 L/24 h"
+              ],
+              "answer": 3,
+              "explain": "Polyurie > 2,5 L/24 h; oligourie < 600 ml/24 h; anurie < 100 ml/24 h."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Un diagnostic biologique de diabète peut être posé si :",
+              "choices": [
+                "glycémie à jeun ≥ 1,26 g/L à deux reprises",
+                "glycémie à jeun de 1,10 g/L unique",
+                "HGPO H2 = 1,30 g/L",
+                "glycémie aléatoire 1,50 g/L sans symptôme"
+              ],
+              "answer": 0,
+              "explain": "Critères usuels du cours."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "adrénaline",
+                "cortisol",
+                "insuline",
+                "glucagon"
+              ],
+              "answer": 2,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’ALT est plus spécifique hépatique que l’AST.",
+              "choices": [
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante)",
+              "choices": [
+                "adrénaline",
+                "glucagon",
+                "insuline",
+                "cortisol"
+              ],
+              "answer": 2,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "spot urinaire aléatoire obligatoire",
+                "urines de 24 heures",
+                "plasma seulement",
+                "salive 24 heures"
+              ],
+              "answer": 1,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une déshydratation légère",
+                "une cause urologique basse",
+                "une origine glomérulaire",
+                "une hyperbilirubinémie"
+              ],
+              "answer": 2,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une infection virale aiguë",
+                "une absence complète d’insuline dès le début",
+                "une insulinorésistance",
+                "une tumeur des îlots uniquement"
+              ],
+              "answer": 2,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le rôle majeur de l’albumine est :",
+              "choices": [
+                "hémolyse",
+                "activation de la thrombine",
+                "maintien de la pression oncotique et transport",
+                "synthèse d’Ig"
+              ],
+              "answer": 2,
+              "explain": "Oncoticité + transport d’acides gras, bilirubine, médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "spot urinaire aléatoire obligatoire",
+                "urines de 24 heures",
+                "salive 24 heures",
+                "plasma seulement"
+              ],
+              "answer": 1,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La diurèse normale chez l’adulte est de :",
+              "choices": [
+                "Exactement 500 ml/24 h",
+                "3–5 L/24 h toujours",
+                "< 200 ml/24 h",
+                "0,75 à 1,5 L/24 h"
+              ],
+              "answer": 3,
+              "explain": "Polyurie > 2,5 L/24 h; oligourie < 600 ml/24 h; anurie < 100 ml/24 h."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : L’ionogramme urinaire (Na+u/K+u) peut aider à :",
+              "choices": [
+                "détecter une hyperthyroïdie",
+                "mesurer la calcémie",
+                "différencier des causes d’IRA",
+                "diagnostiquer une cholestase"
+              ],
+              "answer": 2,
+              "explain": "Approche fonctionnelle tubulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La standardisation de la clairance utilise une SC de :",
+              "choices": [
+                "1,73 m²",
+                "2,73 m²",
+                "0,73 m²",
+                "1,00 m²"
+              ],
+              "answer": 0,
+              "explain": "Surface corporelle ‘moyenne’ adulte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Pour surveiller une cytolyse aiguë, on dose prioritairement :",
+              "choices": [
+                "CK-MB seule",
+                "TSH",
+                "ALT et AST",
+                "lipase"
+              ],
+              "answer": 2,
+              "explain": "Transaminases reflètent la cytolyse hépatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une ALP élevée avec GGT élevée suggère :",
+              "choices": [
+                "une cholestase d’origine hépatobiliaire",
+                "une hypocalcémie",
+                "une hyponatrémie",
+                "une anémie hémolytique"
+              ],
+              "answer": 0,
+              "explain": "Le couple ALP+GGT soutient une origine biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante)",
+              "choices": [
+                "ALP↑ + GGT↑",
+                "ALT↑ isolée",
+                "Bilirubine indirecte↑ isolée",
+                "LDH↑ isolée"
+              ],
+              "answer": 0,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "hépatobiliaire vs osseuse",
+                "rénale vs hépatique",
+                "sanguine vs urinaire",
+                "pancréatique vs biliaire"
+              ],
+              "answer": 0,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La substance de référence pour mesurer le DFG en physiologie est :",
+              "choices": [
+                "l’inuline",
+                "l’urée",
+                "la bilirubine",
+                "l’albumine"
+              ],
+              "answer": 0,
+              "explain": "Inuline: librement filtrée, non réabsorbée, non sécrétée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "plasma seulement",
+                "spot urinaire aléatoire obligatoire",
+                "urines de 24 heures",
+                "salive 24 heures"
+              ],
+              "answer": 2,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Sur bandelette, un test nitrites positif suggère :",
+              "choices": [
+                "une bactériurie (entérobactéries)",
+                "une protéinurie sélective",
+                "une hématurie glomérulaire",
+                "une hyperuricosurie"
+              ],
+              "answer": 0,
+              "explain": "Réduction des nitrates par certaines bactéries."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "l’albumine",
+                "la transferrine",
+                "le fibrinogène",
+                "la céruloplasmine"
+              ],
+              "answer": 0,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "spot urinaire aléatoire obligatoire",
+                "urines de 24 heures",
+                "salive 24 heures",
+                "plasma seulement"
+              ],
+              "answer": 1,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Pour standardiser la clairance, on corrige souvent à :",
+              "choices": [
+                "0,8 m²",
+                "2,0 m²",
+                "1,5 m²",
+                "1,73 m² de surface corporelle"
+              ],
+              "answer": 3,
+              "explain": "SC (m²) ≈ [4×Poids+7]/(Poids+90)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La standardisation de la clairance utilise une SC de :",
+              "choices": [
+                "1,73 m²",
+                "1,00 m²",
+                "2,73 m²",
+                "0,73 m²"
+              ],
+              "answer": 0,
+              "explain": "Surface corporelle ‘moyenne’ adulte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "glucagon",
+                "adrénaline",
+                "insuline",
+                "cortisol"
+              ],
+              "answer": 2,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le rôle majeur de l’albumine est :",
+              "choices": [
+                "maintien de la pression oncotique et transport",
+                "hémolyse",
+                "activation de la thrombine",
+                "synthèse d’Ig"
+              ],
+              "answer": 0,
+              "explain": "Oncoticité + transport d’acides gras, bilirubine, médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante)",
+              "choices": [
+                "cortisol",
+                "adrénaline",
+                "glucagon",
+                "insuline"
+              ],
+              "answer": 3,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’AST est présente dans le foie mais aussi dans :",
+              "choices": [
+                "la cornée uniquement",
+                "le muscle squelettique et le myocarde",
+                "les cartilages uniquement",
+                "la moelle osseuse uniquement"
+              ],
+              "answer": 1,
+              "explain": "AST est moins spécifique que l’ALT car présente dans d’autres tissus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "pancréatique vs biliaire",
+                "hépatobiliaire vs osseuse",
+                "rénale vs hépatique",
+                "sanguine vs urinaire"
+              ],
+              "answer": 1,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "1,40–2,0 g/L",
+                "0,20–0,40 g/L",
+                "2,0–3,0 g/L",
+                "0,70–1,10 g/L"
+              ],
+              "answer": 3,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Un excès de vitamine D entraîne classiquement :",
+              "choices": [
+                "une hyperkaliémie isolée",
+                "une hypercalcémie",
+                "une hyponatrémie",
+                "une hypocalcémie"
+              ],
+              "answer": 1,
+              "explain": "Augmentation absorption intestinale de Ca2+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une insulinorésistance",
+                "une absence complète d’insuline dès le début",
+                "une infection virale aiguë",
+                "une tumeur des îlots uniquement"
+              ],
+              "answer": 0,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’ALT (alanine aminotransférase) est principalement localisée dans…",
+              "choices": [
+                "la rate",
+                "les os",
+                "le foie",
+                "les reins"
+              ],
+              "answer": 2,
+              "explain": "ALT est surtout hépatique; l’élévation traduit souvent une cytolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La bilirubine non conjuguée (indirecte) augmente surtout en cas de :",
+              "choices": [
+                "cholestase",
+                "hypothyroïdie",
+                "hémolyse",
+                "insuffisance cardiaque droite"
+              ],
+              "answer": 2,
+              "explain": "Production accrue ou défaut de conjugaison."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "insuline",
+                "cortisol",
+                "adrénaline",
+                "glucagon"
+              ],
+              "answer": 0,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La substance de référence pour mesurer le DFG en physiologie est :",
+              "choices": [
+                "la bilirubine",
+                "l’urée",
+                "l’albumine",
+                "l’inuline"
+              ],
+              "answer": 3,
+              "explain": "Inuline: librement filtrée, non réabsorbée, non sécrétée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "hyponatrémie sévère",
+                "diabète sucré avec polyurie osmotique",
+                "obstruction biliaire",
+                "hypocalcémie"
+              ],
+              "answer": 1,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante) (variante)",
+              "choices": [
+                "adrénaline",
+                "insuline",
+                "cortisol",
+                "glucagon"
+              ],
+              "answer": 1,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La diurèse normale chez l’adulte est de :",
+              "choices": [
+                "0,75 à 1,5 L/24 h",
+                "< 200 ml/24 h",
+                "3–5 L/24 h toujours",
+                "Exactement 500 ml/24 h"
+              ],
+              "answer": 0,
+              "explain": "Polyurie > 2,5 L/24 h; oligourie < 600 ml/24 h; anurie < 100 ml/24 h."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ? (variante)",
+              "choices": [
+                "fibrinogène",
+                "transferrine",
+                "IgG",
+                "albumine"
+              ],
+              "answer": 3,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante) (variante)",
+              "choices": [
+                "glucagon",
+                "cortisol",
+                "adrénaline",
+                "insuline"
+              ],
+              "answer": 3,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "cortisol",
+                "adrénaline",
+                "glucagon",
+                "insuline"
+              ],
+              "answer": 3,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "obstruction biliaire",
+                "hyponatrémie sévère",
+                "diabète sucré avec polyurie osmotique",
+                "hypocalcémie"
+              ],
+              "answer": 2,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "500 mg/24 h",
+                "150 mg/24 h",
+                "50 mg/24 h",
+                "3 g/24 h"
+              ],
+              "answer": 1,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante) (variante)",
+              "choices": [
+                "ALP↑ + GGT↑",
+                "Bilirubine indirecte↑ isolée",
+                "ALT↑ isolée",
+                "LDH↑ isolée"
+              ],
+              "answer": 0,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Un échantillon fortement hémolysé peut fausser :",
+              "choices": [
+                "chlorure et sodium uniquement",
+                "bilirubine directe uniquement",
+                "LDH et phosphatase acide",
+                "urée uniquement"
+              ],
+              "answer": 2,
+              "explain": "Libération intracellulaire des enzymes érythrocytaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Concernant : La standardisation de la clairance utilise une SC de :",
+              "choices": [
+                "2,73 m²",
+                "1,00 m²",
+                "0,73 m²",
+                "1,73 m²"
+              ],
+              "answer": 3,
+              "explain": "Surface corporelle ‘moyenne’ adulte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Le recueil de référence pour U et V dans Cl = (U×V)/P est :",
+              "choices": [
+                "salive 24 heures",
+                "spot urinaire aléatoire obligatoire",
+                "plasma seulement",
+                "urines de 24 heures"
+              ],
+              "answer": 3,
+              "explain": "Permet la mesure de U et du débit urinaire V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La transferrine est une glycoprotéine de :",
+              "choices": [
+                "transport du cuivre",
+                "détoxication de l’ammoniac",
+                "transport du fer",
+                "transport du calcium"
+              ],
+              "answer": 2,
+              "explain": "Synthèse hépatique; inversement corrélée aux réserves en fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La calcémie et la phosphorémie sont souvent :",
+              "choices": [
+                "strictement parallèles",
+                "inversement corrélées",
+                "sans relation",
+                "dépendent uniquement de l’aldostérone"
+              ],
+              "answer": 1,
+              "explain": "Boucles PTH/Vit D/Calcitonine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Pour le dosage du glucose sanguin, on recommande souvent :",
+              "choices": [
+                "Aucun additif",
+                "NaF/oxalate pour inhiber la glycolyse",
+                "Heparinate d’aluminium",
+                "EDTA uniquement"
+              ],
+              "answer": 1,
+              "explain": "Le fluorure inhibe la glycolyse dans le tube."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "la transferrine",
+                "la céruloplasmine",
+                "le fibrinogène",
+                "l’albumine"
+              ],
+              "answer": 3,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "la transferrine",
+                "le fibrinogène",
+                "la céruloplasmine",
+                "l’albumine"
+              ],
+              "answer": 3,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La parathormone (PTH) a un effet principalement :",
+              "choices": [
+                "neutre sur Ca2+ et Pi",
+                "uniquement hypocalcémiante",
+                "hypocalcémiante et hyperphosphatémiante",
+                "hypercalcémiante et hypophosphatémiante"
+              ],
+              "answer": 3,
+              "explain": "Agit sur os et rein; augmente Ca2+, diminue réabsorption de phosphate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle association traduit le mieux une atteinte cholestatique ? (variante) (variante) (variante)",
+              "choices": [
+                "Bilirubine indirecte↑ isolée",
+                "LDH↑ isolée",
+                "ALP↑ + GGT↑",
+                "ALT↑ isolée"
+              ],
+              "answer": 2,
+              "explain": "Profil biologique de cholestase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La transferrine est une glycoprotéine de :",
+              "choices": [
+                "transport du fer",
+                "transport du cuivre",
+                "transport du calcium",
+                "détoxication de l’ammoniac"
+              ],
+              "answer": 0,
+              "explain": "Synthèse hépatique; inversement corrélée aux réserves en fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Un ictère avec urines foncées et selles décolorées évoque surtout :",
+              "choices": [
+                "une hémolyse isolée",
+                "une insuffisance surrénalienne",
+                "une cholestase",
+                "une acidocétose"
+              ],
+              "answer": 2,
+              "explain": "Absence de bilirubine dans le tube digestif → selles décolorées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "acidose métabolique",
+                "hyponatrémie",
+                "cholestase ou obstruction biliaire",
+                "hémolyse pure"
+              ],
+              "answer": 2,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : L’ALT est plus spécifique hépatique que l’AST.",
+              "choices": [
+                "Faux",
+                "Vrai"
+              ],
+              "answer": 1,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’électrophorèse des protéines sériques permet :",
+              "choices": [
+                "de déterminer l’hématocrite",
+                "d’identifier les fractions albumine, α, β, γ",
+                "de mesurer le sodium",
+                "de dépister une cholestase"
+              ],
+              "answer": 1,
+              "explain": "Méthode de profil protéique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : L’ionogramme urinaire (Na+u/K+u) peut aider à :",
+              "choices": [
+                "détecter une hyperthyroïdie",
+                "mesurer la calcémie",
+                "différencier des causes d’IRA",
+                "diagnostiquer une cholestase"
+              ],
+              "answer": 2,
+              "explain": "Approche fonctionnelle tubulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Pour surveiller une cytolyse aiguë, on dose prioritairement :",
+              "choices": [
+                "lipase",
+                "TSH",
+                "ALT et AST",
+                "CK-MB seule"
+              ],
+              "answer": 2,
+              "explain": "Transaminases reflètent la cytolyse hépatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une origine glomérulaire",
+                "une cause urologique basse",
+                "une hyperbilirubinémie",
+                "une déshydratation légère"
+              ],
+              "answer": 0,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "0,70–1,10 g/L",
+                "2,0–3,0 g/L",
+                "0,20–0,40 g/L",
+                "1,40–2,0 g/L"
+              ],
+              "answer": 0,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une cause urologique basse",
+                "une déshydratation légère",
+                "une hyperbilirubinémie",
+                "une origine glomérulaire"
+              ],
+              "answer": 3,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une absence complète d’insuline dès le début",
+                "une tumeur des îlots uniquement",
+                "une insulinorésistance",
+                "une infection virale aiguë"
+              ],
+              "answer": 2,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une insulinorésistance",
+                "une tumeur des îlots uniquement",
+                "une infection virale aiguë",
+                "une absence complète d’insuline dès le début"
+              ],
+              "answer": 0,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La diurèse normale chez l’adulte est de :",
+              "choices": [
+                "< 200 ml/24 h",
+                "Exactement 500 ml/24 h",
+                "0,75 à 1,5 L/24 h",
+                "3–5 L/24 h toujours"
+              ],
+              "answer": 2,
+              "explain": "Polyurie > 2,5 L/24 h; oligourie < 600 ml/24 h; anurie < 100 ml/24 h."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une absence complète d’insuline dès le début",
+                "une insulinorésistance",
+                "une infection virale aiguë",
+                "une tumeur des îlots uniquement"
+              ],
+              "answer": 1,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "hypocalcémie",
+                "hyponatrémie sévère",
+                "obstruction biliaire",
+                "diabète sucré avec polyurie osmotique"
+              ],
+              "answer": 3,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Dans l’hémolyse isolée, la bilirubine qui augmente surtout est :",
+              "choices": [
+                "indirecte (non conjuguée)",
+                "delta-bilirubine seulement",
+                "directe (conjuguée)",
+                "totale normalisée"
+              ],
+              "answer": 0,
+              "explain": "Production accrue non conjuguée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "3 g/24 h",
+                "500 mg/24 h",
+                "150 mg/24 h",
+                "50 mg/24 h"
+              ],
+              "answer": 2,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ? (variante) (variante)",
+              "choices": [
+                "fibrinogène",
+                "IgG",
+                "transferrine",
+                "albumine"
+              ],
+              "answer": 3,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante)",
+              "choices": [
+                "cortisol",
+                "insuline",
+                "glucagon",
+                "adrénaline"
+              ],
+              "answer": 1,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Un échantillon fortement hémolysé peut fausser :",
+              "choices": [
+                "urée uniquement",
+                "LDH et phosphatase acide",
+                "bilirubine directe uniquement",
+                "chlorure et sodium uniquement"
+              ],
+              "answer": 1,
+              "explain": "Libération intracellulaire des enzymes érythrocytaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante)",
+              "choices": [
+                "glucagon",
+                "insuline",
+                "adrénaline",
+                "cortisol"
+              ],
+              "answer": 1,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "cholestase ou obstruction biliaire",
+                "acidose métabolique",
+                "hyponatrémie",
+                "hémolyse pure"
+              ],
+              "answer": 0,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Le diabète de type 2 est surtout lié à :",
+              "choices": [
+                "une insulinorésistance",
+                "une absence complète d’insuline dès le début",
+                "une tumeur des îlots uniquement",
+                "une infection virale aiguë"
+              ],
+              "answer": 0,
+              "explain": "Terrain génétique + résistance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La GGT est utile pour distinguer l’ALP d’origine :",
+              "choices": [
+                "rénale vs hépatique",
+                "hépatobiliaire vs osseuse",
+                "sanguine vs urinaire",
+                "pancréatique vs biliaire"
+              ],
+              "answer": 1,
+              "explain": "GGT normale → plutôt os; GGT élevée → plutôt biliaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante) (variante)",
+              "choices": [
+                "insuline",
+                "cortisol",
+                "adrénaline",
+                "glucagon"
+              ],
+              "answer": 0,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une déshydratation légère",
+                "une hyperbilirubinémie",
+                "une origine glomérulaire",
+                "une cause urologique basse"
+              ],
+              "answer": 2,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La glycémie normale à jeun est d’environ :",
+              "choices": [
+                "0,70–1,10 g/L",
+                "2,0–3,0 g/L",
+                "1,40–2,0 g/L",
+                "0,20–0,40 g/L"
+              ],
+              "answer": 0,
+              "explain": "Selon le cours : 70–110 mg/dL ≈ 0,70–1,10 g/L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Le rôle majeur de l’albumine est :",
+              "choices": [
+                "maintien de la pression oncotique et transport",
+                "synthèse d’Ig",
+                "hémolyse",
+                "activation de la thrombine"
+              ],
+              "answer": 0,
+              "explain": "Oncoticité + transport d’acides gras, bilirubine, médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une cause urologique basse",
+                "une déshydratation légère",
+                "une origine glomérulaire",
+                "une hyperbilirubinémie"
+              ],
+              "answer": 2,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "l’albumine",
+                "le fibrinogène",
+                "la céruloplasmine",
+                "la transferrine"
+              ],
+              "answer": 0,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La bilirubine conjuguée (directe) augmente surtout en cas de :",
+              "choices": [
+                "cholestase ou obstruction biliaire",
+                "hyponatrémie",
+                "acidose métabolique",
+                "hémolyse pure"
+              ],
+              "answer": 0,
+              "explain": "Obstruction/atteinte canaliculaire → conjuguée ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’AST est présente dans le foie mais aussi dans :",
+              "choices": [
+                "la cornée uniquement",
+                "la moelle osseuse uniquement",
+                "les cartilages uniquement",
+                "le muscle squelettique et le myocarde"
+              ],
+              "answer": 3,
+              "explain": "AST est moins spécifique que l’ALT car présente dans d’autres tissus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La substance de référence pour mesurer le DFG en physiologie est :",
+              "choices": [
+                "l’urée",
+                "la bilirubine",
+                "l’inuline",
+                "l’albumine"
+              ],
+              "answer": 2,
+              "explain": "Inuline: librement filtrée, non réabsorbée, non sécrétée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : L’électrophorèse des protéines sériques permet :",
+              "choices": [
+                "de déterminer l’hématocrite",
+                "de dépister une cholestase",
+                "de mesurer le sodium",
+                "d’identifier les fractions albumine, α, β, γ"
+              ],
+              "answer": 3,
+              "explain": "Méthode de profil protéique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : Une hématurie + cylindres hématiques évoque :",
+              "choices": [
+                "une cause urologique basse",
+                "une hyperbilirubinémie",
+                "une déshydratation légère",
+                "une origine glomérulaire"
+              ],
+              "answer": 3,
+              "explain": "Cylindres = localisation rénale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : L’ALT est plus spécifique hépatique que l’AST.",
+              "choices": [
+                "Faux",
+                "Vrai"
+              ],
+              "answer": 1,
+              "explain": "Assertion de cours standard (hépatobiliaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les hormones suivantes, laquelle est hypoglycémiante ? (variante) (variante) (variante)",
+              "choices": [
+                "glucagon",
+                "insuline",
+                "cortisol",
+                "adrénaline"
+              ],
+              "answer": 1,
+              "explain": "Les quatre autres sont hyperglycémiantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Pour standardiser la clairance, on corrige souvent à :",
+              "choices": [
+                "0,8 m²",
+                "1,5 m²",
+                "1,73 m² de surface corporelle",
+                "2,0 m²"
+              ],
+              "answer": 2,
+              "explain": "SC (m²) ≈ [4×Poids+7]/(Poids+90)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ? (variante) (variante)",
+              "choices": [
+                "albumine",
+                "IgG",
+                "transferrine",
+                "fibrinogène"
+              ],
+              "answer": 0,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Dans l’hémolyse isolée, la bilirubine qui augmente surtout est :",
+              "choices": [
+                "delta-bilirubine seulement",
+                "directe (conjuguée)",
+                "totale normalisée",
+                "indirecte (non conjuguée)"
+              ],
+              "answer": 3,
+              "explain": "Production accrue non conjuguée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Le diabète de type 1 est caractérisé par :",
+              "choices": [
+                "une absence d’auto-anticorps",
+                "une insulinopénie par destruction auto-immune des cellules β",
+                "une insulinorésistance isolée",
+                "une surcharge pondérale obligatoire"
+              ],
+              "answer": 1,
+              "explain": "Insulite, auto-anticorps, début souvent jeune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : La calcémie et la phosphorémie sont souvent :",
+              "choices": [
+                "sans relation",
+                "inversement corrélées",
+                "dépendent uniquement de l’aldostérone",
+                "strictement parallèles"
+              ],
+              "answer": 1,
+              "explain": "Boucles PTH/Vit D/Calcitonine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Une polyurie peut être observée en cas de :",
+              "choices": [
+                "obstruction biliaire",
+                "diabète sucré avec polyurie osmotique",
+                "hypocalcémie",
+                "hyponatrémie sévère"
+              ],
+              "answer": 1,
+              "explain": "Glycosurie → diurèse osmotique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : L’ALT (alanine aminotransférase) est principalement localisée dans…",
+              "choices": [
+                "la rate",
+                "le foie",
+                "les reins",
+                "les os"
+              ],
+              "answer": 1,
+              "explain": "ALT est surtout hépatique; l’élévation traduit souvent une cytolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel groupe contribue le plus à la pression oncotique plasmatique ? (variante) (variante) (variante)",
+              "choices": [
+                "transferrine",
+                "fibrinogène",
+                "IgG",
+                "albumine"
+              ],
+              "answer": 3,
+              "explain": "Concentration et caractéristiques osmotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : La protéinurie physiologique est inférieure à :",
+              "choices": [
+                "150 mg/24 h",
+                "3 g/24 h",
+                "500 mg/24 h",
+                "50 mg/24 h"
+              ],
+              "answer": 0,
+              "explain": "Au‑delà, pathologique; syndrome néphrotique > 3 g/j."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Concernant : Concernant : Concernant : La principale protéine plasmatique par concentration est :",
+              "choices": [
+                "le fibrinogène",
+                "la transferrine",
+                "l’albumine",
+                "la céruloplasmine"
+              ],
+              "answer": 2,
+              "explain": "Albumine ~60% des protéines plasmatiques."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir la cytolyse hépatique.",
+              "answer_text": "Destruction des hépatocytes responsable d’élévation ALT/AST.",
+              "explain": "ALT>AST souvent (hors alcool)."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux causes de cholestase intra-hépatique.",
+              "answer_text": "Hépatite, médicaments cholestasiants.",
+              "explain": "Obstruction canaliculaire/inflammation."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel est le principe d’une bandelette urinaire ?",
+              "answer_text": "Virage colorimétrique proportionnel à la concentration de l’analyte.",
+              "explain": "Plages réactives spécifiques; lecture 30 sec à 2 min."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la formule de la clairance d’une substance.",
+              "answer_text": "Cl = (U × V) / P.",
+              "explain": "U: urinaire; V: débit urinaire; P: plasmatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuils de diurèse: polyurie / oligurie / anurie ?",
+              "answer_text": "Polyurie > 2,5 L/j ; Oligurie < 600 ml/j ; Anurie < 100 ml/j.",
+              "explain": "Valeurs usuelles cliniques."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘corriger à 1,73 m²’ pour la clairance ?",
+              "answer_text": "Standardiser à une surface corporelle de référence.",
+              "explain": "Comparabilité inter‑patients."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux circonstances de découverte du diabète.",
+              "answer_text": "Dépistage systématique; symptômes cardinaux (polyurie, polydipsie, amaigrissement).",
+              "explain": "Selon cours d’exploration glucidique."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux hormones hyperglycémiantes.",
+              "answer_text": "Glucagon, adrénaline.",
+              "explain": "Avec cortisol et hormone de croissance."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des protéines plasmatiques.",
+              "answer_text": "Pression oncotique; transport de molécules.",
+              "explain": "Inclut immunité, coagulation, inhibition de protéases."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner une cause de hausse globale de protidémie.",
+              "answer_text": "Déshydratation.",
+              "explain": "Concentration hémoconcentration."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux sources de vitamine D.",
+              "answer_text": "Synthèse cutanée via UV; alimentation (poissons gras, jaune d’œuf).",
+              "explain": "Hydroxylations hépatique puis rénale."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ostéolyse tumoralement induite.",
+              "answer_text": "Libération de Ca2+ par destruction osseuse liée aux métastases.",
+              "explain": "Cause fréquente d’hypercalcémie en oncologie."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la cholestase.",
+              "answer_text": "Diminution/obstruction de l’écoulement biliaire.",
+              "explain": "ALP/GGT ↑ ; bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’HGPO.",
+              "answer_text": "Test d’hyperglycémie provoquée par voie orale.",
+              "explain": "Mesure la glycémie à H2 après charge glucose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’ammoniogenèse rénale.",
+              "answer_text": "Production d’ammonium pour tamponner H+.",
+              "explain": "Contribue à l’équilibre acido-basique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir l’électrophorèse des protéines sériques.",
+              "answer_text": "Séparation des protéines selon leur mobilité.",
+              "explain": "Fractions albumine, α, β, γ."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la protéinurie.",
+              "answer_text": "Excrétion urinaire de protéines > 150 mg/24 h.",
+              "explain": "Au‑delà pathologique; >3 g/j = syndrome néphrotique."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Ictère cholestatique — Homme 55 ans, prurit, urines foncées, selles claires, ALP↑, GGT↑\n\nQuelle étiologie biologique générale évoquez‑vous ?",
+              "answer_text": "Cholestase/obstruction biliaire.",
+              "explain": "Profil cholestatique: ALP/GGT élevées, bilirubine conjuguée ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite médicamenteuse — Femme 28 ans, douleurs, ALT>>AST, prise récente d’un ATB\n\nQuel mécanisme principal ?",
+              "answer_text": "Cytolyse hépatique toxique.",
+              "explain": "Cytolyse par atteinte hépatocellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] IRA pré-rénale vs rénale — Patient déshydraté, Na+u bas, U/P urée élevé\n\nQuelle est l’orientation ?",
+              "answer_text": "IRA pré-rénale.",
+              "explain": "Réabsorption Na+ accrue; rapport urée compatible."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Syndrome néphrotique — Œdèmes, protéinurie > 3 g/j, hypoalbuminémie\n\nNommer le syndrome.",
+              "answer_text": "Syndrome néphrotique.",
+              "explain": "Perte protidique rénale massive."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] HGPO anormale — Patiente 55 ans, HGPO H2 = 2,1 g/L\n\nConclusion ?",
+              "answer_text": "Diabète (HGPO pathologique).",
+              "explain": "Seuil H2 ≥ 2 g/L d’après le cours."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète clinique — Homme 43 ans, polyuro-polydipsie, glycémie aléatoire 2,2 g/L\n\nConclusion diagnostique ?",
+              "answer_text": "Diabète patent.",
+              "explain": "Critère aléatoire + symptômes."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Pic monoclonal — Homme 68 ans, douleurs osseuses, EPS: pic fin en zone γ\n\nOrientation ?",
+              "answer_text": "Gammopathie monoclonale (à confirmer).",
+              "explain": "Myélome à discuter avec immunofixation."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hypercalcémie PTH-dépendante — Femme 50 ans, Ca2+ élevé, PTH ↑, AMP c urinaire ↑, déminéralisation osseuse\n\nDiagnostic le plus probable ?",
+              "answer_text": "Hyperparathyroïdie primaire.",
+              "explain": "Biologie compatible; freinage de la PTH par charge calcique négatif."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Protéinurie massive — Œdèmes mous déclives; albumine 22 g/L; protU 6 g/j\n\nSyndrome ?",
+              "answer_text": "Néphrotique.",
+              "explain": "Perte protéique rénale."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Protéinurie massive — Œdèmes mous déclives; albumine 22 g/L; protU 6 g/j\n\nSyndrome ?",
+              "answer_text": "Néphrotique.",
+              "explain": "Perte protéique rénale."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hypercalcémie symptomatique — Nausées, constipation, douleurs osseuses; Ca2+ élevé; PTH ↑\n\nCause la plus probable ?",
+              "answer_text": "Hyperparathyroïdie primaire.",
+              "explain": "Biologie PTH‑dépendante."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] IRA fonctionnelle — Hypotension, tachycardie, muc. sèches; Na+u bas\n\nOrientation ?",
+              "answer_text": "IRA pré‑rénale.",
+              "explain": "Contexte de déplétion volémique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Protéinurie massive — Œdèmes mous déclives; albumine 22 g/L; protU 6 g/j\n\nSyndrome ?",
+              "answer_text": "Néphrotique.",
+              "explain": "Perte protéique rénale."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] IRA fonctionnelle — Hypotension, tachycardie, muc. sèches; Na+u bas\n\nOrientation ?",
+              "answer_text": "IRA pré‑rénale.",
+              "explain": "Contexte de déplétion volémique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète de type 2 — IMC 33, sédentaire, antécédents familiaux; GJ = 1,35 g/L ×2\n\nDiagnostic ?",
+              "answer_text": "Diabète type 2.",
+              "explain": "Insulinorésistance + facteurs de risque."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Protéinurie massive — Œdèmes mous déclives; albumine 22 g/L; protU 6 g/j\n\nSyndrome ?",
+              "answer_text": "Néphrotique.",
+              "explain": "Perte protéique rénale."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète de type 2 — IMC 33, sédentaire, antécédents familiaux; GJ = 1,35 g/L ×2\n\nDiagnostic ?",
+              "answer_text": "Diabète type 2.",
+              "explain": "Insulinorésistance + facteurs de risque."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète de type 2 — IMC 33, sédentaire, antécédents familiaux; GJ = 1,35 g/L ×2\n\nDiagnostic ?",
+              "answer_text": "Diabète type 2.",
+              "explain": "Insulinorésistance + facteurs de risque."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète de type 2 — IMC 33, sédentaire, antécédents familiaux; GJ = 1,35 g/L ×2\n\nDiagnostic ?",
+              "answer_text": "Diabète type 2.",
+              "explain": "Insulinorésistance + facteurs de risque."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hypercalcémie symptomatique — Nausées, constipation, douleurs osseuses; Ca2+ élevé; PTH ↑\n\nCause la plus probable ?",
+              "answer_text": "Hyperparathyroïdie primaire.",
+              "explain": "Biologie PTH‑dépendante."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Diabète de type 2 — IMC 33, sédentaire, antécédents familiaux; GJ = 1,35 g/L ×2\n\nDiagnostic ?",
+              "answer_text": "Diabète type 2.",
+              "explain": "Insulinorésistance + facteurs de risque."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hypercalcémie symptomatique — Nausées, constipation, douleurs osseuses; Ca2+ élevé; PTH ↑\n\nCause la plus probable ?",
+              "answer_text": "Hyperparathyroïdie primaire.",
+              "explain": "Biologie PTH‑dépendante."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas clinique] Hépatite aiguë — AST/ALT très élevées, ictère modéré, prurit absent\n\nAtteinte dominante ?",
+              "answer_text": "Cytolyse hépatique.",
+              "explain": "Transaminases >> ALP/GGT."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}
