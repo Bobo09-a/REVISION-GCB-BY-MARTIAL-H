@@ -1,0 +1,2196 @@
+{
+  "subjects": [
+    {
+      "name": "Hémogrammes – Interprétation",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.8 g/dL ; RBC 5.84 M/µL ; Ht 49.7 %\n• MCV 76.0 fL ; MCHC 33.9 g/dL ; RDW 15.1 %\n• WBC 11059 /µL (N 30% ; L 53% ; M 5% ; Eo 0% ; B 3%)\n• PLT 661526 /µL ; Réticulocytes 1.1 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.5 g/dL ; RBC 3.14 M/µL ; Ht 35.4 %\n• MCV 72.9 fL ; MCHC 29.5 g/dL ; RDW 14.3 %\n• WBC 10870 /µL (N 25% ; L 60% ; M 13% ; Eo 13% ; B 2%)\n• PLT 878650 /µL ; Réticulocytes 4.2 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 1,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.6 g/dL ; RBC 3.17 M/µL ; Ht 21.6 %\n• MCV 86.0 fL ; MCHC 32.7 g/dL ; RDW 17.2 %\n• WBC 11803 /µL (N 46% ; L 44% ; M 5% ; Eo 2% ; B 3%)\n• PLT 784635 /µL ; Réticulocytes 3.8 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 1,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.0 g/dL ; RBC 5.1 M/µL ; Ht 49.1 %\n• MCV 93.4 fL ; MCHC 32.4 g/dL ; RDW 17.1 %\n• WBC 10716 /µL (N 27% ; L 54% ; M 9% ; Eo 9% ; B 5%)\n• PLT 396788 /µL ; Réticulocytes 2.6 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.4 g/dL ; RBC 3.79 M/µL ; Ht 22.7 %\n• MCV 74.6 fL ; MCHC 33.7 g/dL ; RDW 18.8 %\n• WBC 10251 /µL (N 22% ; L 59% ; M 13% ; Eo 12% ; B 5%)\n• PLT 352224 /µL ; Réticulocytes 0.9 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.0 g/dL ; RBC 5.46 M/µL ; Ht 29.5 %\n• MCV 64.6 fL ; MCHC 30.1 g/dL ; RDW 11.8 %\n• WBC 12473 /µL (N 49% ; L 44% ; M 5% ; Eo 0% ; B 2%)\n• PLT 796065 /µL ; Réticulocytes 2.4 %\n• Ferritine 110 ng/mL ; Fer 76 µg/dL ; TIBC 253 µg/dL ; CRP 6 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thalassémie mineure"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 17.6 g/dL ; RBC 6.41 M/µL ; Ht 51.3 %\n• MCV 109.5 fL ; MCHC 31.3 g/dL ; RDW 18.8 %\n• WBC 13769 /µL (N 35% ; L 54% ; M 5% ; Eo 4% ; B 2%)\n• PLT 307114 /µL ; Réticulocytes 2.6 %",
+              "choices": [
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 0,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.6 g/dL ; RBC 4.22 M/µL ; Ht 31.7 %\n• MCV 111.0 fL ; MCHC 30.4 g/dL ; RDW 15.1 %\n• WBC 14021 /µL (N 46% ; L 32% ; M 6% ; Eo 14% ; B 2%)\n• PLT 162288 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.0 g/dL ; RBC 4.8 M/µL ; Ht 36.7 %\n• MCV 109.2 fL ; MCHC 31.9 g/dL ; RDW 15.7 %\n• WBC 23316 /µL (N 64% ; L 17% ; M 5% ; Eo 8% ; B 6%)\n• PLT 550390 /µL ; Réticulocytes 0.4 %",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)"
+              ],
+              "answer": 1,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.1 g/dL ; RBC 5.85 M/µL ; Ht 33.1 %\n• MCV 111.1 fL ; MCHC 30.6 g/dL ; RDW 16.5 %\n• WBC 23345 /µL (N 34% ; L 54% ; M 10% ; Eo 0% ; B 2%)\n• PLT 347098 /µL ; Réticulocytes 0.6 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.0 g/dL ; RBC 5.37 M/µL ; Ht 30.5 %\n• MCV 106.5 fL ; MCHC 34.7 g/dL ; RDW 16.5 %\n• WBC 17098 /µL (N 70% ; L 17% ; M 11% ; Eo 0% ; B 4%)\n• PLT 303520 /µL ; Réticulocytes 0.7 %",
+              "choices": [
+                "Basophilie (évoquer LMC)",
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 18.7 g/dL ; RBC 5.85 M/µL ; Ht 59.1 %\n• MCV 106.1 fL ; MCHC 33.8 g/dL ; RDW 13.2 %\n• WBC 13066 /µL (N 49% ; L 40% ; M 2% ; Eo 6% ; B 3%)\n• PLT 443904 /µL ; Réticulocytes 3.9 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 2,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.5 g/dL ; RBC 4.56 M/µL ; Ht 21.5 %\n• MCV 104.4 fL ; MCHC 31.5 g/dL ; RDW 15.6 %\n• WBC 5800 /µL (N 33% ; L 48% ; M 13% ; Eo 2% ; B 4%)\n• PLT 221769 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.8 g/dL ; RBC 4.73 M/µL ; Ht 21.8 %\n• MCV 112.4 fL ; MCHC 30.9 g/dL ; RDW 18.3 %\n• WBC 7188 /µL (N 47% ; L 22% ; M 9% ; Eo 16% ; B 6%)\n• PLT 651929 /µL ; Réticulocytes 0.4 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.1 g/dL ; RBC 5.34 M/µL ; Ht 36.8 %\n• MCV 69.0 fL ; MCHC 29.9 g/dL ; RDW 13.9 %\n• WBC 10572 /µL (N 42% ; L 50% ; M 2% ; Eo 3% ; B 3%)\n• PLT 313644 /µL ; Réticulocytes 5.5 %\n• Ferritine 75 ng/mL ; Fer 77 µg/dL ; TIBC 288 µg/dL ; CRP 6 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.6 g/dL ; RBC 4.77 M/µL ; Ht 34.9 %\n• MCV 116.6 fL ; MCHC 30.6 g/dL ; RDW 18.3 %\n• WBC 6604 /µL (N 52% ; L 37% ; M 4% ; Eo 5% ; B 2%)\n• PLT 738410 /µL ; Réticulocytes 0.4 %\n• Ferritine 139 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.7 g/dL ; RBC 4.9 M/µL ; Ht 31.8 %\n• MCV 92.5 fL ; MCHC 35.6 g/dL ; RDW 18.1 %\n• WBC 14830 /µL (N 52% ; L 33% ; M 7% ; Eo 4% ; B 4%)\n• PLT 567734 /µL ; Réticulocytes 1.4 %\n• Ferritine 24.1 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Anémie par déficit en vitamine B12",
+                "Anémie inflammatoire (maladie chronique)",
+                "Carence mixte (B12 + fer)",
+                "Anémie ferriprive"
+              ],
+              "answer": 2,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.3 g/dL ; RBC 4.19 M/µL ; Ht 33.7 %\n• MCV 88.8 fL ; MCHC 28.4 g/dL ; RDW 14.3 %\n• WBC 17833 /µL (N 45% ; L 43% ; M 4% ; Eo 2% ; B 6%)\n• PLT 300487 /µL ; Réticulocytes 5.6 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Anémie ferriprive",
+                "Hémodilution (grossesse)"
+              ],
+              "answer": 3,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.2 g/dL ; RBC 4.23 M/µL ; Ht 27.9 %\n• MCV 109.4 fL ; MCHC 35.4 g/dL ; RDW 17.6 %\n• WBC 19079 /µL (N 52% ; L 35% ; M 5% ; Eo 6% ; B 2%)\n• PLT 472634 /µL ; Réticulocytes 5.0 %\n• LDH 506 U/L ; Bili totale 2.1 mg/dL ; Haptoglobine 0.06 g/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 2,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.7 g/dL ; RBC 3.14 M/µL ; Ht 21.1 %\n• MCV 91.8 fL ; MCHC 28.5 g/dL ; RDW 14.0 %\n• WBC 10532 /µL (N 46% ; L 42% ; M 7% ; Eo 12% ; B 3%)\n• PLT 380665 /µL ; Réticulocytes 2.9 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.0 g/dL ; RBC 4.86 M/µL ; Ht 49.0 %\n• MCV 85.7 fL ; MCHC 29.0 g/dL ; RDW 15.0 %\n• WBC 16741 /µL (N 55% ; L 23% ; M 7% ; Eo 11% ; B 4%)\n• PLT 516287 /µL ; Réticulocytes 5.4 %\n• LDH 485 U/L ; Bili totale 3.0 mg/dL ; Haptoglobine 0.14 g/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Hémolyse intravasculaire",
+                "Anémie ferriprive"
+              ],
+              "answer": 2,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.9 g/dL ; RBC 5.91 M/µL ; Ht 32.6 %\n• MCV 78.3 fL ; MCHC 35.0 g/dL ; RDW 18.2 %\n• WBC 5380 /µL (N 80% ; L 16% ; M 0% ; Eo 0% ; B 4%)\n• PLT 80780 /µL ; Réticulocytes 0.9 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Anémie ferriprive",
+                "Thrombopénie immune (ITP)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 2,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 4.01 M/µL ; Ht 21.5 %\n• MCV 112.3 fL ; MCHC 31.9 g/dL ; RDW 19.6 %\n• WBC 2530 /µL (N 47% ; L 33% ; M 6% ; Eo 12% ; B 2%)\n• PLT 84166 /µL ; Réticulocytes 0.3 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en vitamine B12",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 1,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.7 g/dL ; RBC 5.88 M/µL ; Ht 31.2 %\n• MCV 118.3 fL ; MCHC 32.3 g/dL ; RDW 15.1 %\n• WBC 11339 /µL (N 68% ; L 22% ; M 8% ; Eo 0% ; B 2%)\n• PLT 211392 /µL ; Réticulocytes 0.7 %\n• Ferritine 92 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 9 mg/L",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.9 g/dL ; RBC 4.14 M/µL ; Ht 36.2 %\n• MCV 101.2 fL ; MCHC 29.2 g/dL ; RDW 17.4 %\n• WBC 3781 /µL (N 56% ; L 36% ; M 5% ; Eo 1% ; B 2%)\n• PLT 103641 /µL ; Réticulocytes 1.6 %",
+              "choices": [
+                "Anémie par déficit en vitamine B12",
+                "Aplasie médullaire (pancytopénie)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 2,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.4 g/dL ; RBC 4.52 M/µL ; Ht 23.5 %\n• MCV 103.0 fL ; MCHC 34.7 g/dL ; RDW 14.4 %\n• WBC 16311 /µL (N 43% ; L 48% ; M 8% ; Eo 0% ; B 1%)\n• PLT 700335 /µL ; Réticulocytes 3.3 %",
+              "choices": [
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 3,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 16.2 g/dL ; RBC 3.19 M/µL ; Ht 34.5 %\n• MCV 86.1 fL ; MCHC 32.2 g/dL ; RDW 12.6 %\n• WBC 12844 /µL (N 42% ; L 35% ; M 18% ; Eo 10% ; B 5%)\n• PLT 871858 /µL ; Réticulocytes 1.4 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.2 g/dL ; RBC 3.53 M/µL ; Ht 36.8 %\n• MCV 106.1 fL ; MCHC 29.4 g/dL ; RDW 19.4 %\n• WBC 2681 /µL (N 39% ; L 47% ; M 6% ; Eo 6% ; B 2%)\n• PLT 88715 /µL ; Réticulocytes 1.5 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12",
+                "Syndrome myélodysplasique",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 2,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.6 g/dL ; RBC 2.61 M/µL ; Ht 27.0 %\n• MCV 75.5 fL ; MCHC 33.0 g/dL ; RDW 18.8 %\n• WBC 9372 /µL (N 29% ; L 70% ; M 2% ; Eo 3% ; B 3%)\n• PLT 687463 /µL ; Réticulocytes 3.1 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.3 g/dL ; RBC 3.49 M/µL ; Ht 24.9 %\n• MCV 106.2 fL ; MCHC 35.0 g/dL ; RDW 19.4 %\n• WBC 8219 /µL (N 70% ; L 13% ; M 12% ; Eo 2% ; B 4%)\n• PLT 444560 /µL ; Réticulocytes 1.0 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 1,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.0 g/dL ; RBC 3.35 M/µL ; Ht 45.7 %\n• MCV 118.9 fL ; MCHC 32.2 g/dL ; RDW 16.6 %\n• WBC 22310 /µL (N 44% ; L 47% ; M 2% ; Eo 4% ; B 3%)\n• PLT 76155 /µL ; Réticulocytes 0.4 %\n• Ferritine 116 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 9 mg/L",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en vitamine B12",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 2,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.7 g/dL ; RBC 3.18 M/µL ; Ht 34.0 %\n• MCV 87.1 fL ; MCHC 32.1 g/dL ; RDW 15.7 %\n• WBC 2477 /µL (N 50% ; L 31% ; M 10% ; Eo 6% ; B 3%)\n• PLT 41930 /µL ; Réticulocytes 0.6 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.0 g/dL ; RBC 3.66 M/µL ; Ht 36.6 %\n• MCV 91.5 fL ; MCHC 35.6 g/dL ; RDW 16.4 %\n• WBC 22366 /µL (N 64% ; L 15% ; M 4% ; Eo 12% ; B 5%)\n• PLT 598550 /µL ; Réticulocytes 3.5 %\n• Ferritine 23.9 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)",
+                "Carence mixte (B12 + fer)",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 2,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.8 g/dL ; RBC 2.52 M/µL ; Ht 45.6 %\n• MCV 98.3 fL ; MCHC 28.9 g/dL ; RDW 17.0 %\n• WBC 10714 /µL (N 38% ; L 37% ; M 12% ; Eo 12% ; B 1%)\n• PLT 438524 /µL ; Réticulocytes 1.3 %\n• Ferritine 18.4 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 5 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive",
+                "Carence mixte (B12 + fer)",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 2,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 18.7 g/dL ; RBC 5.54 M/µL ; Ht 50.3 %\n• MCV 100.7 fL ; MCHC 35.8 g/dL ; RDW 17.5 %\n• WBC 9056 /µL (N 22% ; L 68% ; M 4% ; Eo 3% ; B 3%)\n• PLT 303453 /µL ; Réticulocytes 2.4 %",
+              "choices": [
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose réactionnelle",
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 2,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.9 g/dL ; RBC 5.62 M/µL ; Ht 44.2 %\n• MCV 96.0 fL ; MCHC 28.3 g/dL ; RDW 18.9 %\n• WBC 21372 /µL (N 80% ; L 14% ; M 4% ; Eo 1% ; B 0%)\n• PLT 783689 /µL ; Réticulocytes 2.1 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.8 g/dL ; RBC 3.79 M/µL ; Ht 43.8 %\n• MCV 89.6 fL ; MCHC 35.3 g/dL ; RDW 11.5 %\n• WBC 1714 /µL (N 49% ; L 28% ; M 7% ; Eo 11% ; B 5%)\n• PLT 47583 /µL ; Réticulocytes 0.2 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.1 g/dL ; RBC 3.47 M/µL ; Ht 35.5 %\n• MCV 76.7 fL ; MCHC 32.2 g/dL ; RDW 16.6 %\n• WBC 16334 /µL (N 28% ; L 61% ; M 1% ; Eo 9% ; B 4%)\n• PLT 327892 /µL ; Réticulocytes 4.4 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Monocytose (inflammation chronique)",
+                "Basophilie (évoquer LMC)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.4 g/dL ; RBC 3.46 M/µL ; Ht 21.7 %\n• MCV 105.5 fL ; MCHC 34.6 g/dL ; RDW 18.0 %\n• WBC 6301 /µL (N 50% ; L 35% ; M 3% ; Eo 8% ; B 4%)\n• PLT 649595 /µL ; Réticulocytes 5.2 %\n• LDH 615 U/L ; Bili totale 1.3 mg/dL ; Haptoglobine 0.22 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.9 g/dL ; RBC 4.61 M/µL ; Ht 42.9 %\n• MCV 105.9 fL ; MCHC 30.0 g/dL ; RDW 17.8 %\n• WBC 5604 /µL (N 50% ; L 21% ; M 16% ; Eo 9% ; B 4%)\n• PLT 454464 /µL ; Réticulocytes 0.7 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.4 g/dL ; RBC 4.64 M/µL ; Ht 32.0 %\n• MCV 87.2 fL ; MCHC 31.8 g/dL ; RDW 12.9 %\n• WBC 12553 /µL (N 57% ; L 27% ; M 12% ; Eo 2% ; B 2%)\n• PLT 681152 /µL ; Réticulocytes 3.6 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.6 g/dL ; RBC 3.76 M/µL ; Ht 24.6 %\n• MCV 101.2 fL ; MCHC 29.7 g/dL ; RDW 15.6 %\n• WBC 15254 /µL (N 50% ; L 35% ; M 10% ; Eo 2% ; B 4%)\n• PLT 366431 /µL ; Réticulocytes 5.2 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Basophilie (évoquer LMC)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 2,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 2.67 M/µL ; Ht 36.7 %\n• MCV 88.8 fL ; MCHC 34.8 g/dL ; RDW 17.2 %\n• WBC 11598 /µL (N 38% ; L 51% ; M 9% ; Eo 0% ; B 2%)\n• PLT 306951 /µL ; Réticulocytes 5.8 %\n• LDH 774 U/L ; Bili totale 2.4 mg/dL ; Haptoglobine 0.01 g/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Hémolyse intravasculaire",
+                "Anémie ferriprive"
+              ],
+              "answer": 2,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 2.53 M/µL ; Ht 44.4 %\n• MCV 109.6 fL ; MCHC 32.0 g/dL ; RDW 17.2 %\n• WBC 19433 /µL (N 39% ; L 39% ; M 11% ; Eo 6% ; B 5%)\n• PLT 442711 /µL ; Réticulocytes 0.2 %\n• Ferritine 194 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 7 mg/L",
+              "choices": [
+                "Anémie par déficit en vitamine B12",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.4 g/dL ; RBC 2.77 M/µL ; Ht 41.4 %\n• MCV 88.2 fL ; MCHC 35.9 g/dL ; RDW 11.8 %\n• WBC 1373 /µL (N 57% ; L 34% ; M 5% ; Eo 2% ; B 2%)\n• PLT 23830 /µL ; Réticulocytes 0.6 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.6 g/dL ; RBC 3.82 M/µL ; Ht 23.4 %\n• MCV 84.6 fL ; MCHC 32.7 g/dL ; RDW 13.7 %\n• WBC 21153 /µL (N 36% ; L 35% ; M 12% ; Eo 12% ; B 5%)\n• PLT 289133 /µL ; Réticulocytes 4.9 %\n• Ferritine 482 ng/mL ; Fer 35 µg/dL ; TIBC 254 µg/dL ; CRP 30 mg/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 1,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.4 g/dL ; RBC 6.31 M/µL ; Ht 43.4 %\n• MCV 61.2 fL ; MCHC 29.7 g/dL ; RDW 13.4 %\n• WBC 7732 /µL (N 35% ; L 51% ; M 6% ; Eo 5% ; B 3%)\n• PLT 260834 /µL ; Réticulocytes 1.8 %\n• Ferritine 136 ng/mL ; Fer 68 µg/dL ; TIBC 254 µg/dL ; CRP 3 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thalassémie mineure"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 18.9 g/dL ; RBC 5.79 M/µL ; Ht 56.3 %\n• MCV 83.3 fL ; MCHC 30.6 g/dL ; RDW 14.8 %\n• WBC 12898 /µL (N 38% ; L 50% ; M 3% ; Eo 5% ; B 4%)\n• PLT 347923 /µL ; Réticulocytes 3.5 %",
+              "choices": [
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 0,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.9 g/dL ; RBC 3.27 M/µL ; Ht 33.0 %\n• MCV 85.0 fL ; MCHC 32.1 g/dL ; RDW 12.6 %\n• WBC 15483 /µL (N 58% ; L 27% ; M 8% ; Eo 3% ; B 4%)\n• PLT 883460 /µL ; Réticulocytes 3.6 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.2 g/dL ; RBC 2.81 M/µL ; Ht 41.7 %\n• MCV 89.7 fL ; MCHC 34.4 g/dL ; RDW 12.3 %\n• WBC 1883 /µL (N 63% ; L 20% ; M 10% ; Eo 5% ; B 2%)\n• PLT 29980 /µL ; Réticulocytes 0.3 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.0 g/dL ; RBC 3.69 M/µL ; Ht 38.8 %\n• MCV 109.5 fL ; MCHC 32.6 g/dL ; RDW 15.1 %\n• WBC 4818 /µL (N 50% ; L 41% ; M 1% ; Eo 6% ; B 2%)\n• PLT 63120 /µL ; Réticulocytes 4.1 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Anémie ferriprive",
+                "Thrombocytose réactionnelle",
+                "Thrombopénie immune (ITP)"
+              ],
+              "answer": 3,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.6 g/dL ; RBC 5.26 M/µL ; Ht 29.9 %\n• MCV 104.2 fL ; MCHC 29.8 g/dL ; RDW 16.2 %\n• WBC 6887 /µL (N 33% ; L 65% ; M 4% ; Eo 5% ; B 4%)\n• PLT 666088 /µL ; Réticulocytes 3.0 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 16.1 g/dL ; RBC 4.84 M/µL ; Ht 20.3 %\n• MCV 89.9 fL ; MCHC 28.1 g/dL ; RDW 13.6 %\n• WBC 15011 /µL (N 32% ; L 56% ; M 4% ; Eo 6% ; B 2%)\n• PLT 449346 /µL ; Réticulocytes 4.4 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Basophilie (évoquer LMC)"
+              ],
+              "answer": 3,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.5 g/dL ; RBC 4.25 M/µL ; Ht 25.4 %\n• MCV 120.6 fL ; MCHC 30.2 g/dL ; RDW 18.3 %\n• WBC 18440 /µL (N 49% ; L 41% ; M 1% ; Eo 5% ; B 4%)\n• PLT 599458 /µL ; Réticulocytes 0.4 %\n• Ferritine 111 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en vitamine B12",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 1,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.9 g/dL ; RBC 4.02 M/µL ; Ht 22.4 %\n• MCV 72.5 fL ; MCHC 29.6 g/dL ; RDW 15.9 %\n• WBC 24061 /µL (N 51% ; L 30% ; M 10% ; Eo 7% ; B 2%)\n• PLT 578953 /µL ; Réticulocytes 2.5 %\n• Ferritine 11.3 ng/mL ; Fer 32 µg/dL ; TIBC 389 µg/dL ; CRP 7 mg/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 17.8 g/dL ; RBC 5.88 M/µL ; Ht 59.6 %\n• MCV 70.4 fL ; MCHC 34.4 g/dL ; RDW 16.9 %\n• WBC 13960 /µL (N 59% ; L 28% ; M 5% ; Eo 5% ; B 3%)\n• PLT 374936 /µL ; Réticulocytes 2.3 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 1,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.7 g/dL ; RBC 3.32 M/µL ; Ht 46.0 %\n• MCV 109.8 fL ; MCHC 33.6 g/dL ; RDW 11.8 %\n• WBC 22694 /µL (N 62% ; L 15% ; M 7% ; Eo 10% ; B 6%)\n• PLT 754052 /µL ; Réticulocytes 1.0 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 3,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.5 g/dL ; RBC 4.17 M/µL ; Ht 31.7 %\n• MCV 72.1 fL ; MCHC 29.7 g/dL ; RDW 16.1 %\n• WBC 13271 /µL (N 65% ; L 18% ; M 6% ; Eo 6% ; B 5%)\n• PLT 98680 /µL ; Réticulocytes 1.5 %",
+              "choices": [
+                "Anémie ferriprive",
+                "Hémodilution (grossesse)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.7 g/dL ; RBC 6.35 M/µL ; Ht 41.3 %\n• MCV 66.2 fL ; MCHC 29.4 g/dL ; RDW 12.9 %\n• WBC 21304 /µL (N 56% ; L 29% ; M 9% ; Eo 4% ; B 2%)\n• PLT 379053 /µL ; Réticulocytes 4.9 %\n• Ferritine 128 ng/mL ; Fer 84 µg/dL ; TIBC 263 µg/dL ; CRP 4 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thalassémie mineure"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.9 g/dL ; RBC 5.7 M/µL ; Ht 25.8 %\n• MCV 83.2 fL ; MCHC 29.6 g/dL ; RDW 18.1 %\n• WBC 6818 /µL (N 51% ; L 38% ; M 3% ; Eo 4% ; B 4%)\n• PLT 981923 /µL ; Réticulocytes 5.0 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Thrombocytose essentielle (néoplasique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 1,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.7 g/dL ; RBC 5.98 M/µL ; Ht 49.8 %\n• MCV 102.4 fL ; MCHC 32.9 g/dL ; RDW 15.8 %\n• WBC 5127 /µL (N 42% ; L 47% ; M 5% ; Eo 6% ; B 0%)\n• PLT 331427 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 1,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.4 g/dL ; RBC 2.73 M/µL ; Ht 22.9 %\n• MCV 113.9 fL ; MCHC 32.7 g/dL ; RDW 19.7 %\n• WBC 4213 /µL (N 37% ; L 49% ; M 10% ; Eo 0% ; B 4%)\n• PLT 105889 /µL ; Réticulocytes 1.1 %",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en vitamine B12",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.2 g/dL ; RBC 5.56 M/µL ; Ht 44.1 %\n• MCV 107.6 fL ; MCHC 33.3 g/dL ; RDW 11.8 %\n• WBC 9934 /µL (N 52% ; L 36% ; M 9% ; Eo 13% ; B 3%)\n• PLT 606417 /µL ; Réticulocytes 4.1 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.8 g/dL ; RBC 5.62 M/µL ; Ht 31.4 %\n• MCV 66.0 fL ; MCHC 29.1 g/dL ; RDW 13.1 %\n• WBC 24743 /µL (N 51% ; L 30% ; M 7% ; Eo 10% ; B 2%)\n• PLT 719484 /µL ; Réticulocytes 1.9 %\n• Ferritine 106 ng/mL ; Fer 72 µg/dL ; TIBC 323 µg/dL ; CRP 5 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.6 g/dL ; RBC 4.41 M/µL ; Ht 38.2 %\n• MCV 85.9 fL ; MCHC 32.7 g/dL ; RDW 16.8 %\n• WBC 1315 /µL (N 53% ; L 37% ; M 6% ; Eo 2% ; B 2%)\n• PLT 61750 /µL ; Réticulocytes 0.5 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.6 g/dL ; RBC 5.86 M/µL ; Ht 29.5 %\n• MCV 65.4 fL ; MCHC 30.7 g/dL ; RDW 13.8 %\n• WBC 6597 /µL (N 41% ; L 46% ; M 4% ; Eo 6% ; B 3%)\n• PLT 255582 /µL ; Réticulocytes 2.4 %\n• Ferritine 109 ng/mL ; Fer 95 µg/dL ; TIBC 272 µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 1,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 18.5 g/dL ; RBC 6.64 M/µL ; Ht 53.3 %\n• MCV 100.4 fL ; MCHC 35.6 g/dL ; RDW 11.8 %\n• WBC 9615 /µL (N 33% ; L 58% ; M 3% ; Eo 0% ; B 6%)\n• PLT 312893 /µL ; Réticulocytes 0.6 %",
+              "choices": [
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose réactionnelle",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 1,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.5 g/dL ; RBC 5.05 M/µL ; Ht 46.4 %\n• MCV 115.0 fL ; MCHC 31.8 g/dL ; RDW 18.8 %\n• WBC 15865 /µL (N 32% ; L 51% ; M 8% ; Eo 7% ; B 2%)\n• PLT 375701 /µL ; Réticulocytes 1.0 %\n• Ferritine 86 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.6 g/dL ; RBC 4.02 M/µL ; Ht 45.0 %\n• MCV 91.5 fL ; MCHC 30.5 g/dL ; RDW 13.1 %\n• WBC 23143 /µL (N 36% ; L 49% ; M 5% ; Eo 6% ; B 4%)\n• PLT 327983 /µL ; Réticulocytes 2.8 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.4 g/dL ; RBC 4.27 M/µL ; Ht 43.7 %\n• MCV 124.2 fL ; MCHC 31.1 g/dL ; RDW 17.9 %\n• WBC 9543 /µL (N 70% ; L 12% ; M 3% ; Eo 10% ; B 5%)\n• PLT 761032 /µL ; Réticulocytes 0.3 %\n• Ferritine 58 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 6 mg/L",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 3.88 M/µL ; Ht 35.7 %\n• MCV 79.0 fL ; MCHC 35.7 g/dL ; RDW 19.3 %\n• WBC 8017 /µL (N 37% ; L 69% ; M 5% ; Eo 5% ; B 3%)\n• PLT 199591 /µL ; Réticulocytes 1.6 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 3.24 M/µL ; Ht 25.5 %\n• MCV 73.5 fL ; MCHC 30.2 g/dL ; RDW 15.8 %\n• WBC 13889 /µL (N 38% ; L 34% ; M 16% ; Eo 7% ; B 5%)\n• PLT 854530 /µL ; Réticulocytes 0.5 %\n• Ferritine 6.6 ng/mL ; Fer 22 µg/dL ; TIBC 370 µg/dL ; CRP 5 mg/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.4 g/dL ; RBC 5.94 M/µL ; Ht 49.6 %\n• MCV 108.4 fL ; MCHC 28.4 g/dL ; RDW 14.6 %\n• WBC 17539 /µL (N 37% ; L 20% ; M 26% ; Eo 13% ; B 4%)\n• PLT 762307 /µL ; Réticulocytes 4.8 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 5.86 M/µL ; Ht 29.1 %\n• MCV 106.0 fL ; MCHC 31.3 g/dL ; RDW 19.0 %\n• WBC 3048 /µL (N 64% ; L 27% ; M 0% ; Eo 4% ; B 5%)\n• PLT 77459 /µL ; Réticulocytes 2.3 %",
+              "choices": [
+                "Anémie par déficit en vitamine B12",
+                "Anémie par déficit en folates",
+                "Aplasie médullaire (pancytopénie)",
+                "Syndrome myélodysplasique"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.2 g/dL ; RBC 5.18 M/µL ; Ht 42.4 %\n• MCV 86.9 fL ; MCHC 33.1 g/dL ; RDW 15.8 %\n• WBC 1588 /µL (N 53% ; L 42% ; M 0% ; Eo 2% ; B 3%)\n• PLT 50299 /µL ; Réticulocytes 0.6 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 1,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 5.86 M/µL ; Ht 45.2 %\n• MCV 73.1 fL ; MCHC 32.5 g/dL ; RDW 11.5 %\n• WBC 10795 /µL (N 47% ; L 49% ; M 15% ; Eo 0% ; B 3%)\n• PLT 180789 /µL ; Réticulocytes 2.4 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)"
+              ],
+              "answer": 0,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.2 g/dL ; RBC 2.97 M/µL ; Ht 28.0 %\n• MCV 88.6 fL ; MCHC 30.2 g/dL ; RDW 14.1 %\n• WBC 12051 /µL (N 56% ; L 25% ; M 15% ; Eo 0% ; B 4%)\n• PLT 181575 /µL ; Réticulocytes 4.0 %\n• Ferritine 433 ng/mL ; Fer 22 µg/dL ; TIBC 263 µg/dL ; CRP 67 mg/L",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 1,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.0 g/dL ; RBC 5.02 M/µL ; Ht 49.7 %\n• MCV 75.6 fL ; MCHC 35.9 g/dL ; RDW 16.7 %\n• WBC 15925 /µL (N 66% ; L 17% ; M 14% ; Eo 1% ; B 2%)\n• PLT 626643 /µL ; Réticulocytes 4.9 %",
+              "choices": [
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose essentielle (néoplasique)",
+                "Lymphocytose (infection virale)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 1,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.8 g/dL ; RBC 5.21 M/µL ; Ht 43.4 %\n• MCV 85.2 fL ; MCHC 29.5 g/dL ; RDW 17.0 %\n• WBC 6239 /µL (N 43% ; L 41% ; M 13% ; Eo 2% ; B 1%)\n• PLT 267846 /µL ; Réticulocytes 3.9 %\n• LDH 552 U/L ; Bili totale 2.8 mg/dL ; Haptoglobine 0.02 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse intravasculaire"
+              ],
+              "answer": 3,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.8 g/dL ; RBC 3.24 M/µL ; Ht 45.8 %\n• MCV 88.2 fL ; MCHC 30.8 g/dL ; RDW 18.4 %\n• WBC 15051 /µL (N 49% ; L 34% ; M 7% ; Eo 7% ; B 3%)\n• PLT 770596 /µL ; Réticulocytes 4.6 %\n• LDH 504 U/L ; Bili totale 3.2 mg/dL ; Haptoglobine 0.05 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse intravasculaire"
+              ],
+              "answer": 3,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.3 g/dL ; RBC 3.63 M/µL ; Ht 32.2 %\n• MCV 95.7 fL ; MCHC 35.8 g/dL ; RDW 15.5 %\n• WBC 21124 /µL (N 63% ; L 31% ; M 1% ; Eo 4% ; B 1%)\n• PLT 682314 /µL ; Réticulocytes 2.9 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémodilution (grossesse)"
+              ],
+              "answer": 3,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.7 g/dL ; RBC 5.07 M/µL ; Ht 40.7 %\n• MCV 100.5 fL ; MCHC 34.0 g/dL ; RDW 19.8 %\n• WBC 4197 /µL (N 68% ; L 19% ; M 1% ; Eo 7% ; B 5%)\n• PLT 94365 /µL ; Réticulocytes 3.2 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en vitamine B12",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 1,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.6 g/dL ; RBC 3.31 M/µL ; Ht 49.1 %\n• MCV 95.6 fL ; MCHC 29.0 g/dL ; RDW 13.1 %\n• WBC 16158 /µL (N 59% ; L 35% ; M 5% ; Eo 0% ; B 4%)\n• PLT 430432 /µL ; Réticulocytes 5.0 %",
+              "choices": [
+                "Basophilie (évoquer LMC)",
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.0 g/dL ; RBC 4.12 M/µL ; Ht 30.9 %\n• MCV 71.6 fL ; MCHC 30.2 g/dL ; RDW 17.7 %\n• WBC 13107 /µL (N 42% ; L 47% ; M 5% ; Eo 4% ; B 2%)\n• PLT 396086 /µL ; Réticulocytes 1.4 %\n• Ferritine 11.5 ng/mL ; Fer 37 µg/dL ; TIBC 449 µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 2,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.4 g/dL ; RBC 4.04 M/µL ; Ht 39.2 %\n• MCV 67.0 fL ; MCHC 29.6 g/dL ; RDW 16.3 %\n• WBC 6401 /µL (N 71% ; L 17% ; M 0% ; Eo 7% ; B 5%)\n• PLT 735390 /µL ; Réticulocytes 5.7 %\n• Ferritine 5.0 ng/mL ; Fer 31 µg/dL ; TIBC 454 µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure"
+              ],
+              "answer": 1,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.7 g/dL ; RBC 5.46 M/µL ; Ht 40.6 %\n• MCV 89.0 fL ; MCHC 28.4 g/dL ; RDW 18.8 %\n• WBC 1836 /µL (N 29% ; L 51% ; M 9% ; Eo 7% ; B 4%)\n• PLT 67755 /µL ; Réticulocytes 0.4 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 2,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.6 g/dL ; RBC 3.46 M/µL ; Ht 43.9 %\n• MCV 71.8 fL ; MCHC 35.7 g/dL ; RDW 18.8 %\n• WBC 15394 /µL (N 90% ; L 13% ; M 4% ; Eo 2% ; B 0%)\n• PLT 202749 /µL ; Réticulocytes 5.4 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 3,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.7 g/dL ; RBC 3.62 M/µL ; Ht 20.7 %\n• MCV 88.0 fL ; MCHC 34.9 g/dL ; RDW 12.0 %\n• WBC 4913 /µL (N 23% ; L 51% ; M 10% ; Eo 14% ; B 6%)\n• PLT 493664 /µL ; Réticulocytes 3.8 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.2 g/dL ; RBC 3.02 M/µL ; Ht 24.9 %\n• MCV 87.1 fL ; MCHC 31.0 g/dL ; RDW 15.6 %\n• WBC 7668 /µL (N 40% ; L 38% ; M 7% ; Eo 11% ; B 4%)\n• PLT 608854 /µL ; Réticulocytes 5.7 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Thrombocytose essentielle (néoplasique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 3.27 M/µL ; Ht 47.0 %\n• MCV 77.0 fL ; MCHC 29.9 g/dL ; RDW 16.6 %\n• WBC 9305 /µL (N 57% ; L 26% ; M 5% ; Eo 8% ; B 4%)\n• PLT 626665 /µL ; Réticulocytes 3.3 %\n• Ferritine 9.9 ng/mL ; Fer 27 µg/dL ; TIBC 466 µg/dL ; CRP 7 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Anémie ferriprive",
+                "Thalassémie mineure"
+              ],
+              "answer": 2,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.5 g/dL ; RBC 5.05 M/µL ; Ht 47.1 %\n• MCV 103.4 fL ; MCHC 31.1 g/dL ; RDW 15.7 %\n• WBC 3362 /µL (N 28% ; L 54% ; M 13% ; Eo 4% ; B 1%)\n• PLT 439341 /µL ; Réticulocytes 0.7 %",
+              "choices": [
+                "Anémie par déficit en folates",
+                "Syndrome myélodysplasique",
+                "Hémodilution (grossesse)",
+                "Anémie par déficit en folates"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.1 g/dL ; RBC 5.87 M/µL ; Ht 41.5 %\n• MCV 91.9 fL ; MCHC 29.2 g/dL ; RDW 18.8 %\n• WBC 1849 /µL (N 30% ; L 58% ; M 4% ; Eo 4% ; B 4%)\n• PLT 63605 /µL ; Réticulocytes 0.2 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.3 g/dL ; RBC 3.84 M/µL ; Ht 35.6 %\n• MCV 87.6 fL ; MCHC 30.6 g/dL ; RDW 14.1 %\n• WBC 16766 /µL (N 44% ; L 48% ; M 2% ; Eo 1% ; B 5%)\n• PLT 530025 /µL ; Réticulocytes 3.0 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Hémodilution (grossesse)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive"
+              ],
+              "answer": 1,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.1 g/dL ; RBC 4.15 M/µL ; Ht 38.5 %\n• MCV 84.4 fL ; MCHC 36.0 g/dL ; RDW 15.7 %\n• WBC 14572 /µL (N 71% ; L 16% ; M 10% ; Eo 0% ; B 4%)\n• PLT 61695 /µL ; Réticulocytes 0.3 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Basophilie (évoquer LMC)"
+              ],
+              "answer": 3,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.4 g/dL ; RBC 5.27 M/µL ; Ht 30.9 %\n• MCV 84.2 fL ; MCHC 29.0 g/dL ; RDW 12.5 %\n• WBC 13410 /µL (N 83% ; L 9% ; M 5% ; Eo 1% ; B 1%)\n• PLT 307265 /µL ; Réticulocytes 1.1 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 3,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.1 g/dL ; RBC 4.25 M/µL ; Ht 26.4 %\n• MCV 98.4 fL ; MCHC 30.1 g/dL ; RDW 14.6 %\n• WBC 3595 /µL (N 48% ; L 33% ; M 7% ; Eo 10% ; B 2%)\n• PLT 297357 /µL ; Réticulocytes 3.4 %\n• LDH 355 U/L ; Bili totale 1.2 mg/dL ; Haptoglobine 0.09 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë",
+                "Anémie ferriprive",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.7 g/dL ; RBC 3.42 M/µL ; Ht 36.6 %\n• MCV 90.3 fL ; MCHC 34.6 g/dL ; RDW 17.5 %\n• WBC 12662 /µL (N 83% ; L 7% ; M 2% ; Eo 0% ; B 1%)\n• PLT 771965 /µL ; Réticulocytes 2.5 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 3,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.5 g/dL ; RBC 4.57 M/µL ; Ht 43.8 %\n• MCV 88.6 fL ; MCHC 31.6 g/dL ; RDW 13.1 %\n• WBC 16124 /µL (N 61% ; L 29% ; M 0% ; Eo 8% ; B 2%)\n• PLT 502094 /µL ; Réticulocytes 3.7 %\n• Ferritine 200 ng/mL ; Fer 45 µg/dL ; TIBC 259 µg/dL ; CRP 77 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.6 g/dL ; RBC 5.35 M/µL ; Ht 46.9 %\n• MCV 72.1 fL ; MCHC 33.8 g/dL ; RDW 11.8 %\n• WBC 15013 /µL (N 82% ; L 13% ; M 3% ; Eo 0% ; B 1%)\n• PLT 335488 /µL ; Réticulocytes 1.3 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.1 g/dL ; RBC 3.02 M/µL ; Ht 23.6 %\n• MCV 91.5 fL ; MCHC 28.5 g/dL ; RDW 14.4 %\n• WBC 22530 /µL (N 27% ; L 63% ; M 1% ; Eo 4% ; B 5%)\n• PLT 626453 /µL ; Réticulocytes 2.4 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 2,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.8 g/dL ; RBC 4.17 M/µL ; Ht 33.4 %\n• MCV 86.4 fL ; MCHC 30.4 g/dL ; RDW 14.5 %\n• WBC 18652 /µL (N 43% ; L 40% ; M 6% ; Eo 7% ; B 4%)\n• PLT 815845 /µL ; Réticulocytes 3.3 %\n• LDH 700 U/L ; Bili totale 2.9 mg/dL ; Haptoglobine 0.06 g/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Hémolyse intravasculaire",
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.5 g/dL ; RBC 4.03 M/µL ; Ht 27.6 %\n• MCV 94.3 fL ; MCHC 29.8 g/dL ; RDW 18.3 %\n• WBC 16525 /µL (N 39% ; L 48% ; M 5% ; Eo 5% ; B 3%)\n• PLT 757540 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle",
+                "Anémie inflammatoire (maladie chronique)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 1,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 2.64 M/µL ; Ht 35.3 %\n• MCV 80.8 fL ; MCHC 31.1 g/dL ; RDW 14.3 %\n• WBC 13353 /µL (N 68% ; L 27% ; M 1% ; Eo 1% ; B 3%)\n• PLT 321067 /µL ; Réticulocytes 2.9 %\n• Ferritine 588 ng/mL ; Fer 28 µg/dL ; TIBC 236 µg/dL ; CRP 49 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.9 g/dL ; RBC 3.7 M/µL ; Ht 33.9 %\n• MCV 90.2 fL ; MCHC 29.1 g/dL ; RDW 17.6 %\n• WBC 7863 /µL (N 68% ; L 19% ; M 3% ; Eo 7% ; B 3%)\n• PLT 504281 /µL ; Réticulocytes 2.6 %",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.5 g/dL ; RBC 5.3 M/µL ; Ht 43.3 %\n• MCV 88.0 fL ; MCHC 34.4 g/dL ; RDW 12.9 %\n• WBC 17339 /µL (N 82% ; L 15% ; M 2% ; Eo 1% ; B 1%)\n• PLT 313160 /µL ; Réticulocytes 0.4 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 2,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.4 g/dL ; RBC 3.36 M/µL ; Ht 29.2 %\n• MCV 96.4 fL ; MCHC 33.8 g/dL ; RDW 18.7 %\n• WBC 5743 /µL (N 63% ; L 19% ; M 14% ; Eo 0% ; B 4%)\n• PLT 20164 /µL ; Réticulocytes 5.6 %",
+              "choices": [
+                "Thrombopénie immune (ITP)",
+                "Anémie ferriprive",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 0,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.9 g/dL ; RBC 5.63 M/µL ; Ht 30.7 %\n• MCV 72.8 fL ; MCHC 31.3 g/dL ; RDW 12.9 %\n• WBC 13091 /µL (N 47% ; L 45% ; M 3% ; Eo 2% ; B 3%)\n• PLT 96092 /µL ; Réticulocytes 0.4 %\n• Ferritine 97 ng/mL ; Fer 76 µg/dL ; TIBC 311 µg/dL ; CRP 4 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.5 g/dL ; RBC 3.26 M/µL ; Ht 36.2 %\n• MCV 98.4 fL ; MCHC 29.7 g/dL ; RDW 13.8 %\n• WBC 9877 /µL (N 20% ; L 51% ; M 1% ; Eo 3% ; B 4%)\n• PLT 370250 /µL ; Réticulocytes 3.2 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 1,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.9 g/dL ; RBC 4.05 M/µL ; Ht 33.6 %\n• MCV 71.5 fL ; MCHC 29.5 g/dL ; RDW 11.6 %\n• WBC 20060 /µL (N 50% ; L 40% ; M 7% ; Eo 0% ; B 3%)\n• PLT 829019 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Anémie ferriprive",
+                "Hémodilution (grossesse)",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 1,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.7 g/dL ; RBC 3.95 M/µL ; Ht 48.1 %\n• MCV 80.3 fL ; MCHC 29.8 g/dL ; RDW 16.8 %\n• WBC 5731 /µL (N 53% ; L 24% ; M 12% ; Eo 6% ; B 5%)\n• PLT 57545 /µL ; Réticulocytes 0.4 %",
+              "choices": [
+                "Thrombopénie immune (ITP)",
+                "Thrombocytose essentielle (néoplasique)",
+                "Anémie ferriprive",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 0,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.5 g/dL ; RBC 4.78 M/µL ; Ht 31.2 %\n• MCV 98.5 fL ; MCHC 35.9 g/dL ; RDW 16.5 %\n• WBC 8509 /µL (N 36% ; L 44% ; M 11% ; Eo 7% ; B 2%)\n• PLT 20828 /µL ; Réticulocytes 0.7 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Anémie ferriprive",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombopénie immune (ITP)"
+              ],
+              "answer": 3,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.3 g/dL ; RBC 6.37 M/µL ; Ht 45.9 %\n• MCV 61.6 fL ; MCHC 29.6 g/dL ; RDW 11.8 %\n• WBC 19558 /µL (N 57% ; L 28% ; M 5% ; Eo 6% ; B 4%)\n• PLT 674238 /µL ; Réticulocytes 2.1 %\n• Ferritine 178 ng/mL ; Fer 115 µg/dL ; TIBC 253 µg/dL ; CRP 5 mg/L",
+              "choices": [
+                "Thalassémie mineure",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thalassémie mineure"
+              ],
+              "answer": 0,
+              "explain": "Microcytose marquée avec RBC élevé/n ou RDW N → thalassémie mineure probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.4 g/dL ; RBC 3.44 M/µL ; Ht 45.3 %\n• MCV 79.6 fL ; MCHC 32.0 g/dL ; RDW 17.4 %\n• WBC 16931 /µL (N 45% ; L 42% ; M 10% ; Eo 0% ; B 3%)\n• PLT 236332 /µL ; Réticulocytes 3.0 %\n• LDH 565 U/L ; Bili totale 2.3 mg/dL ; Haptoglobine 0.18 g/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Hémolyse extravasculaire",
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.9 g/dL ; RBC 3.43 M/µL ; Ht 49.5 %\n• MCV 94.2 fL ; MCHC 33.7 g/dL ; RDW 11.9 %\n• WBC 11283 /µL (N 50% ; L 26% ; M 13% ; Eo 9% ; B 2%)\n• PLT 322321 /µL ; Réticulocytes 5.6 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 1,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 2.52 M/µL ; Ht 38.8 %\n• MCV 87.2 fL ; MCHC 32.0 g/dL ; RDW 14.2 %\n• WBC 17778 /µL (N 26% ; L 46% ; M 10% ; Eo 12% ; B 6%)\n• PLT 192446 /µL ; Réticulocytes 0.6 %\n• Ferritine 477 ng/mL ; Fer 26 µg/dL ; TIBC 276 µg/dL ; CRP 63 mg/L",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 1,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.5 g/dL ; RBC 3.35 M/µL ; Ht 32.1 %\n• MCV 87.8 fL ; MCHC 32.7 g/dL ; RDW 16.5 %\n• WBC 7999 /µL (N 53% ; L 18% ; M 14% ; Eo 10% ; B 5%)\n• PLT 100868 /µL ; Réticulocytes 5.3 %\n• LDH 558 U/L ; Bili totale 2.2 mg/dL ; Haptoglobine 0.14 g/L",
+              "choices": [
+                "Hémolyse intravasculaire",
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.8 g/dL ; RBC 5.23 M/µL ; Ht 30.9 %\n• MCV 87.4 fL ; MCHC 33.8 g/dL ; RDW 13.1 %\n• WBC 4677 /µL (N 56% ; L 34% ; M 8% ; Eo 0% ; B 2%)\n• PLT 96390 /µL ; Réticulocytes 3.0 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 0,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.8 g/dL ; RBC 5.12 M/µL ; Ht 29.9 %\n• MCV 88.6 fL ; MCHC 34.3 g/dL ; RDW 13.6 %\n• WBC 9929 /µL (N 36% ; L 57% ; M 2% ; Eo 13% ; B 4%)\n• PLT 538483 /µL ; Réticulocytes 0.8 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 1,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.8 g/dL ; RBC 3.28 M/µL ; Ht 35.3 %\n• MCV 100.1 fL ; MCHC 31.6 g/dL ; RDW 15.0 %\n• WBC 3237 /µL (N 57% ; L 23% ; M 9% ; Eo 9% ; B 2%)\n• PLT 880067 /µL ; Réticulocytes 3.5 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 3,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.0 g/dL ; RBC 2.84 M/µL ; Ht 21.4 %\n• MCV 94.9 fL ; MCHC 32.6 g/dL ; RDW 12.7 %\n• WBC 6741 /µL (N 44% ; L 40% ; M 1% ; Eo 11% ; B 4%)\n• PLT 71916 /µL ; Réticulocytes 2.5 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Anémie ferriprive",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombopénie immune (ITP)"
+              ],
+              "answer": 3,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.5 g/dL ; RBC 5.43 M/µL ; Ht 48.5 %\n• MCV 80.9 fL ; MCHC 32.0 g/dL ; RDW 13.2 %\n• WBC 23864 /µL (N 42% ; L 24% ; M 12% ; Eo 18% ; B 4%)\n• PLT 424185 /µL ; Réticulocytes 1.9 %\n• Ferritine 530 ng/mL ; Fer 30 µg/dL ; TIBC 264 µg/dL ; CRP 44 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.8 g/dL ; RBC 3.55 M/µL ; Ht 33.7 %\n• MCV 108.1 fL ; MCHC 30.8 g/dL ; RDW 14.4 %\n• WBC 5178 /µL (N 52% ; L 34% ; M 5% ; Eo 6% ; B 3%)\n• PLT 88280 /µL ; Réticulocytes 3.5 %",
+              "choices": [
+                "Anémie ferriprive",
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombopénie immune (ITP)",
+                "Thrombocytose réactionnelle"
+              ],
+              "answer": 2,
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.7 g/dL ; RBC 2.86 M/µL ; Ht 25.4 %\n• MCV 91.7 fL ; MCHC 35.0 g/dL ; RDW 18.5 %\n• WBC 11539 /µL (N 22% ; L 65% ; M 6% ; Eo 11% ; B 3%)\n• PLT 417619 /µL ; Réticulocytes 4.1 %",
+              "choices": [
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 1,
+              "explain": "Lymphocytose relative/absolue → viral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.1 g/dL ; RBC 5.78 M/µL ; Ht 38.1 %\n• MCV 96.3 fL ; MCHC 32.2 g/dL ; RDW 14.7 %\n• WBC 10949 /µL (N 40% ; L 47% ; M 8% ; Eo 3% ; B 2%)\n• PLT 710167 /µL ; Réticulocytes 3.2 %",
+              "choices": [
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Thrombocytose réactionnelle",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 2,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.7 g/dL ; RBC 5.92 M/µL ; Ht 40.8 %\n• MCV 90.0 fL ; MCHC 31.7 g/dL ; RDW 17.6 %\n• WBC 3183 /µL (N 38% ; L 54% ; M 7% ; Eo 0% ; B 1%)\n• PLT 632896 /µL ; Réticulocytes 5.4 %\n• LDH 521 U/L ; Bili totale 2.1 mg/dL ; Haptoglobine 0.11 g/L",
+              "choices": [
+                "Hémolyse intravasculaire",
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.3 g/dL ; RBC 5.7 M/µL ; Ht 49.7 %\n• MCV 73.2 fL ; MCHC 34.6 g/dL ; RDW 13.1 %\n• WBC 9168 /µL (N 47% ; L 44% ; M 3% ; Eo 4% ; B 2%)\n• PLT 817408 /µL ; Réticulocytes 1.7 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle",
+                "Anémie inflammatoire (maladie chronique)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 1,
+              "explain": "Thrombocytose avec inflammation (CRP↑) → réactionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.0 g/dL ; RBC 5.64 M/µL ; Ht 22.8 %\n• MCV 94.9 fL ; MCHC 33.4 g/dL ; RDW 15.1 %\n• WBC 23959 /µL (N 44% ; L 37% ; M 10% ; Eo 5% ; B 4%)\n• PLT 165733 /µL ; Réticulocytes 5.9 %\n• LDH 544 U/L ; Bili totale 1.3 mg/dL ; Haptoglobine 0.23 g/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 2,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.4 g/dL ; RBC 3.5 M/µL ; Ht 26.7 %\n• MCV 92.8 fL ; MCHC 31.5 g/dL ; RDW 12.6 %\n• WBC 18431 /µL (N 49% ; L 18% ; M 15% ; Eo 15% ; B 3%)\n• PLT 159209 /µL ; Réticulocytes 2.9 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.7 g/dL ; RBC 4.3 M/µL ; Ht 27.8 %\n• MCV 81.2 fL ; MCHC 33.9 g/dL ; RDW 14.3 %\n• WBC 11651 /µL (N 78% ; L 14% ; M 13% ; Eo 1% ; B 3%)\n• PLT 579040 /µL ; Réticulocytes 5.8 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)"
+              ],
+              "answer": 0,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.9 g/dL ; RBC 2.69 M/µL ; Ht 29.8 %\n• MCV 101.8 fL ; MCHC 28.8 g/dL ; RDW 17.3 %\n• WBC 4074 /µL (N 43% ; L 46% ; M 3% ; Eo 6% ; B 2%)\n• PLT 882754 /µL ; Réticulocytes 5.2 %\n• LDH 570 U/L ; Bili totale 1.5 mg/dL ; Haptoglobine 0.1 g/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 1,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.0 g/dL ; RBC 3.86 M/µL ; Ht 36.7 %\n• MCV 102.1 fL ; MCHC 31.5 g/dL ; RDW 17.6 %\n• WBC 11459 /µL (N 65% ; L 19% ; M 12% ; Eo 9% ; B 4%)\n• PLT 596581 /µL ; Réticulocytes 2.4 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 2,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.9 g/dL ; RBC 2.88 M/µL ; Ht 48.2 %\n• MCV 94.1 fL ; MCHC 33.4 g/dL ; RDW 19.7 %\n• WBC 9015 /µL (N 38% ; L 50% ; M 5% ; Eo 3% ; B 4%)\n• PLT 594424 /µL ; Réticulocytes 2.4 %\n• Ferritine 23.9 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive",
+                "Anémie par déficit en vitamine B12",
+                "Carence mixte (B12 + fer)"
+              ],
+              "answer": 3,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 13.8 g/dL ; RBC 4.39 M/µL ; Ht 36.9 %\n• MCV 73.9 fL ; MCHC 30.1 g/dL ; RDW 19.2 %\n• WBC 5821 /µL (N 20% ; L 66% ; M 10% ; Eo 1% ; B 3%)\n• PLT 1109128 /µL ; Réticulocytes 3.3 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 3,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.7 g/dL ; RBC 3.55 M/µL ; Ht 20.3 %\n• MCV 92.7 fL ; MCHC 34.9 g/dL ; RDW 18.5 %\n• WBC 10150 /µL (N 51% ; L 40% ; M 2% ; Eo 3% ; B 4%)\n• PLT 165916 /µL ; Réticulocytes 3.5 %\n• LDH 597 U/L ; Bili totale 1.8 mg/dL ; Haptoglobine 0.07 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Anémie ferriprive",
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.9 g/dL ; RBC 5.93 M/µL ; Ht 39.3 %\n• MCV 98.0 fL ; MCHC 34.8 g/dL ; RDW 15.9 %\n• WBC 9197 /µL (N 60% ; L 31% ; M 2% ; Eo 2% ; B 5%)\n• PLT 466443 /µL ; Réticulocytes 5.0 %\n• LDH 684 U/L ; Bili totale 2.2 mg/dL ; Haptoglobine 0.09 g/L",
+              "choices": [
+                "Hémolyse extravasculaire",
+                "Hémolyse extravasculaire",
+                "Perte sanguine aiguë",
+                "Anémie ferriprive"
+              ],
+              "answer": 0,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.6 g/dL ; RBC 5.15 M/µL ; Ht 23.2 %\n• MCV 92.3 fL ; MCHC 31.2 g/dL ; RDW 12.4 %\n• WBC 23228 /µL (N 66% ; L 15% ; M 9% ; Eo 7% ; B 3%)\n• PLT 36324 /µL ; Réticulocytes 2.5 %",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 2,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.0 g/dL ; RBC 3.67 M/µL ; Ht 20.9 %\n• MCV 94.3 fL ; MCHC 30.5 g/dL ; RDW 17.4 %\n• WBC 24795 /µL (N 33% ; L 50% ; M 13% ; Eo 0% ; B 4%)\n• PLT 217041 /µL ; Réticulocytes 0.5 %\n• Ferritine 7.3 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Anémie par déficit en vitamine B12",
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)",
+                "Carence mixte (B12 + fer)"
+              ],
+              "answer": 3,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.3 g/dL ; RBC 4.4 M/µL ; Ht 24.3 %\n• MCV 88.2 fL ; MCHC 32.4 g/dL ; RDW 14.1 %\n• WBC 9965 /µL (N 35% ; L 50% ; M 10% ; Eo 2% ; B 3%)\n• PLT 80859 /µL ; Réticulocytes 0.7 %\n• Ferritine 551 ng/mL ; Fer 26 µg/dL ; TIBC 224 µg/dL ; CRP 38 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.6 g/dL ; RBC 5.97 M/µL ; Ht 28.5 %\n• MCV 88.0 fL ; MCHC 32.3 g/dL ; RDW 12.9 %\n• WBC 21851 /µL (N 45% ; L 33% ; M 10% ; Eo 9% ; B 3%)\n• PLT 236970 /µL ; Réticulocytes 2.5 %",
+              "choices": [
+                "Aplasie médullaire (pancytopénie)",
+                "Perte sanguine aiguë",
+                "Perte sanguine aiguë",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 1,
+              "explain": "Anémie normocytaire avec réticulocytose post-3–5 j → saignement aigu possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.8 g/dL ; RBC 4.63 M/µL ; Ht 21.0 %\n• MCV 90.7 fL ; MCHC 31.9 g/dL ; RDW 18.8 %\n• WBC 14774 /µL (N 55% ; L 29% ; M 12% ; Eo 3% ; B 4%)\n• PLT 403355 /µL ; Réticulocytes 5.4 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 2,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.1 g/dL ; RBC 3.61 M/µL ; Ht 28.7 %\n• MCV 71.2 fL ; MCHC 30.2 g/dL ; RDW 18.5 %\n• WBC 8742 /µL (N 34% ; L 46% ; M 10% ; Eo 6% ; B 4%)\n• PLT 578031 /µL ; Réticulocytes 0.8 %\n• Ferritine 7.6 ng/mL ; Fer 18 µg/dL ; TIBC 455 µg/dL ; CRP 8 mg/L",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 2,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.3 g/dL ; RBC 3.65 M/µL ; Ht 32.5 %\n• MCV 80.4 fL ; MCHC 35.0 g/dL ; RDW 11.7 %\n• WBC 17145 /µL (N 69% ; L 19% ; M 8% ; Eo 0% ; B 4%)\n• PLT 474644 /µL ; Réticulocytes 2.9 %",
+              "choices": [
+                "Perte sanguine aiguë",
+                "Anémie ferriprive",
+                "Hémodilution (grossesse)",
+                "Anémie inflammatoire (maladie chronique)"
+              ],
+              "answer": 2,
+              "explain": "Hémodilution physiologique (grossesse) : baisse modérée Hb/Ht, indices N."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.7 g/dL ; RBC 4.94 M/µL ; Ht 26.7 %\n• MCV 94.1 fL ; MCHC 34.7 g/dL ; RDW 13.6 %\n• WBC 8785 /µL (N 44% ; L 38% ; M 6% ; Eo 8% ; B 4%)\n• PLT 873419 /µL ; Réticulocytes 5.2 %\n• LDH 730 U/L ; Bili totale 2.9 mg/dL ; Haptoglobine 0.07 g/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Perte sanguine aiguë",
+                "Hémolyse intravasculaire",
+                "Hémolyse extravasculaire"
+              ],
+              "answer": 2,
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine très basse → hémolyse intravasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 15.2 g/dL ; RBC 4.15 M/µL ; Ht 26.4 %\n• MCV 77.1 fL ; MCHC 35.4 g/dL ; RDW 15.6 %\n• WBC 14258 /µL (N 58% ; L 30% ; M 13% ; Eo 0% ; B 1%)\n• PLT 175671 /µL ; Réticulocytes 4.3 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.7 g/dL ; RBC 4.47 M/µL ; Ht 43.2 %\n• MCV 72.4 fL ; MCHC 28.2 g/dL ; RDW 18.2 %\n• WBC 21891 /µL (N 83% ; L 12% ; M 6% ; Eo 0% ; B 1%)\n• PLT 336759 /µL ; Réticulocytes 5.3 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Leucocytose neutrophile (infection bactérienne)"
+              ],
+              "answer": 3,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 12.5 g/dL ; RBC 5.1 M/µL ; Ht 44.2 %\n• MCV 79.7 fL ; MCHC 29.4 g/dL ; RDW 11.8 %\n• WBC 12790 /µL (N 64% ; L 28% ; M 0% ; Eo 10% ; B 3%)\n• PLT 198910 /µL ; Réticulocytes 1.8 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)"
+              ],
+              "answer": 1,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.4 g/dL ; RBC 3.73 M/µL ; Ht 49.5 %\n• MCV 87.4 fL ; MCHC 32.6 g/dL ; RDW 13.8 %\n• WBC 6977 /µL (N 49% ; L 33% ; M 13% ; Eo 1% ; B 4%)\n• PLT 480035 /µL ; Réticulocytes 5.6 %\n• Ferritine 578 ng/mL ; Fer 24 µg/dL ; TIBC 272 µg/dL ; CRP 35 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Aplasie médullaire (pancytopénie)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë"
+              ],
+              "answer": 0,
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.6 g/dL ; RBC 4.77 M/µL ; Ht 32.4 %\n• MCV 100.1 fL ; MCHC 29.4 g/dL ; RDW 16.0 %\n• WBC 2397 /µL (N 57% ; L 29% ; M 5% ; Eo 7% ; B 2%)\n• PLT 95978 /µL ; Réticulocytes 0.3 %",
+              "choices": [
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12",
+                "Aplasie médullaire (pancytopénie)"
+              ],
+              "answer": 0,
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 11.0 g/dL ; RBC 2.93 M/µL ; Ht 43.6 %\n• MCV 76.7 fL ; MCHC 29.2 g/dL ; RDW 17.2 %\n• WBC 17555 /µL (N 29% ; L 59% ; M 7% ; Eo 2% ; B 4%)\n• PLT 576839 /µL ; Réticulocytes 0.9 %",
+              "choices": [
+                "Basophilie (évoquer LMC)",
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 0,
+              "explain": "Basophilie persistante → évoquer LMC (contexte à corréler)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.1 g/dL ; RBC 2.66 M/µL ; Ht 45.9 %\n• MCV 70.1 fL ; MCHC 32.1 g/dL ; RDW 17.4 %\n• WBC 24126 /µL (N 57% ; L 29% ; M 10% ; Eo 2% ; B 2%)\n• PLT 793532 /µL ; Réticulocytes 2.7 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Lymphocytose (infection virale)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 3,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.6 g/dL ; RBC 3.36 M/µL ; Ht 34.3 %\n• MCV 98.8 fL ; MCHC 29.5 g/dL ; RDW 18.5 %\n• WBC 2839 /µL (N 51% ; L 35% ; M 9% ; Eo 1% ; B 4%)\n• PLT 69808 /µL ; Réticulocytes 0.9 %\n• Ferritine 18.5 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Carence mixte (B12 + fer)",
+                "Anémie ferriprive",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 1,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 17.2 g/dL ; RBC 6.66 M/µL ; Ht 58.0 %\n• MCV 72.8 fL ; MCHC 34.8 g/dL ; RDW 11.9 %\n• WBC 12667 /µL (N 53% ; L 34% ; M 9% ; Eo 2% ; B 2%)\n• PLT 339676 /µL ; Réticulocytes 2.5 %",
+              "choices": [
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Hémoconcentration (déshydratation)",
+                "Thrombocytose essentielle (néoplasique)"
+              ],
+              "answer": 2,
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 10.2 g/dL ; RBC 2.91 M/µL ; Ht 46.6 %\n• MCV 108.6 fL ; MCHC 33.0 g/dL ; RDW 15.7 %\n• WBC 13702 /µL (N 34% ; L 34% ; M 15% ; Eo 14% ; B 2%)\n• PLT 265711 /µL ; Réticulocytes 1.9 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Monocytose (inflammation chronique)"
+              ],
+              "answer": 1,
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 14.8 g/dL ; RBC 3.71 M/µL ; Ht 46.4 %\n• MCV 94.8 fL ; MCHC 28.4 g/dL ; RDW 14.0 %\n• WBC 8675 /µL (N 46% ; L 30% ; M 14% ; Eo 10% ; B 4%)\n• PLT 552776 /µL ; Réticulocytes 3.7 %",
+              "choices": [
+                "Lymphocytose (infection virale)",
+                "Monocytose (inflammation chronique)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Éosinophilie (allergie/parasitoses)"
+              ],
+              "answer": 2,
+              "explain": "Éosinophilie marquée → allergie/parasites/médicaments."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 6.7 g/dL ; RBC 3.31 M/µL ; Ht 43.6 %\n• MCV 74.3 fL ; MCHC 28.5 g/dL ; RDW 17.0 %\n• WBC 13938 /µL (N 36% ; L 52% ; M 4% ; Eo 4% ; B 4%)\n• PLT 54200 /µL ; Réticulocytes 5.8 %\n• Ferritine 10.9 ng/mL ; Fer 23 µg/dL ; TIBC 454 µg/dL ; CRP 2 mg/L",
+              "choices": [
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure",
+                "Anémie ferriprive"
+              ],
+              "answer": 3,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.1 g/dL ; RBC 5.98 M/µL ; Ht 21.3 %\n• MCV 96.3 fL ; MCHC 29.4 g/dL ; RDW 12.7 %\n• WBC 14011 /µL (N 82% ; L 15% ; M 4% ; Eo 1% ; B 0%)\n• PLT 786523 /µL ; Réticulocytes 5.3 %",
+              "choices": [
+                "Monocytose (inflammation chronique)",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Éosinophilie (allergie/parasitoses)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 1,
+              "explain": "Leucocytose neutrophile franche (N↑) → infection bactérienne prob."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 7.3 g/dL ; RBC 2.87 M/µL ; Ht 25.4 %\n• MCV 121.6 fL ; MCHC 32.8 g/dL ; RDW 14.9 %\n• WBC 24734 /µL (N 24% ; L 57% ; M 10% ; Eo 6% ; B 3%)\n• PLT 432706 /µL ; Réticulocytes 0.2 %\n• Ferritine 182 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 10 mg/L",
+              "choices": [
+                "Hémodilution (grossesse)",
+                "Syndrome myélodysplasique",
+                "Anémie par déficit en folates",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 3,
+              "explain": "Macrocytose (MCV>100) + réticulocytes bas → carence B12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.3 g/dL ; RBC 4.83 M/µL ; Ht 24.7 %\n• MCV 96.1 fL ; MCHC 32.5 g/dL ; RDW 16.5 %\n• WBC 14707 /µL (N 32% ; L 52% ; M 6% ; Eo 8% ; B 2%)\n• PLT 72523 /µL ; Réticulocytes 1.1 %\n• Ferritine 13.3 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 1 mg/L",
+              "choices": [
+                "Carence mixte (B12 + fer)",
+                "Anémie inflammatoire (maladie chronique)",
+                "Anémie ferriprive",
+                "Anémie par déficit en vitamine B12"
+              ],
+              "answer": 0,
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 8.9 g/dL ; RBC 3.4 M/µL ; Ht 46.4 %\n• MCV 65.0 fL ; MCHC 29.2 g/dL ; RDW 17.1 %\n• WBC 16224 /µL (N 50% ; L 32% ; M 7% ; Eo 7% ; B 4%)\n• PLT 266405 /µL ; Réticulocytes 5.5 %\n• Ferritine 7.7 ng/mL ; Fer 36 µg/dL ; TIBC 403 µg/dL ; CRP 6 mg/L",
+              "choices": [
+                "Anémie ferriprive",
+                "Anémie inflammatoire (maladie chronique)",
+                "Perte sanguine aiguë",
+                "Thalassémie mineure"
+              ],
+              "answer": 0,
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémogramme à interpréter :\n• Hb 9.9 g/dL ; RBC 5.49 M/µL ; Ht 37.6 %\n• MCV 93.7 fL ; MCHC 30.1 g/dL ; RDW 18.0 %\n• WBC 17378 /µL (N 40% ; L 38% ; M 8% ; Eo 8% ; B 6%)\n• PLT 788352 /µL ; Réticulocytes 3.1 %",
+              "choices": [
+                "Thrombocytose essentielle (néoplasique)",
+                "Thrombocytose réactionnelle",
+                "Leucocytose neutrophile (infection bactérienne)",
+                "Lymphocytose (infection virale)"
+              ],
+              "answer": 0,
+              "explain": "Thrombocytose marquée sans syndrome inflammatoire → ET à évoquer."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 5.9 g/dL ; RBC 4.96 M/µL ; Ht 20.1 %\n• MCV 87.4 fL ; MCHC 28.2 g/dL ; RDW 19.4 %\n• WBC 1462 /µL (N 57% ; L 14% ; M 15% ; Eo 12% ; B 2%)\n• PLT 14498 /µL ; Réticulocytes 0.2 %",
+              "answer_text": "Aplasie médullaire (pancytopénie)",
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.5 g/dL ; RBC 2.52 M/µL ; Ht 48.1 %\n• MCV 75.2 fL ; MCHC 33.2 g/dL ; RDW 16.0 %\n• WBC 9745 /µL (N 32% ; L 51% ; M 9% ; Eo 5% ; B 3%)\n• PLT 208644 /µL ; Réticulocytes 5.9 %\n• LDH 528 U/L ; Bili totale 1.9 mg/dL ; Haptoglobine 0.09 g/L",
+              "answer_text": "Hémolyse extravasculaire",
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.1 g/dL ; RBC 5.35 M/µL ; Ht 25.4 %\n• MCV 79.2 fL ; MCHC 31.9 g/dL ; RDW 13.1 %\n• WBC 5651 /µL (N 55% ; L 24% ; M 16% ; Eo 3% ; B 2%)\n• PLT 720038 /µL ; Réticulocytes 1.7 %\n• Ferritine 325 ng/mL ; Fer 36 µg/dL ; TIBC 243 µg/dL ; CRP 62 mg/L",
+              "answer_text": "Anémie inflammatoire (maladie chronique)",
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.5 g/dL ; RBC 5.08 M/µL ; Ht 27.8 %\n• MCV 85.0 fL ; MCHC 31.9 g/dL ; RDW 15.5 %\n• WBC 2087 /µL (N 51% ; L 24% ; M 10% ; Eo 12% ; B 3%)\n• PLT 20617 /µL ; Réticulocytes 0.2 %",
+              "answer_text": "Aplasie médullaire (pancytopénie)",
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.3 g/dL ; RBC 2.86 M/µL ; Ht 38.7 %\n• MCV 107.2 fL ; MCHC 32.5 g/dL ; RDW 15.9 %\n• WBC 8751 /µL (N 44% ; L 36% ; M 13% ; Eo 4% ; B 4%)\n• PLT 779269 /µL ; Réticulocytes 5.2 %",
+              "answer_text": "Monocytose (inflammation chronique)",
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.6 g/dL ; RBC 3.69 M/µL ; Ht 44.2 %\n• MCV 85.7 fL ; MCHC 30.2 g/dL ; RDW 13.2 %\n• WBC 20264 /µL (N 67% ; L 27% ; M 2% ; Eo 2% ; B 2%)\n• PLT 529138 /µL ; Réticulocytes 3.8 %\n• Ferritine 294 ng/mL ; Fer 28 µg/dL ; TIBC 212 µg/dL ; CRP 77 mg/L",
+              "answer_text": "Anémie inflammatoire (maladie chronique)",
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.1 g/dL ; RBC 4.78 M/µL ; Ht 38.2 %\n• MCV 97.0 fL ; MCHC 35.2 g/dL ; RDW 17.7 %\n• WBC 24230 /µL (N 61% ; L 15% ; M 13% ; Eo 10% ; B 1%)\n• PLT 439125 /µL ; Réticulocytes 1.7 %\n• Ferritine 14.8 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 7 mg/L",
+              "answer_text": "Carence mixte (B12 + fer)",
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 14.6 g/dL ; RBC 4.67 M/µL ; Ht 26.1 %\n• MCV 108.5 fL ; MCHC 30.0 g/dL ; RDW 19.5 %\n• WBC 14338 /µL (N 50% ; L 36% ; M 14% ; Eo 3% ; B 1%)\n• PLT 142599 /µL ; Réticulocytes 4.0 %",
+              "answer_text": "Monocytose (inflammation chronique)",
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 13.3 g/dL ; RBC 4.57 M/µL ; Ht 25.6 %\n• MCV 98.3 fL ; MCHC 30.2 g/dL ; RDW 11.6 %\n• WBC 8052 /µL (N 47% ; L 40% ; M 7% ; Eo 3% ; B 3%)\n• PLT 27238 /µL ; Réticulocytes 0.4 %",
+              "answer_text": "Thrombopénie immune (ITP)",
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 12.1 g/dL ; RBC 5.3 M/µL ; Ht 38.1 %\n• MCV 98.6 fL ; MCHC 31.9 g/dL ; RDW 16.8 %\n• WBC 4184 /µL (N 60% ; L 28% ; M 7% ; Eo 0% ; B 5%)\n• PLT 72588 /µL ; Réticulocytes 1.8 %",
+              "answer_text": "Thrombopénie immune (ITP)",
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.2 g/dL ; RBC 3.2 M/µL ; Ht 41.6 %\n• MCV 71.8 fL ; MCHC 28.8 g/dL ; RDW 18.7 %\n• WBC 19273 /µL (N 63% ; L 17% ; M 10% ; Eo 7% ; B 3%)\n• PLT 205025 /µL ; Réticulocytes 0.5 %\n• Ferritine 7.1 ng/mL ; Fer 20 µg/dL ; TIBC 478 µg/dL ; CRP 4 mg/L",
+              "answer_text": "Anémie ferriprive",
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.9 g/dL ; RBC 4.16 M/µL ; Ht 30.0 %\n• MCV 103.1 fL ; MCHC 32.3 g/dL ; RDW 16.8 %\n• WBC 2698 /µL (N 44% ; L 48% ; M 0% ; Eo 4% ; B 4%)\n• PLT 53978 /µL ; Réticulocytes 3.2 %",
+              "answer_text": "Syndrome myélodysplasique",
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 18.0 g/dL ; RBC 5.92 M/µL ; Ht 58.5 %\n• MCV 95.9 fL ; MCHC 33.3 g/dL ; RDW 17.4 %\n• WBC 12001 /µL (N 44% ; L 44% ; M 7% ; Eo 1% ; B 4%)\n• PLT 420273 /µL ; Réticulocytes 5.8 %",
+              "answer_text": "Hémoconcentration (déshydratation)",
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 11.0 g/dL ; RBC 2.82 M/µL ; Ht 45.5 %\n• MCV 105.9 fL ; MCHC 31.3 g/dL ; RDW 15.8 %\n• WBC 10451 /µL (N 50% ; L 42% ; M 1% ; Eo 4% ; B 3%)\n• PLT 303144 /µL ; Réticulocytes 0.4 %",
+              "answer_text": "Anémie par déficit en folates",
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.6 g/dL ; RBC 5.97 M/µL ; Ht 23.6 %\n• MCV 92.6 fL ; MCHC 29.3 g/dL ; RDW 16.1 %\n• WBC 12213 /µL (N 41% ; L 41% ; M 9% ; Eo 7% ; B 2%)\n• PLT 230213 /µL ; Réticulocytes 5.0 %\n• Ferritine 9.4 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 1 mg/L",
+              "answer_text": "Carence mixte (B12 + fer)",
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 11.1 g/dL ; RBC 4.23 M/µL ; Ht 39.1 %\n• MCV 107.3 fL ; MCHC 30.8 g/dL ; RDW 17.5 %\n• WBC 23618 /µL (N 48% ; L 38% ; M 8% ; Eo 2% ; B 4%)\n• PLT 349673 /µL ; Réticulocytes 0.6 %",
+              "answer_text": "Anémie par déficit en folates",
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 6.8 g/dL ; RBC 4.14 M/µL ; Ht 48.4 %\n• MCV 68.4 fL ; MCHC 30.3 g/dL ; RDW 16.6 %\n• WBC 22109 /µL (N 27% ; L 48% ; M 14% ; Eo 10% ; B 1%)\n• PLT 139730 /µL ; Réticulocytes 2.5 %\n• Ferritine 9.3 ng/mL ; Fer 24 µg/dL ; TIBC 425 µg/dL ; CRP 4 mg/L",
+              "answer_text": "Anémie ferriprive",
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 9.4 g/dL ; RBC 4.38 M/µL ; Ht 46.3 %\n• MCV 82.1 fL ; MCHC 30.9 g/dL ; RDW 12.5 %\n• WBC 7781 /µL (N 28% ; L 57% ; M 2% ; Eo 10% ; B 3%)\n• PLT 186214 /µL ; Réticulocytes 3.9 %\n• Ferritine 448 ng/mL ; Fer 40 µg/dL ; TIBC 261 µg/dL ; CRP 28 mg/L",
+              "answer_text": "Anémie inflammatoire (maladie chronique)",
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.6 g/dL ; RBC 2.96 M/µL ; Ht 20.9 %\n• MCV 94.3 fL ; MCHC 33.4 g/dL ; RDW 16.4 %\n• WBC 23196 /µL (N 56% ; L 29% ; M 9% ; Eo 2% ; B 4%)\n• PLT 845750 /µL ; Réticulocytes 3.0 %\n• Ferritine 11.2 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 1 mg/L",
+              "answer_text": "Carence mixte (B12 + fer)",
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 9.0 g/dL ; RBC 4.5 M/µL ; Ht 32.8 %\n• MCV 106.1 fL ; MCHC 35.4 g/dL ; RDW 17.4 %\n• WBC 3027 /µL (N 52% ; L 26% ; M 16% ; Eo 1% ; B 5%)\n• PLT 61648 /µL ; Réticulocytes 3.8 %",
+              "answer_text": "Syndrome myélodysplasique",
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 12.7 g/dL ; RBC 3.0 M/µL ; Ht 36.1 %\n• MCV 104.2 fL ; MCHC 34.9 g/dL ; RDW 14.9 %\n• WBC 9043 /µL (N 45% ; L 40% ; M 10% ; Eo 5% ; B 4%)\n• PLT 96085 /µL ; Réticulocytes 5.4 %",
+              "answer_text": "Monocytose (inflammation chronique)",
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.9 g/dL ; RBC 3.25 M/µL ; Ht 23.1 %\n• MCV 87.7 fL ; MCHC 33.2 g/dL ; RDW 18.8 %\n• WBC 920 /µL (N 53% ; L 35% ; M 4% ; Eo 5% ; B 3%)\n• PLT 13769 /µL ; Réticulocytes 0.5 %",
+              "answer_text": "Aplasie médullaire (pancytopénie)",
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 12.8 g/dL ; RBC 4.77 M/µL ; Ht 46.6 %\n• MCV 84.1 fL ; MCHC 29.3 g/dL ; RDW 15.7 %\n• WBC 8003 /µL (N 22% ; L 62% ; M 4% ; Eo 7% ; B 5%)\n• PLT 51067 /µL ; Réticulocytes 1.2 %",
+              "answer_text": "Thrombopénie immune (ITP)",
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 9.6 g/dL ; RBC 3.28 M/µL ; Ht 38.3 %\n• MCV 70.3 fL ; MCHC 28.6 g/dL ; RDW 17.0 %\n• WBC 9790 /µL (N 44% ; L 39% ; M 4% ; Eo 9% ; B 4%)\n• PLT 254610 /µL ; Réticulocytes 2.0 %\n• Ferritine 9.3 ng/mL ; Fer 40 µg/dL ; TIBC 405 µg/dL ; CRP 9 mg/L",
+              "answer_text": "Anémie ferriprive",
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.4 g/dL ; RBC 4.13 M/µL ; Ht 44.8 %\n• MCV 101.4 fL ; MCHC 30.6 g/dL ; RDW 16.5 %\n• WBC 3528 /µL (N 50% ; L 32% ; M 7% ; Eo 6% ; B 5%)\n• PLT 69434 /µL ; Réticulocytes 0.9 %",
+              "answer_text": "Syndrome myélodysplasique",
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.9 g/dL ; RBC 2.66 M/µL ; Ht 45.9 %\n• MCV 111.5 fL ; MCHC 32.2 g/dL ; RDW 18.1 %\n• WBC 11461 /µL (N 46% ; L 44% ; M 3% ; Eo 5% ; B 2%)\n• PLT 624063 /µL ; Réticulocytes 0.4 %",
+              "answer_text": "Anémie par déficit en folates",
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.9 g/dL ; RBC 3.64 M/µL ; Ht 25.1 %\n• MCV 69.6 fL ; MCHC 28.9 g/dL ; RDW 18.9 %\n• WBC 14264 /µL (N 60% ; L 15% ; M 15% ; Eo 4% ; B 6%)\n• PLT 312814 /µL ; Réticulocytes 1.0 %\n• Ferritine 5.9 ng/mL ; Fer 32 µg/dL ; TIBC 364 µg/dL ; CRP 2 mg/L",
+              "answer_text": "Anémie ferriprive",
+              "explain": "Microcytose + hypochromie + RDW↑ ; ferritine basse, TIBC↑ → carence martiale."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 17.7 g/dL ; RBC 6.05 M/µL ; Ht 54.4 %\n• MCV 78.3 fL ; MCHC 34.1 g/dL ; RDW 11.8 %\n• WBC 14975 /µL (N 50% ; L 47% ; M 0% ; Eo 0% ; B 3%)\n• PLT 416531 /µL ; Réticulocytes 5.2 %",
+              "answer_text": "Hémoconcentration (déshydratation)",
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.2 g/dL ; RBC 5.85 M/µL ; Ht 34.7 %\n• MCV 104.6 fL ; MCHC 31.1 g/dL ; RDW 14.8 %\n• WBC 8004 /µL (N 64% ; L 18% ; M 9% ; Eo 7% ; B 2%)\n• PLT 608500 /µL ; Réticulocytes 3.5 %\n• LDH 483 U/L ; Bili totale 2.4 mg/dL ; Haptoglobine 0.07 g/L",
+              "answer_text": "Hémolyse extravasculaire",
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 17.4 g/dL ; RBC 6.68 M/µL ; Ht 52.1 %\n• MCV 95.8 fL ; MCHC 30.3 g/dL ; RDW 11.8 %\n• WBC 12262 /µL (N 42% ; L 44% ; M 5% ; Eo 6% ; B 3%)\n• PLT 463419 /µL ; Réticulocytes 3.7 %",
+              "answer_text": "Hémoconcentration (déshydratation)",
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 12.0 g/dL ; RBC 5.72 M/µL ; Ht 29.4 %\n• MCV 88.5 fL ; MCHC 30.4 g/dL ; RDW 19.1 %\n• WBC 5133 /µL (N 72% ; L 17% ; M 1% ; Eo 7% ; B 3%)\n• PLT 29993 /µL ; Réticulocytes 5.3 %",
+              "answer_text": "Thrombopénie immune (ITP)",
+              "explain": "Thrombopénie isolée avec lignées blanches/rouges N → ITP probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 18.8 g/dL ; RBC 5.98 M/µL ; Ht 53.5 %\n• MCV 102.4 fL ; MCHC 31.0 g/dL ; RDW 17.3 %\n• WBC 10610 /µL (N 49% ; L 41% ; M 9% ; Eo 0% ; B 1%)\n• PLT 383449 /µL ; Réticulocytes 5.6 %",
+              "answer_text": "Hémoconcentration (déshydratation)",
+              "explain": "Hémoconcentration (déshydratation) : Hb/Ht/RBC élevés, contexte clinique à vérifier."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 6.8 g/dL ; RBC 3.28 M/µL ; Ht 45.7 %\n• MCV 106.5 fL ; MCHC 33.6 g/dL ; RDW 15.6 %\n• WBC 3959 /µL (N 27% ; L 56% ; M 2% ; Eo 12% ; B 3%)\n• PLT 138325 /µL ; Réticulocytes 5.9 %",
+              "answer_text": "Syndrome myélodysplasique",
+              "explain": "Macrocytose + cytopénies multiples + anisocytose → SMD probable."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 11.2 g/dL ; RBC 4.14 M/µL ; Ht 42.4 %\n• MCV 112.8 fL ; MCHC 31.0 g/dL ; RDW 16.4 %\n• WBC 10474 /µL (N 41% ; L 53% ; M 1% ; Eo 0% ; B 5%)\n• PLT 785626 /µL ; Réticulocytes 0.5 %",
+              "answer_text": "Anémie par déficit en folates",
+              "explain": "Macrocytose arégénérative en faveur d’un déficit folates."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 10.2 g/dL ; RBC 4.61 M/µL ; Ht 24.7 %\n• MCV 88.6 fL ; MCHC 32.2 g/dL ; RDW 13.5 %\n• WBC 15324 /µL (N 56% ; L 29% ; M 10% ; Eo 2% ; B 3%)\n• PLT 595050 /µL ; Réticulocytes 2.2 %\n• Ferritine 413 ng/mL ; Fer 28 µg/dL ; TIBC 269 µg/dL ; CRP 79 mg/L",
+              "answer_text": "Anémie inflammatoire (maladie chronique)",
+              "explain": "Inflammation: CRP↑, ferritine N/↑, fer bas, TIBC bas → anémie inflammatoire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 12.3 g/dL ; RBC 5.5 M/µL ; Ht 39.0 %\n• MCV 103.8 fL ; MCHC 34.8 g/dL ; RDW 13.6 %\n• WBC 8399 /µL (N 43% ; L 41% ; M 15% ; Eo 1% ; B 4%)\n• PLT 622112 /µL ; Réticulocytes 0.8 %",
+              "answer_text": "Monocytose (inflammation chronique)",
+              "explain": "Monocytose → inflammation chronique/récup post-agranu."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.0 g/dL ; RBC 5.87 M/µL ; Ht 37.6 %\n• MCV 90.5 fL ; MCHC 30.6 g/dL ; RDW 14.5 %\n• WBC 1371 /µL (N 68% ; L 22% ; M 6% ; Eo 1% ; B 3%)\n• PLT 22022 /µL ; Réticulocytes 0.4 %",
+              "answer_text": "Aplasie médullaire (pancytopénie)",
+              "explain": "Pancytopénie + réticulocytes bas → aplasie/hypoplasie médullaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 9.9 g/dL ; RBC 3.94 M/µL ; Ht 41.2 %\n• MCV 109.8 fL ; MCHC 28.5 g/dL ; RDW 18.4 %\n• WBC 11092 /µL (N 27% ; L 59% ; M 11% ; Eo 0% ; B 3%)\n• PLT 150826 /µL ; Réticulocytes 5.8 %\n• LDH 460 U/L ; Bili totale 1.6 mg/dL ; Haptoglobine 0.15 g/L",
+              "answer_text": "Hémolyse extravasculaire",
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 7.9 g/dL ; RBC 3.43 M/µL ; Ht 20.0 %\n• MCV 93.0 fL ; MCHC 31.2 g/dL ; RDW 18.6 %\n• WBC 22212 /µL (N 37% ; L 52% ; M 2% ; Eo 3% ; B 6%)\n• PLT 166367 /µL ; Réticulocytes 3.0 %\n• Ferritine 23.3 ng/mL ; Fer None µg/dL ; TIBC None µg/dL ; CRP 4 mg/L",
+              "answer_text": "Carence mixte (B12 + fer)",
+              "explain": "Indices mixtes (MCV proche N mais RDW↑) + ferritine basse → carence mixte B12/fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémogramme à interpréter (réponse courte attendue : diagnostic principal) :\n• Hb 8.7 g/dL ; RBC 4.98 M/µL ; Ht 35.3 %\n• MCV 109.3 fL ; MCHC 32.6 g/dL ; RDW 12.2 %\n• WBC 23289 /µL (N 53% ; L 30% ; M 8% ; Eo 6% ; B 3%)\n• PLT 654663 /µL ; Réticulocytes 4.5 %\n• LDH 683 U/L ; Bili totale 2.4 mg/dL ; Haptoglobine 0.14 g/L",
+              "answer_text": "Hémolyse extravasculaire",
+              "explain": "Régénération + LDH↑ + bilirubine↑ + haptoglobine basse → hémolyse (plutôt extra-vasculaire)."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": []
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:49:30.604660Z",
+    "counts": {
+      "mcq": 160,
+      "short": 40,
+      "cases": 0,
+      "total": 200
+    }
+  }
+}
