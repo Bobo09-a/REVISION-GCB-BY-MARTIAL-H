@@ -51,7 +51,7 @@
   <header>
     <div class="bar">
       <div class="title">📚 Révisions GCB – QCM Futuriste</div>
-      <div class="chip" id="version">v1.4</div>
+      <div class="chip" id="version">v1.5</div>
       <div class="chip" id="timerBadge">Sans minuteur</div>
     </div>
     <div class="bar" style="gap:10px;">
@@ -96,8 +96,10 @@
 
       <div class="panel" id="card">
         <div class="p" id="stage">
-          <p style="color:var(--muted); margin:0">Choisis une matière, un mode et éventuellement un filtre de type, puis clique <b>Démarrer</b>.  
-          Importe ton JSON (je convertirai tes cours). Règles : juste = <b>+1</b>, erreur = <b>−1</b>.</p>
+          <p style="color:var(--muted); margin:0">
+            Place tes fichiers <b>.json</b> à la <b>racine</b> du dépôt : l’app les charge automatiquement (scan GitHub API).<br/>
+            Règles : juste = <b>+1</b>, erreur = <b>−1</b>.
+          </p>
         </div>
       </div>
 
@@ -121,25 +123,17 @@
       </details>
 
       <details class="panel">
-        <summary class="p">ℹ️ Format de la banque de questions (pour import)</summary>
+        <summary class="p">ℹ️ Format de la banque (pour import)</summary>
         <div class="p">
 <pre style="white-space:pre-wrap; font-size:12px; color:var(--muted); margin:0">
 { "subjects": [ { "name": "Bactériologie", "sections": [
-  { "name": "QCM", "questions": [
-    {"type":"mcq","prompt":"Gram + cocci…","choices":["Staph","E. coli","Salmonella"],"answer":0,"explain":"…"}
-  ]},
-  { "name": "Questions/Réponses", "questions": [
-    {"type":"short","prompt":"Définir stérilisation.","answer_text":"Destruction…","explain":"…"}
-  ]},
-  { "name": "IDENTIFICATION IMAGE", "questions": [
-    {"type":"image-id","prompt":"Nommer le germe.","image":"gram_staph.jpg","mode":"text","answer_text":"Staphylococcus aureus","explain":"…"}
-  ]},
-  { "name": "ÉTUDES DE CAS", "questions": [
-    {"type":"short","prompt":"Patiente fébrile avec…","answer_text":"E. coli","explain":"…"}
-  ]}
+  { "name": "QCM", "questions": [ {"type":"mcq","prompt":"...", "choices":["A","B"], "answer":0, "explain":"..."} ]},
+  { "name": "Questions/Réponses", "questions": [ {"type":"short","prompt":"...", "answer_text":"...", "explain":"..."} ]},
+  { "name": "IDENTIFICATION IMAGE", "questions": [ {"type":"image-id","prompt":"...", "image":"fichier.jpg","mode":"text","answer_text":"..."} ]},
+  { "name": "ÉTUDES DE CAS", "questions": [ {"type":"short","prompt":"Cas ...","answer_text":"...", "explain":"..."} ]}
 ]} ] }
 </pre>
-          <div class="badge">💡 Pour l'IDENTIFICATION IMAGE: place tes images <b>à la racine du dépôt</b> (même dossier que <code>index.html</code>) et indique seulement le <b>nom du fichier</b> (ex: <code>gram_staph.jpg</code>). <code>mode:"text"</code> = réponse saisie, <code>mode:"mcq"</code> = choix multiples.</div>
+          <div class="badge">💡 Mets toutes les <b>images</b> (si utilisées) à la <b>racine</b> aussi et référence le <b>nom de fichier</b> uniquement.</div>
         </div>
       </details>
     </div>
@@ -175,43 +169,87 @@
     timer: {active:false, left:0, t:null}, // examen
   };
 
-  // ---- fichiers JSON à la racine ----
+  // ---- Fallback manuel si pas Github.io ou si API rate ----
   const DATA_FILES = [
-    './bacteriologie.json'
-    // './biochimie.json', './microbiologie_avancee.json', etc.
+    './bacteriologie.json',
+    './biochimie_analytique.json'
+    // Ajoute ici d'autres fichiers si besoin (fallback)
   ];
 
-  // --- Demo bank (fallback) ---
+  // --- Demo bank (fallback ultime) ---
   const demo = {
-    subjects:[
-      { name:"Bactériologie", sections:[
-        {name:"QCM", questions:[
-          {type:"mcq", prompt:"Les bacilles Gram négatif parmi les suivants sont :", choices:["Staphylococcus","Escherichia coli","Streptococcus"], answer:1, explain:"E. coli est un bacille Gram négatif."},
-          {type:"mcq", prompt:"La stérilisation élimine :", choices:["Seulement les bactéries","Tous les micro-organismes et spores","Seulement les virus"], answer:1, explain:"Par définition, destruction totale des formes vivantes y compris spores."}
-        ]},
-        {name:"Questions/Réponses", questions:[
-          {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
-        ]},
-        {name:"IDENTIFICATION IMAGE", questions:[
-          {type:"image-id", prompt:"Identifier la morphologie.", image:"gram_cocci_amas.png", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
-        ]},
-        {name:"ÉTUDES DE CAS", questions:[
-          {type:"short", prompt:"Fièvre + BU nitrites/leucocytes, entérobactérie lactose+ : germe probable ?", answer_text:"Escherichia coli", explain:"IU communautaire fréquente ; MacConkey lactose+ oriente E. coli."}
-        ]}
+    subjects:[ { name:"Démo", sections:[
+      {name:"QCM", questions:[
+        {type:"mcq", prompt:"Les bacilles Gram négatif parmi les suivants sont :", choices:["Staphylococcus","Escherichia coli","Streptococcus"], answer:1, explain:"E. coli est un bacille Gram négatif."}
+      ]},
+      {name:"Questions/Réponses", questions:[
+        {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
       ]}
-    ]
+    ] } ]
   };
 
-  // ---- Auto-chargement depuis la racine ----
+  // ----------- Auto-scan GitHub Contents API -----------
+  async function discoverJsonUrls() {
+    try {
+      const isGh = location.host.endsWith('github.io');
+      if (!isGh) return DATA_FILES;
+
+      // owner = sous-domaine avant .github.io ; repo = 1er segment de path
+      const owner = location.host.split('.github.io')[0];
+      const pathParts = location.pathname.split('/').filter(Boolean);
+      const repo = pathParts[0] || '';
+      if (!owner || !repo) return DATA_FILES;
+
+      const api = `https://api.github.com/repos/${owner}/${repo}/contents/`;
+      const res = await fetch(api, {headers:{'Accept':'application/vnd.github+json'}});
+      if (!res.ok) throw new Error('GitHub API non disponible');
+      const list = await res.json();
+
+      const urls = [];
+      for (const item of list) {
+        if (item.type === 'file' && /\.json$/i.test(item.name)) {
+          // Option : ignorer certains json techniques
+          if (/^package(-lock)?\.json$/i.test(item.name)) continue;
+          // utiliser download_url pour récupérer le brut (CORS OK)
+          urls.push(item.download_url);
+        }
+      }
+      // si rien détecté, on retombe sur DATA_FILES
+      return urls.length ? urls : DATA_FILES;
+    } catch(e) {
+      console.warn('Scan GitHub API échoué, fallback DATA_FILES:', e);
+      return DATA_FILES;
+    }
+  }
+
   async function loadBankFromFiles() {
     const merged = { subjects: [] };
-    for (const url of DATA_FILES) {
+    const seenNames = new Set();
+
+    const urls = await discoverJsonUrls();
+    for (const url of urls) {
       try {
-        const res = await fetch(url + '?v=' + Date.now()); // anti-cache GitHub Pages
+        const res = await fetch(url + (url.includes('?')?'&':'?') + 'v=' + Date.now()); // anti-cache
         if (!res.ok) continue;
         const json = await res.json();
-        if (Array.isArray(json.subjects)) merged.subjects.push(...json.subjects);
-      } catch(e) { /* ignore */ }
+        if (Array.isArray(json.subjects)) {
+          for (const subj of json.subjects) {
+            const name = String(subj.name || '').trim();
+            if (name && !seenNames.has(name)) {
+              merged.subjects.push(subj);
+              seenNames.add(name);
+            } else if (name) {
+              // fusion douce si même matière (concat sections)
+              const target = merged.subjects.find(s=>s.name===name);
+              if (target && Array.isArray(subj.sections)) {
+                target.sections = [...(target.sections||[]), ...subj.sections];
+              }
+            }
+          }
+        }
+      } catch(e) {
+        console.warn('Échec chargement', url, e);
+      }
     }
     return merged.subjects.length ? merged : null;
   }
@@ -319,7 +357,7 @@
   function renderIdle(){
     el('stage').innerHTML = `<div class="p">
       <h2 style="margin:0 0 6px">Bienvenue 👋</h2>
-      <p style="color:var(--muted)">Choisis la matière, le mode (normal, aléatoire, faiblesses, examen 30 min, flashcards) et le filtre par type. Réponse juste = <b>+1</b>, erreur = <b>−1</b>. Place tes <b>.json</b> et <b>images</b> à la racine du dépôt pour chargement auto.</p>
+      <p style="color:var(--muted)">Place tes fichiers <b>.json</b> à la <b>racine</b> du dépôt : l’app les détecte et les fusionne automatiquement (API GitHub).<br/>Choisis la matière, le mode et un filtre si besoin. Réponse juste = <b>+1</b>, erreur = <b>−1</b>.</p>
     </div>`;
   }
 
@@ -335,10 +373,8 @@
 
     el('stage').innerHTML = renderQuestion(q);
 
-    // hook form
     const form = el('qForm'); if(form){ form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)}; }
 
-    // hook flashcards buttons (sans injecter de <script> dans les templates)
     const r = document.getElementById('btnReveal');
     const k = document.getElementById('btnKnow');
     const d = document.getElementById('btnDont');
