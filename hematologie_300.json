@@ -1,0 +1,3037 @@
+{
+  "subjects": [
+    {
+      "name": "Hématologie",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Quel est le pourcentage approximatif du plasma dans le sang total ?",
+              "choices": [
+                "≈35 %",
+                "≈65 %",
+                "≈55 %",
+                "≈45 %"
+              ],
+              "answer": 2,
+              "explain": "Buffy coat <1 %, éléments figurés ≈45 %, plasma ≈55 %."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le culot érythrocytaire représente environ :",
+              "choices": [
+                "≈45 % du volume sanguin",
+                "≈90 %",
+                "≈55 %",
+                "≈5 %"
+              ],
+              "answer": 0,
+              "explain": "Valeur moyenne à l'hématocrite."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour obtenir du plasma en laboratoire, on réalise :",
+              "choices": [
+                "un chauffage à 37°C",
+                "une centrifugation d’un sang + anticoagulant",
+                "une filtration sur membrane 0,22 µm",
+                "une coagulation complète puis décantation"
+              ],
+              "answer": 1,
+              "explain": "Centrifuger du sang anticoagulé sépare plasma/cellules."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement :",
+              "choices": [
+                "aux protéines plasmatiques",
+                "aux lipides plasmatiques",
+                "aux seules hématies",
+                "aux leucocytes et plaquettes (<1 %)"
+              ],
+              "answer": 3,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est :",
+              "choices": [
+                "les lipides",
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de Na+ est proche de :",
+              "choices": [
+                "≈2.3 mM",
+                "≈140 mM",
+                "≈0.8 mM",
+                "≈4.8 mM"
+              ],
+              "answer": 1,
+              "explain": "Na+ ~140 mM ; K+ ~4.8 ; Ca2+ ~2.3 ; Mg2+ ~0.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de K+ est la plus proche de :",
+              "choices": [
+                "≈0.2 mM",
+                "≈2 mM",
+                "≈140 mM",
+                "≈4–5 mM"
+              ],
+              "answer": 3,
+              "explain": "K+ ~4.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le plasma, l’anion majeur est :",
+              "choices": [
+                "I− (~10 mM)",
+                "Cl− (~105 mM)",
+                "SO4²− (~10 mM)",
+                "HCO3− (~105 mM)"
+              ],
+              "answer": 1,
+              "explain": "Cl− ~105 mM ; PO4³− ~4 mM ; SO4²− ~0,2 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La protéinémie totale normale est :",
+              "choices": [
+                "≈20–30 g/L",
+                "≈5–10 g/L",
+                "≈90–120 g/L",
+                "≈60–80 g/L"
+              ],
+              "answer": 3,
+              "explain": "Albumine, globulines, fibrinogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Valeur usuelle du glucose sanguin (à jeun) :",
+              "choices": [
+                "≈5 g/L",
+                "≈1 g/L (0,8–1,3 g/L)",
+                "≈3 g/L",
+                "≈0,1 g/L"
+              ],
+              "answer": 1,
+              "explain": "4,5–7 mM à jeun."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG :",
+              "choices": [
+                "> 5 g/L",
+                "> 1 g/L",
+                "> 2 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 2,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un cholestérol total à risque (selon le cours) :",
+              "choices": [
+                "> 2 g/L avec LDL > 1,6 g/L",
+                "> 3 g/L avec HDL > 0,5 g/L",
+                "> 1 g/L quel que soit LDL",
+                "> 2 g/L avec LDL < 1,6 g/L"
+              ],
+              "answer": 0,
+              "explain": "Association CT élevé + LDL élevé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est :",
+              "choices": [
+                "> 0,5 g/L",
+                "< 0,1 g/L",
+                "= 0,2 g/L",
+                "> 1,6 g/L"
+              ],
+              "answer": 0,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est :",
+              "choices": [
+                "liée à l’albumine",
+                "liée à l’hémoglobine (~95 %)",
+                "sous forme d’oxyde nitrique",
+                "dissoute dans le plasma"
+              ],
+              "answer": 1,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Environ 30 % du CO2 sanguin est :",
+              "choices": [
+                "dissous seulement",
+                "sous forme de CO libre",
+                "sous forme de carbaminohémoglobine",
+                "lié au fibrinogène"
+              ],
+              "answer": 2,
+              "explain": "Carbamino-Hb ~30 % ; reste bicarbonate/dissous."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ :",
+              "choices": [
+                "35–50 g/L",
+                "5–15 g/L",
+                "1–3 g/L",
+                "70–90 g/L"
+              ],
+              "answer": 0,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ?",
+              "choices": [
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Activation de la thrombine"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à :",
+              "choices": [
+                "du fibrinogène",
+                "des immunoglobulines",
+                "des lipoprotéines",
+                "de l’albumine"
+              ],
+              "answer": 1,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fibrinogène est avant tout :",
+              "choices": [
+                "un facteur de coagulation plasmatique",
+                "une apolipoprotéine",
+                "une enzyme du complément",
+                "un transporteur thyroïdien"
+              ],
+              "answer": 0,
+              "explain": "Clé de l’hémostase plasmatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Durée de vie moyenne d’une hématie :",
+              "choices": [
+                "≈12 jours",
+                "≈12 mois",
+                "≈48 heures",
+                "≈120 jours"
+              ],
+              "answer": 3,
+              "explain": "Production continue par l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’hématies chez l’homme par µL est :",
+              "choices": [
+                "≈1–2 millions/µL",
+                "≈0,5–1 million/µL",
+                "≈4,5–6,5 millions/µL",
+                "≈7–9 millions/µL"
+              ],
+              "answer": 2,
+              "explain": "Sexe-dépendant (homme > femme)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hématies matures :",
+              "choices": [
+                "possèdent un noyau",
+                "sont anucléées et très déformables",
+                "sont immobiles et rigides",
+                "se divisent activement"
+              ],
+              "answer": 1,
+              "explain": "Plasticité pour capillaires ~10 µm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les réticulocytes représentent environ :",
+              "choices": [
+                "~0,01 %",
+                "~1 % des hématies",
+                "~25 %",
+                "~10 %"
+              ],
+              "answer": 1,
+              "explain": "Témoigne de l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La teneur en Hb représente environ :",
+              "choices": [
+                "~90 %",
+                "~33 % de la masse de l’hématie",
+                "~5 %",
+                "~60 %"
+              ],
+              "answer": 1,
+              "explain": "Hb = transport O2/CO2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La numération leucocytaire normale est environ :",
+              "choices": [
+                "50–500 /µL",
+                "10–100 /µL",
+                "100 000–200 000 /µL",
+                "4 000–10 000 /µL"
+              ],
+              "answer": 3,
+              "explain": "Intervalle pédagogique usuel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent :",
+              "choices": [
+                "≈80–95 %",
+                "≈40–75 %",
+                "≈5–15 %",
+                "≈1–6 %"
+              ],
+              "answer": 1,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les éosinophiles représentent environ :",
+              "choices": [
+                "≈1–6 %",
+                "≈0–1 %",
+                "≈40–75 %",
+                "≈20–45 %"
+              ],
+              "answer": 0,
+              "explain": "Varie avec allergies/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles représentent :",
+              "choices": [
+                "≈10–20 %",
+                "≈0–1 %",
+                "≈5–10 %",
+                "≈25–40 %"
+              ],
+              "answer": 1,
+              "explain": "Les plus rares."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les monocytes représentent :",
+              "choices": [
+                "≈2–10 %",
+                "≈40–75 %",
+                "≈0–1 %",
+                "≈20–45 %"
+              ],
+              "answer": 0,
+              "explain": "Précurseurs des macrophages tissulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lymphocytes représentent :",
+              "choices": [
+                "≈1–6 %",
+                "≈0–1 %",
+                "≈40–75 %",
+                "≈20–45 %"
+              ],
+              "answer": 3,
+              "explain": "Sous-pop : B, T, NK."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus :",
+              "choices": [
+                "érythrocyte",
+                "basophile",
+                "neutrophile",
+                "lymphocyte B"
+              ],
+              "answer": 2,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules effectrices de l’immunité humorale :",
+              "choices": [
+                "lymphocytes T CD8",
+                "lymphocytes B → plasmocytes",
+                "monocytes",
+                "neutrophiles"
+              ],
+              "answer": 1,
+              "explain": "Production d’immunoglobulines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules cytotoxiques ciblant cellules infectées ou tumorales :",
+              "choices": [
+                "lymphocytes B mémoire",
+                "éosinophiles",
+                "plaquettes",
+                "lymphocytes T CD8 (cytotoxiques)"
+              ],
+              "answer": 3,
+              "explain": "Immunité à médiation cellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle majeur des éosinophiles :",
+              "choices": [
+                "coagulation primaire",
+                "cytolyse de parasites + rôle dans l’allergie",
+                "présentation de l’antigène",
+                "transport de l’O2"
+              ],
+              "answer": 1,
+              "explain": "Granulations spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement :",
+              "choices": [
+                "érythropoïétine",
+                "fibrinogène",
+                "hémoglobine",
+                "histamine, héparine, sérotonine"
+              ],
+              "answer": 3,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les monocytes se différencient en tissus en :",
+              "choices": [
+                "érythroblastes",
+                "mégacaryocytes",
+                "macrophages",
+                "mastocytes"
+              ],
+              "answer": 2,
+              "explain": "Phagocytose + cytokines + présentation antigénique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces propriétés, choisissez celles des leucocytes :",
+              "choices": [
+                "synthèse de fibrine uniquement",
+                "photosynthèse, pinocytose unique, exocytose Hb",
+                "aucune",
+                "chimiotactisme, diapédèse, phagocytose"
+              ],
+              "answer": 3,
+              "explain": "Migration vers foyers inflammatoires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La numération plaquettaire normale est :",
+              "choices": [
+                "≈4 000–10 000 /µL",
+                "≈20–45 %",
+                "≈4–6,5 millions/µL",
+                "≈150 000–400 000 /µL"
+              ],
+              "answer": 3,
+              "explain": "Fragments anucléés 2–4 µm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La durée de vie des plaquettes est d’environ :",
+              "choices": [
+                "30–45 jours",
+                "1–2 jours",
+                "10–12 jours",
+                "120 jours"
+              ],
+              "answer": 2,
+              "explain": "Production médullaire, élimination splénique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes :",
+              "choices": [
+                "hémostase primaire (agrégation/adhésion)",
+                "détoxication hépatique",
+                "synthèse d’anticorps",
+                "transport O2"
+              ],
+              "answer": 0,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces médiateurs plaquettaires :",
+              "choices": [
+                "ADP/ATP, sérotonine, Ca2+, PDGF, fibrinogène",
+                "insuline, glucagon",
+                "IgA, IgM, IgG uniquement",
+                "ACE, renine"
+              ],
+              "answer": 0,
+              "explain": "Denses/alpha granules."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le sang assure tous ces rôles sauf :",
+              "choices": [
+                "régulation thermique",
+                "défense immunitaire",
+                "transport O2/CO2",
+                "photosynthèse"
+              ],
+              "answer": 3,
+              "explain": "Multifonctionnel (transport, communication, tampon…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment :",
+              "choices": [
+                "bicarbonates, phosphates, hémoglobine",
+                "chylomicrons seuls",
+                "ADN uniquement",
+                "saccharose, cellulose"
+              ],
+              "answer": 0,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le transport des hormones est assuré surtout par :",
+              "choices": [
+                "le plasma (albumine, globulines)",
+                "les hématies exclusivement",
+                "la lymphe uniquement",
+                "les plaquettes uniquement"
+              ],
+              "answer": 0,
+              "explain": "Protéines porteuses plasmiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle majeur des éosinophiles : (variante)",
+              "choices": [
+                "présentation de l’antigène",
+                "transport de l’O2",
+                "coagulation primaire",
+                "cytolyse de parasites + rôle dans l’allergie"
+              ],
+              "answer": 3,
+              "explain": "Granulations spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis)",
+              "choices": [
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les lipides",
+                "les protéines"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Environ 30 % du CO2 sanguin est : (variante)",
+              "choices": [
+                "sous forme de CO libre",
+                "lié au fibrinogène",
+                "sous forme de carbaminohémoglobine",
+                "dissous seulement"
+              ],
+              "answer": 2,
+              "explain": "Carbamino-Hb ~30 % ; reste bicarbonate/dissous."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis)",
+              "choices": [
+                "les protéines",
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante)",
+              "choices": [
+                "5–15 g/L",
+                "1–3 g/L",
+                "35–50 g/L",
+                "70–90 g/L"
+              ],
+              "answer": 2,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement : (variante)",
+              "choices": [
+                "érythropoïétine",
+                "histamine, héparine, sérotonine",
+                "hémoglobine",
+                "fibrinogène"
+              ],
+              "answer": 1,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante)",
+              "choices": [
+                "basophile",
+                "lymphocyte B",
+                "érythrocyte",
+                "neutrophile"
+              ],
+              "answer": 3,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (reformulation)",
+              "choices": [
+                "chylomicrons seuls",
+                "saccharose, cellulose",
+                "ADN uniquement",
+                "bicarbonates, phosphates, hémoglobine"
+              ],
+              "answer": 3,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lymphocytes représentent : (variante)",
+              "choices": [
+                "≈0–1 %",
+                "≈20–45 %",
+                "≈40–75 %",
+                "≈1–6 %"
+              ],
+              "answer": 1,
+              "explain": "Sous-pop : B, T, NK."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante)",
+              "choices": [
+                "≈5–15 %",
+                "≈40–75 %",
+                "≈80–95 %",
+                "≈1–6 %"
+              ],
+              "answer": 1,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante)",
+              "choices": [
+                "> 1,6 g/L",
+                "= 0,2 g/L",
+                "< 0,1 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 3,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation)",
+              "choices": [
+                "des lipoprotéines",
+                "de l’albumine",
+                "du fibrinogène",
+                "des immunoglobulines"
+              ],
+              "answer": 3,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (reformulation) (variante)",
+              "choices": [
+                "saccharose, cellulose",
+                "ADN uniquement",
+                "bicarbonates, phosphates, hémoglobine",
+                "chylomicrons seuls"
+              ],
+              "answer": 2,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante) (reformulation)",
+              "choices": [
+                "70–90 g/L",
+                "35–50 g/L",
+                "5–15 g/L",
+                "1–3 g/L"
+              ],
+              "answer": 1,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante)",
+              "choices": [
+                "lymphocyte B",
+                "érythrocyte",
+                "neutrophile",
+                "basophile"
+              ],
+              "answer": 2,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La numération leucocytaire normale est environ : (reformulation)",
+              "choices": [
+                "4 000–10 000 /µL",
+                "100 000–200 000 /µL",
+                "10–100 /µL",
+                "50–500 /µL"
+              ],
+              "answer": 0,
+              "explain": "Intervalle pédagogique usuel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fibrinogène est avant tout : (variante)",
+              "choices": [
+                "une apolipoprotéine",
+                "une enzyme du complément",
+                "un transporteur thyroïdien",
+                "un facteur de coagulation plasmatique"
+              ],
+              "answer": 3,
+              "explain": "Clé de l’hémostase plasmatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (QCM bis)",
+              "choices": [
+                "= 0,2 g/L",
+                "> 0,5 g/L",
+                "< 0,1 g/L",
+                "> 1,6 g/L"
+              ],
+              "answer": 1,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante)",
+              "choices": [
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les lipides",
+                "les protéines"
+              ],
+              "answer": 0,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement : (variante)",
+              "choices": [
+                "aux lipides plasmatiques",
+                "aux protéines plasmatiques",
+                "aux seules hématies",
+                "aux leucocytes et plaquettes (<1 %)"
+              ],
+              "answer": 3,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (QCM bis)",
+              "choices": [
+                "> 2 g/L",
+                "> 0,5 g/L",
+                "> 5 g/L",
+                "> 1 g/L"
+              ],
+              "answer": 0,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (QCM bis)",
+              "choices": [
+                "basophile",
+                "lymphocyte B",
+                "érythrocyte",
+                "neutrophile"
+              ],
+              "answer": 3,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de Na+ est proche de : (reformulation)",
+              "choices": [
+                "≈140 mM",
+                "≈4.8 mM",
+                "≈0.8 mM",
+                "≈2.3 mM"
+              ],
+              "answer": 0,
+              "explain": "Na+ ~140 mM ; K+ ~4.8 ; Ca2+ ~2.3 ; Mg2+ ~0.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les éosinophiles représentent environ : (reformulation)",
+              "choices": [
+                "≈1–6 %",
+                "≈40–75 %",
+                "≈0–1 %",
+                "≈20–45 %"
+              ],
+              "answer": 0,
+              "explain": "Varie avec allergies/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante)",
+              "choices": [
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Activation de la thrombine"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le culot érythrocytaire représente environ : (variante)",
+              "choices": [
+                "≈55 %",
+                "≈90 %",
+                "≈5 %",
+                "≈45 % du volume sanguin"
+              ],
+              "answer": 3,
+              "explain": "Valeur moyenne à l'hématocrite."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante)",
+              "choices": [
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Activation de la thrombine",
+                "Dégranulation basophile"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle majeur des éosinophiles : (variante) (reformulation)",
+              "choices": [
+                "coagulation primaire",
+                "transport de l’O2",
+                "cytolyse de parasites + rôle dans l’allergie",
+                "présentation de l’antigène"
+              ],
+              "answer": 2,
+              "explain": "Granulations spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’hématies chez l’homme par µL est : (QCM bis)",
+              "choices": [
+                "≈1–2 millions/µL",
+                "≈0,5–1 million/µL",
+                "≈7–9 millions/µL",
+                "≈4,5–6,5 millions/µL"
+              ],
+              "answer": 3,
+              "explain": "Sexe-dépendant (homme > femme)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les éosinophiles représentent environ : (reformulation) (QCM bis)",
+              "choices": [
+                "≈1–6 %",
+                "≈0–1 %",
+                "≈20–45 %",
+                "≈40–75 %"
+              ],
+              "answer": 0,
+              "explain": "Varie avec allergies/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est : (variante)",
+              "choices": [
+                "dissoute dans le plasma",
+                "liée à l’albumine",
+                "liée à l’hémoglobine (~95 %)",
+                "sous forme d’oxyde nitrique"
+              ],
+              "answer": 2,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante) (QCM bis)",
+              "choices": [
+                "Synthèse d’IgG",
+                "Dégranulation basophile",
+                "Maintien de la pression oncotique",
+                "Activation de la thrombine"
+              ],
+              "answer": 2,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les éosinophiles représentent environ : (QCM bis)",
+              "choices": [
+                "≈1–6 %",
+                "≈40–75 %",
+                "≈0–1 %",
+                "≈20–45 %"
+              ],
+              "answer": 0,
+              "explain": "Varie avec allergies/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis)",
+              "choices": [
+                "les lipides",
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les protéines"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (reformulation)",
+              "choices": [
+                "= 0,2 g/L",
+                "> 0,5 g/L",
+                "> 1,6 g/L",
+                "< 0,1 g/L"
+              ],
+              "answer": 1,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (QCM bis)",
+              "choices": [
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Synthèse d’IgG",
+                "Activation de la thrombine"
+              ],
+              "answer": 0,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (QCM bis)",
+              "choices": [
+                "= 0,2 g/L",
+                "< 0,1 g/L",
+                "> 0,5 g/L",
+                "> 1,6 g/L"
+              ],
+              "answer": 2,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Durée de vie moyenne d’une hématie : (reformulation)",
+              "choices": [
+                "≈48 heures",
+                "≈120 jours",
+                "≈12 mois",
+                "≈12 jours"
+              ],
+              "answer": 1,
+              "explain": "Production continue par l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante)",
+              "choices": [
+                "Maintien de la pression oncotique",
+                "Activation de la thrombine",
+                "Dégranulation basophile",
+                "Synthèse d’IgG"
+              ],
+              "answer": 0,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (QCM bis)",
+              "choices": [
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les protéines",
+                "les lipides"
+              ],
+              "answer": 0,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est : (QCM bis)",
+              "choices": [
+                "liée à l’albumine",
+                "sous forme d’oxyde nitrique",
+                "liée à l’hémoglobine (~95 %)",
+                "dissoute dans le plasma"
+              ],
+              "answer": 2,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Durée de vie moyenne d’une hématie : (reformulation)",
+              "choices": [
+                "≈120 jours",
+                "≈48 heures",
+                "≈12 jours",
+                "≈12 mois"
+              ],
+              "answer": 0,
+              "explain": "Production continue par l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement : (reformulation)",
+              "choices": [
+                "aux protéines plasmatiques",
+                "aux leucocytes et plaquettes (<1 %)",
+                "aux seules hématies",
+                "aux lipides plasmatiques"
+              ],
+              "answer": 1,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Durée de vie moyenne d’une hématie : (reformulation) (QCM bis)",
+              "choices": [
+                "≈12 mois",
+                "≈48 heures",
+                "≈120 jours",
+                "≈12 jours"
+              ],
+              "answer": 2,
+              "explain": "Production continue par l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est : (variante)",
+              "choices": [
+                "dissoute dans le plasma",
+                "sous forme d’oxyde nitrique",
+                "liée à l’albumine",
+                "liée à l’hémoglobine (~95 %)"
+              ],
+              "answer": 3,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante)",
+              "choices": [
+                "≈80–95 %",
+                "≈1–6 %",
+                "≈5–15 %",
+                "≈40–75 %"
+              ],
+              "answer": 3,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les monocytes représentent : (reformulation)",
+              "choices": [
+                "≈0–1 %",
+                "≈2–10 %",
+                "≈20–45 %",
+                "≈40–75 %"
+              ],
+              "answer": 1,
+              "explain": "Précurseurs des macrophages tissulaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (reformulation)",
+              "choices": [
+                "bicarbonates, phosphates, hémoglobine",
+                "ADN uniquement",
+                "chylomicrons seuls",
+                "saccharose, cellulose"
+              ],
+              "answer": 0,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante)",
+              "choices": [
+                "Activation de la thrombine",
+                "Dégranulation basophile",
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique"
+              ],
+              "answer": 3,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Environ 30 % du CO2 sanguin est : (variante)",
+              "choices": [
+                "sous forme de carbaminohémoglobine",
+                "sous forme de CO libre",
+                "dissous seulement",
+                "lié au fibrinogène"
+              ],
+              "answer": 0,
+              "explain": "Carbamino-Hb ~30 % ; reste bicarbonate/dissous."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est : (reformulation)",
+              "choices": [
+                "liée à l’albumine",
+                "dissoute dans le plasma",
+                "sous forme d’oxyde nitrique",
+                "liée à l’hémoglobine (~95 %)"
+              ],
+              "answer": 3,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation)",
+              "choices": [
+                "les protéines",
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de Na+ est proche de : (reformulation)",
+              "choices": [
+                "≈0.8 mM",
+                "≈4.8 mM",
+                "≈2.3 mM",
+                "≈140 mM"
+              ],
+              "answer": 3,
+              "explain": "Na+ ~140 mM ; K+ ~4.8 ; Ca2+ ~2.3 ; Mg2+ ~0.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (QCM bis)",
+              "choices": [
+                "des immunoglobulines",
+                "de l’albumine",
+                "du fibrinogène",
+                "des lipoprotéines"
+              ],
+              "answer": 0,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces médiateurs plaquettaires : (QCM bis)",
+              "choices": [
+                "ADP/ATP, sérotonine, Ca2+, PDGF, fibrinogène",
+                "IgA, IgM, IgG uniquement",
+                "ACE, renine",
+                "insuline, glucagon"
+              ],
+              "answer": 0,
+              "explain": "Denses/alpha granules."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes : (QCM bis)",
+              "choices": [
+                "détoxication hépatique",
+                "transport O2",
+                "synthèse d’anticorps",
+                "hémostase primaire (agrégation/adhésion)"
+              ],
+              "answer": 3,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La numération plaquettaire normale est : (QCM bis)",
+              "choices": [
+                "≈4–6,5 millions/µL",
+                "≈150 000–400 000 /µL",
+                "≈4 000–10 000 /µL",
+                "≈20–45 %"
+              ],
+              "answer": 1,
+              "explain": "Fragments anucléés 2–4 µm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante) (reformulation)",
+              "choices": [
+                "5–15 g/L",
+                "35–50 g/L",
+                "70–90 g/L",
+                "1–3 g/L"
+              ],
+              "answer": 1,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante) (variante)",
+              "choices": [
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Activation de la thrombine",
+                "Synthèse d’IgG"
+              ],
+              "answer": 0,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation)",
+              "choices": [
+                "des lipoprotéines",
+                "des immunoglobulines",
+                "de l’albumine",
+                "du fibrinogène"
+              ],
+              "answer": 1,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement : (reformulation) (QCM bis)",
+              "choices": [
+                "aux protéines plasmatiques",
+                "aux leucocytes et plaquettes (<1 %)",
+                "aux lipides plasmatiques",
+                "aux seules hématies"
+              ],
+              "answer": 1,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hématies matures : (variante)",
+              "choices": [
+                "sont anucléées et très déformables",
+                "se divisent activement",
+                "sont immobiles et rigides",
+                "possèdent un noyau"
+              ],
+              "answer": 0,
+              "explain": "Plasticité pour capillaires ~10 µm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement : (reformulation) (QCM bis) (variante)",
+              "choices": [
+                "aux protéines plasmatiques",
+                "aux leucocytes et plaquettes (<1 %)",
+                "aux seules hématies",
+                "aux lipides plasmatiques"
+              ],
+              "answer": 1,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation) (variante)",
+              "choices": [
+                "des immunoglobulines",
+                "du fibrinogène",
+                "des lipoprotéines",
+                "de l’albumine"
+              ],
+              "answer": 0,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules effectrices de l’immunité humorale : (reformulation)",
+              "choices": [
+                "monocytes",
+                "lymphocytes T CD8",
+                "neutrophiles",
+                "lymphocytes B → plasmocytes"
+              ],
+              "answer": 3,
+              "explain": "Production d’immunoglobulines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation)",
+              "choices": [
+                "≈5–15 %",
+                "≈40–75 %",
+                "≈1–6 %",
+                "≈80–95 %"
+              ],
+              "answer": 1,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (reformulation) (variante)",
+              "choices": [
+                "bicarbonates, phosphates, hémoglobine",
+                "ADN uniquement",
+                "chylomicrons seuls",
+                "saccharose, cellulose"
+              ],
+              "answer": 0,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes : (QCM bis) (QCM bis)",
+              "choices": [
+                "transport O2",
+                "synthèse d’anticorps",
+                "détoxication hépatique",
+                "hémostase primaire (agrégation/adhésion)"
+              ],
+              "answer": 3,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de Na+ est proche de : (reformulation) (variante)",
+              "choices": [
+                "≈0.8 mM",
+                "≈2.3 mM",
+                "≈4.8 mM",
+                "≈140 mM"
+              ],
+              "answer": 3,
+              "explain": "Na+ ~140 mM ; K+ ~4.8 ; Ca2+ ~2.3 ; Mg2+ ~0.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante) (reformulation)",
+              "choices": [
+                "lymphocyte B",
+                "basophile",
+                "neutrophile",
+                "érythrocyte"
+              ],
+              "answer": 2,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (reformulation) (variante)",
+              "choices": [
+                "= 0,2 g/L",
+                "> 1,6 g/L",
+                "< 0,1 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 3,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (variante)",
+              "choices": [
+                "les protéines",
+                "les lipides",
+                "le glucose",
+                "l’eau (~910 g/L)"
+              ],
+              "answer": 3,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation) (variante) (QCM bis)",
+              "choices": [
+                "du fibrinogène",
+                "des lipoprotéines",
+                "des immunoglobulines",
+                "de l’albumine"
+              ],
+              "answer": 2,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (QCM bis)",
+              "choices": [
+                "neutrophile",
+                "érythrocyte",
+                "basophile",
+                "lymphocyte B"
+              ],
+              "answer": 0,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces propriétés, choisissez celles des leucocytes : (reformulation)",
+              "choices": [
+                "synthèse de fibrine uniquement",
+                "aucune",
+                "chimiotactisme, diapédèse, phagocytose",
+                "photosynthèse, pinocytose unique, exocytose Hb"
+              ],
+              "answer": 2,
+              "explain": "Migration vers foyers inflammatoires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (reformulation) (variante) (variante)",
+              "choices": [
+                "> 1,6 g/L",
+                "< 0,1 g/L",
+                "> 0,5 g/L",
+                "= 0,2 g/L"
+              ],
+              "answer": 2,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement : (variante) (variante)",
+              "choices": [
+                "histamine, héparine, sérotonine",
+                "érythropoïétine",
+                "fibrinogène",
+                "hémoglobine"
+              ],
+              "answer": 0,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation)",
+              "choices": [
+                "≈5–15 %",
+                "≈1–6 %",
+                "≈80–95 %",
+                "≈40–75 %"
+              ],
+              "answer": 3,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le plasma, l’anion majeur est : (QCM bis)",
+              "choices": [
+                "I− (~10 mM)",
+                "HCO3− (~105 mM)",
+                "Cl− (~105 mM)",
+                "SO4²− (~10 mM)"
+              ],
+              "answer": 2,
+              "explain": "Cl− ~105 mM ; PO4³− ~4 mM ; SO4²− ~0,2 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "≈40–75 %",
+                "≈1–6 %",
+                "≈80–95 %",
+                "≈5–15 %"
+              ],
+              "answer": 0,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel est le pourcentage approximatif du plasma dans le sang total ? (reformulation)",
+              "choices": [
+                "≈35 %",
+                "≈55 %",
+                "≈65 %",
+                "≈45 %"
+              ],
+              "answer": 1,
+              "explain": "Buffy coat <1 %, éléments figurés ≈45 %, plasma ≈55 %."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (reformulation)",
+              "choices": [
+                "Activation de la thrombine",
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile"
+              ],
+              "answer": 2,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation)",
+              "choices": [
+                "du fibrinogène",
+                "de l’albumine",
+                "des lipoprotéines",
+                "des immunoglobulines"
+              ],
+              "answer": 3,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Durée de vie moyenne d’une hématie : (reformulation) (reformulation)",
+              "choices": [
+                "≈12 jours",
+                "≈48 heures",
+                "≈12 mois",
+                "≈120 jours"
+              ],
+              "answer": 3,
+              "explain": "Production continue par l’érythropoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules cytotoxiques ciblant cellules infectées ou tumorales : (variante)",
+              "choices": [
+                "plaquettes",
+                "lymphocytes T CD8 (cytotoxiques)",
+                "éosinophiles",
+                "lymphocytes B mémoire"
+              ],
+              "answer": 1,
+              "explain": "Immunité à médiation cellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation) (variante)",
+              "choices": [
+                "≈80–95 %",
+                "≈5–15 %",
+                "≈40–75 %",
+                "≈1–6 %"
+              ],
+              "answer": 2,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de Na+ est proche de : (reformulation) (reformulation)",
+              "choices": [
+                "≈2.3 mM",
+                "≈4.8 mM",
+                "≈0.8 mM",
+                "≈140 mM"
+              ],
+              "answer": 3,
+              "explain": "Na+ ~140 mM ; K+ ~4.8 ; Ca2+ ~2.3 ; Mg2+ ~0.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (QCM bis) (reformulation)",
+              "choices": [
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (QCM bis) (QCM bis)",
+              "choices": [
+                "> 1 g/L",
+                "> 2 g/L",
+                "> 5 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 1,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité de l’O2 circulant est : (QCM bis)",
+              "choices": [
+                "sous forme d’oxyde nitrique",
+                "liée à l’hémoglobine (~95 %)",
+                "liée à l’albumine",
+                "dissoute dans le plasma"
+              ],
+              "answer": 1,
+              "explain": "Transport par Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (variante)",
+              "choices": [
+                "> 1 g/L",
+                "> 0,5 g/L",
+                "> 2 g/L",
+                "> 5 g/L"
+              ],
+              "answer": 2,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes : (QCM bis)",
+              "choices": [
+                "transport O2",
+                "hémostase primaire (agrégation/adhésion)",
+                "détoxication hépatique",
+                "synthèse d’anticorps"
+              ],
+              "answer": 1,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lymphocytes représentent : (reformulation)",
+              "choices": [
+                "≈1–6 %",
+                "≈40–75 %",
+                "≈20–45 %",
+                "≈0–1 %"
+              ],
+              "answer": 2,
+              "explain": "Sous-pop : B, T, NK."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (variante)",
+              "choices": [
+                "saccharose, cellulose",
+                "ADN uniquement",
+                "bicarbonates, phosphates, hémoglobine",
+                "chylomicrons seuls"
+              ],
+              "answer": 2,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de K+ est la plus proche de : (reformulation)",
+              "choices": [
+                "≈0.2 mM",
+                "≈2 mM",
+                "≈4–5 mM",
+                "≈140 mM"
+              ],
+              "answer": 2,
+              "explain": "K+ ~4.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante) (variante)",
+              "choices": [
+                "lymphocyte B",
+                "neutrophile",
+                "érythrocyte",
+                "basophile"
+              ],
+              "answer": 1,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation)",
+              "choices": [
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lymphocytes représentent : (reformulation) (variante)",
+              "choices": [
+                "≈1–6 %",
+                "≈40–75 %",
+                "≈0–1 %",
+                "≈20–45 %"
+              ],
+              "answer": 3,
+              "explain": "Sous-pop : B, T, NK."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation) (variante) (reformulation)",
+              "choices": [
+                "≈40–75 %",
+                "≈5–15 %",
+                "≈80–95 %",
+                "≈1–6 %"
+              ],
+              "answer": 0,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles représentent : (QCM bis)",
+              "choices": [
+                "≈10–20 %",
+                "≈25–40 %",
+                "≈5–10 %",
+                "≈0–1 %"
+              ],
+              "answer": 3,
+              "explain": "Les plus rares."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes : (QCM bis)",
+              "choices": [
+                "transport O2",
+                "synthèse d’anticorps",
+                "détoxication hépatique",
+                "hémostase primaire (agrégation/adhésion)"
+              ],
+              "answer": 3,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (variante) (QCM bis)",
+              "choices": [
+                "saccharose, cellulose",
+                "chylomicrons seuls",
+                "ADN uniquement",
+                "bicarbonates, phosphates, hémoglobine"
+              ],
+              "answer": 3,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (reformulation)",
+              "choices": [
+                "Dégranulation basophile",
+                "Maintien de la pression oncotique",
+                "Synthèse d’IgG",
+                "Activation de la thrombine"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (variante) (reformulation)",
+              "choices": [
+                "les protéines",
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les lipides"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le plasma, l’anion majeur est : (reformulation)",
+              "choices": [
+                "HCO3− (~105 mM)",
+                "I− (~10 mM)",
+                "SO4²− (~10 mM)",
+                "Cl− (~105 mM)"
+              ],
+              "answer": 3,
+              "explain": "Cl− ~105 mM ; PO4³− ~4 mM ; SO4²− ~0,2 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (reformulation)",
+              "choices": [
+                "> 1,6 g/L",
+                "> 0,5 g/L",
+                "= 0,2 g/L",
+                "< 0,1 g/L"
+              ],
+              "answer": 1,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante) (variante)",
+              "choices": [
+                "Activation de la thrombine",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Synthèse d’IgG"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (QCM bis) (QCM bis)",
+              "choices": [
+                "> 1,6 g/L",
+                "= 0,2 g/L",
+                "< 0,1 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 3,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la formule leucocytaire, les neutrophiles représentent : (variante) (reformulation) (variante)",
+              "choices": [
+                "≈80–95 %",
+                "≈5–15 %",
+                "≈1–6 %",
+                "≈40–75 %"
+              ],
+              "answer": 3,
+              "explain": "Majoritaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (variante) (QCM bis) (reformulation)",
+              "choices": [
+                "Activation de la thrombine",
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile"
+              ],
+              "answer": 2,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le plasma, l’anion majeur est : (reformulation) (reformulation)",
+              "choices": [
+                "HCO3− (~105 mM)",
+                "Cl− (~105 mM)",
+                "I− (~10 mM)",
+                "SO4²− (~10 mM)"
+              ],
+              "answer": 1,
+              "explain": "Cl− ~105 mM ; PO4³− ~4 mM ; SO4²− ~0,2 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (reformulation)",
+              "choices": [
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (variante) (reformulation) (QCM bis)",
+              "choices": [
+                "> 1,6 g/L",
+                "> 0,5 g/L",
+                "= 0,2 g/L",
+                "< 0,1 g/L"
+              ],
+              "answer": 1,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement : (variante) (variante)",
+              "choices": [
+                "hémoglobine",
+                "histamine, héparine, sérotonine",
+                "érythropoïétine",
+                "fibrinogène"
+              ],
+              "answer": 1,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (variante)",
+              "choices": [
+                "des lipoprotéines",
+                "du fibrinogène",
+                "de l’albumine",
+                "des immunoglobulines"
+              ],
+              "answer": 3,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement : (variante) (variante)",
+              "choices": [
+                "histamine, héparine, sérotonine",
+                "hémoglobine",
+                "érythropoïétine",
+                "fibrinogène"
+              ],
+              "answer": 0,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation)",
+              "choices": [
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines",
+                "les lipides"
+              ],
+              "answer": 1,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un cholestérol total à risque (selon le cours) : (QCM bis)",
+              "choices": [
+                "> 2 g/L avec LDL > 1,6 g/L",
+                "> 1 g/L quel que soit LDL",
+                "> 2 g/L avec LDL < 1,6 g/L",
+                "> 3 g/L avec HDL > 0,5 g/L"
+              ],
+              "answer": 0,
+              "explain": "Association CT élevé + LDL élevé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules cytotoxiques ciblant cellules infectées ou tumorales : (QCM bis)",
+              "choices": [
+                "éosinophiles",
+                "plaquettes",
+                "lymphocytes B mémoire",
+                "lymphocytes T CD8 (cytotoxiques)"
+              ],
+              "answer": 3,
+              "explain": "Immunité à médiation cellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’hématies chez l’homme par µL est : (QCM bis) (reformulation)",
+              "choices": [
+                "≈1–2 millions/µL",
+                "≈7–9 millions/µL",
+                "≈0,5–1 million/µL",
+                "≈4,5–6,5 millions/µL"
+              ],
+              "answer": 3,
+              "explain": "Sexe-dépendant (homme > femme)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante)",
+              "choices": [
+                "l’eau (~910 g/L)",
+                "les lipides",
+                "le glucose",
+                "les protéines"
+              ],
+              "answer": 0,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (QCM bis)",
+              "choices": [
+                "Activation de la thrombine",
+                "Synthèse d’IgG",
+                "Dégranulation basophile",
+                "Maintien de la pression oncotique"
+              ],
+              "answer": 3,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un cholestérol total à risque (selon le cours) : (QCM bis) (QCM bis)",
+              "choices": [
+                "> 2 g/L avec LDL < 1,6 g/L",
+                "> 3 g/L avec HDL > 0,5 g/L",
+                "> 2 g/L avec LDL > 1,6 g/L",
+                "> 1 g/L quel que soit LDL"
+              ],
+              "answer": 2,
+              "explain": "Association CT élevé + LDL élevé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (QCM bis)",
+              "choices": [
+                "le glucose",
+                "les protéines",
+                "l’eau (~910 g/L)",
+                "les lipides"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le buffy coat correspond principalement : (reformulation) (QCM bis) (variante) (reformulation)",
+              "choices": [
+                "aux protéines plasmatiques",
+                "aux leucocytes et plaquettes (<1 %)",
+                "aux lipides plasmatiques",
+                "aux seules hématies"
+              ],
+              "answer": 1,
+              "explain": "Fine couche entre plasma et GR après centrifugation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "lymphocyte B",
+                "basophile",
+                "neutrophile",
+                "érythrocyte"
+              ],
+              "answer": 2,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le pouvoir tampon sanguin implique notamment : (variante) (QCM bis) (variante)",
+              "choices": [
+                "chylomicrons seuls",
+                "bicarbonates, phosphates, hémoglobine",
+                "ADN uniquement",
+                "saccharose, cellulose"
+              ],
+              "answer": 1,
+              "explain": "Maintien du pH physiologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (variante)",
+              "choices": [
+                "les lipides",
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le HDL-cholestérol est considéré « bon » s’il est : (QCM bis) (variante)",
+              "choices": [
+                "> 0,5 g/L",
+                "= 0,2 g/L",
+                "> 1,6 g/L",
+                "< 0,1 g/L"
+              ],
+              "answer": 0,
+              "explain": "Rôle de transport inverse du cholestérol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel est le pourcentage approximatif du plasma dans le sang total ? (reformulation)",
+              "choices": [
+                "≈35 %",
+                "≈45 %",
+                "≈65 %",
+                "≈55 %"
+              ],
+              "answer": 3,
+              "explain": "Buffy coat <1 %, éléments figurés ≈45 %, plasma ≈55 %."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La protéinémie totale normale est : (QCM bis)",
+              "choices": [
+                "≈20–30 g/L",
+                "≈90–120 g/L",
+                "≈60–80 g/L",
+                "≈5–10 g/L"
+              ],
+              "answer": 2,
+              "explain": "Albumine, globulines, fibrinogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation) (variante) (QCM bis) (reformulation)",
+              "choices": [
+                "des lipoprotéines",
+                "des immunoglobulines",
+                "de l’albumine",
+                "du fibrinogène"
+              ],
+              "answer": 1,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (QCM bis)",
+              "choices": [
+                "les lipides",
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les protéines"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante) (reformulation) (variante)",
+              "choices": [
+                "1–3 g/L",
+                "70–90 g/L",
+                "35–50 g/L",
+                "5–15 g/L"
+              ],
+              "answer": 2,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (reformulation)",
+              "choices": [
+                "5–15 g/L",
+                "70–90 g/L",
+                "35–50 g/L",
+                "1–3 g/L"
+              ],
+              "answer": 2,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cellules effectrices de l’immunité humorale : (QCM bis)",
+              "choices": [
+                "lymphocytes T CD8",
+                "monocytes",
+                "neutrophiles",
+                "lymphocytes B → plasmocytes"
+              ],
+              "answer": 3,
+              "explain": "Production d’immunoglobulines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "des lipoprotéines",
+                "de l’albumine",
+                "des immunoglobulines",
+                "du fibrinogène"
+              ],
+              "answer": 2,
+              "explain": "Défense immunitaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’hématies chez l’homme par µL est : (QCM bis)",
+              "choices": [
+                "≈4,5–6,5 millions/µL",
+                "≈7–9 millions/µL",
+                "≈0,5–1 million/µL",
+                "≈1–2 millions/µL"
+              ],
+              "answer": 0,
+              "explain": "Sexe-dépendant (homme > femme)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (QCM bis) (QCM bis)",
+              "choices": [
+                "> 5 g/L",
+                "> 1 g/L",
+                "> 2 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 2,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (variante) (reformulation) (QCM bis)",
+              "choices": [
+                "l’eau (~910 g/L)",
+                "le glucose",
+                "les lipides",
+                "les protéines"
+              ],
+              "answer": 0,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (reformulation)",
+              "choices": [
+                "> 5 g/L",
+                "> 0,5 g/L",
+                "> 2 g/L",
+                "> 1 g/L"
+              ],
+              "answer": 2,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Environ 30 % du CO2 sanguin est : (variante) (variante)",
+              "choices": [
+                "sous forme de CO libre",
+                "lié au fibrinogène",
+                "dissous seulement",
+                "sous forme de carbaminohémoglobine"
+              ],
+              "answer": 3,
+              "explain": "Carbamino-Hb ~30 % ; reste bicarbonate/dissous."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les basophiles/mastocytes libèrent principalement : (variante) (variante) (reformulation)",
+              "choices": [
+                "érythropoïétine",
+                "histamine, héparine, sérotonine",
+                "fibrinogène",
+                "hémoglobine"
+              ],
+              "answer": 1,
+              "explain": "Hypersensibilité immédiate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La composante majoritaire du plasma est : (QCM bis) (variante) (QCM bis) (reformulation) (variante) (reformulation)",
+              "choices": [
+                "les protéines",
+                "le glucose",
+                "l’eau (~910 g/L)",
+                "les lipides"
+              ],
+              "answer": 2,
+              "explain": "L’eau est le solvant principal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante) (reformulation) (variante) (QCM bis)",
+              "choices": [
+                "1–3 g/L",
+                "5–15 g/L",
+                "70–90 g/L",
+                "35–50 g/L"
+              ],
+              "answer": 3,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Valeur usuelle du glucose sanguin (à jeun) : (reformulation)",
+              "choices": [
+                "≈0,1 g/L",
+                "≈3 g/L",
+                "≈5 g/L",
+                "≈1 g/L (0,8–1,3 g/L)"
+              ],
+              "answer": 3,
+              "explain": "4,5–7 mM à jeun."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi ces rôles, lequel est central pour l’albumine ? (variante) (QCM bis)",
+              "choices": [
+                "Synthèse d’IgG",
+                "Maintien de la pression oncotique",
+                "Dégranulation basophile",
+                "Activation de la thrombine"
+              ],
+              "answer": 1,
+              "explain": "Plus abondante (~54 % des protéines)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration plasmatique de K+ est la plus proche de : (reformulation) (variante)",
+              "choices": [
+                "≈140 mM",
+                "≈0.2 mM",
+                "≈2 mM",
+                "≈4–5 mM"
+              ],
+              "answer": 3,
+              "explain": "K+ ~4.8 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une hypertriglycéridémie est définie par des TG : (QCM bis) (QCM bis) (QCM bis)",
+              "choices": [
+                "> 1 g/L",
+                "> 5 g/L",
+                "> 2 g/L",
+                "> 0,5 g/L"
+              ],
+              "answer": 2,
+              "explain": "Seuil courant pédagogique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Premier acteur de la phagocytose aiguë dans les tissus : (variante) (reformulation) (QCM bis)",
+              "choices": [
+                "érythrocyte",
+                "basophile",
+                "neutrophile",
+                "lymphocyte B"
+              ],
+              "answer": 2,
+              "explain": "Migration, chimiotactisme, phagocytose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle majeur des éosinophiles : (variante)",
+              "choices": [
+                "coagulation primaire",
+                "cytolyse de parasites + rôle dans l’allergie",
+                "présentation de l’antigène",
+                "transport de l’O2"
+              ],
+              "answer": 1,
+              "explain": "Granulations spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le plasma, l’anion majeur est : (reformulation)",
+              "choices": [
+                "Cl− (~105 mM)",
+                "I− (~10 mM)",
+                "HCO3− (~105 mM)",
+                "SO4²− (~10 mM)"
+              ],
+              "answer": 0,
+              "explain": "Cl− ~105 mM ; PO4³− ~4 mM ; SO4²− ~0,2 mM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les lymphocytes représentent : (reformulation) (variante) (variante)",
+              "choices": [
+                "≈20–45 %",
+                "≈40–75 %",
+                "≈0–1 %",
+                "≈1–6 %"
+              ],
+              "answer": 0,
+              "explain": "Sous-pop : B, T, NK."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’albumine plasmatique normale est d’environ : (variante) (reformulation) (QCM bis)",
+              "choices": [
+                "1–3 g/L",
+                "35–50 g/L",
+                "5–15 g/L",
+                "70–90 g/L"
+              ],
+              "answer": 1,
+              "explain": "Synthèse hépatique, pression oncotique, transport."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rôle principal des plaquettes : (QCM bis)",
+              "choices": [
+                "détoxication hépatique",
+                "synthèse d’anticorps",
+                "transport O2",
+                "hémostase primaire (agrégation/adhésion)"
+              ],
+              "answer": 3,
+              "explain": "Colmatage lésion vasculaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les globulines γ correspondent surtout à : (reformulation) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "des lipoprotéines",
+                "des immunoglobulines",
+                "de l’albumine",
+                "du fibrinogène"
+              ],
+              "answer": 1,
+              "explain": "Défense immunitaire."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir le plasma.",
+              "answer_text": "Phase liquide du sang obtenue après centrifugation d’un sang anticoagulé.",
+              "explain": "Contient eau, électrolytes, protéines, nutriments, hormones…"
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le sérum.",
+              "answer_text": "Plasma dépourvu de fibrinogène et des facteurs de coagulation.",
+              "explain": "Obtenu après coagulation et centrifugation."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la formule leucocytaire.",
+              "answer_text": "Répartition en pourcentage des différentes catégories de leucocytes.",
+              "explain": "Neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que la diapédèse ?",
+              "answer_text": "Passage actif d’un leucocyte du sang vers les tissus à travers l’endothélium.",
+              "explain": "Favorisée par l’inflammation/chimiotactisme."
+            },
+            {
+              "type": "short",
+              "prompt": "Que sont les réticulocytes ?",
+              "answer_text": "Jeunes GR (≈1 %) contenant encore de l’ARN résiduel.",
+              "explain": "Marqueur d’érythropoïèse."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes B.",
+              "answer_text": "Immunité humorale via plasmocytes et anticorps.",
+              "explain": "Mémoire B à long terme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des monocytes/macrophages.",
+              "answer_text": "Phagocytose et présentation d’antigène.",
+              "explain": "Production de cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuil pédagogique d’hypertriglycéridémie.",
+              "answer_text": ">2 g/L.",
+              "explain": "Transportés par VLDL/chylomicrons."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la formule leucocytaire.",
+              "answer_text": "Répartition en pourcentage des différentes catégories de leucocytes.",
+              "explain": "Neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des monocytes/macrophages.",
+              "answer_text": "Phagocytose et présentation d’antigène.",
+              "explain": "Production de cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que la diapédèse ?",
+              "answer_text": "Passage actif d’un leucocyte du sang vers les tissus à travers l’endothélium.",
+              "explain": "Favorisée par l’inflammation/chimiotactisme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le plasma.",
+              "answer_text": "Phase liquide du sang obtenue après centrifugation d’un sang anticoagulé.",
+              "explain": "Contient eau, électrolytes, protéines, nutriments, hormones…"
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des monocytes/macrophages.",
+              "answer_text": "Phagocytose et présentation d’antigène.",
+              "explain": "Production de cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que la diapédèse ?",
+              "answer_text": "Passage actif d’un leucocyte du sang vers les tissus à travers l’endothélium.",
+              "explain": "Favorisée par l’inflammation/chimiotactisme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes B.",
+              "answer_text": "Immunité humorale via plasmocytes et anticorps.",
+              "explain": "Mémoire B à long terme."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le plasma.",
+              "answer_text": "Phase liquide du sang obtenue après centrifugation d’un sang anticoagulé.",
+              "explain": "Contient eau, électrolytes, protéines, nutriments, hormones…"
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le sérum.",
+              "answer_text": "Plasma dépourvu de fibrinogène et des facteurs de coagulation.",
+              "explain": "Obtenu après coagulation et centrifugation."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que la diapédèse ?",
+              "answer_text": "Passage actif d’un leucocyte du sang vers les tissus à travers l’endothélium.",
+              "explain": "Favorisée par l’inflammation/chimiotactisme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la formule leucocytaire.",
+              "answer_text": "Répartition en pourcentage des différentes catégories de leucocytes.",
+              "explain": "Neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le plasma.",
+              "answer_text": "Phase liquide du sang obtenue après centrifugation d’un sang anticoagulé.",
+              "explain": "Contient eau, électrolytes, protéines, nutriments, hormones…"
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des monocytes/macrophages.",
+              "answer_text": "Phagocytose et présentation d’antigène.",
+              "explain": "Production de cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le sérum.",
+              "answer_text": "Plasma dépourvu de fibrinogène et des facteurs de coagulation.",
+              "explain": "Obtenu après coagulation et centrifugation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le sérum.",
+              "answer_text": "Plasma dépourvu de fibrinogène et des facteurs de coagulation.",
+              "explain": "Obtenu après coagulation et centrifugation."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuil pédagogique d’hypertriglycéridémie.",
+              "answer_text": ">2 g/L.",
+              "explain": "Transportés par VLDL/chylomicrons."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes B.",
+              "answer_text": "Immunité humorale via plasmocytes et anticorps.",
+              "explain": "Mémoire B à long terme."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le sérum.",
+              "answer_text": "Plasma dépourvu de fibrinogène et des facteurs de coagulation.",
+              "explain": "Obtenu après coagulation et centrifugation."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes B.",
+              "answer_text": "Immunité humorale via plasmocytes et anticorps.",
+              "explain": "Mémoire B à long terme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les grandes classes protéiques plasmatiques.",
+              "answer_text": "Albumine, globulines (α, β, γ), fibrinogène.",
+              "explain": "≈60–80 g/L au total."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la formule leucocytaire.",
+              "answer_text": "Répartition en pourcentage des différentes catégories de leucocytes.",
+              "explain": "Neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux rôles des monocytes/macrophages.",
+              "answer_text": "Phagocytose et présentation d’antigène.",
+              "explain": "Production de cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Que sont les réticulocytes ?",
+              "answer_text": "Jeunes GR (≈1 %) contenant encore de l’ARN résiduel.",
+              "explain": "Marqueur d’érythropoïèse."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes T CD8.",
+              "answer_text": "Cytotoxicité contre cellules infectées ou tumorales.",
+              "explain": "Médiation cellulaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôles du sang (3 exemples).",
+              "answer_text": "Transport, défense, thermorégulation.",
+              "explain": "Ajout : identité, communication, tampon."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuil pédagogique d’hypertriglycéridémie.",
+              "answer_text": ">2 g/L.",
+              "explain": "Transportés par VLDL/chylomicrons."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuil pédagogique d’hypertriglycéridémie.",
+              "answer_text": ">2 g/L.",
+              "explain": "Transportés par VLDL/chylomicrons."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler deux fonctions majeures de l’albumine.",
+              "answer_text": "Pression oncotique et transport (AG, bilirubine, hormones…).",
+              "explain": "Synthèse hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Seuil pédagogique d’hypertriglycéridémie.",
+              "answer_text": ">2 g/L.",
+              "explain": "Transportés par VLDL/chylomicrons."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la formule leucocytaire.",
+              "answer_text": "Répartition en pourcentage des différentes catégories de leucocytes.",
+              "explain": "Neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles."
+            },
+            {
+              "type": "short",
+              "prompt": "Que sont les réticulocytes ?",
+              "answer_text": "Jeunes GR (≈1 %) contenant encore de l’ARN résiduel.",
+              "explain": "Marqueur d’érythropoïèse."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Que transportent les HDL ?",
+              "answer_text": "Cholestérol vers le foie (transport inverse).",
+              "explain": "Protecteur si >0,5 g/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que la diapédèse ?",
+              "answer_text": "Passage actif d’un leucocyte du sang vers les tissus à travers l’endothélium.",
+              "explain": "Favorisée par l’inflammation/chimiotactisme."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal des lymphocytes B.",
+              "answer_text": "Immunité humorale via plasmocytes et anticorps.",
+              "explain": "Mémoire B à long terme."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Numération-formule — Homme 29 ans, NFS : GB 12 500/µL, neutrophiles 85 %\n\nQuel type d’anomalie de la formule suspectez-vous ?",
+              "answer_text": "Neutrophilie (valeur et % augmentés).",
+              "explain": "Contexte infectieux/inflammatoire fréquent."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Dyslipidémie — Bilan à jeun : CT 2,3 g/L ; LDL 1,7 g/L ; HDL 0,35 g/L ; TG 2,4 g/L\n\nCitez deux anomalies majeures.",
+              "answer_text": "LDL élevé ; HDL bas ; TG élevé.",
+              "explain": "Risque CV ↑ ; mesures hygiéno-diététiques + avis médical."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Anémie régénérative ? — Hb basse avec réticulocytes 3 %\n\nRégénérative ou arégénérative ?",
+              "answer_text": "Régénérative (réticulos ↑).",
+              "explain": "Recherche spoliation/hémolyse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Allergie/parasitoses — NFS : éosinophiles 9 % (400/µL)\n\nQuelle orientation ?",
+              "answer_text": "Hyperéosinophilie (allergie/parasitoses).",
+              "explain": "Comparer au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Thrombopénie ? — Plaquettes 90 000/µL\n\nComment nommez-vous l’anomalie ?",
+              "answer_text": "Thrombopénie.",
+              "explain": "Risque hémorragique selon contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #6 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #7 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #8 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #9 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #10 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #11 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #12 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #13 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #14 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #15 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #16 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #17 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #18 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #19 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #20 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #21 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #22 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #23 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #24 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #25 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #26 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #27 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #28 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #29 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémato #30 — Mini-vignette NFS/plasma/clinique\n\nPosez le diagnostic le plus probable.",
+              "answer_text": "Raisonner sur numérations, pourcentages, fonctions.",
+              "explain": "Toujours confronter aux normes et au contexte."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:38:47.999794Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
