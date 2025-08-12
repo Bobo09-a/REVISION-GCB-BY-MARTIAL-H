@@ -1,54 +1,404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>QCM Futuriste – App Mobile</title>
-<link rel="stylesheet" href="style.css" />
-<script defer src="app.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>QCM Futuriste – Révision Licence GCB</title>
+  <meta name="theme-color" content="#0b0f1a" />
+  <style>
+    :root{
+      --bg:#0b0f1a;--panel:#10162a;--panel2:#0e1324;--acc:#6df0ff;--acc2:#7d7bff;--ok:#2ee59d;--bad:#ff5577;--text:#e9f3ff;--muted:#9fb2c7;--chip:#16213a;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial; background:radial-gradient(1200px 700px at 70% -10%,rgba(125,123,255,.16),transparent),
+      radial-gradient(900px 600px at -20% 120%,rgba(109,240,255,.18),transparent), var(--bg); color:var(--text);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+    .app{max-width:760px; margin:0 auto; padding:12px 12px 80px;}
+    header{
+      position:sticky; top:0; z-index:5; backdrop-filter:saturate(130%) blur(10px);
+      background:linear-gradient(180deg, rgba(11,15,26,.92), rgba(11,15,26,.65));
+      border-bottom:1px solid rgba(125,123,255,.25);
+    }
+    .bar{display:flex; align-items:center; gap:8px; padding:10px 12px;}
+    .title{font-weight:700; letter-spacing:.2px;}
+    .chip{background:var(--chip); border:1px solid rgba(109,240,255,.25); padding:6px 10px; border-radius:999px; font-size:12px; color:var(--muted)}
+    select, button, input[type="text"], input[type="file"], textarea{
+      background:linear-gradient(180deg,var(--panel),var(--panel2)); color:var(--text); border:1px solid rgba(125,123,255,.35); border-radius:12px;
+      padding:10px 12px; font-size:14px; outline:none; width:100%;
+    }
+    button{cursor:pointer; transition:.2s transform ease, .2s box-shadow ease;}
+    button:hover{transform:translateY(-1px)}
+    .row{display:flex; gap:8px;}
+    .row>*{flex:1}
+    .grid{display:grid; grid-template-columns:1fr; gap:12px}
+    @media(min-width:520px){
+      .grid-2{grid-template-columns: 1fr 1fr}
+    }
+    .panel{border:1px solid rgba(109,240,255,.2); border-radius:16px; background:linear-gradient(180deg, rgba(22,28,50,.72), rgba(12,17,33,.72)); box-shadow:0 8px 24px rgba(0,0,0,.25);}
+    .panel .p{padding:14px;}
+    .ghost{background:transparent; border:1px dashed rgba(125,123,255,.35)}
+    .progress{height:8px; width:100%; background:#0b1120; border-radius:999px; overflow:hidden; border:1px solid rgba(125,123,255,.25)}
+    .progress>i{display:block; height:100%; width:0%; background:linear-gradient(90deg,var(--acc),var(--acc2)); transition:width .25s ease}
+    .badge{padding:6px 10px; border-radius:999px; border:1px solid rgba(125,123,255,.35); font-size:12px; color:var(--muted)}
+    .q-title{font-weight:700; font-size:18px; line-height:1.3}
+    .choices{display:grid; gap:10px;}
+    .choice{display:flex; gap:10px; align-items:flex-start; padding:10px; border:1px solid rgba(125,123,255,.35); border-radius:12px; background:linear-gradient(180deg,var(--panel),var(--panel2)); cursor:pointer}
+    .choice input{margin-top:4px}
+    .actions{display:flex; gap:10px;}
+    .h{height:1px; background:linear-gradient(90deg, transparent, rgba(109,240,255,.35), transparent); border:0; margin:12px 0}
+    .score{font-weight:700}
+    .pill{padding:4px 8px; border-radius:999px;}
+    .ok{color:#062; background:linear-gradient(180deg, rgba(46,229,157,.25), rgba(46,229,157,.1)); border:1px solid rgba(46,229,157,.4)}
+    .bad{color:#620; background:linear-gradient(180deg, rgba(255,85,119,.25), rgba(255,85,119,.1)); border:1px solid rgba(255,85,119,.4)}
+    .imgwrap{border:1px solid rgba(125,123,255,.35); border-radius:12px; overflow:hidden; background:#0b1120}
+    .imgwrap img{display:block; width:100%; height:auto}
+    .footer{position:fixed; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(180deg, rgba(11,15,26,.0), rgba(11,15,26,.95)); backdrop-filter: blur(8px); border-top:1px solid rgba(125,123,255,.25)}
+  </style>
 </head>
 <body>
   <header>
-    <h1>QCM Futuriste – Révision Licence GCB</h1>
+    <div class="bar">
+      <div class="title">📚 Révisions GCB – QCM Futuriste</div>
+      <div class="chip" id="version">v1.0</div>
+    </div>
+    <div class="bar" style="gap:10px; flex-wrap:wrap">
+      <div class="row" style="flex:3">
+        <select id="subjectSelect" aria-label="Choisir une matière"></select>
+        <button id="btnStart">Démarrer</button>
+      </div>
+      <div class="row" style="flex:2">
+        <button id="btnLoad">Importer questions (.json)</button>
+        <button id="btnSave" class="ghost">Exporter banque</button>
+      </div>
+    </div>
   </header>
-  <main>
-    <section id="instructions">
-      <p>Cette application contient <strong>1925 questions</strong> couvrant toutes les matières de votre programme.</p>
-      <ul>
-        <li>Bactériologie</li>
-        <li>Biochimie analytique</li>
-        <li>Biochimie médicale</li>
-        <li>Biochimie structurale</li>
-        <li>Chimie analytique</li>
-        <li>Chimie minérale</li>
-        <li>Chimie organique</li>
-        <li>Hématologie</li>
-        <li>Immuno-hématologie</li>
-        <li>Parasitologie</li>
-      </ul>
-      <p>Chaque question peut être un QCM, une question-réponse ou une identification d’image.</p>
-    </section>
-    <section id="quiz-container"></section>
-    <section id="features">
-      <h2>Fonctionnalités</h2>
-      <ul>
-        <li>Mode aléatoire</li>
-        <li>Mode “faiblesses”</li>
-        <li>Mode examen chronométré</li>
-        <li>Statistiques de progression</li>
-        <li>Flashcards</li>
-        <li>Études de cas</li>
-        <li>Filtres par matière et type</li>
-      </ul>
-    </section>
-    <section id="import">
-      <h2>Importer vos questions</h2>
-      <input type="file" id="file-input" accept="application/json" />
-      <button id="load-questions">Charger</button>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 – Application de révision Licence GCB</p>
-  </footer>
+
+  <div class="app">
+    <div class="grid">
+      <div class="panel">
+        <div class="p">
+          <div class="row" style="align-items:center; gap:12px">
+            <div class="badge">Sans minuteur</div>
+            <div class="badge">Score: <span class="score" id="score">0</span></div>
+            <div class="badge">Question <span id="qIndex">0</span>/<span id="qTotal">0</span></div>
+            <div class="badge">Matière: <span id="subjectLabel">—</span></div>
+          </div>
+          <div class="progress" style="margin:10px 0 4px"><i id="progressBar"></i></div>
+        </div>
+      </div>
+
+      <div class="panel" id="card">
+        <div class="p" id="stage">
+          <p style="color:var(--muted); margin:0">Choisis une matière puis clique <b>Démarrer</b>. Tu peux aussi <b>Importer</b> un fichier JSON de questions généré à partir de tes documents (je convertirai tes cours dès que tu me les enverras).</n>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="p grid-2">
+          <button id="btnPrev">⟵ Précédent</button>
+          <button id="btnNext">Suivant ⟶</button>
+        </div>
+      </div>
+
+      <details class="panel">
+        <summary class="p">ℹ️ Format de la banque de questions (pour import)</summary>
+        <div class="p">
+<pre style="white-space:pre-wrap; font-size:12px; color:var(--muted); margin:0">
+{
+  "subjects": [
+    {
+      "name": "Bactériologie",
+      "sections": [
+        { "name": "QCM", "questions": [
+          {"type":"mcq","prompt":"Gram + cocci…","choices":["Staph","E. coli","Salmonella"],"answer":0,"explain":"…"}
+        ]},
+        { "name": "Questions/Réponses", "questions": [
+          {"type":"short","prompt":"Définir stérilisation.","answer_text":"Destruction…","explain":"…"}
+        ]},
+        { "name": "IDENTIFICATION IMAGE", "questions": [
+          {"type":"image-id","prompt":"Nommer le germe.","image":"gram_staph.jpg","mode":"text","answer_text":"Staphylococcus aureus","explain":"…"}
+        ]}
+      ]
+    }
+  ]
+}
+</pre>
+          <div class=\"badge\">💡 Pour l'IDENTIFICATION IMAGE: place tes images <b>à la racine du dépôt</b> (même dossier que <code>index.html<\/code>) et renseigne juste le <b>nom du fichier</b> dans <code>image<\/code> (ex: <code>gram_staph.jpg<\/code>). Mode <code>text<\/code> = réponse saisie, Mode <code>mcq<\/code> = choix multiples avec <code>choices<\/code> + <code>answer<\/code>.<\/div>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="app">
+      <div class="row">
+        <button id="btnMarkReview" class="ghost">Marquer à revoir</button>
+        <button id="btnShowExplain" class="ghost">Afficher l'explication</button>
+        <button id="btnReset" class="ghost">Réinitialiser la session</button>
+      </div>
+    </div>
+  </div>
+
+  <input id="fileInput" type="file" accept="application/json" hidden />
+
+  <script>
+  // --- State ---
+  const el = (id)=>document.getElementById(id);
+  const S = {
+    bank: { subjects: [] },
+    subjectIndex: -1,
+    sectionIndex: 0,
+    qIndex: 0,
+    score: 0,
+    answered: false,
+    reviewSet: new Set(),
+  };
+
+  // --- Demo bank (you will replace via Import) ---
+  const demo = {
+    subjects:[
+      { name:"Bactériologie", sections:[
+        {name:"QCM", questions:[
+          {type:"mcq", prompt:"Les bacilles Gram négatif parmi les suivants sont :", choices:["Staphylococcus","Escherichia coli","Streptococcus"], answer:1, explain:"E. coli est un bacille Gram négatif."},
+          {type:"mcq", prompt:"La stérilisation élimine :", choices:["Seulement les bactéries","Tous les micro-organismes et spores","Seulement les virus"], answer:1, explain:"Par définition, destruction totale des formes vivantes y compris spores."}
+        ]},
+        {name:"Questions/Réponses", questions:[
+          {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
+        ]},
+        {name:"IDENTIFICATION IMAGE", questions:[
+          {type:"image-id", prompt:"Identifier la morphologie.", image:"demo_gram.jpg", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
+        ]}
+      ]},
+      { name:"Biochimie structurale", sections:[
+        {name:"QCM", questions:[
+          {type:"mcq", prompt:"Le monomère des protéines est :", choices:["Acide gras","Acide aminé","Nucléotide"], answer:1, explain:"Les acides aminés forment des polypeptides."}
+        ]},
+        {name:"Questions/Réponses", questions:[
+          {type:"short", prompt:"Donner la définition d'une enzyme.", answer_text:"Protéine catalytique qui accélère une réaction sans être consommée.", explain:"Abaisse l'énergie d'activation."}
+        ]},
+        {name:"IDENTIFICATION IMAGE", questions:[
+          {type:"image-id", prompt:"Nommer la structure.", image:"demo_aa.png", mode:"text", answer_text:"Acide aminé", explain:"Groupe amine + carboxyle + R."}
+        ]}
+      ]}
+    ]
+  };
+
+  // --- Init ---
+  function init(){
+    const saved = localStorage.getItem('qcm_bank_v1');
+    S.bank = saved ? JSON.parse(saved) : demo;
+    refreshSubjectList();
+    bind();
+    renderIdle();
+  }
+
+  function bind(){
+    el('btnStart').onclick = start;
+    el('btnNext').onclick = ()=> nav(1);
+    el('btnPrev').onclick = ()=> nav(-1);
+    el('btnReset').onclick = reset;
+    el('btnSave').onclick = saveBank;
+    el('btnLoad').onclick = ()=> el('fileInput').click();
+    el('fileInput').onchange = onImport;
+    el('btnShowExplain').onclick = toggleExplain;
+    el('btnMarkReview').onclick = toggleReview;
+  }
+
+  function refreshSubjectList(){
+    const sel = el('subjectSelect'); sel.innerHTML='';
+    S.bank.subjects.forEach((s, i)=>{
+      const o=document.createElement('option'); o.value=i; o.textContent=s.name; sel.appendChild(o);
+    });
+  }
+
+  function start(){
+    const idx = parseInt(el('subjectSelect').value || '0',10);
+    S.subjectIndex = isNaN(idx) ? 0 : idx; S.sectionIndex = 0; S.qIndex = 0; S.score = 0; S.answered=false; S.reviewSet.clear();
+    render();
+  }
+
+  function getCurrent(){
+    const subj = S.bank.subjects[S.subjectIndex];
+    if(!subj) return {};
+    const sec = subj.sections[S.sectionIndex];
+    const flat = subj.sections.flatMap(s=>s.questions.map(q=>({...q, _section:s.name})));
+    const q = flat[S.qIndex];
+    return {subj, sec, q, total: flat.length};
+  }
+
+  function renderIdle(){
+    el('stage').innerHTML = `<div class="p">
+      <h2 style="margin:0 0 6px">Bienvenue 👋</h2>
+      <p style="color:var(--muted)">Importe tes cours (JSON) et révise chaque notion via QCM, Questions/Réponses et IDENTIFICATION IMAGE. Réponse juste = <b>+1</b>, erreur = <b>-1</b>. Pas de minuteur.</p>
+    </div>`;
+  }
+
+  function render(){
+    const {subj, q, total} = getCurrent();
+    if(!subj){ renderIdle(); return; }
+
+    el('subjectLabel').textContent = subj.name;
+    el('qIndex').textContent = Math.min(S.qIndex+1, total);
+    el('qTotal').textContent = total;
+    el('score').textContent = S.score;
+    el('progressBar').style.width = total? ((S.qIndex)/total*100).toFixed(1)+'%':'0%';
+
+    if(!q){ el('stage').innerHTML = `<div class="p">Aucune question. Importez une banque pour cette matière.</div>`; return; }
+
+    el('stage').innerHTML = renderQuestion(q);
+
+    // Hook up events
+    const form = el('qForm');
+    if(form){
+      form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)};
+      const choices = form.querySelectorAll('input[name="c"]');
+      choices.forEach(c=> c.addEventListener('change', ()=>{ if(!S.answered){ /* enable submit if needed */ }}));
+    }
+
+    updateExplain(false);
+    updateReviewBadge();
+  }
+
+  function renderQuestion(q){
+    const common = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
+        <div class="badge">Section: ${q._section||''}</div>
+        <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
+      </div>
+      <div class="q-title">${escapeHTML(q.prompt||'')}</div>
+      <hr class="h"/>`;
+
+    if(q.type === 'mcq'){
+      const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
+      return `<form id="qForm" class="grid" autocomplete="off">${common}
+        <div class="choices">${opts}</div>
+        <div class="actions"><button id="btnSubmit">Valider</button></div>
+        <div id="feedback"></div>
+        <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
+      </form>`;
+    }
+    if(q.type === 'short'){
+      return `<form id="qForm" class="grid" autocomplete="off">${common}
+        <input type="text" id="shortAns" placeholder="Écris ta réponse" required />
+        <div class="actions"><button id="btnSubmit">Valider</button></div>
+        <div id="feedback"></div>
+        <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
+      </form>`;
+    }
+    if(q.type === 'image-id'){
+      const img = q.image ? `<div class="imgwrap"><img src="${q.image}" alt="image à identifier" onerror="this.alt='(image introuvable)'; this.style.opacity=.6;"/></div>` : '';
+      if(q.mode === 'mcq'){
+        const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
+        return `<form id="qForm" class="grid" autocomplete="off">${common}
+          ${img}
+          <div class="choices">${opts}</div>
+          <div class="actions"><button id="btnSubmit">Valider</button></div>
+          <div id="feedback"></div>
+          <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
+        </form>`;
+      } else {
+        return `<form id="qForm" class="grid" autocomplete="off">${common}
+          ${img}
+          <input type="text" id="shortAns" placeholder="Nom exact…" required />
+          <div class="actions"><button id="btnSubmit">Valider</button></div>
+          <div id="feedback"></div>
+          <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
+        </form>`;
+      }
+    }
+    return `<div class="p">Type non supporté.</div>`;
+  }
+
+  function keyFor(q){ return (q.prompt||'').slice(0,64); }
+
+  function submitAnswer(q){
+    if(S.answered) return;
+    S.answered = true;
+    let ok=false;
+
+    if(q.type==='mcq'){
+      const v = parseInt(document.querySelector('input[name="c"]:checked')?.value||'-1',10);
+      ok = (v === q.answer);
+    } else if(q.type==='short' || (q.type==='image-id' && q.mode!=='mcq')){
+      const v = (el('shortAns').value||'').trim().toLowerCase();
+      const a = (q.answer_text||'').trim().toLowerCase();
+      ok = normalize(v) === normalize(a);
+    } else if(q.type==='image-id' && q.mode==='mcq'){
+      const v = parseInt(document.querySelector('input[name="c"]:checked')?.value||'-1',10);
+      ok = (v === q.answer);
+    }
+
+    S.score += ok ? 1 : -1; el('score').textContent = S.score;
+    const fb = el('feedback');
+    fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
+
+    // Lock inputs
+    const form = el('qForm'); if(form){
+      form.querySelectorAll('input, button').forEach(x=> x.disabled = true);
+    }
+  }
+
+  function nav(dir){
+    const {total} = getCurrent();
+    S.qIndex = Math.max(0, Math.min(total-1, S.qIndex + dir));
+    S.answered = false;
+    render();
+  }
+
+  function reset(){ S.qIndex=0; S.score=0; S.answered=false; render(); }
+
+  function toggleExplain(){
+    const d = document.getElementById('explain');
+    if(d) d.open = !d.open;
+  }
+
+  function toggleReview(){
+    const cur = getCurrent().q; if(!cur) return;
+    const k = keyFor(cur);
+    if(S.reviewSet.has(k)) S.reviewSet.delete(k); else S.reviewSet.add(k);
+    updateReviewBadge();
+  }
+  function updateReviewBadge(){
+    const cur = getCurrent().q; if(!cur) return;
+    const badge = document.querySelector('.badge.ok, .badge.ghost');
+    if(!badge) return;
+    const k = keyFor(cur);
+    badge.className = 'badge ' + (S.reviewSet.has(k)?'ok':'ghost');
+  }
+
+  function saveBank(){
+    const blob = new Blob([JSON.stringify(S.bank,null,2)],{type:'application/json'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'banque_questions.json'; a.click();
+  }
+
+  async function onImport(ev){
+    const file = ev.target.files[0]; if(!file) return;
+    try{
+      const text = await file.text();
+      const json = JSON.parse(text);
+      if(!json.subjects) throw new Error('Format invalide: clé "subjects" manquante');
+      S.bank = json; localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
+      refreshSubjectList(); start();
+    }catch(e){
+      alert('Erreur d\'import: '+ e.message);
+    } finally {
+      ev.target.value = '';
+    }
+  }
+
+  // utils
+  function escapeHTML(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
+  function normalize(s){
+    return (s||'')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu,'')
+      .replace(/[^a-z0-9]+/g,'')
+  }
+
+  init();
+  </script>
 </body>
 </html>
