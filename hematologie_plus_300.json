@@ -1,0 +1,3037 @@
+{
+  "subjects": [
+    {
+      "name": "Hématologie – Hématopoïèse, Hémostase & Groupes sanguins",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Site principal de l’hématopoïèse chez l’adulte :",
+              "choices": [
+                "foie",
+                "rate",
+                "diaphyse des os longs seulement",
+                "moelle osseuse des os plats (crête iliaque, sternum…)"
+              ],
+              "answer": 3,
+              "explain": "Axial: bassin, vertèbres, sternum, côtes, crâne; épiphyses proximales fémur/humérus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez le fœtus, l’hématopoïèse se déroule principalement :",
+              "choices": [
+                "dans le rein",
+                "dans les poumons",
+                "dans le foie (puis rate, moelle)",
+                "dans le thymus uniquement"
+              ],
+              "answer": 2,
+              "explain": "Séquence: sac vitellin → foie/splénique → moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cellule souche hématopoïétique (CSH) donne deux grands progéniteurs :",
+              "choices": [
+                "myéloïde et lymphoïde",
+                "érythroïde et mégacaryocytaire uniquement",
+                "monocyte et lymphocyte B",
+                "t neutrophile et basophile"
+              ],
+              "answer": 0,
+              "explain": "Bifurcation classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par :",
+              "choices": [
+                "la moelle osseuse",
+                "la rate",
+                "le foie",
+                "le rein"
+              ],
+              "answer": 3,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La thrombopoïétine (TPO) est produite surtout par :",
+              "choices": [
+                "le foie",
+                "le rein",
+                "la rate",
+                "la thyroïde"
+              ],
+              "answer": 0,
+              "explain": "TPO régule mégacaryopoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile :",
+              "choices": [
+                "TGF‑β",
+                "G‑CSF",
+                "IL‑4",
+                "calcitonine"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ordre de maturation érythroblastique (simplifié) :",
+              "choices": [
+                "hématie → réticulocyte → myéloblaste",
+                "myélocyte → métamyélocyte → hématie",
+                "proérythroblaste → mégacaryocyte → hématie",
+                "proérythroblaste → érythroblastes → réticulocyte → hématie"
+              ],
+              "answer": 3,
+              "explain": "Expulsion du noyau avant réticulocyte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ordre de maturation neutrophile (simplifié) :",
+              "choices": [
+                "proérythroblaste → érythroblaste → neutrophile",
+                "monoblaste → promonocyte → neutrophile",
+                "lymphoblaste → prolymphocyte → neutrophile",
+                "myéloblaste → promyélocyte → myélocyte → métamyélocyte → neutrophile"
+              ],
+              "answer": 3,
+              "explain": "Granulation spécifique apparaît au myélocyte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans :",
+              "choices": [
+                "la maturation des B",
+                "la maturation des érythrocytes",
+                "la maturation des lymphocytes T",
+                "la granulopoïèse"
+              ],
+              "answer": 2,
+              "explain": "Sélection positive/négative T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un taux élevé de réticulocytes indique :",
+              "choices": [
+                "une aplasie",
+                "une hémolyse impossible",
+                "une érythropoïèse active",
+                "une thrombopénie"
+              ],
+              "answer": 2,
+              "explain": "Régénération post‑anémie/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout :",
+              "choices": [
+                "haptoglobine",
+                "fibrine seule",
+                "platelettes + vWF + endothélium",
+                "lymphocytes"
+              ],
+              "answer": 2,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’adhésion plaquettaire au sous‑endothélium dépend de :",
+              "choices": [
+                "GPIb et du facteur von Willebrand",
+                "GPIIb/IIIa et albumine",
+                "GPIa/IIa et IgG",
+                "CD8 et MHC I"
+              ],
+              "answer": 0,
+              "explain": "Interaction vWF–GPIb sous flux élevé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’agrégation plaquettaire est médiée surtout par :",
+              "choices": [
+                "GPIIb/IIIa et le fibrinogène",
+                "GPIb et albumine",
+                "GPIb et vWF",
+                "IgM et C3b"
+              ],
+              "answer": 0,
+              "explain": "Pontage fibrinogène entre plaquettes activées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par :",
+              "choices": [
+                "thrombine–antithrombine",
+                "facteur tissulaire (FT)–VIIa",
+                "XIIa–prékallicréine",
+                "VIIIa–vWF"
+              ],
+              "answer": 1,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur clé spécifique de la voie extrinsèque :",
+              "choices": [
+                "XI",
+                "VII",
+                "IX",
+                "VIII"
+              ],
+              "answer": 1,
+              "explain": "PT sensible au VII."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie intrinsèque implique principalement :",
+              "choices": [
+                "II, V, VII, X",
+                "I, II, V, XIII",
+                "VIII, IX, XI, XII",
+                "vWF, fibrinogène, albumine"
+              ],
+              "answer": 2,
+              "explain": "Mesurée par aPTT."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend :",
+              "choices": [
+                "XII, HMWK, PK",
+                "III, IV",
+                "VII, VIII, IX, XI",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont :",
+              "choices": [
+                "I, V, VIII, XIII",
+                "XI, XII, HMWK, PK",
+                "VIII, vWF, fibrinogène",
+                "II, VII, IX, X (et protéines C/S)"
+              ],
+              "answer": 3,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout :",
+              "choices": [
+                "le PT uniquement",
+                "l’aPTT",
+                "le temps de thrombine seulement",
+                "le temps de saignement"
+              ],
+              "answer": 1,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La warfarine (antivitamine K) prolonge surtout :",
+              "choices": [
+                "le PT/INR",
+                "le temps de saignement",
+                "l’aPTT exclusivement",
+                "aucun test"
+              ],
+              "answer": 0,
+              "explain": "Atteint VII (demi‑vie courte) → PT sensible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un TP bas (PT prolongé) avec aPTT normal évoque :",
+              "choices": [
+                "déficit VIII isolé",
+                "déficit XII isolé",
+                "atteinte voie extrinsèque (VII)",
+                "thrombocytose"
+              ],
+              "answer": 2,
+              "explain": "Spécificité PT pour voie extrinsèque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aPTT prolongé avec PT normal évoque :",
+              "choices": [
+                "carence en fibrinogène isolée",
+                "déficit VII",
+                "déficit intrinsèque (VIII, IX, XI) ou héparine",
+                "polyglobulie"
+              ],
+              "answer": 2,
+              "explain": "Bilan orienté par mélange 1:1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Temps de thrombine (TT) prolongé évoque :",
+              "choices": [
+                "déficit IX",
+                "carence en vitamine B12",
+                "déficit/dysfibrinogénémie ou héparine",
+                "déficit VII"
+              ],
+              "answer": 2,
+              "explain": "Conversion fibrinogène → fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est :",
+              "choices": [
+                "la plasmine (activée par tPA/uPA)",
+                "l’ADAMTS13",
+                "la thrombine",
+                "la myéloperoxydase"
+              ],
+              "answer": 0,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent :",
+              "choices": [
+                "thrombocytose",
+                "hémolyse mécanique",
+                "dégradation de fibrine stabilisée (coagulation activée)",
+                "déficit en vWF"
+              ],
+              "answer": 2,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Inhibiteur majeur de la thrombine et du Xa :",
+              "choices": [
+                "protéine C activée",
+                "antithrombine (AT)",
+                "plasminogène",
+                "ferritine"
+              ],
+              "answer": 1,
+              "explain": "AT + héparine → inhibition accrue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Protéine C activée (avec protéine S) inactive :",
+              "choices": [
+                "XIIIa et I",
+                "Xa et IIa",
+                "VIIa et XIa",
+                "Va et VIIIa"
+              ],
+              "answer": 3,
+              "explain": "Voie anticoagulante naturelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Maladie de von Willebrand typique :",
+              "choices": [
+                "polyglobulie",
+                "défaut de PT isolé",
+                "défaut d’adhésion plaquettaire + possible aPTT ↑",
+                "hémophilie B"
+              ],
+              "answer": 2,
+              "explain": "vWF↓ → FVIII↓ modéré, saignements muqueux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Antigènes du système ABO sont :",
+              "choices": [
+                "des protéines HLA",
+                "des sucres portés par des glycoprotéines/glycolipides",
+                "des lipides neutres",
+                "des acides nucléiques"
+              ],
+              "answer": 1,
+              "explain": "Glycosyltransférases déterminent A/B ; O = H non modifié."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps naturels anti‑A/anti‑B sont surtout :",
+              "choices": [
+                "IgA",
+                "IgE",
+                "IgG",
+                "IgM"
+              ],
+              "answer": 3,
+              "explain": "Apparaissent sans immunisation transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps anti‑D (Rh) sont généralement :",
+              "choices": [
+                "IgG",
+                "IgA",
+                "IgE",
+                "IgM"
+              ],
+              "answer": 0,
+              "explain": "Peuvent traverser le placenta."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sujet groupe O possède :",
+              "choices": [
+                "anticorps anti‑A et anti‑B",
+                "aucun anticorps naturel",
+                "antigènes A et B",
+                "anticorps anti‑D obligatoirement"
+              ],
+              "answer": 0,
+              "explain": "O : antigène H non modifié ; plasmas anti‑A/anti‑B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Donneur universel de CGR (globules rouges) :",
+              "choices": [
+                "groupe O (Rh‑ compatible souhaitable)",
+                "groupe AB",
+                "groupe A",
+                "groupe B"
+              ],
+              "answer": 0,
+              "explain": "Compatibilité RBC basée sur antigènes érythrocytaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Receveur universel de CGR :",
+              "choices": [
+                "groupe B",
+                "groupe A",
+                "groupe AB",
+                "groupe O"
+              ],
+              "answer": 2,
+              "explain": "AB ne possède pas d’anticorps anti‑A/B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour le plasma, le donneur universel est :",
+              "choices": [
+                "B",
+                "AB",
+                "A",
+                "O"
+              ],
+              "answer": 1,
+              "explain": "Plasma AB sans anti‑A/anti‑B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémolyse du nouveau‑né est liée typiquement à :",
+              "choices": [
+                "incompatibilité Rh (anti‑D maternels IgG)",
+                "déficit en B12",
+                "déficit en fer",
+                "incompatibilité ABO par IgM"
+              ],
+              "answer": 0,
+              "explain": "IgG traversent le placenta; prophylaxie anti‑D."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte :",
+              "choices": [
+                "anticorps/complement fixés sur les GR in vivo",
+                "facteurs de coagulation",
+                "protéines plasmatiques",
+                "anticorps libres dans le sérum"
+              ],
+              "answer": 0,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à :",
+              "choices": [
+                "mélanger GR receveur et sérum donneur",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger deux CGR du donneur",
+                "mélanger deux sérums"
+              ],
+              "answer": 1,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte :",
+              "choices": [
+                "≈40–60 fL",
+                "≈80–100 fL",
+                "≈100–120 fL",
+                "≈60–70 fL"
+              ],
+              "answer": 1,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCHC typique :",
+              "choices": [
+                "≈32–36 g/dL",
+                "≈20–25 g/dL",
+                "≈40–50 g/dL",
+                "≈10–20 g/dL"
+              ],
+              "answer": 0,
+              "explain": "Indice de concentration en Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord :",
+              "choices": [
+                "déficit folates",
+                "déficit B12",
+                "hémolyse auto‑immune",
+                "carence martiale (fer)"
+              ],
+              "answer": 3,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie macrocytaire évoque :",
+              "choices": [
+                "saignement aigu",
+                "déshydratation",
+                "thalassémie",
+                "carence en B12/folates"
+              ],
+              "answer": 3,
+              "explain": "Mégaloblastique typiquement."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Marqueur de l’hémolyse intravasculaire :",
+              "choices": [
+                "LDH ↓",
+                "haptoglobine ↑",
+                "bilirubine conjuguée ↓",
+                "haptoglobine basse + LDH ↑ + bilirubine ↑"
+              ],
+              "answer": 3,
+              "explain": "Haptoglobine capte Hb libre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie :",
+              "choices": [
+                "régénération (réponse médullaire)",
+                "arégénération",
+                "aplasie",
+                "carence B12 certaine"
+              ],
+              "answer": 0,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante)",
+              "choices": [
+                "platelettes + vWF + endothélium",
+                "fibrine seule",
+                "lymphocytes",
+                "haptoglobine"
+              ],
+              "answer": 0,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante)",
+              "choices": [
+                "facteur tissulaire (FT)–VIIa",
+                "XIIa–prékallicréine",
+                "VIIIa–vWF",
+                "thrombine–antithrombine"
+              ],
+              "answer": 0,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante)",
+              "choices": [
+                "hémolyse mécanique",
+                "déficit en vWF",
+                "thrombocytose",
+                "dégradation de fibrine stabilisée (coagulation activée)"
+              ],
+              "answer": 3,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’agrégation plaquettaire est médiée surtout par : (variante)",
+              "choices": [
+                "GPIb et vWF",
+                "IgM et C3b",
+                "GPIb et albumine",
+                "GPIIb/IIIa et le fibrinogène"
+              ],
+              "answer": 3,
+              "explain": "Pontage fibrinogène entre plaquettes activées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante)",
+              "choices": [
+                "platelettes + vWF + endothélium",
+                "haptoglobine",
+                "lymphocytes",
+                "fibrine seule"
+              ],
+              "answer": 0,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante) (variante)",
+              "choices": [
+                "VIIIa–vWF",
+                "XIIa–prékallicréine",
+                "thrombine–antithrombine",
+                "facteur tissulaire (FT)–VIIa"
+              ],
+              "answer": 3,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante) (variante)",
+              "choices": [
+                "déficit en vWF",
+                "thrombocytose",
+                "hémolyse mécanique",
+                "dégradation de fibrine stabilisée (coagulation activée)"
+              ],
+              "answer": 3,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans : (variante)",
+              "choices": [
+                "la maturation des lymphocytes T",
+                "la maturation des B",
+                "la maturation des érythrocytes",
+                "la granulopoïèse"
+              ],
+              "answer": 0,
+              "explain": "Sélection positive/négative T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante)",
+              "choices": [
+                "lymphocytes",
+                "haptoglobine",
+                "fibrine seule",
+                "platelettes + vWF + endothélium"
+              ],
+              "answer": 3,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Site principal de l’hématopoïèse chez l’adulte : (variante)",
+              "choices": [
+                "rate",
+                "moelle osseuse des os plats (crête iliaque, sternum…)",
+                "foie",
+                "diaphyse des os longs seulement"
+              ],
+              "answer": 1,
+              "explain": "Axial: bassin, vertèbres, sternum, côtes, crâne; épiphyses proximales fémur/humérus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante)",
+              "choices": [
+                "XII, HMWK, PK",
+                "X, V, II, I",
+                "III, IV",
+                "VII, VIII, IX, XI"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Antigènes du système ABO sont : (variante)",
+              "choices": [
+                "des acides nucléiques",
+                "des protéines HLA",
+                "des sucres portés par des glycoprotéines/glycolipides",
+                "des lipides neutres"
+              ],
+              "answer": 2,
+              "explain": "Glycosyltransférases déterminent A/B ; O = H non modifié."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante)",
+              "choices": [
+                "≈60–70 fL",
+                "≈80–100 fL",
+                "≈100–120 fL",
+                "≈40–60 fL"
+              ],
+              "answer": 1,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Inhibiteur majeur de la thrombine et du Xa : (variante)",
+              "choices": [
+                "ferritine",
+                "plasminogène",
+                "antithrombine (AT)",
+                "protéine C activée"
+              ],
+              "answer": 2,
+              "explain": "AT + héparine → inhibition accrue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez le fœtus, l’hématopoïèse se déroule principalement : (variante)",
+              "choices": [
+                "dans le rein",
+                "dans les poumons",
+                "dans le foie (puis rate, moelle)",
+                "dans le thymus uniquement"
+              ],
+              "answer": 2,
+              "explain": "Séquence: sac vitellin → foie/splénique → moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante)",
+              "choices": [
+                "le foie",
+                "la moelle osseuse",
+                "le rein",
+                "la rate"
+              ],
+              "answer": 2,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante)",
+              "choices": [
+                "anticorps libres dans le sérum",
+                "protéines plasmatiques",
+                "anticorps/complement fixés sur les GR in vivo",
+                "facteurs de coagulation"
+              ],
+              "answer": 2,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante)",
+              "choices": [
+                "arégénération",
+                "régénération (réponse médullaire)",
+                "carence B12 certaine",
+                "aplasie"
+              ],
+              "answer": 1,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante)",
+              "choices": [
+                "mélanger deux sérums",
+                "mélanger deux CGR du donneur",
+                "mélanger GR receveur et sérum donneur",
+                "mettre en contact sérum du receveur et GR du donneur"
+              ],
+              "answer": 3,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante) (variante)",
+              "choices": [
+                "facteurs de coagulation",
+                "anticorps/complement fixés sur les GR in vivo",
+                "protéines plasmatiques",
+                "anticorps libres dans le sérum"
+              ],
+              "answer": 1,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "VII, VIII, IX, XI",
+                "XII, HMWK, PK",
+                "III, IV",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante)",
+              "choices": [
+                "la myéloperoxydase",
+                "l’ADAMTS13",
+                "la plasmine (activée par tPA/uPA)",
+                "la thrombine"
+              ],
+              "answer": 2,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un taux élevé de réticulocytes indique : (variante)",
+              "choices": [
+                "une hémolyse impossible",
+                "une aplasie",
+                "une érythropoïèse active",
+                "une thrombopénie"
+              ],
+              "answer": 2,
+              "explain": "Régénération post‑anémie/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante)",
+              "choices": [
+                "déficit B12",
+                "carence martiale (fer)",
+                "déficit folates",
+                "hémolyse auto‑immune"
+              ],
+              "answer": 1,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante)",
+              "choices": [
+                "I, V, VIII, XIII",
+                "VIII, vWF, fibrinogène",
+                "II, VII, IX, X (et protéines C/S)",
+                "XI, XII, HMWK, PK"
+              ],
+              "answer": 2,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante)",
+              "choices": [
+                "le foie",
+                "le rein",
+                "la moelle osseuse",
+                "la rate"
+              ],
+              "answer": 1,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Protéine C activée (avec protéine S) inactive : (variante)",
+              "choices": [
+                "VIIa et XIa",
+                "XIIIa et I",
+                "Va et VIIIa",
+                "Xa et IIa"
+              ],
+              "answer": 2,
+              "explain": "Voie anticoagulante naturelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante)",
+              "choices": [
+                "XII, HMWK, PK",
+                "VII, VIII, IX, XI",
+                "III, IV",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans : (variante) (variante)",
+              "choices": [
+                "la maturation des lymphocytes T",
+                "la maturation des érythrocytes",
+                "la maturation des B",
+                "la granulopoïèse"
+              ],
+              "answer": 0,
+              "explain": "Sélection positive/négative T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante)",
+              "choices": [
+                "anticorps/complement fixés sur les GR in vivo",
+                "protéines plasmatiques",
+                "facteurs de coagulation",
+                "anticorps libres dans le sérum"
+              ],
+              "answer": 0,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante) (variante) (variante)",
+              "choices": [
+                "thrombocytose",
+                "dégradation de fibrine stabilisée (coagulation activée)",
+                "hémolyse mécanique",
+                "déficit en vWF"
+              ],
+              "answer": 1,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante)",
+              "choices": [
+                "≈80–100 fL",
+                "≈40–60 fL",
+                "≈100–120 fL",
+                "≈60–70 fL"
+              ],
+              "answer": 0,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante)",
+              "choices": [
+                "le temps de saignement",
+                "le temps de thrombine seulement",
+                "le PT uniquement",
+                "l’aPTT"
+              ],
+              "answer": 3,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante)",
+              "choices": [
+                "aplasie",
+                "carence B12 certaine",
+                "arégénération",
+                "régénération (réponse médullaire)"
+              ],
+              "answer": 3,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante)",
+              "choices": [
+                "mélanger GR receveur et sérum donneur",
+                "mélanger deux CGR du donneur",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger deux sérums"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "X, V, II, I",
+                "VII, VIII, IX, XI",
+                "XII, HMWK, PK",
+                "III, IV"
+              ],
+              "answer": 0,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante)",
+              "choices": [
+                "carence martiale (fer)",
+                "déficit B12",
+                "déficit folates",
+                "hémolyse auto‑immune"
+              ],
+              "answer": 0,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante)",
+              "choices": [
+                "le rein",
+                "la moelle osseuse",
+                "la rate",
+                "le foie"
+              ],
+              "answer": 0,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie intrinsèque implique principalement : (variante)",
+              "choices": [
+                "vWF, fibrinogène, albumine",
+                "II, V, VII, X",
+                "I, II, V, XIII",
+                "VIII, IX, XI, XII"
+              ],
+              "answer": 3,
+              "explain": "Mesurée par aPTT."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La thrombopoïétine (TPO) est produite surtout par : (variante)",
+              "choices": [
+                "le rein",
+                "la rate",
+                "le foie",
+                "la thyroïde"
+              ],
+              "answer": 2,
+              "explain": "TPO régule mégacaryopoïèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante)",
+              "choices": [
+                "la rate",
+                "le rein",
+                "la moelle osseuse",
+                "le foie"
+              ],
+              "answer": 1,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante)",
+              "choices": [
+                "III, IV",
+                "X, V, II, I",
+                "XII, HMWK, PK",
+                "VII, VIII, IX, XI"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante)",
+              "choices": [
+                "mélanger deux CGR du donneur",
+                "mélanger deux sérums",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger GR receveur et sérum donneur"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante)",
+              "choices": [
+                "TGF‑β",
+                "G‑CSF",
+                "calcitonine",
+                "IL‑4"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante)",
+              "choices": [
+                "mélanger GR receveur et sérum donneur",
+                "mélanger deux sérums",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger deux CGR du donneur"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante) (variante)",
+              "choices": [
+                "I, V, VIII, XIII",
+                "VIII, vWF, fibrinogène",
+                "II, VII, IX, X (et protéines C/S)",
+                "XI, XII, HMWK, PK"
+              ],
+              "answer": 2,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La warfarine (antivitamine K) prolonge surtout : (variante)",
+              "choices": [
+                "l’aPTT exclusivement",
+                "le temps de saignement",
+                "le PT/INR",
+                "aucun test"
+              ],
+              "answer": 2,
+              "explain": "Atteint VII (demi‑vie courte) → PT sensible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante) (variante)",
+              "choices": [
+                "III, IV",
+                "VII, VIII, IX, XI",
+                "XII, HMWK, PK",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps naturels anti‑A/anti‑B sont surtout : (variante)",
+              "choices": [
+                "IgM",
+                "IgE",
+                "IgA",
+                "IgG"
+              ],
+              "answer": 0,
+              "explain": "Apparaissent sans immunisation transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante)",
+              "choices": [
+                "le temps de saignement",
+                "le temps de thrombine seulement",
+                "le PT uniquement",
+                "l’aPTT"
+              ],
+              "answer": 3,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante)",
+              "choices": [
+                "le PT uniquement",
+                "le temps de thrombine seulement",
+                "le temps de saignement",
+                "l’aPTT"
+              ],
+              "answer": 3,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante)",
+              "choices": [
+                "platelettes + vWF + endothélium",
+                "lymphocytes",
+                "fibrine seule",
+                "haptoglobine"
+              ],
+              "answer": 0,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante)",
+              "choices": [
+                "la thrombine",
+                "la plasmine (activée par tPA/uPA)",
+                "l’ADAMTS13",
+                "la myéloperoxydase"
+              ],
+              "answer": 1,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante)",
+              "choices": [
+                "le temps de thrombine seulement",
+                "le PT uniquement",
+                "le temps de saignement",
+                "l’aPTT"
+              ],
+              "answer": 3,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante)",
+              "choices": [
+                "lymphocytes",
+                "haptoglobine",
+                "platelettes + vWF + endothélium",
+                "fibrine seule"
+              ],
+              "answer": 2,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante)",
+              "choices": [
+                "platelettes + vWF + endothélium",
+                "lymphocytes",
+                "haptoglobine",
+                "fibrine seule"
+              ],
+              "answer": 0,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante) (variante)",
+              "choices": [
+                "la rate",
+                "la moelle osseuse",
+                "le rein",
+                "le foie"
+              ],
+              "answer": 2,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante)",
+              "choices": [
+                "≈80–100 fL",
+                "≈40–60 fL",
+                "≈60–70 fL",
+                "≈100–120 fL"
+              ],
+              "answer": 0,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Inhibiteur majeur de la thrombine et du Xa : (variante)",
+              "choices": [
+                "plasminogène",
+                "ferritine",
+                "antithrombine (AT)",
+                "protéine C activée"
+              ],
+              "answer": 2,
+              "explain": "AT + héparine → inhibition accrue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sujet groupe O possède : (variante)",
+              "choices": [
+                "anticorps anti‑A et anti‑B",
+                "antigènes A et B",
+                "aucun anticorps naturel",
+                "anticorps anti‑D obligatoirement"
+              ],
+              "answer": 0,
+              "explain": "O : antigène H non modifié ; plasmas anti‑A/anti‑B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCHC typique : (variante)",
+              "choices": [
+                "≈32–36 g/dL",
+                "≈40–50 g/dL",
+                "≈20–25 g/dL",
+                "≈10–20 g/dL"
+              ],
+              "answer": 0,
+              "explain": "Indice de concentration en Hb."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante) (variante)",
+              "choices": [
+                "XII, HMWK, PK",
+                "VII, VIII, IX, XI",
+                "III, IV",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante)",
+              "choices": [
+                "l’ADAMTS13",
+                "la plasmine (activée par tPA/uPA)",
+                "la thrombine",
+                "la myéloperoxydase"
+              ],
+              "answer": 1,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante)",
+              "choices": [
+                "la thrombine",
+                "la myéloperoxydase",
+                "l’ADAMTS13",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante)",
+              "choices": [
+                "mélanger GR receveur et sérum donneur",
+                "mélanger deux sérums",
+                "mélanger deux CGR du donneur",
+                "mettre en contact sérum du receveur et GR du donneur"
+              ],
+              "answer": 3,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante) (variante)",
+              "choices": [
+                "la rate",
+                "le rein",
+                "la moelle osseuse",
+                "le foie"
+              ],
+              "answer": 1,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un TP bas (PT prolongé) avec aPTT normal évoque : (variante)",
+              "choices": [
+                "atteinte voie extrinsèque (VII)",
+                "déficit VIII isolé",
+                "thrombocytose",
+                "déficit XII isolé"
+              ],
+              "answer": 0,
+              "explain": "Spécificité PT pour voie extrinsèque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante)",
+              "choices": [
+                "carence martiale (fer)",
+                "hémolyse auto‑immune",
+                "déficit folates",
+                "déficit B12"
+              ],
+              "answer": 0,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante) (variante)",
+              "choices": [
+                "IL‑4",
+                "G‑CSF",
+                "TGF‑β",
+                "calcitonine"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante)",
+              "choices": [
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger deux sérums",
+                "mélanger GR receveur et sérum donneur",
+                "mélanger deux CGR du donneur"
+              ],
+              "answer": 0,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante)",
+              "choices": [
+                "≈100–120 fL",
+                "≈60–70 fL",
+                "≈80–100 fL",
+                "≈40–60 fL"
+              ],
+              "answer": 2,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante)",
+              "choices": [
+                "carence martiale (fer)",
+                "déficit B12",
+                "hémolyse auto‑immune",
+                "déficit folates"
+              ],
+              "answer": 0,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante) (variante) (variante)",
+              "choices": [
+                "II, VII, IX, X (et protéines C/S)",
+                "XI, XII, HMWK, PK",
+                "I, V, VIII, XIII",
+                "VIII, vWF, fibrinogène"
+              ],
+              "answer": 0,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante)",
+              "choices": [
+                "la myéloperoxydase",
+                "la thrombine",
+                "l’ADAMTS13",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante) (variante)",
+              "choices": [
+                "carence martiale (fer)",
+                "hémolyse auto‑immune",
+                "déficit B12",
+                "déficit folates"
+              ],
+              "answer": 0,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps anti‑D (Rh) sont généralement : (variante)",
+              "choices": [
+                "IgA",
+                "IgE",
+                "IgM",
+                "IgG"
+              ],
+              "answer": 3,
+              "explain": "Peuvent traverser le placenta."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante) (variante) (variante)",
+              "choices": [
+                "thrombine–antithrombine",
+                "VIIIa–vWF",
+                "facteur tissulaire (FT)–VIIa",
+                "XIIa–prékallicréine"
+              ],
+              "answer": 2,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "le foie",
+                "la moelle osseuse",
+                "la rate",
+                "le rein"
+              ],
+              "answer": 3,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante) (variante) (variante)",
+              "choices": [
+                "thrombine–antithrombine",
+                "XIIa–prékallicréine",
+                "facteur tissulaire (FT)–VIIa",
+                "VIIIa–vWF"
+              ],
+              "answer": 2,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante) (variante)",
+              "choices": [
+                "≈100–120 fL",
+                "≈80–100 fL",
+                "≈40–60 fL",
+                "≈60–70 fL"
+              ],
+              "answer": 1,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie macrocytaire évoque : (variante)",
+              "choices": [
+                "thalassémie",
+                "saignement aigu",
+                "carence en B12/folates",
+                "déshydratation"
+              ],
+              "answer": 2,
+              "explain": "Mégaloblastique typiquement."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante)",
+              "choices": [
+                "aplasie",
+                "arégénération",
+                "carence B12 certaine",
+                "régénération (réponse médullaire)"
+              ],
+              "answer": 3,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "thrombine–antithrombine",
+                "VIIIa–vWF",
+                "XIIa–prékallicréine",
+                "facteur tissulaire (FT)–VIIa"
+              ],
+              "answer": 3,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante)",
+              "choices": [
+                "III, IV",
+                "VII, VIII, IX, XI",
+                "XII, HMWK, PK",
+                "X, V, II, I"
+              ],
+              "answer": 3,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Maladie de von Willebrand typique : (variante)",
+              "choices": [
+                "défaut d’adhésion plaquettaire + possible aPTT ↑",
+                "hémophilie B",
+                "défaut de PT isolé",
+                "polyglobulie"
+              ],
+              "answer": 0,
+              "explain": "vWF↓ → FVIII↓ modéré, saignements muqueux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ordre de maturation érythroblastique (simplifié) : (variante)",
+              "choices": [
+                "hématie → réticulocyte → myéloblaste",
+                "myélocyte → métamyélocyte → hématie",
+                "proérythroblaste → mégacaryocyte → hématie",
+                "proérythroblaste → érythroblastes → réticulocyte → hématie"
+              ],
+              "answer": 3,
+              "explain": "Expulsion du noyau avant réticulocyte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante)",
+              "choices": [
+                "déficit en vWF",
+                "dégradation de fibrine stabilisée (coagulation activée)",
+                "thrombocytose",
+                "hémolyse mécanique"
+              ],
+              "answer": 1,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante)",
+              "choices": [
+                "≈40–60 fL",
+                "≈60–70 fL",
+                "≈80–100 fL",
+                "≈100–120 fL"
+              ],
+              "answer": 2,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "VII, VIII, IX, XI",
+                "X, V, II, I",
+                "XII, HMWK, PK",
+                "III, IV"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un taux élevé de réticulocytes indique : (variante)",
+              "choices": [
+                "une thrombopénie",
+                "une érythropoïèse active",
+                "une aplasie",
+                "une hémolyse impossible"
+              ],
+              "answer": 1,
+              "explain": "Régénération post‑anémie/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante)",
+              "choices": [
+                "platelettes + vWF + endothélium",
+                "haptoglobine",
+                "lymphocytes",
+                "fibrine seule"
+              ],
+              "answer": 0,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante) (variante)",
+              "choices": [
+                "la myéloperoxydase",
+                "l’ADAMTS13",
+                "la thrombine",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ordre de maturation érythroblastique (simplifié) : (variante) (variante)",
+              "choices": [
+                "myélocyte → métamyélocyte → hématie",
+                "proérythroblaste → érythroblastes → réticulocyte → hématie",
+                "proérythroblaste → mégacaryocyte → hématie",
+                "hématie → réticulocyte → myéloblaste"
+              ],
+              "answer": 1,
+              "explain": "Expulsion du noyau avant réticulocyte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’agrégation plaquettaire est médiée surtout par : (variante)",
+              "choices": [
+                "GPIb et albumine",
+                "GPIb et vWF",
+                "IgM et C3b",
+                "GPIIb/IIIa et le fibrinogène"
+              ],
+              "answer": 3,
+              "explain": "Pontage fibrinogène entre plaquettes activées."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie extrinsèque est initiée par : (variante) (variante)",
+              "choices": [
+                "XIIa–prékallicréine",
+                "thrombine–antithrombine",
+                "facteur tissulaire (FT)–VIIa",
+                "VIIIa–vWF"
+              ],
+              "answer": 2,
+              "explain": "FT expose, active VII → X."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante) (variante) (variante)",
+              "choices": [
+                "facteurs de coagulation",
+                "anticorps libres dans le sérum",
+                "anticorps/complement fixés sur les GR in vivo",
+                "protéines plasmatiques"
+              ],
+              "answer": 2,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante) (variante)",
+              "choices": [
+                "TGF‑β",
+                "IL‑4",
+                "calcitonine",
+                "G‑CSF"
+              ],
+              "answer": 3,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Inhibiteur majeur de la thrombine et du Xa : (variante) (variante)",
+              "choices": [
+                "antithrombine (AT)",
+                "ferritine",
+                "plasminogène",
+                "protéine C activée"
+              ],
+              "answer": 0,
+              "explain": "AT + héparine → inhibition accrue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante)",
+              "choices": [
+                "la thrombine",
+                "l’ADAMTS13",
+                "la myéloperoxydase",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante) (variante)",
+              "choices": [
+                "régénération (réponse médullaire)",
+                "arégénération",
+                "aplasie",
+                "carence B12 certaine"
+              ],
+              "answer": 0,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "≈40–60 fL",
+                "≈60–70 fL",
+                "≈80–100 fL",
+                "≈100–120 fL"
+              ],
+              "answer": 2,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante)",
+              "choices": [
+                "la plasmine (activée par tPA/uPA)",
+                "l’ADAMTS13",
+                "la myéloperoxydase",
+                "la thrombine"
+              ],
+              "answer": 0,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante) (variante) (variante)",
+              "choices": [
+                "protéines plasmatiques",
+                "facteurs de coagulation",
+                "anticorps/complement fixés sur les GR in vivo",
+                "anticorps libres dans le sérum"
+              ],
+              "answer": 2,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "III, IV",
+                "X, V, II, I",
+                "VII, VIII, IX, XI",
+                "XII, HMWK, PK"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante)",
+              "choices": [
+                "carence martiale (fer)",
+                "déficit B12",
+                "hémolyse auto‑immune",
+                "déficit folates"
+              ],
+              "answer": 0,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "déficit B12",
+                "carence martiale (fer)",
+                "déficit folates",
+                "hémolyse auto‑immune"
+              ],
+              "answer": 1,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante) (variante)",
+              "choices": [
+                "hémolyse mécanique",
+                "dégradation de fibrine stabilisée (coagulation activée)",
+                "déficit en vWF",
+                "thrombocytose"
+              ],
+              "answer": 1,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour le plasma, le donneur universel est : (variante)",
+              "choices": [
+                "AB",
+                "A",
+                "B",
+                "O"
+              ],
+              "answer": 0,
+              "explain": "Plasma AB sans anti‑A/anti‑B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante)",
+              "choices": [
+                "lymphocytes",
+                "platelettes + vWF + endothélium",
+                "haptoglobine",
+                "fibrine seule"
+              ],
+              "answer": 1,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante)",
+              "choices": [
+                "la thrombine",
+                "l’ADAMTS13",
+                "la myéloperoxydase",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante) (variante) (variante)",
+              "choices": [
+                "XI, XII, HMWK, PK",
+                "VIII, vWF, fibrinogène",
+                "II, VII, IX, X (et protéines C/S)",
+                "I, V, VIII, XIII"
+              ],
+              "answer": 2,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante) (variante) (variante)",
+              "choices": [
+                "hémolyse mécanique",
+                "déficit en vWF",
+                "dégradation de fibrine stabilisée (coagulation activée)",
+                "thrombocytose"
+              ],
+              "answer": 2,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante) (variante)",
+              "choices": [
+                "≈40–60 fL",
+                "≈100–120 fL",
+                "≈80–100 fL",
+                "≈60–70 fL"
+              ],
+              "answer": 2,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "VII, VIII, IX, XI",
+                "X, V, II, I",
+                "III, IV",
+                "XII, HMWK, PK"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "III, IV",
+                "X, V, II, I",
+                "XII, HMWK, PK",
+                "VII, VIII, IX, XI"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante) (variante)",
+              "choices": [
+                "mélanger deux sérums",
+                "mélanger deux CGR du donneur",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger GR receveur et sérum donneur"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante) (variante)",
+              "choices": [
+                "mélanger GR receveur et sérum donneur",
+                "mélanger deux CGR du donneur",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger deux sérums"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un taux élevé de réticulocytes indique : (variante) (variante)",
+              "choices": [
+                "une hémolyse impossible",
+                "une thrombopénie",
+                "une érythropoïèse active",
+                "une aplasie"
+              ],
+              "answer": 2,
+              "explain": "Régénération post‑anémie/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans : (variante) (variante) (variante)",
+              "choices": [
+                "la maturation des érythrocytes",
+                "la maturation des B",
+                "la granulopoïèse",
+                "la maturation des lymphocytes T"
+              ],
+              "answer": 3,
+              "explain": "Sélection positive/négative T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez le fœtus, l’hématopoïèse se déroule principalement : (variante) (variante)",
+              "choices": [
+                "dans le foie (puis rate, moelle)",
+                "dans le rein",
+                "dans les poumons",
+                "dans le thymus uniquement"
+              ],
+              "answer": 0,
+              "explain": "Séquence: sac vitellin → foie/splénique → moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie microcytaire hypochrome évoque d’abord : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "déficit B12",
+                "carence martiale (fer)",
+                "hémolyse auto‑immune",
+                "déficit folates"
+              ],
+              "answer": 1,
+              "explain": "Ferroportine/transferrine/ferritine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante) (variante)",
+              "choices": [
+                "l’ADAMTS13",
+                "la myéloperoxydase",
+                "la thrombine",
+                "la plasmine (activée par tPA/uPA)"
+              ],
+              "answer": 3,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anémie macrocytaire évoque : (variante) (variante)",
+              "choices": [
+                "déshydratation",
+                "thalassémie",
+                "carence en B12/folates",
+                "saignement aigu"
+              ],
+              "answer": 2,
+              "explain": "Mégaloblastique typiquement."
+            },
+            {
+              "type": "mcq",
+              "prompt": "D‑dimères élevés traduisent : (variante) (variante) (variante)",
+              "choices": [
+                "thrombocytose",
+                "déficit en vWF",
+                "hémolyse mécanique",
+                "dégradation de fibrine stabilisée (coagulation activée)"
+              ],
+              "answer": 3,
+              "explain": "Aide au diagnostic DVT/EP (non spécifique)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante) (variante)",
+              "choices": [
+                "la thrombine",
+                "l’ADAMTS13",
+                "la plasmine (activée par tPA/uPA)",
+                "la myéloperoxydase"
+              ],
+              "answer": 2,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante) (variante)",
+              "choices": [
+                "protéines plasmatiques",
+                "facteurs de coagulation",
+                "anticorps libres dans le sérum",
+                "anticorps/complement fixés sur les GR in vivo"
+              ],
+              "answer": 3,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante) (variante) (variante)",
+              "choices": [
+                "IL‑4",
+                "G‑CSF",
+                "TGF‑β",
+                "calcitonine"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante) (variante)",
+              "choices": [
+                "carence B12 certaine",
+                "arégénération",
+                "aplasie",
+                "régénération (réponse médullaire)"
+              ],
+              "answer": 3,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante)",
+              "choices": [
+                "lymphocytes",
+                "fibrine seule",
+                "haptoglobine",
+                "platelettes + vWF + endothélium"
+              ],
+              "answer": 3,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante) (variante)",
+              "choices": [
+                "le temps de saignement",
+                "le temps de thrombine seulement",
+                "l’aPTT",
+                "le PT uniquement"
+              ],
+              "answer": 2,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante)",
+              "choices": [
+                "IL‑4",
+                "G‑CSF",
+                "TGF‑β",
+                "calcitonine"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur stimulant la granulopoïèse neutrophile : (variante) (variante) (variante)",
+              "choices": [
+                "TGF‑β",
+                "G‑CSF",
+                "IL‑4",
+                "calcitonine"
+              ],
+              "answer": 1,
+              "explain": "G-CSF/G‑M‑CSF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans : (variante)",
+              "choices": [
+                "la maturation des B",
+                "la maturation des érythrocytes",
+                "la maturation des lymphocytes T",
+                "la granulopoïèse"
+              ],
+              "answer": 2,
+              "explain": "Sélection positive/négative T."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’hémostase primaire implique surtout : (variante) (variante) (variante)",
+              "choices": [
+                "lymphocytes",
+                "haptoglobine",
+                "fibrine seule",
+                "platelettes + vWF + endothélium"
+              ],
+              "answer": 3,
+              "explain": "Adhésion (GPIb‑vWF), activation, agrégation (GPIIb/IIIa‑fibrinogène)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps anti‑D (Rh) sont généralement : (variante) (variante)",
+              "choices": [
+                "IgM",
+                "IgA",
+                "IgE",
+                "IgG"
+              ],
+              "answer": 3,
+              "explain": "Peuvent traverser le placenta."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "le foie",
+                "la rate",
+                "le rein",
+                "la moelle osseuse"
+              ],
+              "answer": 2,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Receveur universel de CGR : (variante)",
+              "choices": [
+                "groupe O",
+                "groupe AB",
+                "groupe A",
+                "groupe B"
+              ],
+              "answer": 1,
+              "explain": "AB ne possède pas d’anticorps anti‑A/B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Marqueur de l’hémolyse intravasculaire : (variante)",
+              "choices": [
+                "haptoglobine ↑",
+                "haptoglobine basse + LDH ↑ + bilirubine ↑",
+                "bilirubine conjuguée ↓",
+                "LDH ↓"
+              ],
+              "answer": 1,
+              "explain": "Haptoglobine capte Hb libre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Site principal de l’hématopoïèse chez l’adulte : (variante)",
+              "choices": [
+                "foie",
+                "rate",
+                "diaphyse des os longs seulement",
+                "moelle osseuse des os plats (crête iliaque, sternum…)"
+              ],
+              "answer": 3,
+              "explain": "Axial: bassin, vertèbres, sternum, côtes, crâne; épiphyses proximales fémur/humérus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante)",
+              "choices": [
+                "le foie",
+                "le rein",
+                "la moelle osseuse",
+                "la rate"
+              ],
+              "answer": 1,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "II, VII, IX, X (et protéines C/S)",
+                "I, V, VIII, XIII",
+                "VIII, vWF, fibrinogène",
+                "XI, XII, HMWK, PK"
+              ],
+              "answer": 0,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie commune comprend : (variante) (variante)",
+              "choices": [
+                "XII, HMWK, PK",
+                "X, V, II, I",
+                "VII, VIII, IX, XI",
+                "III, IV"
+              ],
+              "answer": 1,
+              "explain": "Xa+Va → prothrombinase ; II → I fibrine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans la fibrinolyse, l’enzyme clé est : (variante) (variante) (variante)",
+              "choices": [
+                "la myéloperoxydase",
+                "la thrombine",
+                "la plasmine (activée par tPA/uPA)",
+                "l’ADAMTS13"
+              ],
+              "answer": 2,
+              "explain": "Dégradation fibrine → D‑dimères."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MCV (VGM) normal adulte : (variante) (variante)",
+              "choices": [
+                "≈100–120 fL",
+                "≈60–70 fL",
+                "≈40–60 fL",
+                "≈80–100 fL"
+              ],
+              "answer": 3,
+              "explain": "Microcytose <80 ; macrocytose >100 fL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Site principal de l’hématopoïèse chez l’adulte : (variante) (variante)",
+              "choices": [
+                "foie",
+                "diaphyse des os longs seulement",
+                "rate",
+                "moelle osseuse des os plats (crête iliaque, sternum…)"
+              ],
+              "answer": 3,
+              "explain": "Axial: bassin, vertèbres, sternum, côtes, crâne; épiphyses proximales fémur/humérus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’érythropoïétine (EPO) est produite principalement par : (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "la moelle osseuse",
+                "le foie",
+                "la rate",
+                "le rein"
+              ],
+              "answer": 3,
+              "explain": "Cellules interstitielles péritubulaires rénales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La warfarine (antivitamine K) prolonge surtout : (variante) (variante)",
+              "choices": [
+                "le temps de saignement",
+                "aucun test",
+                "le PT/INR",
+                "l’aPTT exclusivement"
+              ],
+              "answer": 2,
+              "explain": "Atteint VII (demi‑vie courte) → PT sensible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les facteurs vitamine K‑dépendants sont : (variante)",
+              "choices": [
+                "XI, XII, HMWK, PK",
+                "I, V, VIII, XIII",
+                "VIII, vWF, fibrinogène",
+                "II, VII, IX, X (et protéines C/S)"
+              ],
+              "answer": 3,
+              "explain": "γ‑carboxylation (foie)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez le fœtus, l’hématopoïèse se déroule principalement : (variante) (variante)",
+              "choices": [
+                "dans les poumons",
+                "dans le thymus uniquement",
+                "dans le foie (puis rate, moelle)",
+                "dans le rein"
+              ],
+              "answer": 2,
+              "explain": "Séquence: sac vitellin → foie/splénique → moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante) (variante) (variante)",
+              "choices": [
+                "régénération (réponse médullaire)",
+                "arégénération",
+                "carence B12 certaine",
+                "aplasie"
+              ],
+              "answer": 0,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Anticorps anti‑D (Rh) sont généralement : (variante) (variante) (variante)",
+              "choices": [
+                "IgE",
+                "IgG",
+                "IgM",
+                "IgA"
+              ],
+              "answer": 1,
+              "explain": "Peuvent traverser le placenta."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cross‑match (épreuve de compatibilité) consiste à : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "mélanger deux sérums",
+                "mélanger deux CGR du donneur",
+                "mettre en contact sérum du receveur et GR du donneur",
+                "mélanger GR receveur et sérum donneur"
+              ],
+              "answer": 2,
+              "explain": "Recherche agglutination/anticorps irréguliers."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Augmentation des réticulocytes en anémie signifie : (variante)",
+              "choices": [
+                "arégénération",
+                "aplasie",
+                "régénération (réponse médullaire)",
+                "carence B12 certaine"
+              ],
+              "answer": 2,
+              "explain": "Après spoliation/hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’héparine prolonge surtout : (variante) (variante)",
+              "choices": [
+                "l’aPTT",
+                "le PT uniquement",
+                "le temps de saignement",
+                "le temps de thrombine seulement"
+              ],
+              "answer": 0,
+              "explain": "Active antithrombine (IIa, Xa…)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test de Coombs direct détecte : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "anticorps libres dans le sérum",
+                "anticorps/complement fixés sur les GR in vivo",
+                "facteurs de coagulation",
+                "protéines plasmatiques"
+              ],
+              "answer": 1,
+              "explain": "Maladie hémolytique auto‑immune/transfusionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le thymus intervient surtout dans : (variante) (variante)",
+              "choices": [
+                "la granulopoïèse",
+                "la maturation des B",
+                "la maturation des lymphocytes T",
+                "la maturation des érythrocytes"
+              ],
+              "answer": 2,
+              "explain": "Sélection positive/négative T."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir hématopoïèse.",
+              "answer_text": "Processus de production continue des cellules sanguines à partir des CSH.",
+              "explain": "Se déroule majoritairement dans la moelle osseuse adulte."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les deux lignées majeures issues de la CSH.",
+              "answer_text": "Lignée myéloïde et lignée lymphoïde.",
+              "explain": "Bifurcation précoce."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer 2 facteurs de croissance hématopoïétiques.",
+              "answer_text": "EPO, TPO, G‑CSF, GM‑CSF (au moins deux).",
+              "explain": "Régulation fine par cytokines."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir hémostase primaire.",
+              "answer_text": "Adhésion/activation/agrégation plaquettaires formant le clou plaquettaire.",
+              "explain": "Médiée par vWF, GPIb, GPIIb/IIIa, fibrinogène."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir hémostase secondaire.",
+              "answer_text": "Cascades de coagulation aboutissant à la fibrine stabilisant le clou.",
+              "explain": "Voies intrinsèque/extrinsèque/commune."
+            },
+            {
+              "type": "short",
+              "prompt": "Que mesure le PT (TP) ?",
+              "answer_text": "Voie extrinsèque et commune (VII, X, V, II, I) → INR.",
+              "explain": "Suivi AVK."
+            },
+            {
+              "type": "short",
+              "prompt": "Que mesure l’aPTT ?",
+              "answer_text": "Voie intrinsèque et commune (XII, XI, IX, VIII, X, V, II, I).",
+              "explain": "Suivi héparine non fractionnée."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir D‑dimères.",
+              "answer_text": "Produits de dégradation de la fibrine réticulée.",
+              "explain": "Marqueur de fibrinolyse activée."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir « groupage ABO direct et inverse ».",
+              "answer_text": "Direct: antigènes sur GR ; Inverse: anticorps dans sérum.",
+              "explain": "Concordance attendue."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’antigène H.",
+              "answer_text": "Précurseur neutre modifié en A/B ; absent (Bombay, Oh) très rare.",
+              "explain": "Impact transfusionnel majeur."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux tests immunohématologiques.",
+              "answer_text": "Coombs direct/indirect ; cross‑match majeur.",
+              "explain": "Dépistage anticorps irréguliers."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir MCV et MCHC.",
+              "answer_text": "MCV: volume globulaire moyen ; MCHC: concentration corpusculaire moyenne en Hb.",
+              "explain": "Indices RBC."
+            },
+            {
+              "type": "short",
+              "prompt": "Trois causes d’anémie normocytaire.",
+              "answer_text": "Inflammation chronique ; insuffisance rénale ; hémolyse débutante.",
+              "explain": "Approche par indices et contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Lister 4 facteurs vitamine K‑dépendants.",
+              "answer_text": "II, VII, IX, X (± C/S).",
+              "explain": "γ‑carboxylation hépatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Que fait la protéine C activée ?",
+              "answer_text": "Inhibe Va et VIIIa (avec protéine S).",
+              "explain": "Voie anticoagulante."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner les compatibilités CGR (rappel rapide).",
+              "answer_text": "O donne à tous ; AB reçoit de tous (attention Rh/anticorps irréguliers).",
+              "explain": "Toujours faire groupage + RAI + compatibilité croisée."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir test de mélange (1:1).",
+              "answer_text": "Mélange plasma patient + témoin : correction → déficit ; non‑correction → inhibiteur.",
+              "explain": "Oriente le diagnostic des aPTT/ PT allongés."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] PT ↑, aPTT N — Patient sous AVK, INR 3,0\n\nInterprétation ?",
+              "answer_text": "Atteinte voie extrinsèque (VII), traitement AVK efficace.",
+              "explain": "PT/INR sensible au VII."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] aPTT ↑ isolé — Patient avec hémorragies articulaires\n\nOrientation ?",
+              "answer_text": "Déficit VIII/IX (hémophilie) ou héparine; faire test de mélange.",
+              "explain": "Différencier déficit vs inhibiteur."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Saignements muqueux + PFA anormal — Ecchymoses, épistaxis, règles abondantes\n\nDiagnostic de 1re intention ?",
+              "answer_text": "Trouble hémostase primaire (vWD/plaquettaire).",
+              "explain": "vWF/plaquettes impliquées."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] D‑dimères ++ — Douleur mollet, tachycardie, alitement\n\nHypothèse ?",
+              "answer_text": "TEV (TVP/EP) probable, D‑dimères élevés non spécifiques.",
+              "explain": "Imagerie pour confirmation."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Anémie + réticulocytose — Hb 9 g/dL ; réticulocytes 4 % ; haptoglobine basse\n\nMécanisme ?",
+              "answer_text": "Hémolyse.",
+              "explain": "Bilan hémolyse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Hémolyse néonatale — Nouveau‑né ictérique, mère Rh−, enfant Rh+\n\nMécanisme ?",
+              "answer_text": "Allo‑immunisation anti‑D (IgG).",
+              "explain": "Prévention par immunoglobulines anti‑D."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #7 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #8 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #9 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #10 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #11 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #12 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #13 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #14 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #15 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #16 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #17 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #18 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #19 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #20 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #21 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #22 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #23 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #24 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #25 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #26 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #27 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #28 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #29 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas hémostase #30 — Vignette courte (tests PT/aPTT/TT, clinique)\n\nInterprétez et concluez.",
+              "answer_text": "Raisonner par voies et tests.",
+              "explain": "Toujours corréler à l’anamnèse."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:43:57.093452Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
