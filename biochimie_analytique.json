@@ -1,0 +1,1953 @@
+{
+  "subjects": [
+    {
+      "name": "Biochimie analytique",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Au labo, tout prélèvement biologique doit être considéré comme :",
+              "choices": [
+                "Potentiellement infectieux",
+                "Stérile",
+                "Non dangereux",
+                "À congeler systématiquement"
+              ],
+              "answer": 0,
+              "explain": "Précaution standard : considérer sang, urine, LCR comme potentiellement infectieux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Désinfection de paillasse recommandée :",
+              "choices": [
+                "Eau de Javel 24° diluée 1/10",
+                "Eau distillée seule",
+                "Éthanol 20%",
+                "Acétone"
+              ],
+              "answer": 0,
+              "explain": "Javel 24° au 1/10 avec temps de contact suffisant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Interdiction formelle au labo :",
+              "choices": [
+                "Pipetage à la bouche",
+                "Porte de gants",
+                "Hotte pour solvants volatils",
+                "Collecte DASRI"
+              ],
+              "answer": 0,
+              "explain": "Toujours utiliser poire, pipette auto ou système d’aspiration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un accident de déversement de sang sur paillasse :",
+              "choices": [
+                "Inonder de Javel 1/10 et absorber",
+                "Essuyer à sec",
+                "Attendre l’évaporation",
+                "Éther"
+              ],
+              "answer": 0,
+              "explain": "Inonder puis papier absorbant et élimination appropriée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sang capillaire est utile pour :",
+              "choices": [
+                "Microméthodes, pH et gaz du sang",
+                "Dosage de tous les paramètres",
+                "Dosage des triglycérides uniquement",
+                "Electrophorèse"
+              ],
+              "answer": 0,
+              "explain": "Prélèvements au doigt/talon pour petites quantités."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’émission atomique est due à :",
+              "choices": [
+                "Retour à l’état fondamental avec émission hv",
+                "Absorption UV uniquement",
+                "Chaleur sans photons",
+                "Réaction chimique"
+              ],
+              "answer": 0,
+              "explain": "Électrons excités par la flamme, photons caractéristiques émis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "En spectrophotométrie d’absorption, DO est proportionnelle à :",
+              "choices": [
+                "ε·L·C",
+                "C uniquement",
+                "1/ε",
+                "L/C"
+              ],
+              "answer": 0,
+              "explain": "Loi de Beer-Lambert : DO = ε·L·C."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un spectrophotomètre de routine lit typiquement entre :",
+              "choices": [
+                "320–800 nm",
+                "100–220 nm",
+                ">1000 nm",
+                "10–100 nm"
+              ],
+              "answer": 0,
+              "explain": "Près-UV et visible au labo de routine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Point final vs cinétique :",
+              "choices": [
+                "Point final = quantité formée à t donné ; cinétique = vitesse",
+                "Inverse",
+                "Identique",
+                "Aucun lien"
+              ],
+              "answer": 0,
+              "explain": "Deux modes de lecture usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Additivité de Beer-Lambert permet :",
+              "choices": [
+                "Soustraction du blanc réactif/échantillon",
+                "Mesurer sans réactifs",
+                "Éviter les étalons",
+                "Utiliser lumière polychromatique"
+              ],
+              "answer": 0,
+              "explain": "DOtotale = DOx + DOinterférents ; correction par blancs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Photométrie de flamme dose surtout :",
+              "choices": [
+                "Na+, K+",
+                "Ca2+ uniquement",
+                "Protéines",
+                "Glucose"
+              ],
+              "answer": 0,
+              "explain": "Alcalins Na+, K+ avec étalon interne Li+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Étalon interne recommandé en photométrie de flamme :",
+              "choices": [
+                "Lithium",
+                "Hélium",
+                "Chlore",
+                "Argent"
+              ],
+              "answer": 0,
+              "explain": "Compense les fluctuations de flamme."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Domaine de linéarité typique Na+/K+ en flamme :",
+              "choices": [
+                "10–1000 mmol/L",
+                "0–5 mmol/L",
+                ">2 mol/L",
+                "Aucun"
+              ],
+              "answer": 0,
+              "explain": "Au-delà dilutions nécessaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dilution sérum pour Na+ (flamme) :",
+              "choices": [
+                "1/200",
+                "1/2",
+                "1/5",
+                "Non dilué"
+              ],
+              "answer": 0,
+              "explain": "Pour rester dans la zone linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Interférence majeure en flamme :",
+              "choices": [
+                "Instabilité de flamme",
+                "pH du tampon",
+                "Présence d’albumine seulement",
+                "Couleur du sérum"
+              ],
+              "answer": 0,
+              "explain": "Nébulisation, pression gaz, température, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Néphélémétrie mesure :",
+              "choices": [
+                "Lumière diffusée à un angle",
+                "Absorbance en ligne",
+                "Chaleur dégagée",
+                "Émission X"
+              ],
+              "answer": 0,
+              "explain": "Effet Tyndall, diffusion mesurée hors axe."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Turbidimétrie mesure :",
+              "choices": [
+                "Lumière transmise (diminution par diffusion/absorption)",
+                "Fluorescence",
+                "Chimiluminescence",
+                "Émission atomique"
+              ],
+              "answer": 0,
+              "explain": "Lecture dans l’axe du faisceau incident."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Deux applications classiques en clinique :",
+              "choices": [
+                "Protéines LCR/urines et immunoprécipitation",
+                "Glycémie et cholestérol",
+                "Gaz du sang",
+                "Électrophorèse"
+              ],
+              "answer": 0,
+              "explain": "Mesure de troubles et complexes Ag-Ac."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une ISE répond selon :",
+              "choices": [
+                "Équation de Nernst (E = k log a)",
+                "Loi de Poiseuille",
+                "Arrhenius",
+                "Henderson-Hasselbalch"
+              ],
+              "answer": 0,
+              "explain": "Potentiel proportionnel au log de l’activité ionique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pente Nernstienne pour ion monovalent à 25°C ≈",
+              "choices": [
+                "59–60 mV/décade",
+                "30 mV/décade",
+                "100 mV/décade",
+                "10 mV/décade"
+              ],
+              "answer": 0,
+              "explain": "À 25°C pour n=1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ISE sodium classique :",
+              "choices": [
+                "Membrane de verre spécifique Na+",
+                "Valinomycine",
+                "AgCl compact",
+                "Électrode Clark"
+              ],
+              "answer": 0,
+              "explain": "Verre spécial sensible Na+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ISE potassium très sélective grâce à :",
+              "choices": [
+                "Valinomycine",
+                "Verre sodique",
+                "Ag/AgCl",
+                "Ferrocène"
+              ],
+              "answer": 0,
+              "explain": "K+/Na+ ≈ 5000:1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Principale exigence pour mesure Na+ fiable :",
+              "choices": [
+                "Force ionique/température constantes",
+                "Hémolyse obligatoire",
+                "Blanc sérum",
+                "Agiter fort"
+              ],
+              "answer": 0,
+              "explain": "Dilution identique, T° contrôlée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Interférence fréquente pour Cl− (ISE AgCl) :",
+              "choices": [
+                "Autres halogénures",
+                "Na+",
+                "Urée",
+                "Glucose"
+              ],
+              "answer": 0,
+              "explain": "Br−, I− ou ions formant complexes solubles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Principe du Biuret :",
+              "choices": [
+                "Cu2+ + liaisons peptidiques en milieu alcalin → violet",
+                "Réduction Cu2+ → Cu+ sans protéines",
+                "Complexe avec glucose",
+                "Réaction enzymatique"
+              ],
+              "answer": 0,
+              "explain": "Lecture ~550 nm ; proportionnelle aux protéines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quelle longueur d’onde pour Biuret :",
+              "choices": [
+                "≈550 nm",
+                "340 nm",
+                "405 nm",
+                "280 nm"
+              ],
+              "answer": 0,
+              "explain": "520–570 nm possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Protéinémie adulte normale :",
+              "choices": [
+                "60–80 g/L",
+                "20–40 g/L",
+                "90–120 g/L",
+                ">150 g/L"
+              ],
+              "answer": 0,
+              "explain": "Interprétation standard."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sérum hyperlipémique :",
+              "choices": [
+                "Sous-estimation au Biuret (trouble)",
+                "Aucune interférence",
+                "Surestimation systématique",
+                "Empêche réaction"
+              ],
+              "answer": 0,
+              "explain": "Utiliser solvant lipide ou précipitation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Créatinine – méthode de Jaffé :",
+              "choices": [
+                "Réaction avec picrate alcalin",
+                "Complexe avec Cu2+",
+                "Oxydase",
+                "NADH direct"
+              ],
+              "answer": 0,
+              "explain": "Point final ou cinétique ; interférences possibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Urée – méthode enzymatique :",
+              "choices": [
+                "Uréase puis mesure NH3/CO2",
+                "Réactif de Biuret",
+                "GOD-POD",
+                "HPLC"
+              ],
+              "answer": 0,
+              "explain": "Chaînes enzymatiques fréquentes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Glucose enzymatique courant :",
+              "choices": [
+                "Glucose oxydase/peroxydase (GOD-POD)",
+                "Hexokinase uniquement",
+                "Biuret",
+                "Jaffé"
+              ],
+              "answer": 0,
+              "explain": "Lecture colorimétrique ou en UV (HK/G6PD)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Acide urique :",
+              "choices": [
+                "Uricase (formation d’allantoïne + diminution A293 nm)",
+                "Uréase",
+                "LDH",
+                "CK-MB"
+              ],
+              "answer": 0,
+              "explain": "Méthode enzymatique spécifique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cholestérol total :",
+              "choices": [
+                "Cholestérol estérase + oxydase + colorimétrie",
+                "Biuret",
+                "Jaffé",
+                "Bromocrésol"
+              ],
+              "answer": 0,
+              "explain": "Chaîne enzymatique standard."
+            },
+            {
+              "type": "mcq",
+              "prompt": "HDL-C dosage courant :",
+              "choices": [
+                "Précipitation des non-HDL ou réactifs sélectifs",
+                "Biuret",
+                "Urée enzymatique",
+                "GGT"
+              ],
+              "answer": 0,
+              "explain": "Méthodes directes modernes existent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Triglycérides :",
+              "choices": [
+                "Lipase → glycérol (mesure enzymatique)",
+                "Urée méthodique",
+                "Picrate",
+                "Inductif"
+              ],
+              "answer": 0,
+              "explain": "Séquence lipase/glycérol kinase/oxidase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ASAT/ALAT :",
+              "choices": [
+                "Méthodes cinétiques couplées NADH (340 nm)",
+                "Biuret 550 nm",
+                "Turbidimétrie",
+                "Émission atomique"
+              ],
+              "answer": 0,
+              "explain": "Suivi ΔA/min à 340 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "GGT :",
+              "choices": [
+                "Formation p-nitroaniline (405 nm)",
+                "NADH 340 nm",
+                "Biuret 550 nm",
+                "420 nm uréase"
+              ],
+              "answer": 0,
+              "explain": "Substrat GPNA ; lecture 405 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Phosphatase alcaline :",
+              "choices": [
+                "Substrat pNPP → p-nitrophénol (405 nm)",
+                "NADH",
+                "Biuret",
+                "Picrate"
+              ],
+              "answer": 0,
+              "explain": "Optimisée à pH alcalin."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CPK totale :",
+              "choices": [
+                "Méthodes enzymatiques couplées (NADPH)",
+                "Turbidimétrie",
+                "Biuret",
+                "Picrate"
+              ],
+              "answer": 0,
+              "explain": "Et isoenzymes par électrophorèse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "G6PD :",
+              "choices": [
+                "Détection par consommation/formation NADPH (340 nm)",
+                "Biuret",
+                "Jaffé",
+                "GOD-POD"
+              ],
+              "answer": 0,
+              "explain": "Activité érythrocytaire importante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Fer sérique :",
+              "choices": [
+                "Complexe coloré (par ex. ferrozine) après libération",
+                "Biuret",
+                "Picrate",
+                "Nessler"
+              ],
+              "answer": 0,
+              "explain": "Mesure Fe2+ complexé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bilirubine :",
+              "choices": [
+                "Diazo (Jendrassik–Grof) ou dérivés modernes",
+                "GOD-POD",
+                "Biuret",
+                "Jaffé"
+              ],
+              "answer": 0,
+              "explain": "Totale/directe/indirecte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Magnésium plasmatique :",
+              "choices": [
+                "1% du pool total environ",
+                "50% du pool total",
+                "30% du pool total",
+                "0%"
+              ],
+              "answer": 0,
+              "explain": "Pool global ~24 g ; 1% plasmatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu chocolat utile pour :",
+              "choices": [
+                "Germes exigeants (Haemophilus, Neisseria)",
+                "Entérobactéries lactose+",
+                "Anaérobies stricts",
+                "Mycobactéries"
+              ],
+              "answer": 0,
+              "explain": "Libération facteurs X et V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Biochimie LCR inclut :",
+              "choices": [
+                "Glucose, protéines, chlorures",
+                "Triglycérides",
+                "Bilirubine uniquement",
+                "GGT"
+              ],
+              "answer": 0,
+              "explain": "Couplée à l’examen cytobactériologique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aspect LCR « eau de roche » :",
+              "choices": [
+                "Normal",
+                "Méningite purulente",
+                "Hémorragie",
+                "Ictère"
+              ],
+              "answer": 0,
+              "explain": "Clair limpide ; attention aux faux négatifs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chlororachie peut être dosée par :",
+              "choices": [
+                "Coulométrie ou électrodes spécifiques",
+                "Biuret",
+                "Jaffé",
+                "GOD-POD"
+              ],
+              "answer": 0,
+              "explain": "Méthodes directes possibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Contrôle longueur d’onde :",
+              "choices": [
+                "Solutions d’holmium (pics connus)",
+                "Eau distillée",
+                "CuSO4",
+                "Bromocrésol"
+              ],
+              "answer": 0,
+              "explain": "Perchlorate/nitrate d’holmium pour vérif. λ."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bande passante étroite :",
+              "choices": [
+                "Améliore le monochromatisme",
+                "Diminue précision",
+                "Inutile",
+                "Empêche la mesure"
+              ],
+              "answer": 0,
+              "explain": "±2–5 nm selon appareils."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Source visible :",
+              "choices": [
+                "Lampe tungstène",
+                "Deutérium exclusivement",
+                "Laser",
+                "Lampe sodium uniquement"
+              ],
+              "answer": 0,
+              "explain": "En UV proche : hydrogène/deutérium, visible : tungstène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Cuves en quartz :",
+              "choices": [
+                "Utiles <320 nm",
+                "Réservées au visible",
+                "Jamais nécessaires",
+                "Pour chimiluminescence"
+              ],
+              "answer": 0,
+              "explain": "Le verre absorbe <320 nm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hyperlipémie influence :",
+              "choices": [
+                "Nombreuses méthodes colorimétriques (turbidité)",
+                "Jamais",
+                "Toujours augmente DO",
+                "Sans effet"
+              ],
+              "answer": 0,
+              "explain": "Correction par sérum blanc/lipoclear/extraction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hémolyse affecte :",
+              "choices": [
+                "K+, LDH, AST…",
+                "Sodium uniquement",
+                "Glucose à la baisse immédiate",
+                "Aucun"
+              ],
+              "answer": 0,
+              "explain": "Libération intracellulaire et interférences spectrales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne du froid :",
+              "choices": [
+                "Indispensable selon analyte",
+                "Inutile",
+                "Toujours congeler",
+                "Toujours 37°C"
+              ],
+              "answer": 0,
+              "explain": "Pré-analytique critique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dosage protéines LCR (Coomassie) se lit vers :",
+              "choices": [
+                "≈630 nm",
+                "550 nm",
+                "340 nm",
+                "405 nm"
+              ],
+              "answer": 0,
+              "explain": "Méthode au bleu de Coomassie"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gamme spectrale routière :",
+              "choices": [
+                "320–800 nm",
+                "220–350 nm",
+                "800–1000 nm",
+                "<200 nm"
+              ],
+              "answer": 0,
+              "explain": "Proche UV et visible"
+            },
+            {
+              "type": "mcq",
+              "prompt": "ASAT/ALAT suivent :",
+              "choices": [
+                "ΔA/min à 340 nm (NADH)",
+                "Point final 550 nm",
+                "Turbidité",
+                "Émission flamme"
+              ],
+              "answer": 0,
+              "explain": "Cinétique UV"
+            },
+            {
+              "type": "mcq",
+              "prompt": "GGT suit :",
+              "choices": [
+                "pNA à 405 nm",
+                "NADH 340 nm",
+                "Biuret",
+                "Picrate"
+              ],
+              "answer": 0,
+              "explain": "GPNA → pNA, lecture 405"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Biuret est :",
+              "choices": [
+                "Colorimétrique non enzymatique",
+                "Enzymatique",
+                "Coulométrique",
+                "Fluorimétrique"
+              ],
+              "answer": 0,
+              "explain": "Complexation Cu2+ en milieu alcalin"
+            },
+            {
+              "type": "mcq",
+              "prompt": "ISE mesure :",
+              "choices": [
+                "Activité ionique (a), pas la concentration brute",
+                "Concentration massique exacte",
+                "Pression partielle",
+                "Osmolarité"
+              ],
+              "answer": 0,
+              "explain": "Répond à a = γ·c"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Valinomycine :",
+              "choices": [
+                "Transporteur neutre sélectif du K+",
+                "Complexant du Na+ uniquement",
+                "Indicateur coloré",
+                "Agent diazo"
+              ],
+              "answer": 0,
+              "explain": "K+/Na+ ≈ 5000:1"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Photométrie de flamme nécessite :",
+              "choices": [
+                "Dilutions adaptées pour linéarité",
+                "Sérum brut",
+                "Réactif diazo",
+                "Cuve quartz"
+              ],
+              "answer": 0,
+              "explain": "Ex : Na+ 1/200"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Néphélémétrie :",
+              "choices": [
+                "Mesure la diffusion (effet Tyndall)",
+                "Absorbance",
+                "Émission atomique",
+                "Fluorescence"
+              ],
+              "answer": 0,
+              "explain": "Ld à angle"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Turbidimétrie :",
+              "choices": [
+                "Applique Beer-Lambert à un milieu trouble",
+                "Mesure NADH",
+                "Électrochimie",
+                "Nernst"
+              ],
+              "answer": 0,
+              "explain": "Log I0/I = K·C·L approximatif"
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #65 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #66 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #67 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #68 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #69 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #70 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #71 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #72 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #73 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #74 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #75 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #76 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #77 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #78 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #79 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #80 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #81 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #82 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #83 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #84 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #85 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #86 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #87 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #88 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #89 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #90 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #91 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #92 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #93 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #94 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #95 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #96 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #97 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #98 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #99 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #100 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #101 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #102 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #103 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #104 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #105 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #106 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #107 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #108 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #109 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #110 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #111 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #112 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #113 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #114 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #115 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #116 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #117 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #118 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #119 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM Biochimie analytique #120 :",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item de révision pour compléter la banque."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir la spectrophotométrie d’absorption moléculaire.",
+              "answer_text": "Mesure de l’absorbance d’un chromophore pour identifier/doser une molécule.",
+              "explain": "Utilise lumière monochromatique, Beer-Lambert."
+            },
+            {
+              "type": "short",
+              "prompt": "Énoncer la loi de Beer-Lambert.",
+              "answer_text": "DO = ε·L·C.",
+              "explain": "DO proportionnelle à la concentration et au trajet optique."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence point final vs cinétique.",
+              "answer_text": "Point final : quantité formée à t donné ; cinétique : vitesse de réaction.",
+              "explain": "Deux modes de lecture."
+            },
+            {
+              "type": "short",
+              "prompt": "Pourquoi utiliser un blanc réactif ?",
+              "answer_text": "Soustraire l’absorbance du milieu et interférents.",
+              "explain": "Additivité des absorbances."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe photométrie de flamme.",
+              "answer_text": "Émission atomique d’ions excités dans la flamme ; mesure des photons caractéristiques.",
+              "explain": "Na+, K+ notamment ; Li+ étalon interne."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir néphélémétrie.",
+              "answer_text": "Mesure de la lumière diffusée par une suspension à un angle donné.",
+              "explain": "Effet Tyndall."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir turbidimétrie.",
+              "answer_text": "Mesure de la diminution de lumière transmise par une suspension.",
+              "explain": "Assimilable à une absorbance globale."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe ISE.",
+              "answer_text": "Potentiel de membrane lié au log de l’activité ionique (Nernst).",
+              "explain": "Membranes sélectives (verre, valinomycine, AgCl)."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer valinomycine.",
+              "answer_text": "Transporteur neutre sélectif du K+ utilisé dans ISE potassium.",
+              "explain": "Sélectivité K+/Na+ très élevée."
+            },
+            {
+              "type": "short",
+              "prompt": "Conditions pour Na+ fiable (ISE).",
+              "answer_text": "Dilution identique (force ionique constante) et température constante.",
+              "explain": "Ex : 1/30 ; 25°C."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe Biuret.",
+              "answer_text": "Cu2+ complexe les liaisons peptidiques en milieu alcalin → violet.",
+              "explain": "Lecture ~550 nm."
+            },
+            {
+              "type": "short",
+              "prompt": "Causes d’erreurs au Biuret.",
+              "answer_text": "Hyperlipémie (trouble), moins icterus ; éviter blanc sérum.",
+              "explain": "Solutions : solvant lipide, précipitation."
+            },
+            {
+              "type": "short",
+              "prompt": "GGT – principe analytique.",
+              "answer_text": "Mesure de la p-nitroaniline formée à 405 nm à partir du GPNA.",
+              "explain": "Méthode cinétique."
+            },
+            {
+              "type": "short",
+              "prompt": "ASAT/ALAT – lecture.",
+              "answer_text": "Suivi de ΔA/min à 340 nm (NADH).",
+              "explain": "Méthodes cinétiques couplées."
+            },
+            {
+              "type": "short",
+              "prompt": "Triglycérides – séquence.",
+              "answer_text": "Lipase → glycérol → phosphorylation → oxydation → mesure colorimétrique.",
+              "explain": "Méthode enzymatique standard."
+            },
+            {
+              "type": "short",
+              "prompt": "Cholestérol total – séquence.",
+              "answer_text": "Estérase → oxydase → peroxydase/Chromogène.",
+              "explain": "Méthode enzymatique colorimétrique."
+            },
+            {
+              "type": "short",
+              "prompt": "Acide urique – méthode.",
+              "answer_text": "Uricase (diminution A293 nm) ou colorimétrie couplée.",
+              "explain": "Spécifique du substrat."
+            },
+            {
+              "type": "short",
+              "prompt": "Magnésium plasmatique (%) du pool.",
+              "answer_text": "≈1% du pool total (~24 g).",
+              "explain": "Reste os/érythrocytes."
+            },
+            {
+              "type": "short",
+              "prompt": "Biochimie du LCR – paramètres de base.",
+              "answer_text": "Protéines, glucose, chlorures.",
+              "explain": "Analyse urgente, couplée au bactério."
+            },
+            {
+              "type": "short",
+              "prompt": "Aspect LCR ‘eau de roche’.",
+              "answer_text": "Aspect normal, clair limpide.",
+              "explain": "N’élimine pas méningite décapitée."
+            },
+            {
+              "type": "short",
+              "prompt": "Chlororachie – technique.",
+              "answer_text": "Coulométrie ou électrodes spécifiques.",
+              "explain": "Alternative à la chimie colorée."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle du contrôle λ (holmium).",
+              "answer_text": "Vérifier justesse λ et monochromatisme.",
+              "explain": "Pics connus 350–650 nm."
+            },
+            {
+              "type": "short",
+              "prompt": "Source de lumière en UV proche.",
+              "answer_text": "Lampe hydrogène/deutérium (quartz).",
+              "explain": "Visible : tungstène."
+            },
+            {
+              "type": "short",
+              "prompt": "Choix des cuves pour <320 nm.",
+              "answer_text": "Cuves quartz.",
+              "explain": "Le verre absorbe <320 nm."
+            },
+            {
+              "type": "short",
+              "prompt": "Pourquoi diluer en flamme ?",
+              "answer_text": "Rester dans la zone linéaire et éviter auto-absorption.",
+              "explain": "Na+ 1/200 ; K+ 1/10–1/20."
+            },
+            {
+              "type": "short",
+              "prompt": "Hyperlipémie et colorimétrie.",
+              "answer_text": "Augmente la turbidité et fausse DO.",
+              "explain": "Corriger par traitement."
+            },
+            {
+              "type": "short",
+              "prompt": "Effets de l’hémolyse.",
+              "answer_text": "↑K+, LDH, AST ; interférences spectrales.",
+              "explain": "À éviter dès prélèvement."
+            },
+            {
+              "type": "short",
+              "prompt": "Unité internationale vs katal.",
+              "answer_text": "UI : μmol/min ; katal : mol/s.",
+              "explain": "Unités d’activité enzymatique."
+            },
+            {
+              "type": "short",
+              "prompt": "Conditions cinétiques standard.",
+              "answer_text": "[S] ≥ 10·Km ; pH optimum ; T° standardisée.",
+              "explain": "Vérifier linéarité de vitesse."
+            },
+            {
+              "type": "short",
+              "prompt": "Additivité Beer-Lambert.",
+              "answer_text": "DO(A+B) = DO(A) + DO(B).",
+              "explain": "Permet correction par blancs."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #31.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #32.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #33.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #34.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #35.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #36.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #37.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #38.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #39.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #40.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #41.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #42.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #43.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #44.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #45.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #46.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #47.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #48.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #49.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #50.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #51.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #52.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #53.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #54.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #55.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #56.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #57.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #58.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #59.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision #60.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            }
+          ]
+        },
+        {
+          "name": "ÉTUDES DE CAS",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Sérum laiteux ; Biuret sous-estime les protéines. Quelle démarche ?",
+              "answer_text": "Traiter l’hyperlipémie (solvant/lipoclear ou précipitation) avant lecture.",
+              "explain": "La turbidité fausse l’absorbance à 550 nm."
+            },
+            {
+              "type": "short",
+              "prompt": "Électrode Na+ : résultats instables entre étalonnages. Hypothèses ?",
+              "answer_text": "Force ionique non constante, T° variable, membrane encrassée, dérive.",
+              "explain": "ISE sensible à ces paramètres ; recalibrer, nettoyer, stabiliser."
+            },
+            {
+              "type": "short",
+              "prompt": "Mesure GGT trop élevée chez gros buveur : explication physiopath ?",
+              "answer_text": "Stimulation de la biosynthèse hépatique de la GGT par alcool.",
+              "explain": "Origine hépatobiliaire prédominante."
+            },
+            {
+              "type": "short",
+              "prompt": "LCR ‘trouble/purulent’ : priorité analytique ?",
+              "answer_text": "Examen bactériologique (urgence) + biochimie de base (prot/glucose/Cl−).",
+              "explain": "Méningite aiguë : priorité microbiologique."
+            },
+            {
+              "type": "short",
+              "prompt": "ASAT/ALAT : ΔA/min non linéaire. Que faire ?",
+              "answer_text": "Vérifier T°, pH, [S] ≥ 10·Km, hémolyse ; ré-étalonner spectro à 340 nm.",
+              "explain": "Conditions cinétiques standardisées nécessaires."
+            },
+            {
+              "type": "short",
+              "prompt": "Potassium (ISE) très élevé sur sérum hémolysé ; interprétation ?",
+              "answer_text": "Pseudo-hyperkaliémie due à hémolyse ; refaire prélèvement sans hémolyse.",
+              "explain": "K+ intra-érythrocytaire libéré."
+            },
+            {
+              "type": "short",
+              "prompt": "Photométrie de flamme : Na+ > 180 mmol/L ; courbe sature. Action ?",
+              "answer_text": "Diluer davantage (ex 1/200) et re-mesurer.",
+              "explain": "Rester dans la zone linéaire 10–1000 mmol/L."
+            },
+            {
+              "type": "short",
+              "prompt": "Protéines LCR très élevées ; aspect jaune. Orientation ?",
+              "answer_text": "Compression médullaire/obstacle avec forte protéinorachie.",
+              "explain": "Interprétation classique de l’aspect xanthochromique."
+            },
+            {
+              "type": "short",
+              "prompt": "Dosage bilirubine : interférence hémoglobine. Que proposer ?",
+              "answer_text": "Méthode Jendrassik–Grof (réduire interférences) et blanc adapté.",
+              "explain": "Technique plus robuste."
+            },
+            {
+              "type": "short",
+              "prompt": "Triglycérides très élevés : impact sur autres paramètres ?",
+              "answer_text": "Turbidité perturbe colorimétrie (ex : biuret, bilirubine) ; envisager ultracentrifugation.",
+              "explain": "Pré-analytique critique."
+            },
+            {
+              "type": "short",
+              "prompt": "Electrode Cl− : résultats bas en présence d’iodures. Pourquoi ?",
+              "answer_text": "Interférence d’halogénures (I−) dissoudant AgCl ; fausse baisse apparente.",
+              "explain": "Spécificité limitée de l’électrode AgCl."
+            },
+            {
+              "type": "short",
+              "prompt": "Glycorachie à 0,3 g/L (basse), protéinorachie élevée. Hypothèse ?",
+              "answer_text": "Méningite bactérienne probable.",
+              "explain": "Comparer au glucose sanguin et au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Protéinémie 95 g/L au Biuret sur sérum trouble. Première vérification ?",
+              "answer_text": "Vérifier lipémie et refaire après clarification.",
+              "explain": "Éviter surestimation/erreurs."
+            },
+            {
+              "type": "short",
+              "prompt": "Créatinine Jaffé : interférence possible ?",
+              "answer_text": "Corps cétoniques, bilirubine, acide ascorbique, protéines.",
+              "explain": "Privilégier cinétique ou méthodes enzymatiques selon contexte."
+            },
+            {
+              "type": "short",
+              "prompt": "Mesure enzyme couplée au NADH : λ de lecture ?",
+              "answer_text": "340 nm.",
+              "explain": "Test UV classiquement utilisé."
+            },
+            {
+              "type": "short",
+              "prompt": "Magnésium plasmatique bas, albumine basse. Interprétation ?",
+              "answer_text": "Vérifier Mg2+ ionisé et hypoalbuminémie (forme liée).",
+              "explain": "Corriger sur ionisé si possible."
+            },
+            {
+              "type": "short",
+              "prompt": "Étalonnage spectro : contrôle périodique conseillé ?",
+              "answer_text": "Solutions d’holmium pour λ ; bichromate/PNP/NADH pour DO.",
+              "explain": "Assure justesse et linéarité."
+            },
+            {
+              "type": "short",
+              "prompt": "Chlororachie par ISE trop variable. Piste ?",
+              "answer_text": "Potentiel de jonction/force ionique ; utiliser coulométrie ou calibrer strictement.",
+              "explain": "Stabiliser Ep, mêmes matrices."
+            },
+            {
+              "type": "short",
+              "prompt": "LCR sanglant : conduite ?",
+              "answer_text": "Biochimie interprétable ? Non ; différer ou utiliser autre aliquote non hémorragique.",
+              "explain": "Sang perturbe fortement les dosages."
+            },
+            {
+              "type": "short",
+              "prompt": "GGT normale mais PAL élevée : orientation ?",
+              "answer_text": "Atteinte cholestatique possible ; compléter par 5’-nucléotidase et bilan hépatique.",
+              "explain": "Interprétation enzymatique."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T17:19:08.248433Z",
+    "counts": {
+      "mcq": 120,
+      "short": 60,
+      "cases": 20,
+      "total": 200
+    }
+  }
+}
