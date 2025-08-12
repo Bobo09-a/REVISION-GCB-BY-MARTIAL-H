@@ -1,0 +1,3180 @@
+{
+  "subjects": [
+    {
+      "name": "Chimie minérale",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "La classification moderne des éléments est basée sur :",
+              "choices": [
+                "l'électronégativité",
+                "le numéro atomique Z croissant",
+                "la masse atomique uniquement",
+                "la densité"
+              ],
+              "answer": 1,
+              "explain": "Moseley → Z croissant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à :",
+              "choices": [
+                "une ligne horizontale",
+                "une colonne d'éléments à configurations externes semblables",
+                "un bloc f uniquement",
+                "une période"
+              ],
+              "answer": 1,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans une période, l'énergie d'ionisation a tendance à :",
+              "choices": [
+                "rester constante",
+                "augmenter de gauche à droite",
+                "diminuer de gauche à droite",
+                "augmenter puis diminuer"
+              ],
+              "answer": 1,
+              "explain": "Attraction nucléaire effective ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans une colonne, le rayon atomique :",
+              "choices": [
+                "augmente de haut en bas",
+                "diminue de haut en bas",
+                "reste constant",
+                "est maximal au milieu"
+              ],
+              "answer": 0,
+              "explain": "Couches électroniques supplémentaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les éléments du bloc d sont :",
+              "choices": [
+                "des gaz nobles",
+                "des métaux de transition",
+                "des chalcogènes",
+                "des alcalins"
+              ],
+              "answer": 1,
+              "explain": "Bloc d = groupes 3 à 12."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est :",
+              "choices": [
+                "un halogène",
+                "un alcalino-terreux",
+                "intermédiaire entre métal et non-métal",
+                "un gaz rare"
+              ],
+              "answer": 2,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le numéro du groupe est lié à :",
+              "choices": [
+                "le spin nucléaire",
+                "le nombre de neutrons",
+                "la masse volumique",
+                "le nombre d’électrons de valence"
+              ],
+              "answer": 3,
+              "explain": "Simplifié pour groupes principaux."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation.",
+              "choices": [
+                "Aléatoire",
+                "Augmente vers le bas et la gauche",
+                "Constante dans tout le tableau",
+                "Augmente vers le haut et vers la droite"
+              ],
+              "answer": 3,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ?",
+              "choices": [
+                "Spectre RMN",
+                "Image : blocs s, d, p, f",
+                "Schéma d'une liaison peptidique",
+                "Chromatogramme HPLC"
+              ],
+              "answer": 1,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Comment varie le rayon atomique d’après le schéma ?",
+              "choices": [
+                "Augmente vers la gauche et vers le bas",
+                "Augmente vers la droite et vers le haut",
+                "Reste identique",
+                "Diminue vers le bas"
+              ],
+              "answer": 0,
+              "image": "atomic_radius_trend.png",
+              "explain": "Rappel périodique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "D’après le schéma, l’électronégativité :",
+              "choices": [
+                "diminue vers la droite",
+                "n’a pas de tendance",
+                "augmente vers la droite et vers le haut",
+                "est maximale dans le bloc f"
+              ],
+              "answer": 2,
+              "image": "electronegativity_trend.png",
+              "explain": "Tendance Pauling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe :",
+              "choices": [
+                "ns²",
+                "ns²np¹",
+                "ns¹",
+                "nd¹"
+              ],
+              "answer": 2,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalino-terreux (IIA) donnent généralement :",
+              "choices": [
+                "des anions M⁻",
+                "des cations M²⁺",
+                "des cations M⁺",
+                "des anions M²⁻"
+              ],
+              "answer": 1,
+              "explain": "Be…Ba : ns²."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les affirmations suivantes, laquelle est vraie ?",
+              "choices": [
+                "Na est insoluble dans l'ammoniac",
+                "K ne réagit pas avec l'eau",
+                "Cs est moins réactif que Li",
+                "Li se distingue par certaines analogies avec Mg"
+              ],
+              "answer": 3,
+              "explain": "Analogie diagonale Li/Mg."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hydroxydes de Na et K sont :",
+              "choices": [
+                "des bases fortes",
+                "ne se dissolvent pas dans l'eau",
+                "des acides forts",
+                "amphotères"
+              ],
+              "answer": 0,
+              "explain": "NaOH/KOH dissociation → OH⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le carbonate hydrogénocarbonate MHCO₃ :",
+              "choices": [
+                "réagit avec les acides en dégageant H₂",
+                "est plus stable que M₂CO₃",
+                "se décompose à chaud en M₂CO₃ + CO₂ + H₂O",
+                "ne réagit jamais avec l'eau"
+              ],
+              "answer": 2,
+              "explain": "Décomposition thermique des bicarbonates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les halogénures alcalins (NaCl, KCl…) sont :",
+              "choices": [
+                "des métaux",
+                "des gaz",
+                "des solides ioniques, conducteurs à l’état fondu",
+                "des molécules covalentes"
+              ],
+              "answer": 2,
+              "explain": "Réseaux ioniques typiques."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Rappels visuels sur IA vs IIA.",
+              "choices": [
+                "IA : d⁵ ; IIA : p⁶",
+                "IA : gaz nobles ; IIA : halogènes",
+                "IA : ns² ; IIA : ns¹",
+                "IA : ns¹ (M⁺) ; IIA : ns² (M²⁺)"
+              ],
+              "answer": 3,
+              "image": "ia_iia.png",
+              "explain": "Comparatif de base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les halogènes à l’état standard sont :",
+              "choices": [
+                "réducteurs forts F₂<I₂",
+                "ne forment pas d'acides",
+                "oxydants, réactivité décroissante F₂>Cl₂>Br₂>I₂",
+                "ne forment pas de sels"
+              ],
+              "answer": 2,
+              "explain": "Série halogènes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les gaz nobles :",
+              "choices": [
+                "sont globalement peu réactifs",
+                "sont diatomiques",
+                "réagissent spontanément avec l'eau",
+                "forment de nombreux composés stables à T ambiante"
+              ],
+              "answer": 0,
+              "explain": "He, Ne, Ar, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est :",
+              "choices": [
+                "l’halogène le plus oxydant",
+                "le moins oxydant",
+                "un métal",
+                "plus lourd que l’iode"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de tendance de réactivité des halogènes.",
+              "choices": [
+                "Cl₂ > F₂ > I₂ > Br₂",
+                "F₂ > Cl₂ > Br₂ > I₂",
+                "I₂ > Br₂ > Cl₂ > F₂",
+                "Toutes équivalentes"
+              ],
+              "answer": 1,
+              "image": "halogens_series.png",
+              "explain": "Oxydant décroissant vers le bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par :",
+              "choices": [
+                "un métal + O",
+                "un gaz noble + O",
+                "un halogène + O",
+                "un non-métal + O"
+              ],
+              "answer": 0,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les oxydes amphotères incluent :",
+              "choices": [
+                "NeO",
+                "Na₂O, K₂O",
+                "Al₂O₃, ZnO",
+                "CO₂, SO₃"
+              ],
+              "answer": 2,
+              "explain": "Peuvent se comporter en acide/base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ozone (O₃) par rapport à O₂ :",
+              "choices": [
+                "pas de rôle atmosphérique",
+                "oxydant plus puissant",
+                "identique",
+                "réducteur plus puissant"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir oxydant accru."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’eutrophisation est due à :",
+              "choices": [
+                "excès de cuivre",
+                "absence d’oxygène dissous initiale",
+                "déficit en sodium",
+                "apports excessifs d’azote et de phosphore"
+              ],
+              "answer": 3,
+              "explain": "Nitrates/phosphates → prolifération algale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Engrais NPK signifie :",
+              "choices": [
+                "azote–phosphore–kératine",
+                "nickel–plomb–krypton",
+                "azote–plomb–potassium",
+                "azote–phosphore–potassium"
+              ],
+              "answer": 3,
+              "explain": "Macronutriments végétaux."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma.",
+              "choices": [
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous amphotères",
+                "Tous acides",
+                "Tous basiques"
+              ],
+              "answer": 0,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier les points clés de l’eutrophisation.",
+              "choices": [
+                "Apports N/P → algues ; ↓O₂",
+                "Apports Na/Cl → algues",
+                "Aucun lien nutritif",
+                "↑O₂ → asphyxie"
+              ],
+              "answer": 0,
+              "image": "eutrophication.png",
+              "explain": "Synthèse schématique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Message principal du schéma sur O₂/O₃ :",
+              "choices": [
+                "O₃ n’a aucun rôle",
+                "O₂ est plus oxydant",
+                "O₃ est un gaz noble",
+                "O₃ est plus oxydant et protège en stratosphère"
+              ],
+              "answer": 3,
+              "image": "oxygen_ozone.png",
+              "explain": "Comparatif résumé."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Engrais : que retient-on du schéma NPK ?",
+              "choices": [
+                "N : feuilles ; P : racines/ATP ; K : résistance/osmose",
+                "N : sel ; P : sucre ; K : gaz",
+                "N : racines ; P : feuilles ; K : inertie",
+                "Tous identiques"
+              ],
+              "answer": 0,
+              "image": "fertiliser_npk.png",
+              "explain": "Rôles agronomiques simplifiés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ClO₂⁻ s’appelle :",
+              "choices": [
+                "hypochlorite",
+                "perchlorate",
+                "chlorate",
+                "chlorite"
+              ],
+              "answer": 3,
+              "explain": "Série hypo- / ite / ate / per-."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Na₂O est nommé :",
+              "choices": [
+                "oxyde de sodium",
+                "monoxyde disodique",
+                "dioxyde de sodium",
+                "peroxyde de sodium"
+              ],
+              "answer": 0,
+              "explain": "Binaire métal + oxygène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "K₃[Fe(CN)₆] est :",
+              "choices": [
+                "hexacyanoferrate(II) de potassium",
+                "cyanure de potassium",
+                "hexacyanoferrate(III) de potassium",
+                "chlorure de fer(III)"
+              ],
+              "answer": 2,
+              "explain": "Complexe anionique Fe(III)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "[Co(NH₃)₆]Cl₃ est :",
+              "choices": [
+                "chlorure d’hexamminecobalt(III)",
+                "amminecobalt(II) chlorure",
+                "hexamminechlorure de cobalt(I)",
+                "cobalt trichlorure ammine"
+              ],
+              "answer": 0,
+              "explain": "Complexe cationique + contre-anion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le préfixe « per- » pour les oxoanions indique :",
+              "choices": [
+                "le nombre d’oxygènes le plus élevé",
+                "le plus faible",
+                "un anion organique",
+                "la présence d’hydrogène"
+              ],
+              "answer": 0,
+              "explain": "Ex : perchlorate ClO₄⁻."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore.",
+              "choices": [
+                "hypo- / -ite / -ate / per-",
+                "-ate / -ite / per- / hypo-",
+                "per- / -ite / -ate / hypo-",
+                "aucune"
+              ],
+              "answer": 0,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de rappel : binaire/hydrures/halogénures.",
+              "choices": [
+                "Tous des peroxydes",
+                "Na₂O oxyde ; NaH hydrure ; HCl halogénure",
+                "Na₂O peroxyde ; HCl oxyde",
+                "NaH chlorure ; HCl hydrure"
+              ],
+              "answer": 1,
+              "image": "binary_naming.png",
+              "explain": "Rappels de base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Exemples de complexes au schéma :",
+              "choices": [
+                "NaCl ; KBr ; CaCO₃",
+                "H₂O ; O₂ ; N₂",
+                "[Co(NH₃)₆]Cl₃ ; K₃[Fe(CN)₆] ; [Cu(H₂O)₄]SO₄",
+                "CH₄ ; C₂H₆ ; C₆H₆"
+              ],
+              "answer": 2,
+              "image": "complex_examples.png",
+              "explain": "Illustrations usuelles."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma :",
+              "choices": [
+                "CN=6 tétraèdre",
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=2 octaèdre",
+                "CN=4 octaèdre"
+              ],
+              "answer": 1,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Selon l’UICPA, un élément de transition est :",
+              "choices": [
+                "gaz rare",
+                "élément avec sous-couche d incomplète ou cation d incomplète",
+                "toujours du bloc f",
+                "élément du bloc p"
+              ],
+              "answer": 1,
+              "explain": "Définition IUPAC."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ligand chélatant :",
+              "choices": [
+                "ne se coordonne jamais",
+                "se coordonne par plusieurs atomes donneurs",
+                "est toujours anionique",
+                "empêche toute coordination"
+              ],
+              "answer": 1,
+              "explain": "Ex : EDTA, en, oxalate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le « nombre de coordination » correspond à :",
+              "choices": [
+                "nombre d’électrons d",
+                "charge du complexe",
+                "nombre de liaisons ligand–métal",
+                "numéro atomique"
+              ],
+              "answer": 2,
+              "explain": "Coordination effective."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme :",
+              "choices": [
+                "contre-ion",
+                "ligand fort champ",
+                "ligand neutre faible",
+                "agent réducteur uniquement"
+              ],
+              "answer": 1,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre :",
+              "choices": [
+                "deux gaz nobles",
+                "deux halogènes identiques",
+                "métal et non-métal",
+                "deux métaux lourds"
+              ],
+              "answer": 2,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un composé ionique :",
+              "choices": [
+                "a un point de fusion élevé",
+                "ne se dissout jamais",
+                "est toujours gazeux",
+                "n’est pas conducteur fondu"
+              ],
+              "answer": 0,
+              "explain": "Réseaux cristallins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est :",
+              "choices": [
+                "Na₂O",
+                "NaO",
+                "Na₂O₂",
+                "NaO₂"
+              ],
+              "answer": 2,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma : rappel liaisons.",
+              "choices": [
+                "Ionique : deux métaux",
+                "Ionique : métal+non-métal ; Covalente : non-métal+non-métal",
+                "Aucune",
+                "Covalente : métal+gaz noble"
+              ],
+              "answer": 1,
+              "image": "bonding_types.png",
+              "explain": "Catégories de base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation)",
+              "choices": [
+                "Aléatoire",
+                "Augmente vers le bas et la gauche",
+                "Augmente vers le haut et vers la droite",
+                "Constante dans tout le tableau"
+              ],
+              "answer": 2,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La classification moderne des éléments est basée sur : (variante)",
+              "choices": [
+                "la densité",
+                "le numéro atomique Z croissant",
+                "la masse atomique uniquement",
+                "l'électronégativité"
+              ],
+              "answer": 1,
+              "explain": "Moseley → Z croissant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le carbonate hydrogénocarbonate MHCO₃ : (variante)",
+              "choices": [
+                "ne réagit jamais avec l'eau",
+                "est plus stable que M₂CO₃",
+                "réagit avec les acides en dégageant H₂",
+                "se décompose à chaud en M₂CO₃ + CO₂ + H₂O"
+              ],
+              "answer": 3,
+              "explain": "Décomposition thermique des bicarbonates."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante)",
+              "choices": [
+                "intermédiaire entre métal et non-métal",
+                "un alcalino-terreux",
+                "un halogène",
+                "un gaz rare"
+              ],
+              "answer": 0,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation)",
+              "choices": [
+                "hypo- / -ite / -ate / per-",
+                "-ate / -ite / per- / hypo-",
+                "aucune",
+                "per- / -ite / -ate / hypo-"
+              ],
+              "answer": 0,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante)",
+              "choices": [
+                "ns²",
+                "ns²np¹",
+                "nd¹",
+                "ns¹"
+              ],
+              "answer": 3,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les halogènes à l’état standard sont : (variante)",
+              "choices": [
+                "ne forment pas d'acides",
+                "oxydants, réactivité décroissante F₂>Cl₂>Br₂>I₂",
+                "ne forment pas de sels",
+                "réducteurs forts F₂<I₂"
+              ],
+              "answer": 1,
+              "explain": "Série halogènes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans une période, l'énergie d'ionisation a tendance à : (variante)",
+              "choices": [
+                "diminuer de gauche à droite",
+                "augmenter de gauche à droite",
+                "augmenter puis diminuer",
+                "rester constante"
+              ],
+              "answer": 1,
+              "explain": "Attraction nucléaire effective ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à : (variante)",
+              "choices": [
+                "une colonne d'éléments à configurations externes semblables",
+                "une ligne horizontale",
+                "une période",
+                "un bloc f uniquement"
+              ],
+              "answer": 0,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante)",
+              "choices": [
+                "Na₂O",
+                "Na₂O₂",
+                "NaO",
+                "NaO₂"
+              ],
+              "answer": 1,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation)",
+              "choices": [
+                "per- / -ite / -ate / hypo-",
+                "aucune",
+                "hypo- / -ite / -ate / per-",
+                "-ate / -ite / per- / hypo-"
+              ],
+              "answer": 2,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante)",
+              "choices": [
+                "plus lourd que l’iode",
+                "un métal",
+                "l’halogène le plus oxydant",
+                "le moins oxydant"
+              ],
+              "answer": 2,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante)",
+              "choices": [
+                "intermédiaire entre métal et non-métal",
+                "un gaz rare",
+                "un halogène",
+                "un alcalino-terreux"
+              ],
+              "answer": 0,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma. (reformulation)",
+              "choices": [
+                "Tous acides",
+                "Tous amphotères",
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous basiques"
+              ],
+              "answer": 2,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "[Co(NH₃)₆]Cl₃ est : (variante)",
+              "choices": [
+                "amminecobalt(II) chlorure",
+                "hexamminechlorure de cobalt(I)",
+                "cobalt trichlorure ammine",
+                "chlorure d’hexamminecobalt(III)"
+              ],
+              "answer": 3,
+              "explain": "Complexe cationique + contre-anion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "[Co(NH₃)₆]Cl₃ est : (variante)",
+              "choices": [
+                "amminecobalt(II) chlorure",
+                "chlorure d’hexamminecobalt(III)",
+                "cobalt trichlorure ammine",
+                "hexamminechlorure de cobalt(I)"
+              ],
+              "answer": 1,
+              "explain": "Complexe cationique + contre-anion."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation) (reformulation)",
+              "choices": [
+                "per- / -ite / -ate / hypo-",
+                "-ate / -ite / per- / hypo-",
+                "hypo- / -ite / -ate / per-",
+                "aucune"
+              ],
+              "answer": 2,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation)",
+              "choices": [
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=4 octaèdre",
+                "CN=2 octaèdre",
+                "CN=6 tétraèdre"
+              ],
+              "answer": 0,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante)",
+              "choices": [
+                "métal et non-métal",
+                "deux gaz nobles",
+                "deux métaux lourds",
+                "deux halogènes identiques"
+              ],
+              "answer": 0,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Engrais NPK signifie : (variante)",
+              "choices": [
+                "azote–phosphore–kératine",
+                "azote–phosphore–potassium",
+                "nickel–plomb–krypton",
+                "azote–plomb–potassium"
+              ],
+              "answer": 1,
+              "explain": "Macronutriments végétaux."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation)",
+              "choices": [
+                "Augmente vers le haut et vers la droite",
+                "Constante dans tout le tableau",
+                "Augmente vers le bas et la gauche",
+                "Aléatoire"
+              ],
+              "answer": 0,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante) (variante)",
+              "choices": [
+                "un gaz rare",
+                "intermédiaire entre métal et non-métal",
+                "un alcalino-terreux",
+                "un halogène"
+              ],
+              "answer": 1,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante)",
+              "choices": [
+                "NaO₂",
+                "Na₂O",
+                "Na₂O₂",
+                "NaO"
+              ],
+              "answer": 2,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de rappel : binaire/hydrures/halogénures. (reformulation)",
+              "choices": [
+                "NaH chlorure ; HCl hydrure",
+                "Na₂O peroxyde ; HCl oxyde",
+                "Tous des peroxydes",
+                "Na₂O oxyde ; NaH hydrure ; HCl halogénure"
+              ],
+              "answer": 3,
+              "image": "binary_naming.png",
+              "explain": "Rappels de base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma : rappel liaisons. (reformulation)",
+              "choices": [
+                "Covalente : métal+gaz noble",
+                "Aucune",
+                "Ionique : deux métaux",
+                "Ionique : métal+non-métal ; Covalente : non-métal+non-métal"
+              ],
+              "answer": 3,
+              "image": "bonding_types.png",
+              "explain": "Catégories de base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les oxydes amphotères incluent : (variante)",
+              "choices": [
+                "CO₂, SO₃",
+                "Na₂O, K₂O",
+                "NeO",
+                "Al₂O₃, ZnO"
+              ],
+              "answer": 3,
+              "explain": "Peuvent se comporter en acide/base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation)",
+              "choices": [
+                "Chromatogramme HPLC",
+                "Schéma d'une liaison peptidique",
+                "Spectre RMN",
+                "Image : blocs s, d, p, f"
+              ],
+              "answer": 3,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation)",
+              "choices": [
+                "Augmente vers le bas et la gauche",
+                "Augmente vers le haut et vers la droite",
+                "Aléatoire",
+                "Constante dans tout le tableau"
+              ],
+              "answer": 1,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante) (variante)",
+              "choices": [
+                "ns²",
+                "nd¹",
+                "ns²np¹",
+                "ns¹"
+              ],
+              "answer": 3,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de tendance de réactivité des halogènes. (reformulation)",
+              "choices": [
+                "F₂ > Cl₂ > Br₂ > I₂",
+                "Cl₂ > F₂ > I₂ > Br₂",
+                "Toutes équivalentes",
+                "I₂ > Br₂ > Cl₂ > F₂"
+              ],
+              "answer": 0,
+              "image": "halogens_series.png",
+              "explain": "Oxydant décroissant vers le bas."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Aléatoire",
+                "Augmente vers le bas et la gauche",
+                "Constante dans tout le tableau",
+                "Augmente vers le haut et vers la droite"
+              ],
+              "answer": 3,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation)",
+              "choices": [
+                "Chromatogramme HPLC",
+                "Spectre RMN",
+                "Schéma d'une liaison peptidique",
+                "Image : blocs s, d, p, f"
+              ],
+              "answer": 3,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation)",
+              "choices": [
+                "CN=2 octaèdre",
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=4 octaèdre",
+                "CN=6 tétraèdre"
+              ],
+              "answer": 1,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "métal et non-métal",
+                "deux gaz nobles",
+                "deux halogènes identiques",
+                "deux métaux lourds"
+              ],
+              "answer": 0,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante)",
+              "choices": [
+                "deux gaz nobles",
+                "métal et non-métal",
+                "deux halogènes identiques",
+                "deux métaux lourds"
+              ],
+              "answer": 1,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans une période, l'énergie d'ionisation a tendance à : (variante) (variante)",
+              "choices": [
+                "diminuer de gauche à droite",
+                "augmenter puis diminuer",
+                "rester constante",
+                "augmenter de gauche à droite"
+              ],
+              "answer": 3,
+              "explain": "Attraction nucléaire effective ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante)",
+              "choices": [
+                "ligand neutre faible",
+                "agent réducteur uniquement",
+                "ligand fort champ",
+                "contre-ion"
+              ],
+              "answer": 2,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation)",
+              "choices": [
+                "Image : blocs s, d, p, f",
+                "Spectre RMN",
+                "Chromatogramme HPLC",
+                "Schéma d'une liaison peptidique"
+              ],
+              "answer": 0,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation)",
+              "choices": [
+                "CN=2 octaèdre",
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=6 tétraèdre",
+                "CN=4 octaèdre"
+              ],
+              "answer": 1,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "D’après le schéma, l’électronégativité : (reformulation)",
+              "choices": [
+                "augmente vers la droite et vers le haut",
+                "n’a pas de tendance",
+                "est maximale dans le bloc f",
+                "diminue vers la droite"
+              ],
+              "answer": 0,
+              "image": "electronegativity_trend.png",
+              "explain": "Tendance Pauling."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation) (reformulation)",
+              "choices": [
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=4 octaèdre",
+                "CN=6 tétraèdre",
+                "CN=2 octaèdre"
+              ],
+              "answer": 0,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "[Co(NH₃)₆]Cl₃ est : (variante)",
+              "choices": [
+                "hexamminechlorure de cobalt(I)",
+                "amminecobalt(II) chlorure",
+                "cobalt trichlorure ammine",
+                "chlorure d’hexamminecobalt(III)"
+              ],
+              "answer": 3,
+              "explain": "Complexe cationique + contre-anion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’eutrophisation est due à : (variante)",
+              "choices": [
+                "absence d’oxygène dissous initiale",
+                "apports excessifs d’azote et de phosphore",
+                "déficit en sodium",
+                "excès de cuivre"
+              ],
+              "answer": 1,
+              "explain": "Nitrates/phosphates → prolifération algale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante)",
+              "choices": [
+                "un non-métal + O",
+                "un gaz noble + O",
+                "un métal + O",
+                "un halogène + O"
+              ],
+              "answer": 2,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante)",
+              "choices": [
+                "contre-ion",
+                "ligand neutre faible",
+                "ligand fort champ",
+                "agent réducteur uniquement"
+              ],
+              "answer": 2,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante) (variante) (variante)",
+              "choices": [
+                "ns²np¹",
+                "nd¹",
+                "ns²",
+                "ns¹"
+              ],
+              "answer": 3,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante)",
+              "choices": [
+                "un alcalino-terreux",
+                "un gaz rare",
+                "intermédiaire entre métal et non-métal",
+                "un halogène"
+              ],
+              "answer": 2,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à : (variante)",
+              "choices": [
+                "une ligne horizontale",
+                "un bloc f uniquement",
+                "une colonne d'éléments à configurations externes semblables",
+                "une période"
+              ],
+              "answer": 2,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à : (variante)",
+              "choices": [
+                "une période",
+                "un bloc f uniquement",
+                "une ligne horizontale",
+                "une colonne d'éléments à configurations externes semblables"
+              ],
+              "answer": 3,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ligand chélatant : (variante)",
+              "choices": [
+                "est toujours anionique",
+                "ne se coordonne jamais",
+                "se coordonne par plusieurs atomes donneurs",
+                "empêche toute coordination"
+              ],
+              "answer": 2,
+              "explain": "Ex : EDTA, en, oxalate."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de tendance de réactivité des halogènes. (reformulation)",
+              "choices": [
+                "Toutes équivalentes",
+                "Cl₂ > F₂ > I₂ > Br₂",
+                "F₂ > Cl₂ > Br₂ > I₂",
+                "I₂ > Br₂ > Cl₂ > F₂"
+              ],
+              "answer": 2,
+              "image": "halogens_series.png",
+              "explain": "Oxydant décroissant vers le bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les halogènes à l’état standard sont : (variante)",
+              "choices": [
+                "oxydants, réactivité décroissante F₂>Cl₂>Br₂>I₂",
+                "ne forment pas de sels",
+                "réducteurs forts F₂<I₂",
+                "ne forment pas d'acides"
+              ],
+              "answer": 0,
+              "explain": "Série halogènes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Augmente vers le bas et la gauche",
+                "Aléatoire",
+                "Constante dans tout le tableau",
+                "Augmente vers le haut et vers la droite"
+              ],
+              "answer": 3,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma de tendance de réactivité des halogènes. (reformulation)",
+              "choices": [
+                "Toutes équivalentes",
+                "F₂ > Cl₂ > Br₂ > I₂",
+                "Cl₂ > F₂ > I₂ > Br₂",
+                "I₂ > Br₂ > Cl₂ > F₂"
+              ],
+              "answer": 1,
+              "image": "halogens_series.png",
+              "explain": "Oxydant décroissant vers le bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante)",
+              "choices": [
+                "agent réducteur uniquement",
+                "ligand fort champ",
+                "contre-ion",
+                "ligand neutre faible"
+              ],
+              "answer": 1,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hydroxydes de Na et K sont : (variante)",
+              "choices": [
+                "amphotères",
+                "ne se dissolvent pas dans l'eau",
+                "des acides forts",
+                "des bases fortes"
+              ],
+              "answer": 3,
+              "explain": "NaOH/KOH dissociation → OH⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Engrais NPK signifie : (variante)",
+              "choices": [
+                "azote–plomb–potassium",
+                "azote–phosphore–kératine",
+                "nickel–plomb–krypton",
+                "azote–phosphore–potassium"
+              ],
+              "answer": 3,
+              "explain": "Macronutriments végétaux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante) (variante)",
+              "choices": [
+                "un halogène + O",
+                "un métal + O",
+                "un non-métal + O",
+                "un gaz noble + O"
+              ],
+              "answer": 1,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation) (reformulation)",
+              "choices": [
+                "CN=6 tétraèdre",
+                "CN=2 octaèdre",
+                "CN=4 octaèdre",
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan"
+              ],
+              "answer": 3,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante)",
+              "choices": [
+                "plus lourd que l’iode",
+                "le moins oxydant",
+                "l’halogène le plus oxydant",
+                "un métal"
+              ],
+              "answer": 2,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Schéma : rappel liaisons. (reformulation) (reformulation)",
+              "choices": [
+                "Aucune",
+                "Ionique : deux métaux",
+                "Ionique : métal+non-métal ; Covalente : non-métal+non-métal",
+                "Covalente : métal+gaz noble"
+              ],
+              "answer": 2,
+              "image": "bonding_types.png",
+              "explain": "Catégories de base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation)",
+              "choices": [
+                "Schéma d'une liaison peptidique",
+                "Spectre RMN",
+                "Image : blocs s, d, p, f",
+                "Chromatogramme HPLC"
+              ],
+              "answer": 2,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ligand chélatant : (variante) (variante)",
+              "choices": [
+                "empêche toute coordination",
+                "se coordonne par plusieurs atomes donneurs",
+                "ne se coordonne jamais",
+                "est toujours anionique"
+              ],
+              "answer": 1,
+              "explain": "Ex : EDTA, en, oxalate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante)",
+              "choices": [
+                "l’halogène le plus oxydant",
+                "le moins oxydant",
+                "un métal",
+                "plus lourd que l’iode"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante) (variante)",
+              "choices": [
+                "l’halogène le plus oxydant",
+                "plus lourd que l’iode",
+                "un métal",
+                "le moins oxydant"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante) (variante)",
+              "choices": [
+                "ligand neutre faible",
+                "agent réducteur uniquement",
+                "contre-ion",
+                "ligand fort champ"
+              ],
+              "answer": 3,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante) (variante)",
+              "choices": [
+                "un gaz rare",
+                "un alcalino-terreux",
+                "un halogène",
+                "intermédiaire entre métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante)",
+              "choices": [
+                "un halogène + O",
+                "un non-métal + O",
+                "un métal + O",
+                "un gaz noble + O"
+              ],
+              "answer": 2,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation) (reformulation)",
+              "choices": [
+                "Spectre RMN",
+                "Schéma d'une liaison peptidique",
+                "Image : blocs s, d, p, f",
+                "Chromatogramme HPLC"
+              ],
+              "answer": 2,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les affirmations suivantes, laquelle est vraie ? (variante)",
+              "choices": [
+                "Li se distingue par certaines analogies avec Mg",
+                "Na est insoluble dans l'ammoniac",
+                "K ne réagit pas avec l'eau",
+                "Cs est moins réactif que Li"
+              ],
+              "answer": 0,
+              "explain": "Analogie diagonale Li/Mg."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation) (reformulation)",
+              "choices": [
+                "hypo- / -ite / -ate / per-",
+                "aucune",
+                "-ate / -ite / per- / hypo-",
+                "per- / -ite / -ate / hypo-"
+              ],
+              "answer": 0,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "deux métaux lourds",
+                "deux gaz nobles",
+                "deux halogènes identiques",
+                "métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante) (variante) (variante)",
+              "choices": [
+                "ns²",
+                "ns¹",
+                "nd¹",
+                "ns²np¹"
+              ],
+              "answer": 1,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "ns²",
+                "ns¹",
+                "ns²np¹",
+                "nd¹"
+              ],
+              "answer": 1,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Aléatoire",
+                "Augmente vers le bas et la gauche",
+                "Augmente vers le haut et vers la droite",
+                "Constante dans tout le tableau"
+              ],
+              "answer": 2,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante) (variante) (variante)",
+              "choices": [
+                "plus lourd que l’iode",
+                "le moins oxydant",
+                "un métal",
+                "l’halogène le plus oxydant"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante) (variante)",
+              "choices": [
+                "un halogène + O",
+                "un métal + O",
+                "un gaz noble + O",
+                "un non-métal + O"
+              ],
+              "answer": 1,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le préfixe « per- » pour les oxoanions indique : (variante)",
+              "choices": [
+                "le nombre d’oxygènes le plus élevé",
+                "la présence d’hydrogène",
+                "le plus faible",
+                "un anion organique"
+              ],
+              "answer": 0,
+              "explain": "Ex : perchlorate ClO₄⁻."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Aléatoire",
+                "Constante dans tout le tableau",
+                "Augmente vers le haut et vers la droite",
+                "Augmente vers le bas et la gauche"
+              ],
+              "answer": 2,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante) (variante) (variante)",
+              "choices": [
+                "intermédiaire entre métal et non-métal",
+                "un gaz rare",
+                "un halogène",
+                "un alcalino-terreux"
+              ],
+              "answer": 0,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "deux métaux lourds",
+                "métal et non-métal",
+                "deux gaz nobles",
+                "deux halogènes identiques"
+              ],
+              "answer": 1,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante)",
+              "choices": [
+                "deux gaz nobles",
+                "deux métaux lourds",
+                "métal et non-métal",
+                "deux halogènes identiques"
+              ],
+              "answer": 2,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Engrais NPK signifie : (variante) (variante)",
+              "choices": [
+                "azote–phosphore–potassium",
+                "azote–plomb–potassium",
+                "azote–phosphore–kératine",
+                "nickel–plomb–krypton"
+              ],
+              "answer": 0,
+              "explain": "Macronutriments végétaux."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation) (reformulation)",
+              "choices": [
+                "Image : blocs s, d, p, f",
+                "Spectre RMN",
+                "Chromatogramme HPLC",
+                "Schéma d'une liaison peptidique"
+              ],
+              "answer": 0,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Géométries usuelles selon CN d’après le schéma : (reformulation) (reformulation)",
+              "choices": [
+                "CN=4 octaèdre",
+                "CN=6 tétraèdre",
+                "CN=6 octaèdre ; CN=4 tétraèdre/carré plan",
+                "CN=2 octaèdre"
+              ],
+              "answer": 2,
+              "image": "coordination_geometries.png",
+              "explain": "Repères structuraux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Na₂O est nommé : (variante)",
+              "choices": [
+                "dioxyde de sodium",
+                "peroxyde de sodium",
+                "oxyde de sodium",
+                "monoxyde disodique"
+              ],
+              "answer": 2,
+              "explain": "Binaire métal + oxygène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante) (variante)",
+              "choices": [
+                "l’halogène le plus oxydant",
+                "un métal",
+                "le moins oxydant",
+                "plus lourd que l’iode"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante)",
+              "choices": [
+                "ligand fort champ",
+                "ligand neutre faible",
+                "agent réducteur uniquement",
+                "contre-ion"
+              ],
+              "answer": 0,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation) (reformulation)",
+              "choices": [
+                "Spectre RMN",
+                "Chromatogramme HPLC",
+                "Image : blocs s, d, p, f",
+                "Schéma d'une liaison peptidique"
+              ],
+              "answer": 2,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation) (reformulation)",
+              "choices": [
+                "-ate / -ite / per- / hypo-",
+                "aucune",
+                "per- / -ite / -ate / hypo-",
+                "hypo- / -ite / -ate / per-"
+              ],
+              "answer": 3,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "deux métaux lourds",
+                "métal et non-métal",
+                "deux halogènes identiques",
+                "deux gaz nobles"
+              ],
+              "answer": 1,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Comment varie le rayon atomique d’après le schéma ? (reformulation)",
+              "choices": [
+                "Augmente vers la droite et vers le haut",
+                "Reste identique",
+                "Diminue vers le bas",
+                "Augmente vers la gauche et vers le bas"
+              ],
+              "answer": 3,
+              "image": "atomic_radius_trend.png",
+              "explain": "Rappel périodique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante)",
+              "choices": [
+                "nd¹",
+                "ns²",
+                "ns¹",
+                "ns²np¹"
+              ],
+              "answer": 2,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante) (variante)",
+              "choices": [
+                "ligand neutre faible",
+                "agent réducteur uniquement",
+                "contre-ion",
+                "ligand fort champ"
+              ],
+              "answer": 3,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La classification moderne des éléments est basée sur : (variante) (variante)",
+              "choices": [
+                "l'électronégativité",
+                "le numéro atomique Z croissant",
+                "la masse atomique uniquement",
+                "la densité"
+              ],
+              "answer": 1,
+              "explain": "Moseley → Z croissant."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier les points clés de l’eutrophisation. (reformulation)",
+              "choices": [
+                "Apports N/P → algues ; ↓O₂",
+                "Apports Na/Cl → algues",
+                "Aucun lien nutritif",
+                "↑O₂ → asphyxie"
+              ],
+              "answer": 0,
+              "image": "eutrophication.png",
+              "explain": "Synthèse schématique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation)",
+              "choices": [
+                "Constante dans tout le tableau",
+                "Augmente vers le haut et vers la droite",
+                "Augmente vers le bas et la gauche",
+                "Aléatoire"
+              ],
+              "answer": 1,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante)",
+              "choices": [
+                "deux métaux lourds",
+                "deux gaz nobles",
+                "deux halogènes identiques",
+                "métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Message principal du schéma sur O₂/O₃ : (reformulation)",
+              "choices": [
+                "O₃ est un gaz noble",
+                "O₃ n’a aucun rôle",
+                "O₃ est plus oxydant et protège en stratosphère",
+                "O₂ est plus oxydant"
+              ],
+              "answer": 2,
+              "image": "oxygen_ozone.png",
+              "explain": "Comparatif résumé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Engrais NPK signifie : (variante) (variante)",
+              "choices": [
+                "azote–phosphore–potassium",
+                "azote–phosphore–kératine",
+                "nickel–plomb–krypton",
+                "azote–plomb–potassium"
+              ],
+              "answer": 0,
+              "explain": "Macronutriments végétaux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante)",
+              "choices": [
+                "NaO",
+                "Na₂O₂",
+                "Na₂O",
+                "NaO₂"
+              ],
+              "answer": 1,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma. (reformulation) (reformulation)",
+              "choices": [
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous amphotères",
+                "Tous basiques",
+                "Tous acides"
+              ],
+              "answer": 0,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Quel schéma illustre correctement les blocs s, p, d, f ? (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Schéma d'une liaison peptidique",
+                "Spectre RMN",
+                "Image : blocs s, d, p, f",
+                "Chromatogramme HPLC"
+              ],
+              "answer": 2,
+              "image": "periodic_blocks.png",
+              "explain": "Repères de base des blocs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un composé ionique : (variante)",
+              "choices": [
+                "est toujours gazeux",
+                "n’est pas conducteur fondu",
+                "ne se dissout jamais",
+                "a un point de fusion élevé"
+              ],
+              "answer": 3,
+              "explain": "Réseaux cristallins."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "D’après le schéma, l’électronégativité : (reformulation)",
+              "choices": [
+                "augmente vers la droite et vers le haut",
+                "est maximale dans le bloc f",
+                "diminue vers la droite",
+                "n’a pas de tendance"
+              ],
+              "answer": 0,
+              "image": "electronegativity_trend.png",
+              "explain": "Tendance Pauling."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La classification moderne des éléments est basée sur : (variante)",
+              "choices": [
+                "la densité",
+                "l'électronégativité",
+                "le numéro atomique Z croissant",
+                "la masse atomique uniquement"
+              ],
+              "answer": 2,
+              "explain": "Moseley → Z croissant."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Message principal du schéma sur O₂/O₃ : (reformulation) (reformulation)",
+              "choices": [
+                "O₃ est plus oxydant et protège en stratosphère",
+                "O₃ n’a aucun rôle",
+                "O₂ est plus oxydant",
+                "O₃ est un gaz noble"
+              ],
+              "answer": 0,
+              "image": "oxygen_ozone.png",
+              "explain": "Comparatif résumé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans une période, l'énergie d'ionisation a tendance à : (variante) (variante) (variante)",
+              "choices": [
+                "augmenter puis diminuer",
+                "diminuer de gauche à droite",
+                "rester constante",
+                "augmenter de gauche à droite"
+              ],
+              "answer": 3,
+              "explain": "Attraction nucléaire effective ↑."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante) (variante)",
+              "choices": [
+                "NaO",
+                "Na₂O₂",
+                "Na₂O",
+                "NaO₂"
+              ],
+              "answer": 1,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à : (variante)",
+              "choices": [
+                "un bloc f uniquement",
+                "une période",
+                "une colonne d'éléments à configurations externes semblables",
+                "une ligne horizontale"
+              ],
+              "answer": 2,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma. (reformulation)",
+              "choices": [
+                "Tous acides",
+                "Tous basiques",
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous amphotères"
+              ],
+              "answer": 2,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante)",
+              "choices": [
+                "un gaz noble + O",
+                "un halogène + O",
+                "un non-métal + O",
+                "un métal + O"
+              ],
+              "answer": 3,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "un halogène",
+                "un gaz rare",
+                "un alcalino-terreux",
+                "intermédiaire entre métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante)",
+              "choices": [
+                "nd¹",
+                "ns¹",
+                "ns²",
+                "ns²np¹"
+              ],
+              "answer": 1,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "deux halogènes identiques",
+                "deux métaux lourds",
+                "deux gaz nobles",
+                "métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma. (reformulation) (reformulation)",
+              "choices": [
+                "Tous amphotères",
+                "Tous acides",
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous basiques"
+              ],
+              "answer": 2,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante)",
+              "choices": [
+                "ligand neutre faible",
+                "contre-ion",
+                "ligand fort champ",
+                "agent réducteur uniquement"
+              ],
+              "answer": 2,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante)",
+              "choices": [
+                "un gaz noble + O",
+                "un non-métal + O",
+                "un métal + O",
+                "un halogène + O"
+              ],
+              "answer": 2,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Classer les oxydes selon le schéma. (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Métal→basique ; Non-métal→acide ; Al₂O₃ amphotère",
+                "Tous amphotères",
+                "Tous acides",
+                "Tous basiques"
+              ],
+              "answer": 0,
+              "image": "oxide_classification.png",
+              "explain": "Règles générales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante) (variante)",
+              "choices": [
+                "l’halogène le plus oxydant",
+                "plus lourd que l’iode",
+                "un métal",
+                "le moins oxydant"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les hydroxydes de Na et K sont : (variante)",
+              "choices": [
+                "des bases fortes",
+                "amphotères",
+                "des acides forts",
+                "ne se dissolvent pas dans l'eau"
+              ],
+              "answer": 0,
+              "explain": "NaOH/KOH dissociation → OH⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalins (IA) ont pour configuration externe : (variante) (variante)",
+              "choices": [
+                "nd¹",
+                "ns²",
+                "ns²np¹",
+                "ns¹"
+              ],
+              "answer": 3,
+              "explain": "Li…Cs : cation M⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un groupe du tableau périodique correspond à : (variante) (variante)",
+              "choices": [
+                "une période",
+                "une colonne d'éléments à configurations externes semblables",
+                "un bloc f uniquement",
+                "une ligne horizontale"
+              ],
+              "answer": 1,
+              "explain": "Colonnes = familles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante) (variante)",
+              "choices": [
+                "NaO₂",
+                "Na₂O",
+                "Na₂O₂",
+                "NaO"
+              ],
+              "answer": 2,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante) (variante)",
+              "choices": [
+                "deux gaz nobles",
+                "métal et non-métal",
+                "deux halogènes identiques",
+                "deux métaux lourds"
+              ],
+              "answer": 1,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Identifier la tendance correcte pour l'énergie d'ionisation. (reformulation) (reformulation) (reformulation) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "Augmente vers le haut et vers la droite",
+                "Augmente vers le bas et la gauche",
+                "Aléatoire",
+                "Constante dans tout le tableau"
+              ],
+              "answer": 0,
+              "image": "ionization_trend.png",
+              "explain": "Tendance périodique classique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ozone (O₃) par rapport à O₂ : (variante)",
+              "choices": [
+                "réducteur plus puissant",
+                "oxydant plus puissant",
+                "pas de rôle atmosphérique",
+                "identique"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir oxydant accru."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un composé ionique : (variante)",
+              "choices": [
+                "n’est pas conducteur fondu",
+                "est toujours gazeux",
+                "ne se dissout jamais",
+                "a un point de fusion élevé"
+              ],
+              "answer": 3,
+              "explain": "Réseaux cristallins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le « nombre de coordination » correspond à : (variante)",
+              "choices": [
+                "numéro atomique",
+                "nombre d’électrons d",
+                "nombre de liaisons ligand–métal",
+                "charge du complexe"
+              ],
+              "answer": 2,
+              "explain": "Coordination effective."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le préfixe « per- » pour les oxoanions indique : (variante)",
+              "choices": [
+                "le plus faible",
+                "la présence d’hydrogène",
+                "le nombre d’oxygènes le plus élevé",
+                "un anion organique"
+              ],
+              "answer": 2,
+              "explain": "Ex : perchlorate ClO₄⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Selon l’UICPA, un élément de transition est : (variante)",
+              "choices": [
+                "toujours du bloc f",
+                "élément du bloc p",
+                "gaz rare",
+                "élément avec sous-couche d incomplète ou cation d incomplète"
+              ],
+              "answer": 3,
+              "explain": "Définition IUPAC."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La classification moderne des éléments est basée sur : (variante) (variante)",
+              "choices": [
+                "la masse atomique uniquement",
+                "l'électronégativité",
+                "la densité",
+                "le numéro atomique Z croissant"
+              ],
+              "answer": 3,
+              "explain": "Moseley → Z croissant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un oxyde basique est généralement formé par : (variante) (variante)",
+              "choices": [
+                "un halogène + O",
+                "un non-métal + O",
+                "un métal + O",
+                "un gaz noble + O"
+              ],
+              "answer": 2,
+              "explain": "Réagit avec l’eau → base."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante) (variante)",
+              "choices": [
+                "Na₂O",
+                "NaO₂",
+                "NaO",
+                "Na₂O₂"
+              ],
+              "answer": 3,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Comment varie le rayon atomique d’après le schéma ? (reformulation) (reformulation)",
+              "choices": [
+                "Augmente vers la droite et vers le haut",
+                "Reste identique",
+                "Diminue vers le bas",
+                "Augmente vers la gauche et vers le bas"
+              ],
+              "answer": 3,
+              "image": "atomic_radius_trend.png",
+              "explain": "Rappel périodique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les gaz nobles : (variante)",
+              "choices": [
+                "sont globalement peu réactifs",
+                "forment de nombreux composés stables à T ambiante",
+                "réagissent spontanément avec l'eau",
+                "sont diatomiques"
+              ],
+              "answer": 0,
+              "explain": "He, Ne, Ar, etc."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante) (variante)",
+              "choices": [
+                "agent réducteur uniquement",
+                "ligand neutre faible",
+                "contre-ion",
+                "ligand fort champ"
+              ],
+              "answer": 3,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation) (reformulation)",
+              "choices": [
+                "hypo- / -ite / -ate / per-",
+                "aucune",
+                "per- / -ite / -ate / hypo-",
+                "-ate / -ite / per- / hypo-"
+              ],
+              "answer": 0,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante)",
+              "choices": [
+                "contre-ion",
+                "ligand fort champ",
+                "ligand neutre faible",
+                "agent réducteur uniquement"
+              ],
+              "answer": 1,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante)",
+              "choices": [
+                "deux halogènes identiques",
+                "deux métaux lourds",
+                "deux gaz nobles",
+                "métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un métalloïde est : (variante) (variante)",
+              "choices": [
+                "un halogène",
+                "un gaz rare",
+                "intermédiaire entre métal et non-métal",
+                "un alcalino-terreux"
+              ],
+              "answer": 2,
+              "explain": "Ex : Si, Ge, As, Sb, Te."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les alcalino-terreux (IIA) donnent généralement : (variante)",
+              "choices": [
+                "des cations M⁺",
+                "des cations M²⁺",
+                "des anions M⁻",
+                "des anions M²⁻"
+              ],
+              "answer": 1,
+              "explain": "Be…Ba : ns²."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les halogènes à l’état standard sont : (variante)",
+              "choices": [
+                "ne forment pas de sels",
+                "ne forment pas d'acides",
+                "oxydants, réactivité décroissante F₂>Cl₂>Br₂>I₂",
+                "réducteurs forts F₂<I₂"
+              ],
+              "answer": 2,
+              "explain": "Série halogènes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le fluor est : (variante) (variante) (variante)",
+              "choices": [
+                "plus lourd que l’iode",
+                "l’halogène le plus oxydant",
+                "le moins oxydant",
+                "un métal"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir oxydant F₂ maximal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante) (variante)",
+              "choices": [
+                "deux métaux lourds",
+                "deux halogènes identiques",
+                "métal et non-métal",
+                "deux gaz nobles"
+              ],
+              "answer": 2,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le cyanure dans [Fe(CN)₆]³⁻ agit comme : (variante) (variante)",
+              "choices": [
+                "ligand fort champ",
+                "ligand neutre faible",
+                "contre-ion",
+                "agent réducteur uniquement"
+              ],
+              "answer": 0,
+              "explain": "Série spectrochimique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "prompt": "Reconnaître au schéma la série d’oxoanions du chlore. (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "aucune",
+                "hypo- / -ite / -ate / per-",
+                "per- / -ite / -ate / hypo-",
+                "-ate / -ite / per- / hypo-"
+              ],
+              "answer": 1,
+              "image": "oxoanion_prefixes.png",
+              "explain": "Ordre croissant en O."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "métal et non-métal",
+                "deux halogènes identiques",
+                "deux métaux lourds",
+                "deux gaz nobles"
+              ],
+              "answer": 0,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le peroxyde de sodium est : (variante) (variante) (variante)",
+              "choices": [
+                "NaO₂",
+                "NaO",
+                "Na₂O",
+                "Na₂O₂"
+              ],
+              "answer": 3,
+              "explain": "Formule du peroxyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un composé ionique : (variante) (variante)",
+              "choices": [
+                "est toujours gazeux",
+                "n’est pas conducteur fondu",
+                "ne se dissout jamais",
+                "a un point de fusion élevé"
+              ],
+              "answer": 3,
+              "explain": "Réseaux cristallins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante) (variante)",
+              "choices": [
+                "métal et non-métal",
+                "deux métaux lourds",
+                "deux halogènes identiques",
+                "deux gaz nobles"
+              ],
+              "answer": 0,
+              "explain": "Transfert électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison ionique se forme typiquement entre : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "deux gaz nobles",
+                "deux halogènes identiques",
+                "deux métaux lourds",
+                "métal et non-métal"
+              ],
+              "answer": 3,
+              "explain": "Transfert électronique."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle des préfixes pour oxoanions du chlore.",
+              "answer_text": "ClO− hypo- ; ClO2− -ite ; ClO3− -ate ; ClO4− per-.",
+              "explain": "Ordre croissant en oxygènes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer « chélatant ».",
+              "answer_text": "Ligand multidentate formant des cycles avec le métal.",
+              "explain": "Effet chélate : stabilité accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux ligands neutres usuels.",
+              "answer_text": "H2O (aqua), NH3 (ammine).",
+              "explain": "Coordination fréquente."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer « chélatant ».",
+              "answer_text": "Ligand multidentate formant des cycles avec le métal.",
+              "explain": "Effet chélate : stabilité accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle des préfixes pour oxoanions du chlore.",
+              "answer_text": "ClO− hypo- ; ClO2− -ite ; ClO3− -ate ; ClO4− per-.",
+              "explain": "Ordre croissant en oxygènes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux ligands neutres usuels.",
+              "answer_text": "H2O (aqua), NH3 (ammine).",
+              "explain": "Coordination fréquente."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle des préfixes pour oxoanions du chlore.",
+              "answer_text": "ClO− hypo- ; ClO2− -ite ; ClO3− -ate ; ClO4− per-.",
+              "explain": "Ordre croissant en oxygènes."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer « chélatant ».",
+              "answer_text": "Ligand multidentate formant des cycles avec le métal.",
+              "explain": "Effet chélate : stabilité accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux ligands neutres usuels.",
+              "answer_text": "H2O (aqua), NH3 (ammine).",
+              "explain": "Coordination fréquente."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un métal de transition (IUPAC).",
+              "answer_text": "Élément ayant une sous-couche d incomplète ou formant un cation avec d incomplète.",
+              "explain": "Groupes 3–12 typiquement."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle des préfixes pour oxoanions du chlore.",
+              "answer_text": "ClO− hypo- ; ClO2− -ite ; ClO3− -ate ; ClO4− per-.",
+              "explain": "Ordre croissant en oxygènes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’engrais azoté.",
+              "answer_text": "Nitrate d’ammonium NH4NO3 ou urée CO(NH2)2.",
+              "explain": "Épandage agricole."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer « chélatant ».",
+              "answer_text": "Ligand multidentate formant des cycles avec le métal.",
+              "explain": "Effet chélate : stabilité accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir oxyde acide/basique/amphotère.",
+              "answer_text": "Acide : non-métal+O ; basique : métal+O ; amphotère : les deux (Al2O3…).",
+              "explain": "Réactions avec eau/acides/bases."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir complexe et ligand.",
+              "answer_text": "Complexe = entité polyatomique avec métal central ; ligand = donneur de doublet.",
+              "explain": "Notation [C(L)_p]."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir électronégativité.",
+              "answer_text": "Tendance d’un atome à attirer les électrons d’une liaison.",
+              "explain": "Échelle de Pauling."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que l’eutrophisation ?",
+              "answer_text": "Enrichissement en nutriments (N,P) conduisant à prolifération algale et hypoxie.",
+              "explain": "Problème environnemental."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle des préfixes pour oxoanions du chlore.",
+              "answer_text": "ClO− hypo- ; ClO2− -ite ; ClO3− -ate ; ClO4− per-.",
+              "explain": "Ordre croissant en oxygènes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux ligands neutres usuels.",
+              "answer_text": "H2O (aqua), NH3 (ammine).",
+              "explain": "Coordination fréquente."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir énergie d’ionisation.",
+              "answer_text": "Énergie minimale pour arracher un électron d’un atome isolé à l’état gazeux.",
+              "explain": "Augmente → et ↑."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Nomenclature d’un complexe — [Co(NH3)6]Cl3 en solution\n\nNommer correctement le composé.",
+              "answer_text": "Chlorure d’hexamminecobalt(III).",
+              "explain": "Complexe cationique + 3 Cl⁻."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Détermination de l’oxydation — K3[Fe(CN)6]\n\nQuel est l’état d’oxydation du Fe ?",
+              "answer_text": "Fe(III).",
+              "explain": "Charge complexe −3, CN− est −1."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Choix d’oxyde pour neutraliser un acide — Déchet acide minéral\n\nQuel type d’oxyde utiliser ?",
+              "answer_text": "Oxyde basique (ex : CaO).",
+              "explain": "Acide + base → sel + eau."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Eutrophisation locale — Croissance algale, mortalité piscicole\n\nQuelle cause probable ?",
+              "answer_text": "Apports N/P (engrais).",
+              "explain": "Hypoxie par décomposition."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Reconnaître la géométrie — [PtCl4]2−\n\nDonner la géométrie probable.",
+              "answer_text": "Carré plan.",
+              "explain": "d8, complexes du Pt(II)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #6 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #7 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #8 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #9 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #10 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #11 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #12 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #13 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #14 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #15 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #16 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #17 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #18 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #19 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #20 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #21 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #22 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #23 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #24 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #25 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #26 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #27 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #28 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #29 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas minéral #30 — Problème de formulation/nomenclature\n\nProposer le nom/structure probable.",
+              "answer_text": "Appliquer règles IUPAC.",
+              "explain": "Utiliser oxydation et nature ligands."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:12:41.224898Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    },
+    "images": [
+      "periodic_blocks.png",
+      "ionization_trend.png",
+      "atomic_radius_trend.png",
+      "electronegativity_trend.png",
+      "oxide_classification.png",
+      "halogens_series.png",
+      "coordination_geometries.png",
+      "complex_examples.png",
+      "oxoanion_prefixes.png",
+      "binary_naming.png",
+      "fertiliser_npk.png",
+      "eutrophication.png",
+      "ia_iia.png",
+      "oxygen_ozone.png",
+      "bonding_types.png"
+    ]
+  }
+}
