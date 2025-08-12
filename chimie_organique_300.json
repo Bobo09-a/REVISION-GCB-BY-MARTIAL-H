@@ -1,0 +1,3037 @@
+{
+  "subjects": [
+    {
+      "name": "Chimie organique",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "La chimie organique est la chimie des composés du :",
+              "choices": [
+                "carbone",
+                "chlore",
+                "phosphore",
+                "soufre"
+              ],
+              "answer": 0,
+              "explain": "Exceptions minérales: CO, CO2, carbonates, carbures…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente :",
+              "choices": [
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "uniquement les hétéroatomes",
+                "des perspectives 3D type Newman",
+                "toutes les liaisons C–H"
+              ],
+              "answer": 0,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’insaturation (Ni) sert à :",
+              "choices": [
+                "prédire la stéréochimie absolue",
+                "calculer la masse molaire",
+                "déterminer le pH",
+                "déduire cycles et multiples liaisons depuis la formule brute"
+              ],
+              "answer": 3,
+              "explain": "Degrés d’insaturation = insaturations + cycles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un carbone tertiaire est lié à :",
+              "choices": [
+                "quatre carbones",
+                "deux carbones",
+                "trois autres carbones",
+                "un seul carbone"
+              ],
+              "answer": 2,
+              "explain": "Notation I, II, III, IV."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un alcool primaire signifie que :",
+              "choices": [
+                "le groupe R est aromatique",
+                "l’oxygène est en sp",
+                "le carbone portant –OH est primaire",
+                "la fonction est prioritaire sur tout"
+              ],
+              "answer": 2,
+              "explain": "Classe basée sur la nature du carbone fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent :",
+              "choices": [
+                "un radical libre",
+                "un atome de Rhenium",
+                "une charge +1",
+                "la partie de la molécule non détaillée (reste)"
+              ],
+              "answer": 3,
+              "explain": "Abréviation structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une série homologue regroupe :",
+              "choices": [
+                "des polymères uniquement",
+                "des isomères optiques",
+                "des composés qui diffèrent d’unités –CH2–",
+                "des sels et acides conjugués"
+              ],
+              "answer": 2,
+              "explain": "Propriétés voisines ; masses croissantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent :",
+              "choices": [
+                "amides, anhydrides",
+                "oxydes de métaux",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)"
+              ],
+              "answer": 2,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldéhyde possède :",
+              "choices": [
+                "un –CO– entre deux carbones",
+                "un carbonyle en bout de chaîne (–CHO)",
+                "un –NH2",
+                "un –COOH"
+              ],
+              "answer": 1,
+              "explain": "Cétone: carbonyle interne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note :",
+              "choices": [
+                "–C≡N",
+                "–N≡N",
+                "–NO2",
+                "–C≡C–"
+              ],
+              "answer": 0,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ester est formé par :",
+              "choices": [
+                "un halogénure et NH3",
+                "une amine et un acide",
+                "un alcène et HBr",
+                "un acide carboxylique et un alcool"
+              ],
+              "answer": 3,
+              "explain": "R–COOR′ (carboxylate d’alkyle)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les amines secondaires sont :",
+              "choices": [
+                "R–NH2",
+                "R–NH–R′",
+                "R3N+",
+                "R–CONH2"
+              ],
+              "answer": 1,
+              "explain": "Terminologie 1°, 2°, 3°."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient :",
+              "choices": [
+                "un métal de transition",
+                "uniquement du carbone",
+                "une liaison métallique",
+                "au moins un hétéroatome dans l’anneau"
+              ],
+              "answer": 3,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nom systématique comporte :",
+              "choices": [
+                "préfixes (substituants) + USF + suffixe (fonction)",
+                "USF + masse molaire",
+                "préfixe + suffixe uniquement",
+                "numéro CAS"
+              ],
+              "answer": 0,
+              "explain": "USF = chaîne principale/fonction prioritaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité :",
+              "choices": [
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue",
+                "celle avec le plus d’halogènes",
+                "la plus courte"
+              ],
+              "answer": 1,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcène, la terminaison est :",
+              "choices": [
+                "–ène",
+                "–yne",
+                "–one",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Ex : hex-2-ène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est :",
+              "choices": [
+                "–ène",
+                "–al",
+                "–yne",
+                "–ane"
+              ],
+              "answer": 2,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un composé avec doubles et triples liaisons prend :",
+              "choices": [
+                "–énone",
+                "–ènyl",
+                "–énane",
+                "la terminaison –ényne"
+              ],
+              "answer": 3,
+              "explain": "Indices les plus bas globaux, priorité aux doubles à parité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire :",
+              "choices": [
+                "–ylex",
+                "–ane",
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl"
+              ],
+              "answer": 2,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents :",
+              "choices": [
+                "chlore, brome, iode",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "cyanure, nitrite, peroxyde",
+                "hémiacétal, hydrazone"
+              ],
+              "answer": 1,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un spiro est noté :",
+              "choices": [
+                "spiro[b.a.c]",
+                "cyclo[a,b]",
+                "bi[a.b.c]nom",
+                "spiro[a.b]nom (a < b)"
+              ],
+              "answer": 3,
+              "explain": "Somme carbones a+b+1 = total du squelette linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un bicyclique ponté se note :",
+              "choices": [
+                "cyclo[a.b.c]nom",
+                "spiro[a.b]nom",
+                "bicyclo[a,c,b]nom",
+                "bicyclo[a.b.c]nom"
+              ],
+              "answer": 3,
+              "explain": "a ≥ b ≥ c ; somme + 2 = total."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le benzène substitué appartient à :",
+              "choices": [
+                "alcadiènes",
+                "nitriles",
+                "la famille des arènes (aromatiques)",
+                "alcynes"
+              ],
+              "answer": 2,
+              "explain": "Toluène, styrène…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fonction prioritaire la plus haute est en général :",
+              "choices": [
+                "cétone",
+                "acide carboxylique",
+                "alcool",
+                "alcène"
+              ],
+              "answer": 1,
+              "explain": "Table de priorité : acides > anhydrides > esters > halogénures d’acyle > amides > nitriles > aldéhydes > cétones > alcools > amines…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un acide carboxylique :",
+              "choices": [
+                "…al",
+                "…amine",
+                "…oïque (acide …oïque)",
+                "…one"
+              ],
+              "answer": 2,
+              "explain": "Cyclique : …carboxylique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde :",
+              "choices": [
+                "…yle",
+                "…al (ou …carbaldehyde sur cycles)",
+                "…one",
+                "…amine"
+              ],
+              "answer": 1,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone :",
+              "choices": [
+                "…oate",
+                "…one",
+                "…al",
+                "…amide"
+              ],
+              "answer": 1,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un halogénure d’acyle se nomme :",
+              "choices": [
+                "…amine",
+                "…oyl(e) halogénure",
+                "…nitrile",
+                "…oate d’alkyle"
+              ],
+              "answer": 1,
+              "explain": "Ex : chlorure de propanoyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ester se nomme :",
+              "choices": [
+                "alkyl carboxylate (…oate d’alkyle)",
+                "alkylate d’acide",
+                "acide …oïque d’alkyle",
+                "…ylate"
+              ],
+              "answer": 0,
+              "explain": "Ex : éthanoate de méthyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile (chaîne ouverte) se nomme :",
+              "choices": [
+                "…nitrile",
+                "…amide",
+                "…cyanure d’hydrogène",
+                "…amine"
+              ],
+              "answer": 0,
+              "explain": "Cyclique : …carbonitrile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbone sp3 : géométrie",
+              "choices": [
+                "octaédrique",
+                "tétraédrique (~109,5°)",
+                "plane 120°",
+                "linéaire 180°"
+              ],
+              "answer": 1,
+              "explain": "Alcanes ; rotation possible (conformations)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbone sp2 : géométrie",
+              "choices": [
+                "plane trigonale (~120°)",
+                "pyramide à base carrée",
+                "tétraédrique",
+                "linéaire"
+              ],
+              "answer": 0,
+              "explain": "Présence d’une liaison π ; pas de libre rotation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbone sp : géométrie",
+              "choices": [
+                "104,5°",
+                "plane 120°",
+                "linéaire (180°)",
+                "109,5°"
+              ],
+              "answer": 2,
+              "explain": "Alcynes ; σ + 2π."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Azote sp3 (amine) : géométrie",
+              "choices": [
+                "linéaire 180°",
+                "pyramidale (~107°)",
+                "tétraèdre parfait 109,5°",
+                "plane 120°"
+              ],
+              "answer": 1,
+              "explain": "Doublet non liant comprime les angles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Oxygène sp3 (alcool/éther) : géométrie",
+              "choices": [
+                "pseudo‑tétraédrique (angle ~104–105°)",
+                "linéaire",
+                "plane 120°",
+                "octaédrique"
+              ],
+              "answer": 0,
+              "explain": "Deux doublets non liants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Présence d’une liaison π implique :",
+              "choices": [
+                "hybridation sp3 stricte",
+                "libre rotation totale",
+                "aucun effet",
+                "restriction de rotation"
+              ],
+              "answer": 3,
+              "explain": "Nuances conformations vs configurations."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’effet inductif (I) est lié à :",
+              "choices": [
+                "l’électrolyse",
+                "la délocalisation π",
+                "la photolyse",
+                "la polarisation σ (différence d’électronégativité)"
+              ],
+              "answer": 3,
+              "explain": "±I selon substituant donneur/attracteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’effet mésomère (M) implique :",
+              "choices": [
+                "la délocalisation d’électrons π ou doublets",
+                "une rupture homolytique",
+                "un simple effet de solvant",
+                "une substitution radicalaire"
+              ],
+              "answer": 0,
+              "explain": "±M selon donneur/attracteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent :",
+              "choices": [
+                "toujours identique",
+                "aucun",
+                "l’effet inductif (I)",
+                "l’effet mésomère (M)"
+              ],
+              "answer": 3,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –NO2 exerce :",
+              "choices": [
+                "–I et +M",
+                "+I et +M",
+                "+I et –M",
+                "–I et –M"
+              ],
+              "answer": 3,
+              "explain": "Fort attracteur électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –OH (sur noyau aryl) exerce :",
+              "choices": [
+                "+M (donneur) et –I",
+                "–M et +I",
+                "+I seul",
+                "aucun effet"
+              ],
+              "answer": 0,
+              "explain": "Donne par résonance ; attire par I modéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La résonance se note par :",
+              "choices": [
+                "≡ (triple flèche)",
+                "formes limites reliées par ↔ (double flèche)",
+                "⇌ seulement",
+                "→ (irréversible)"
+              ],
+              "answer": 1,
+              "explain": "Hybride de résonance = réalité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture hétérolytique :",
+              "choices": [
+                "implique un photon obligatoirement",
+                "donne toujours radicaux",
+                "ne se produit qu’en phase gazeuse",
+                "donne ions (A–B → A+ + B–)"
+              ],
+              "answer": 3,
+              "explain": "Typique des mécanismes ioniques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture homolytique :",
+              "choices": [
+                "donne deux radicaux",
+                "donne un carbanion uniquement",
+                "donne un carbocation uniquement",
+                "ne se voit pas en organique"
+              ],
+              "answer": 0,
+              "explain": "Favorisée par UV/chaleur/peroxydes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléophile est :",
+              "choices": [
+                "toujours un métal",
+                "riche en électrons (doublet/lone pair ou charge –)",
+                "forcément un proton",
+                "pauvre en électrons"
+              ],
+              "answer": 1,
+              "explain": "Ex : OH–, RO–, CN–, amines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est :",
+              "choices": [
+                "toujours neutre",
+                "riche en électrons",
+                "pauvre en électrons (accepteur)",
+                "forcément radicalaire"
+              ],
+              "answer": 2,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les interactions de Van der Waals incluent :",
+              "choices": [
+                "liaison métallique",
+                "dispersion, dipôle–dipôle, dipôle induit",
+                "liaison covalente",
+                "liaison peptidique"
+              ],
+              "answer": 1,
+              "explain": "Faibles mais cumulatives."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une liaison hydrogène implique :",
+              "choices": [
+                "donneur X–H et accepteur :X (X = O, N, F…)",
+                "C–H comme donneur fort",
+                "métal alcalin comme accepteur",
+                "S–H vers S toujours non"
+              ],
+              "answer": 0,
+              "explain": "Critères géométriques/électroniques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un solvant protique :",
+              "choices": [
+                "peut donner des liaisons H (ex : eau, alcool)",
+                "est toujours apolaire",
+                "est nécessairement aprotique",
+                "ne peut jamais les donner"
+              ],
+              "answer": 0,
+              "explain": "Portent X–H polarisés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un solvant aprotique polaire :",
+              "choices": [
+                "donne des H‑bond forts",
+                "stabilise les ions mais ne donne pas de H‑bond",
+                "est non polaire",
+                "est uniquement aromatique"
+              ],
+              "answer": 1,
+              "explain": "Ex : acétonitrile, DMSO, DMF."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante)",
+              "choices": [
+                "hémiacétal, hydrazone",
+                "chlore, brome, iode",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "cyanure, nitrite, peroxyde"
+              ],
+              "answer": 2,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante)",
+              "choices": [
+                "au moins un hétéroatome dans l’anneau",
+                "un métal de transition",
+                "une liaison métallique",
+                "uniquement du carbone"
+              ],
+              "answer": 0,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante) (variante)",
+              "choices": [
+                "un métal de transition",
+                "au moins un hétéroatome dans l’anneau",
+                "une liaison métallique",
+                "uniquement du carbone"
+              ],
+              "answer": 1,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation)",
+              "choices": [
+                "–NO2",
+                "–C≡N",
+                "–N≡N",
+                "–C≡C–"
+              ],
+              "answer": 1,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (reformulation)",
+              "choices": [
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue",
+                "celle avec le plus d’halogènes",
+                "la plus courte"
+              ],
+              "answer": 1,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (formulation 2)",
+              "choices": [
+                "…amine",
+                "…yle",
+                "…one",
+                "…al (ou …carbaldehyde sur cycles)"
+              ],
+              "answer": 3,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2)",
+              "choices": [
+                "halogénures, alcools, thiols, éthers",
+                "amides, anhydrides",
+                "nitriles, acides (tétravalents)",
+                "oxydes de métaux"
+              ],
+              "answer": 0,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante)",
+              "choices": [
+                "–al",
+                "–ane",
+                "–yne",
+                "–ène"
+              ],
+              "answer": 2,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldéhyde possède : (formulation 2)",
+              "choices": [
+                "un carbonyle en bout de chaîne (–CHO)",
+                "un –COOH",
+                "un –NH2",
+                "un –CO– entre deux carbones"
+              ],
+              "answer": 0,
+              "explain": "Cétone: carbonyle interne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un spiro est noté : (formulation 2)",
+              "choices": [
+                "bi[a.b.c]nom",
+                "spiro[a.b]nom (a < b)",
+                "cyclo[a,b]",
+                "spiro[b.a.c]"
+              ],
+              "answer": 1,
+              "explain": "Somme carbones a+b+1 = total du squelette linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante) (reformulation)",
+              "choices": [
+                "un métal de transition",
+                "une liaison métallique",
+                "au moins un hétéroatome dans l’anneau",
+                "uniquement du carbone"
+              ],
+              "answer": 2,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2)",
+              "choices": [
+                "halogénures, alcools, thiols, éthers",
+                "amides, anhydrides",
+                "oxydes de métaux",
+                "nitriles, acides (tétravalents)"
+              ],
+              "answer": 0,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléophile est : (formulation 2)",
+              "choices": [
+                "forcément un proton",
+                "riche en électrons (doublet/lone pair ou charge –)",
+                "toujours un métal",
+                "pauvre en électrons"
+              ],
+              "answer": 1,
+              "explain": "Ex : OH–, RO–, CN–, amines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (variante)",
+              "choices": [
+                "toutes les liaisons C–H",
+                "des perspectives 3D type Newman",
+                "uniquement les hétéroatomes",
+                "la chaîne carbonée par des segments/sommets (C implicites)"
+              ],
+              "answer": 3,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (formulation 2) (reformulation)",
+              "choices": [
+                "…one",
+                "…al (ou …carbaldehyde sur cycles)",
+                "…amine",
+                "…yle"
+              ],
+              "answer": 1,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un solvant protique : (reformulation)",
+              "choices": [
+                "est nécessairement aprotique",
+                "ne peut jamais les donner",
+                "peut donner des liaisons H (ex : eau, alcool)",
+                "est toujours apolaire"
+              ],
+              "answer": 2,
+              "explain": "Portent X–H polarisés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est : (formulation 2)",
+              "choices": [
+                "toujours neutre",
+                "riche en électrons",
+                "pauvre en électrons (accepteur)",
+                "forcément radicalaire"
+              ],
+              "answer": 2,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un halogénure d’acyle se nomme : (variante)",
+              "choices": [
+                "…nitrile",
+                "…amine",
+                "…oyl(e) halogénure",
+                "…oate d’alkyle"
+              ],
+              "answer": 2,
+              "explain": "Ex : chlorure de propanoyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (reformulation)",
+              "choices": [
+                "…one",
+                "…amide",
+                "…oate",
+                "…al"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent : (reformulation)",
+              "choices": [
+                "aucun",
+                "l’effet mésomère (M)",
+                "l’effet inductif (I)",
+                "toujours identique"
+              ],
+              "answer": 1,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation)",
+              "choices": [
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl",
+                "–ane",
+                "–ylex"
+              ],
+              "answer": 0,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –NO2 exerce : (formulation 2)",
+              "choices": [
+                "+I et +M",
+                "+I et –M",
+                "–I et –M",
+                "–I et +M"
+              ],
+              "answer": 2,
+              "explain": "Fort attracteur électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent : (variante)",
+              "choices": [
+                "la partie de la molécule non détaillée (reste)",
+                "un atome de Rhenium",
+                "une charge +1",
+                "un radical libre"
+              ],
+              "answer": 0,
+              "explain": "Abréviation structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un bicyclique ponté se note : (variante)",
+              "choices": [
+                "cyclo[a.b.c]nom",
+                "spiro[a.b]nom",
+                "bicyclo[a,c,b]nom",
+                "bicyclo[a.b.c]nom"
+              ],
+              "answer": 3,
+              "explain": "a ≥ b ≥ c ; somme + 2 = total."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent : (reformulation) (reformulation)",
+              "choices": [
+                "l’effet inductif (I)",
+                "toujours identique",
+                "aucun",
+                "l’effet mésomère (M)"
+              ],
+              "answer": 3,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante)",
+              "choices": [
+                "hémiacétal, hydrazone",
+                "cyanure, nitrite, peroxyde",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "chlore, brome, iode"
+              ],
+              "answer": 2,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante) (variante) (formulation 2)",
+              "choices": [
+                "uniquement du carbone",
+                "une liaison métallique",
+                "au moins un hétéroatome dans l’anneau",
+                "un métal de transition"
+              ],
+              "answer": 2,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (reformulation) (variante)",
+              "choices": [
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue",
+                "la plus courte",
+                "celle avec le plus d’halogènes"
+              ],
+              "answer": 1,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nom systématique comporte : (formulation 2)",
+              "choices": [
+                "USF + masse molaire",
+                "préfixe + suffixe uniquement",
+                "préfixes (substituants) + USF + suffixe (fonction)",
+                "numéro CAS"
+              ],
+              "answer": 2,
+              "explain": "USF = chaîne principale/fonction prioritaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nombre d’insaturation (Ni) sert à : (variante)",
+              "choices": [
+                "déduire cycles et multiples liaisons depuis la formule brute",
+                "déterminer le pH",
+                "calculer la masse molaire",
+                "prédire la stéréochimie absolue"
+              ],
+              "answer": 0,
+              "explain": "Degrés d’insaturation = insaturations + cycles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (reformulation)",
+              "choices": [
+                "des perspectives 3D type Newman",
+                "uniquement les hétéroatomes",
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "toutes les liaisons C–H"
+              ],
+              "answer": 2,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…al",
+                "…amide"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La résonance se note par : (variante)",
+              "choices": [
+                "→ (irréversible)",
+                "≡ (triple flèche)",
+                "formes limites reliées par ↔ (double flèche)",
+                "⇌ seulement"
+              ],
+              "answer": 2,
+              "explain": "Hybride de résonance = réalité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chimie organique est la chimie des composés du : (reformulation)",
+              "choices": [
+                "soufre",
+                "phosphore",
+                "chlore",
+                "carbone"
+              ],
+              "answer": 3,
+              "explain": "Exceptions minérales: CO, CO2, carbonates, carbures…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (formulation 2) (reformulation) (variante)",
+              "choices": [
+                "…yle",
+                "…al (ou …carbaldehyde sur cycles)",
+                "…amine",
+                "…one"
+              ],
+              "answer": 1,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante)",
+              "choices": [
+                "–ane",
+                "–al",
+                "–ène",
+                "–yne"
+              ],
+              "answer": 3,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (variante)",
+              "choices": [
+                "–al",
+                "–yne",
+                "–ane",
+                "–ène"
+              ],
+              "answer": 1,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un bicyclique ponté se note : (variante) (reformulation)",
+              "choices": [
+                "bicyclo[a.b.c]nom",
+                "spiro[a.b]nom",
+                "cyclo[a.b.c]nom",
+                "bicyclo[a,c,b]nom"
+              ],
+              "answer": 0,
+              "explain": "a ≥ b ≥ c ; somme + 2 = total."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est : (formulation 2) (variante)",
+              "choices": [
+                "pauvre en électrons (accepteur)",
+                "riche en électrons",
+                "forcément radicalaire",
+                "toujours neutre"
+              ],
+              "answer": 0,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ester se nomme : (variante)",
+              "choices": [
+                "acide …oïque d’alkyle",
+                "alkyl carboxylate (…oate d’alkyle)",
+                "alkylate d’acide",
+                "…ylate"
+              ],
+              "answer": 1,
+              "explain": "Ex : éthanoate de méthyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est : (variante)",
+              "choices": [
+                "riche en électrons",
+                "forcément radicalaire",
+                "toujours neutre",
+                "pauvre en électrons (accepteur)"
+              ],
+              "answer": 3,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue",
+                "celle avec le plus d’halogènes",
+                "la plus courte"
+              ],
+              "answer": 1,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation)",
+              "choices": [
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl",
+                "–ylex",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –NO2 exerce : (reformulation)",
+              "choices": [
+                "–I et –M",
+                "+I et –M",
+                "–I et +M",
+                "+I et +M"
+              ],
+              "answer": 0,
+              "explain": "Fort attracteur électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante) (variante)",
+              "choices": [
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "cyanure, nitrite, peroxyde",
+                "hémiacétal, hydrazone",
+                "chlore, brome, iode"
+              ],
+              "answer": 0,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléophile est : (variante)",
+              "choices": [
+                "toujours un métal",
+                "riche en électrons (doublet/lone pair ou charge –)",
+                "pauvre en électrons",
+                "forcément un proton"
+              ],
+              "answer": 1,
+              "explain": "Ex : OH–, RO–, CN–, amines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (variante)",
+              "choices": [
+                "…amine",
+                "…yle",
+                "…al (ou …carbaldehyde sur cycles)",
+                "…one"
+              ],
+              "answer": 2,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’effet inductif (I) est lié à : (reformulation)",
+              "choices": [
+                "l’électrolyse",
+                "la délocalisation π",
+                "la polarisation σ (différence d’électronégativité)",
+                "la photolyse"
+              ],
+              "answer": 2,
+              "explain": "±I selon substituant donneur/attracteur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent : (variante) (reformulation)",
+              "choices": [
+                "un atome de Rhenium",
+                "une charge +1",
+                "un radical libre",
+                "la partie de la molécule non détaillée (reste)"
+              ],
+              "answer": 3,
+              "explain": "Abréviation structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…al",
+                "…amide"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (variante) (formulation 2)",
+              "choices": [
+                "–yne",
+                "–ène",
+                "–al",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile (chaîne ouverte) se nomme : (variante)",
+              "choices": [
+                "…cyanure d’hydrogène",
+                "…amide",
+                "…amine",
+                "…nitrile"
+              ],
+              "answer": 3,
+              "explain": "Cyclique : …carbonitrile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La résonance se note par : (variante) (variante)",
+              "choices": [
+                "≡ (triple flèche)",
+                "formes limites reliées par ↔ (double flèche)",
+                "→ (irréversible)",
+                "⇌ seulement"
+              ],
+              "answer": 1,
+              "explain": "Hybride de résonance = réalité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (formulation 2)",
+              "choices": [
+                "–N≡N",
+                "–C≡N",
+                "–NO2",
+                "–C≡C–"
+              ],
+              "answer": 1,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (reformulation)",
+              "choices": [
+                "–yl (ex : méthyle, éthyle)",
+                "–ane",
+                "–ynyl",
+                "–ylex"
+              ],
+              "answer": 0,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture homolytique : (variante)",
+              "choices": [
+                "ne se voit pas en organique",
+                "donne un carbanion uniquement",
+                "donne un carbocation uniquement",
+                "donne deux radicaux"
+              ],
+              "answer": 3,
+              "explain": "Favorisée par UV/chaleur/peroxydes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent : (formulation 2)",
+              "choices": [
+                "toujours identique",
+                "l’effet mésomère (M)",
+                "aucun",
+                "l’effet inductif (I)"
+              ],
+              "answer": 1,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (variante) (reformulation)",
+              "choices": [
+                "–al",
+                "–yne",
+                "–ane",
+                "–ène"
+              ],
+              "answer": 1,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture hétérolytique : (formulation 2)",
+              "choices": [
+                "donne toujours radicaux",
+                "ne se produit qu’en phase gazeuse",
+                "implique un photon obligatoirement",
+                "donne ions (A–B → A+ + B–)"
+              ],
+              "answer": 3,
+              "explain": "Typique des mécanismes ioniques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (reformulation)",
+              "choices": [
+                "amides, anhydrides",
+                "oxydes de métaux",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)"
+              ],
+              "answer": 2,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ester se nomme : (variante) (variante)",
+              "choices": [
+                "alkyl carboxylate (…oate d’alkyle)",
+                "alkylate d’acide",
+                "acide …oïque d’alkyle",
+                "…ylate"
+              ],
+              "answer": 0,
+              "explain": "Ex : éthanoate de méthyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante)",
+              "choices": [
+                "–yl (ex : méthyle, éthyle)",
+                "–ylex",
+                "–ynyl",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation)",
+              "choices": [
+                "…one",
+                "…amide",
+                "…al",
+                "…oate"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent : (variante)",
+              "choices": [
+                "toujours identique",
+                "aucun",
+                "l’effet inductif (I)",
+                "l’effet mésomère (M)"
+              ],
+              "answer": 3,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (reformulation) (formulation 2)",
+              "choices": [
+                "…al",
+                "…one",
+                "…amide",
+                "…oate"
+              ],
+              "answer": 1,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent : (variante)",
+              "choices": [
+                "un atome de Rhenium",
+                "la partie de la molécule non détaillée (reste)",
+                "un radical libre",
+                "une charge +1"
+              ],
+              "answer": 1,
+              "explain": "Abréviation structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent : (variante) (formulation 2)",
+              "choices": [
+                "une charge +1",
+                "un atome de Rhenium",
+                "la partie de la molécule non détaillée (reste)",
+                "un radical libre"
+              ],
+              "answer": 2,
+              "explain": "Abréviation structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante)",
+              "choices": [
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl",
+                "–ane",
+                "–ylex"
+              ],
+              "answer": 0,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est : (reformulation)",
+              "choices": [
+                "pauvre en électrons (accepteur)",
+                "forcément radicalaire",
+                "toujours neutre",
+                "riche en électrons"
+              ],
+              "answer": 0,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (reformulation)",
+              "choices": [
+                "–yne",
+                "–al",
+                "–ène",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (reformulation) (reformulation)",
+              "choices": [
+                "oxydes de métaux",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)",
+                "amides, anhydrides"
+              ],
+              "answer": 1,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (variante) (reformulation)",
+              "choices": [
+                "uniquement les hétéroatomes",
+                "des perspectives 3D type Newman",
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "toutes les liaisons C–H"
+              ],
+              "answer": 2,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (variante)",
+              "choices": [
+                "–N≡N",
+                "–C≡C–",
+                "–C≡N",
+                "–NO2"
+              ],
+              "answer": 2,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (formulation 2) (variante)",
+              "choices": [
+                "–N≡N",
+                "–C≡C–",
+                "–C≡N",
+                "–NO2"
+              ],
+              "answer": 2,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un spiro est noté : (formulation 2) (variante)",
+              "choices": [
+                "bi[a.b.c]nom",
+                "cyclo[a,b]",
+                "spiro[b.a.c]",
+                "spiro[a.b]nom (a < b)"
+              ],
+              "answer": 3,
+              "explain": "Somme carbones a+b+1 = total du squelette linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldéhyde possède : (reformulation)",
+              "choices": [
+                "un –NH2",
+                "un –CO– entre deux carbones",
+                "un –COOH",
+                "un carbonyle en bout de chaîne (–CHO)"
+              ],
+              "answer": 3,
+              "explain": "Cétone: carbonyle interne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (variante) (variante)",
+              "choices": [
+                "…al (ou …carbaldehyde sur cycles)",
+                "…yle",
+                "…amine",
+                "…one"
+              ],
+              "answer": 0,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un électrophile est : (variante) (variante)",
+              "choices": [
+                "forcément radicalaire",
+                "pauvre en électrons (accepteur)",
+                "toujours neutre",
+                "riche en électrons"
+              ],
+              "answer": 1,
+              "explain": "Ex : carbocations, carbonyles activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante) (variante) (formulation 2) (formulation 2)",
+              "choices": [
+                "une liaison métallique",
+                "au moins un hétéroatome dans l’anneau",
+                "un métal de transition",
+                "uniquement du carbone"
+              ],
+              "answer": 1,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (reformulation)",
+              "choices": [
+                "–al",
+                "–ane",
+                "–yne",
+                "–ène"
+              ],
+              "answer": 2,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante)",
+              "choices": [
+                "…one",
+                "…al",
+                "…oate",
+                "…amide"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aldéhyde possède : (reformulation)",
+              "choices": [
+                "un –CO– entre deux carbones",
+                "un –NH2",
+                "un –COOH",
+                "un carbonyle en bout de chaîne (–CHO)"
+              ],
+              "answer": 3,
+              "explain": "Cétone: carbonyle interne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (formulation 2)",
+              "choices": [
+                "–yne",
+                "–al",
+                "–ène",
+                "–ane"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture homolytique : (variante) (variante)",
+              "choices": [
+                "donne deux radicaux",
+                "ne se voit pas en organique",
+                "donne un carbanion uniquement",
+                "donne un carbocation uniquement"
+              ],
+              "answer": 0,
+              "explain": "Favorisée par UV/chaleur/peroxydes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (formulation 2) (variante) (reformulation)",
+              "choices": [
+                "–C≡C–",
+                "–N≡N",
+                "–C≡N",
+                "–NO2"
+              ],
+              "answer": 2,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcène, la terminaison est : (reformulation)",
+              "choices": [
+                "–ane",
+                "–yne",
+                "–one",
+                "–ène"
+              ],
+              "answer": 3,
+              "explain": "Ex : hex-2-ène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante) (variante)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…al",
+                "…amide"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (reformulation) (variante)",
+              "choices": [
+                "…amide",
+                "…oate",
+                "…one",
+                "…al"
+              ],
+              "answer": 2,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (reformulation) (variante) (formulation 2) (variante)",
+              "choices": [
+                "plus ramifiée uniquement",
+                "celle avec le plus d’halogènes",
+                "la plus courte",
+                "max fonctions > max insaturations > plus longue"
+              ],
+              "answer": 3,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (formulation 2) (formulation 2)",
+              "choices": [
+                "–NO2",
+                "–C≡C–",
+                "–C≡N",
+                "–N≡N"
+              ],
+              "answer": 2,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –NO2 exerce : (reformulation) (variante)",
+              "choices": [
+                "+I et +M",
+                "–I et +M",
+                "–I et –M",
+                "+I et –M"
+              ],
+              "answer": 2,
+              "explain": "Fort attracteur électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2) (formulation 2)",
+              "choices": [
+                "amides, anhydrides",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)",
+                "oxydes de métaux"
+              ],
+              "answer": 1,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rupture hétérolytique : (formulation 2)",
+              "choices": [
+                "ne se produit qu’en phase gazeuse",
+                "implique un photon obligatoirement",
+                "donne toujours radicaux",
+                "donne ions (A–B → A+ + B–)"
+              ],
+              "answer": 3,
+              "explain": "Typique des mécanismes ioniques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante) (reformulation)",
+              "choices": [
+                "…amide",
+                "…one",
+                "…oate",
+                "…al"
+              ],
+              "answer": 1,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante)",
+              "choices": [
+                "–ynyl",
+                "–ane",
+                "–yl (ex : méthyle, éthyle)",
+                "–ylex"
+              ],
+              "answer": 2,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (formulation 2)",
+              "choices": [
+                "–yne",
+                "–ane",
+                "–ène",
+                "–al"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entre I et M, l’influence la plus forte est souvent : (reformulation) (reformulation) (variante)",
+              "choices": [
+                "l’effet inductif (I)",
+                "l’effet mésomère (M)",
+                "toujours identique",
+                "aucun"
+              ],
+              "answer": 1,
+              "explain": "Quand les deux coexistent, M domine souvent."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un substituant –NO2 exerce : (formulation 2) (variante)",
+              "choices": [
+                "+I et –M",
+                "+I et +M",
+                "–I et +M",
+                "–I et –M"
+              ],
+              "answer": 3,
+              "explain": "Fort attracteur électronique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (variante) (variante) (reformulation)",
+              "choices": [
+                "…al (ou …carbaldehyde sur cycles)",
+                "…one",
+                "…yle",
+                "…amine"
+              ],
+              "answer": 0,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (reformulation) (variante)",
+              "choices": [
+                "–yne",
+                "–ane",
+                "–ène",
+                "–al"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (reformulation)",
+              "choices": [
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)",
+                "amides, anhydrides",
+                "oxydes de métaux"
+              ],
+              "answer": 0,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante) (formulation 2)",
+              "choices": [
+                "cyanure, nitrite, peroxyde",
+                "chlore, brome, iode",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "hémiacétal, hydrazone"
+              ],
+              "answer": 2,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbone sp3 : géométrie (formulation 2)",
+              "choices": [
+                "tétraédrique (~109,5°)",
+                "plane 120°",
+                "octaédrique",
+                "linéaire 180°"
+              ],
+              "answer": 0,
+              "explain": "Alcanes ; rotation possible (conformations)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2) (formulation 2)",
+              "choices": [
+                "oxydes de métaux",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)",
+                "amides, anhydrides"
+              ],
+              "answer": 1,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (formulation 2) (reformulation)",
+              "choices": [
+                "…one",
+                "…amine",
+                "…yle",
+                "…al (ou …carbaldehyde sur cycles)"
+              ],
+              "answer": 3,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante)",
+              "choices": [
+                "…oate",
+                "…amide",
+                "…al",
+                "…one"
+              ],
+              "answer": 3,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (reformulation) (formulation 2)",
+              "choices": [
+                "–ane",
+                "–al",
+                "–yne",
+                "–ène"
+              ],
+              "answer": 2,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (reformulation) (variante)",
+              "choices": [
+                "–yne",
+                "–al",
+                "–ane",
+                "–ène"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante)",
+              "choices": [
+                "…one",
+                "…amide",
+                "…al",
+                "…oate"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcène, la terminaison est : (reformulation) (reformulation)",
+              "choices": [
+                "–ane",
+                "–yne",
+                "–ène",
+                "–one"
+              ],
+              "answer": 2,
+              "explain": "Ex : hex-2-ène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante) (formulation 2)",
+              "choices": [
+                "hémiacétal, hydrazone",
+                "chlore, brome, iode",
+                "cyanure, nitrite, peroxyde",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle"
+              ],
+              "answer": 3,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un halogénure d’acyle se nomme : (variante) (formulation 2)",
+              "choices": [
+                "…oyl(e) halogénure",
+                "…nitrile",
+                "…amine",
+                "…oate d’alkyle"
+              ],
+              "answer": 0,
+              "explain": "Ex : chlorure de propanoyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (formulation 2) (reformulation) (variante)",
+              "choices": [
+                "…yle",
+                "…amine",
+                "…one",
+                "…al (ou …carbaldehyde sur cycles)"
+              ],
+              "answer": 3,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2) (reformulation)",
+              "choices": [
+                "amides, anhydrides",
+                "halogénures, alcools, thiols, éthers",
+                "oxydes de métaux",
+                "nitriles, acides (tétravalents)"
+              ],
+              "answer": 1,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un spiro est noté : (formulation 2) (variante) (formulation 2)",
+              "choices": [
+                "bi[a.b.c]nom",
+                "spiro[a.b]nom (a < b)",
+                "spiro[b.a.c]",
+                "cyclo[a,b]"
+              ],
+              "answer": 1,
+              "explain": "Somme carbones a+b+1 = total du squelette linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un ester se nomme : (variante) (variante) (formulation 2)",
+              "choices": [
+                "acide …oïque d’alkyle",
+                "alkyl carboxylate (…oate d’alkyle)",
+                "alkylate d’acide",
+                "…ylate"
+              ],
+              "answer": 1,
+              "explain": "Ex : éthanoate de méthyle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un carbone tertiaire est lié à : (variante)",
+              "choices": [
+                "trois autres carbones",
+                "quatre carbones",
+                "deux carbones",
+                "un seul carbone"
+              ],
+              "answer": 0,
+              "explain": "Notation I, II, III, IV."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (variante)",
+              "choices": [
+                "celle avec le plus d’halogènes",
+                "la plus courte",
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue"
+              ],
+              "answer": 3,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (variante) (reformulation)",
+              "choices": [
+                "toutes les liaisons C–H",
+                "uniquement les hétéroatomes",
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "des perspectives 3D type Newman"
+              ],
+              "answer": 2,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (variante) (reformulation) (variante)",
+              "choices": [
+                "–yne",
+                "–ane",
+                "–al",
+                "–ène"
+              ],
+              "answer": 0,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La résonance se note par : (variante) (variante)",
+              "choices": [
+                "≡ (triple flèche)",
+                "→ (irréversible)",
+                "⇌ seulement",
+                "formes limites reliées par ↔ (double flèche)"
+              ],
+              "answer": 3,
+              "explain": "Hybride de résonance = réalité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (formulation 2)",
+              "choices": [
+                "…one",
+                "…amide",
+                "…al",
+                "…oate"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante) (variante) (formulation 2)",
+              "choices": [
+                "chlore, brome, iode",
+                "hémiacétal, hydrazone",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle",
+                "cyanure, nitrite, peroxyde"
+              ],
+              "answer": 2,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcyne, la terminaison est : (variante) (variante) (formulation 2) (reformulation)",
+              "choices": [
+                "–ène",
+                "–al",
+                "–ane",
+                "–yne"
+              ],
+              "answer": 3,
+              "explain": "Ex : but-1-yne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les fonctions monovalentes comprennent : (formulation 2) (formulation 2) (variante)",
+              "choices": [
+                "oxydes de métaux",
+                "amides, anhydrides",
+                "halogénures, alcools, thiols, éthers",
+                "nitriles, acides (tétravalents)"
+              ],
+              "answer": 2,
+              "explain": "Classification par valence du centre fonctionnel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante) (variante)",
+              "choices": [
+                "–ane",
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl",
+                "–ylex"
+              ],
+              "answer": 1,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…amide",
+                "…al"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radicaux fréquents : (variante) (variante) (formulation 2) (variante)",
+              "choices": [
+                "chlore, brome, iode",
+                "hémiacétal, hydrazone",
+                "cyanure, nitrite, peroxyde",
+                "vinyle, allyle, isopropyle, tert‑butyle, néopentyle"
+              ],
+              "answer": 3,
+              "explain": "Usages usuels."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nom systématique comporte : (formulation 2) (reformulation)",
+              "choices": [
+                "préfixes (substituants) + USF + suffixe (fonction)",
+                "préfixe + suffixe uniquement",
+                "USF + masse molaire",
+                "numéro CAS"
+              ],
+              "answer": 0,
+              "explain": "USF = chaîne principale/fonction prioritaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante) (reformulation) (variante)",
+              "choices": [
+                "…oate",
+                "…al",
+                "…amide",
+                "…one"
+              ],
+              "answer": 3,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléophile est : (formulation 2)",
+              "choices": [
+                "riche en électrons (doublet/lone pair ou charge –)",
+                "toujours un métal",
+                "forcément un proton",
+                "pauvre en électrons"
+              ],
+              "answer": 0,
+              "explain": "Ex : OH–, RO–, CN–, amines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (reformulation) (variante) (reformulation)",
+              "choices": [
+                "…al",
+                "…oate",
+                "…one",
+                "…amide"
+              ],
+              "answer": 2,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nitrile se note : (reformulation) (formulation 2) (variante)",
+              "choices": [
+                "–NO2",
+                "–C≡C–",
+                "–C≡N",
+                "–N≡N"
+              ],
+              "answer": 2,
+              "explain": "Fonction cyano."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Oxygène sp3 (alcool/éther) : géométrie (variante)",
+              "choices": [
+                "plane 120°",
+                "octaédrique",
+                "linéaire",
+                "pseudo‑tétraédrique (angle ~104–105°)"
+              ],
+              "answer": 3,
+              "explain": "Deux doublets non liants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante) (reformulation) (variante) (variante)",
+              "choices": [
+                "…oate",
+                "…amide",
+                "…one",
+                "…al"
+              ],
+              "answer": 2,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante) (variante) (variante)",
+              "choices": [
+                "–ylex",
+                "–yl (ex : méthyle, éthyle)",
+                "–ynyl",
+                "–ane"
+              ],
+              "answer": 1,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…amide",
+                "…al"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (reformulation) (variante) (reformulation) (reformulation)",
+              "choices": [
+                "…one",
+                "…oate",
+                "…amide",
+                "…al"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Radical d’un alcane linéaire : (reformulation) (variante) (reformulation)",
+              "choices": [
+                "–ylex",
+                "–ynyl",
+                "–ane",
+                "–yl (ex : méthyle, éthyle)"
+              ],
+              "answer": 3,
+              "explain": "Remplace –ane par –yl."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La chimie organique est la chimie des composés du : (reformulation) (reformulation)",
+              "choices": [
+                "carbone",
+                "soufre",
+                "chlore",
+                "phosphore"
+              ],
+              "answer": 0,
+              "explain": "Exceptions minérales: CO, CO2, carbonates, carbures…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un hétérocycle contient : (variante) (variante) (formulation 2) (formulation 2)",
+              "choices": [
+                "uniquement du carbone",
+                "un métal de transition",
+                "une liaison métallique",
+                "au moins un hétéroatome dans l’anneau"
+              ],
+              "answer": 3,
+              "explain": "Ex : pyridine (N), furane (O)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un nucléophile est : (variante) (formulation 2)",
+              "choices": [
+                "riche en électrons (doublet/lone pair ou charge –)",
+                "pauvre en électrons",
+                "toujours un métal",
+                "forcément un proton"
+              ],
+              "answer": 0,
+              "explain": "Ex : OH–, RO–, CN–, amines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "toutes les liaisons C–H",
+                "des perspectives 3D type Newman",
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "uniquement les hétéroatomes"
+              ],
+              "answer": 2,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’une cétone : (variante) (reformulation) (variante) (reformulation) (variante) (variante) (reformulation)",
+              "choices": [
+                "…one",
+                "…amide",
+                "…oate",
+                "…al"
+              ],
+              "answer": 0,
+              "explain": "Alcanone/cyclo…one."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le nom systématique comporte : (formulation 2)",
+              "choices": [
+                "préfixes (substituants) + USF + suffixe (fonction)",
+                "préfixe + suffixe uniquement",
+                "numéro CAS",
+                "USF + masse molaire"
+              ],
+              "answer": 0,
+              "explain": "USF = chaîne principale/fonction prioritaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La formule topologique représente : (formulation 2)",
+              "choices": [
+                "toutes les liaisons C–H",
+                "des perspectives 3D type Newman",
+                "la chaîne carbonée par des segments/sommets (C implicites)",
+                "uniquement les hétéroatomes"
+              ],
+              "answer": 2,
+              "explain": "C et H sur C non écrits ; hétéroatomes visibles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne principale : on choisit par priorité : (reformulation)",
+              "choices": [
+                "la plus courte",
+                "plus ramifiée uniquement",
+                "max fonctions > max insaturations > plus longue",
+                "celle avec le plus d’halogènes"
+              ],
+              "answer": 2,
+              "explain": "Puis indices les plus bas."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un alcène, la terminaison est : (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "–one",
+                "–ane",
+                "–ène",
+                "–yne"
+              ],
+              "answer": 2,
+              "explain": "Ex : hex-2-ène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Suffixe d’un aldéhyde : (variante) (variante)",
+              "choices": [
+                "…yle",
+                "…amine",
+                "…one",
+                "…al (ou …carbaldehyde sur cycles)"
+              ],
+              "answer": 3,
+              "explain": "Historique : formaldéhyde, acétaldéhyde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les radicaux R en organique notent : (variante) (formulation 2)",
+              "choices": [
+                "la partie de la molécule non détaillée (reste)",
+                "une charge +1",
+                "un radical libre",
+                "un atome de Rhenium"
+              ],
+              "answer": 0,
+              "explain": "Abréviation structurale."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir le degré d’insaturation.",
+              "answer_text": "Somme (cycles + doubles liaisons) ; une triple compte pour 2.",
+              "explain": "Calculé à partir de la formule brute."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux types de représentations 2D.",
+              "answer_text": "Formules développée et topologique.",
+              "explain": "Choix selon le niveau de détail."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir une lactone.",
+              "answer_text": "Ester cyclique intramoléculaire d’un hydroxy-acide.",
+              "explain": "Appellation par lettres grecques (γ-lactone…)."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir un lactame.",
+              "answer_text": "Amide cyclique intramoléculaire d’un amino-acide.",
+              "explain": "Nommage analogue aux lactones."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer 3 critères pour choisir la chaîne principale.",
+              "answer_text": "Priorité: fonctions > insaturations > longueur > substituants > indices bas.",
+              "explain": "Règles IUPAC de base."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’ordre des multiplicateurs.",
+              "answer_text": "di, tri, tétra… non comptés pour l’ordre alphabétique des substituants.",
+              "explain": "Sauf bis/tris pour radicaux complexes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner le préfixe de substitution d’un –CHO.",
+              "answer_text": "Formyl (ou oxo/aldo selon cas).",
+              "explain": "Sur cycle : carbaldehyde/carboxaldehyde en suffixe."
+            },
+            {
+              "type": "short",
+              "prompt": "Préfixe pour ester comme substituant.",
+              "answer_text": "Alkoxycarbonyl (ou acyloxy).",
+              "explain": "Contexte selon point d’attache."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir une liaison σ vs π.",
+              "answer_text": "σ : recouvrement axial ; π : recouvrement latéral d’orbitales p.",
+              "explain": "Les liaisons π apparaissent après cyclisation ou insaturation."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple de système conjugué.",
+              "answer_text": "C=C–C=O ; aryle–C=O ; C=C–C≡N…",
+              "explain": "Alternance favorise la délocalisation."
+            },
+            {
+              "type": "short",
+              "prompt": "Règle fondamentale des formes de résonance.",
+              "answer_text": "Conserver octet, atomes, électrons et charge globale.",
+              "explain": "Le déplacement se fait via doublets et liaisons π."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux exemples de nucléophiles usuels.",
+              "answer_text": "HO–, RO–, NH3, CN–, halogénures d’alkyle (en tant que substrats, pas nucléophiles).",
+              "explain": "Doublets et charges –."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux exemples d’électrophiles.",
+              "answer_text": "R–C(=O)–X, R3C+, NO2+, H+",
+              "explain": "Centres déficients en e–."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux solvants protiques.",
+              "answer_text": "Eau, méthanol, éthanol.",
+              "explain": "Portent O–H / N–H."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux solvants aprotiques polaires.",
+              "answer_text": "DMF, DMSO, acétonitrile, acétone.",
+              "explain": "Pas de O–H/N–H donneur."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical allyle.",
+              "answer_text": "CH2=CH–CH2–",
+              "explain": "Stabilisé par résonance (allylique)."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Rappeler le radical vinyle.",
+              "answer_text": "CH2=CH–",
+              "explain": "Directement sur l’alcène."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer trois radicaux ramifiés usuels.",
+              "answer_text": "isopropyle, tert‑butyle, néopentyle.",
+              "explain": "Usages fréquents en IUPAC/usuel."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la définition d’un arène.",
+              "answer_text": "Hydrocarbure aromatique dérivé du benzène ou apparenté.",
+              "explain": "Ex : toluène, xylènes, styrène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner la règle pour –ényne.",
+              "answer_text": "Indices les plus bas pour l’ensemble ; en cas d’égalité, privilégier l’alcène.",
+              "explain": "Suffixe –ényne."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Nommer un alcyne — Chaîne de 5 C avec triple liaison en C-2\n\nProposer le nom IUPAC.",
+              "answer_text": "pent-2-yne.",
+              "explain": "Indices les plus bas ; terminaison –yne."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Évaluer l’influence d’un substituant — p‑nitrobenzoate vs p‑hydroxybenzoate\n\nQuel substituant active le noyau aromatique ?",
+              "answer_text": "–OH (donneur +M) active ; –NO2 désactive.",
+              "explain": "Effets M et I contrastés."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Classer la force acide — Acides carboxyliques : R–COOH, ClCH2–COOH, (CH3)2CH–COOH\n\nOrdre de pKa attendu ?",
+              "answer_text": "ClCH2–COOH < R–COOH < (CH3)2CH–COOH.",
+              "explain": "−I du Cl renforce l’acidité ; +I de l’alkyle l’affaiblit."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Identifier la géométrie — C=C adjacent à C=O\n\nRotation libre ou restreinte ?",
+              "answer_text": "Restreinte (présence de π).",
+              "explain": "Conjugaison possible."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Choisir le solvant — Réaction ionique, besoin de stabiliser des charges\n\nProposer un type de solvant.",
+              "answer_text": "Polaire protique ou aprotique selon mécanisme.",
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #6 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #7 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #8 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #9 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #10 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #11 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #12 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #13 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #14 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #15 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #16 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #17 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #18 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #19 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #20 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #21 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #22 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #23 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #24 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #25 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #26 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #27 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #28 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #29 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas organique #30 — Nomenclature/réactivité/effets électroniques\n\nDonner le diagnostic et la justification.",
+              "answer_text": "Appliquer règles IUPAC et effets I/M.",
+              "explain": "Raisonnement pas-à-pas."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:32:20.585896Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
