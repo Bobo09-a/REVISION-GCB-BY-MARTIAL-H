@@ -6,27 +6,37 @@
   <title>QCM Futuriste – Révision Licence GCB</title>
   <meta name="theme-color" content="#0b0f1a" />
   <style>
-    :root{ --bg:#0b0f1a;--panel:#10162a;--panel2:#0e1324;--acc:#6df0ff;--acc2:#7d7bff;--ok:#2ee59d;--bad:#ff5577;--text:#e9f3ff;--muted:#9fb2c7;--chip:#16213a; }
-    *{box-sizing:border-box} html,body{height:100%}
-    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial;
-      background:radial-gradient(1200px 700px at 70% -10%,rgba(125,123,255,.16),transparent),
-                 radial-gradient(900px 600px at -20% 120%,rgba(109,240,255,.18),transparent), var(--bg);
-      color:var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
-    .app{max-width:760px; margin:0 auto; padding:12px 12px 80px;}
-    header{ position:sticky; top:0; z-index:5; backdrop-filter:saturate(130%) blur(10px);
+    :root{
+      --bg:#0b0f1a;--panel:#10162a;--panel2:#0e1324;--acc:#6df0ff;--acc2:#7d7bff;--ok:#2ee59d;--bad:#ff5577;--text:#e9f3ff;--muted:#9fb2c7;--chip:#16213a;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial; background:radial-gradient(1200px 700px at 70% -10%,rgba(125,123,255,.16),transparent),
+      radial-gradient(900px 600px at -20% 120%,rgba(109,240,255,.18),transparent), var(--bg); color:var(--text);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+    .app{max-width:760px; margin:0 auto; padding:12px 12px 140px;} /* ↑ plus d'espace bas pour ne pas gêner le footer */
+    header{
+      position:sticky; top:0; z-index:5; backdrop-filter:saturate(130%) blur(10px);
       background:linear-gradient(180deg, rgba(11,15,26,.92), rgba(11,15,26,.65));
-      border-bottom:1px solid rgba(125,123,255,.25); }
-    .bar{display:flex; align-items:center; gap:8px; padding:10px 12px; flex-wrap:wrap}
+      border-bottom:1px solid rgba(125,123,255,.25);
+    }
+    .bar{display:flex; align-items:center; gap:8px; padding:10px 12px;}
     .title{font-weight:700; letter-spacing:.2px;}
     .chip{background:var(--chip); border:1px solid rgba(109,240,255,.25); padding:6px 10px; border-radius:999px; font-size:12px; color:var(--muted)}
-    select, button, input[type="text"], input[type="file"], textarea{
+    select, button, input[type="text"], textarea{
       background:linear-gradient(180deg,var(--panel),var(--panel2)); color:var(--text); border:1px solid rgba(125,123,255,.35); border-radius:12px;
       padding:10px 12px; font-size:14px; outline:none; width:100%;
     }
-    button{cursor:pointer; transition:.2s transform ease, .2s box-shadow ease;} button:hover{transform:translateY(-1px)}
-    .row{display:flex; gap:8px;} .row>*{flex:1}
+    button{cursor:pointer; transition:.2s transform ease, .2s box-shadow ease;}
+    button:hover{transform:translateY(-1px)}
+    .row{display:flex; gap:8px;}
+    .row>*{flex:1}
     .grid{display:grid; grid-template-columns:1fr; gap:12px}
-    @media(min-width:520px){ .grid-2{grid-template-columns:1fr 1fr} .grid-3{grid-template-columns:1fr 1fr 1fr} }
+    @media(min-width:520px){
+      .grid-2{grid-template-columns: 1fr 1fr}
+    }
     .panel{border:1px solid rgba(109,240,255,.2); border-radius:16px; background:linear-gradient(180deg, rgba(22,28,50,.72), rgba(12,17,33,.72)); box-shadow:0 8px 24px rgba(0,0,0,.25);}
     .panel .p{padding:14px;}
     .ghost{background:transparent; border:1px dashed rgba(125,123,255,.35)}
@@ -40,43 +50,31 @@
     .actions{display:flex; gap:10px;}
     .h{height:1px; background:linear-gradient(90deg, transparent, rgba(109,240,255,.35), transparent); border:0; margin:12px 0}
     .score{font-weight:700}
-    .pill{padding:4px 8px; border-radius:999px;} .ok{color:#062; background:linear-gradient(180deg, rgba(46,229,157,.25), rgba(46,229,157,.1)); border:1px solid rgba(46,229,157,.4)}
+    .pill{padding:4px 8px; border-radius:999px;}
+    .ok{color:#062; background:linear-gradient(180deg, rgba(46,229,157,.25), rgba(46,229,157,.1)); border:1px solid rgba(46,229,157,.4)}
     .bad{color:#620; background:linear-gradient(180deg, rgba(255,85,119,.25), rgba(255,85,119,.1)); border:1px solid rgba(255,85,119,.4)}
     .imgwrap{border:1px solid rgba(125,123,255,.35); border-radius:12px; overflow:hidden; background:#0b1120}
     .imgwrap img{display:block; width:100%; height:auto}
-    .footer{position:fixed; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(180deg, rgba(11,15,26,.0), rgba(11,15,26,.95)); backdrop-filter: blur(8px); border-top:1px solid rgba(125,123,255,.25)}
+    .footer{
+      position:fixed; bottom:0; left:0; right:0;
+      padding:20px 10px calc(22px + env(safe-area-inset-bottom, 0px)); /* ↓ légèrement plus bas + safe area iOS */
+      background:linear-gradient(180deg, rgba(11,15,26,0), rgba(11,15,26,.95));
+      backdrop-filter: blur(8px); border-top:1px solid rgba(125,123,255,.25)
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="bar">
       <div class="title">📚 Révisions GCB – QCM Futuriste</div>
-      <div class="chip" id="version">v1.5</div>
-      <div class="chip" id="timerBadge">Sans minuteur</div>
+      <div class="chip" id="version">v1.2</div>
     </div>
-    <div class="bar" style="gap:10px;">
+    <div class="bar" style="gap:10px; flex-wrap:wrap">
       <div class="row" style="flex:3">
         <select id="subjectSelect" aria-label="Choisir une matière"></select>
-        <select id="filterType" aria-label="Filtrer par type">
-          <option value="">Tous les types</option>
-          <option>QCM</option>
-          <option>Questions/Réponses</option>
-          <option>IDENTIFICATION IMAGE</option>
-          <option>ÉTUDES DE CAS</option>
-        </select>
-        <select id="modeSelect" aria-label="Choisir un mode">
-          <option value="normal">Mode normal</option>
-          <option value="random">Mode aléatoire</option>
-          <option value="weak">Mode faiblesses</option>
-          <option value="exam30">Mode examen (30 min)</option>
-          <option value="flash">Flashcards</option>
-        </select>
         <button id="btnStart">Démarrer</button>
       </div>
-      <div class="row" style="flex:2">
-        <button id="btnLoad">Importer questions (.json)</button>
-        <button id="btnSave" class="ghost">Exporter banque</button>
-      </div>
+      <!-- Boutons Importer/Exporter supprimés -->
     </div>
   </header>
 
@@ -85,10 +83,10 @@
       <div class="panel">
         <div class="p">
           <div class="row" style="align-items:center; gap:12px">
+            <div class="badge">Sans minuteur</div>
             <div class="badge">Score: <span class="score" id="score">0</span></div>
             <div class="badge">Question <span id="qIndex">0</span>/<span id="qTotal">0</span></div>
             <div class="badge">Matière: <span id="subjectLabel">—</span></div>
-            <div class="badge">Mode: <span id="modeLabel">normal</span></div>
           </div>
           <div class="progress" style="margin:10px 0 4px"><i id="progressBar"></i></div>
         </div>
@@ -97,8 +95,8 @@
       <div class="panel" id="card">
         <div class="p" id="stage">
           <p style="color:var(--muted); margin:0">
-            Place tes fichiers <b>.json</b> à la <b>racine</b> du dépôt : l’app les charge automatiquement (scan GitHub API).<br/>
-            Règles : juste = <b>+1</b>, erreur = <b>−1</b>.
+            Les banques de questions sont chargées <b>automatiquement</b> depuis la racine du dépôt.
+            Choisis une matière puis clique <b>Démarrer</b>.
           </p>
         </div>
       </div>
@@ -110,32 +108,7 @@
         </div>
       </div>
 
-      <details class="panel">
-        <summary class="p">📊 Statistiques & progression</summary>
-        <div class="p grid-3">
-          <div class="badge">Vues: <b id="stSeen">0</b></div>
-          <div class="badge">Bonnes: <b id="stGood">0</b></div>
-          <div class="badge">Mauvaises: <b id="stBad">0</b></div>
-          <div class="badge">Précision: <b id="stAcc">0%</b></div>
-          <div class="badge">Série actuelle: <b id="stStreak">0</b></div>
-          <div class="badge">À revoir: <b id="stToReview">0</b></div>
-        </div>
-      </details>
-
-      <details class="panel">
-        <summary class="p">ℹ️ Format de la banque (pour import)</summary>
-        <div class="p">
-<pre style="white-space:pre-wrap; font-size:12px; color:var(--muted); margin:0">
-{ "subjects": [ { "name": "Bactériologie", "sections": [
-  { "name": "QCM", "questions": [ {"type":"mcq","prompt":"...", "choices":["A","B"], "answer":0, "explain":"..."} ]},
-  { "name": "Questions/Réponses", "questions": [ {"type":"short","prompt":"...", "answer_text":"...", "explain":"..."} ]},
-  { "name": "IDENTIFICATION IMAGE", "questions": [ {"type":"image-id","prompt":"...", "image":"fichier.jpg","mode":"text","answer_text":"..."} ]},
-  { "name": "ÉTUDES DE CAS", "questions": [ {"type":"short","prompt":"Cas ...","answer_text":"...", "explain":"..."} ]}
-]} ] }
-</pre>
-          <div class="badge">💡 Mets toutes les <b>images</b> (si utilisées) à la <b>racine</b> aussi et référence le <b>nom de fichier</b> uniquement.</div>
-        </div>
-      </details>
+      <!-- Panneau "Format de la banque" supprimé -->
     </div>
   </div>
 
@@ -149,124 +122,87 @@
     </div>
   </div>
 
-  <input id="fileInput" type="file" accept="application/json" hidden />
-
   <script>
   // --- State ---
   const el = (id)=>document.getElementById(id);
   const S = {
     bank: { subjects: [] },
     subjectIndex: -1,
-    mode: 'normal',             // normal | random | weak | exam30 | flash
-    filterType: '',             // '', 'QCM', 'Questions/Réponses', 'IDENTIFICATION IMAGE', 'ÉTUDES DE CAS'
-    queue: [],                  // liste aplatie des questions courantes
+    sectionIndex: 0,
     qIndex: 0,
     score: 0,
     answered: false,
-    reviewSet: new Set(),       // marquées à revoir (manuel)
-    perf: {},                   // perf par question key: {seen, good, bad}
-    streak: 0,
-    timer: {active:false, left:0, t:null}, // examen
+    reviewSet: new Set(),
   };
 
-  // ---- Fallback manuel si pas Github.io ou si API rate ----
-  const DATA_FILES = [
-    './bacteriologie.json',
-    './biochimie_analytique.json'
-    // Ajoute ici d'autres fichiers si besoin (fallback)
+  // --- Chargement auto depuis la racine du dépôt ---
+  // Mets ici la liste de tes fichiers JSON à la racine (GitHub Pages ne permet pas dister le répertoire)
+  const ROOT_FILES = [
+    "bacteriologie_300.json",
+    "biochimie_analytique_300.json",
+    "biochimie_medicale_300.json",
+    "biochimie_structurale_300.json",
+    "chimie_analytique_300.json",
+    "chimie_minerale_300.json",
+    "chimie_organique_300.json",
+    "hematologie_300.json",
+    "hematologie_plus_300.json",
+    "hemogrammes_interpretation_200.json",
+    "immunologie_300.json",
+    "parasito_300.json",
+    "identification_images_all.json"
   ];
 
-  // --- Demo bank (fallback ultime) ---
+  // --- Demo minimal (fallback si aucun JSON trouvé) ---
   const demo = {
-    subjects:[ { name:"Démo", sections:[
-      {name:"QCM", questions:[
-        {type:"mcq", prompt:"Les bacilles Gram négatif parmi les suivants sont :", choices:["Staphylococcus","Escherichia coli","Streptococcus"], answer:1, explain:"E. coli est un bacille Gram négatif."}
-      ]},
-      {name:"Questions/Réponses", questions:[
-        {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
+    subjects:[
+      { name:"Bactériologie", sections:[
+        {name:"QCM", questions:[
+          {type:"mcq", prompt:"Les bacilles Gram négatif parmi les suivants sont :", choices:["Staphylococcus","Escherichia coli","Streptococcus"], answer:1, explain:"E. coli est un bacille Gram négatif."},
+          {type:"mcq", prompt:"La stérilisation élimine :", choices:["Seulement les bactéries","Tous les micro-organismes et spores","Seulement les virus"], answer:1, explain:"Destruction totale y compris spores."}
+        ]},
+        {name:"Questions/Réponses", questions:[
+          {type:"short", prompt:"Définir antisepsie.", answer_text:"Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.", explain:"Antisepsie ≠ désinfection (milieux inertes)."}
+        ]},
+        {name:"IDENTIFICATION IMAGE", questions:[
+          {type:"image-id", prompt:"Identifier la morphologie.", image:"demo_gram.jpg", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
+        ]}
       ]}
-    ] } ]
+    ]
   };
 
-  // ----------- Auto-scan GitHub Contents API -----------
-  async function discoverJsonUrls() {
-    try {
-      const isGh = location.host.endsWith('github.io');
-      if (!isGh) return DATA_FILES;
-
-      // owner = sous-domaine avant .github.io ; repo = 1er segment de path
-      const owner = location.host.split('.github.io')[0];
-      const pathParts = location.pathname.split('/').filter(Boolean);
-      const repo = pathParts[0] || '';
-      if (!owner || !repo) return DATA_FILES;
-
-      const api = `https://api.github.com/repos/${owner}/${repo}/contents/`;
-      const res = await fetch(api, {headers:{'Accept':'application/vnd.github+json'}});
-      if (!res.ok) throw new Error('GitHub API non disponible');
-      const list = await res.json();
-
-      const urls = [];
-      for (const item of list) {
-        if (item.type === 'file' && /\.json$/i.test(item.name)) {
-          // Option : ignorer certains json techniques
-          if (/^package(-lock)?\.json$/i.test(item.name)) continue;
-          // utiliser download_url pour récupérer le brut (CORS OK)
-          urls.push(item.download_url);
-        }
-      }
-      // si rien détecté, on retombe sur DATA_FILES
-      return urls.length ? urls : DATA_FILES;
-    } catch(e) {
-      console.warn('Scan GitHub API échoué, fallback DATA_FILES:', e);
-      return DATA_FILES;
-    }
-  }
-
-  async function loadBankFromFiles() {
+  async function autoLoadRoot(){
     const merged = { subjects: [] };
-    const seenNames = new Set();
-
-    const urls = await discoverJsonUrls();
-    for (const url of urls) {
-      try {
-        const res = await fetch(url + (url.includes('?')?'&':'?') + 'v=' + Date.now()); // anti-cache
-        if (!res.ok) continue;
+    for(const file of ROOT_FILES){
+      try{
+        const res = await fetch(file, {cache:'no-store'});
+        if(!res.ok) continue;
         const json = await res.json();
-        if (Array.isArray(json.subjects)) {
-          for (const subj of json.subjects) {
-            const name = String(subj.name || '').trim();
-            if (name && !seenNames.has(name)) {
-              merged.subjects.push(subj);
-              seenNames.add(name);
-            } else if (name) {
-              // fusion douce si même matière (concat sections)
-              const target = merged.subjects.find(s=>s.name===name);
-              if (target && Array.isArray(subj.sections)) {
-                target.sections = [...(target.sections||[]), ...subj.sections];
-              }
-            }
-          }
+        if(json && Array.isArray(json.subjects)){
+          merged.subjects.push(...json.subjects);
         }
-      } catch(e) {
-        console.warn('Échec chargement', url, e);
-      }
+      }catch(e){ /* ignore */ }
     }
-    return merged.subjects.length ? merged : null;
+    if(merged.subjects.length){
+      S.bank = merged;
+      localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
+    }else{
+      S.bank = demo;
+    }
+    refreshSubjectList();
+    renderIdle();
   }
 
   // --- Init ---
-  async function init(){
-    const repoBank = await loadBankFromFiles();
-    if (repoBank) {
-      S.bank = repoBank;
-      localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
-    } else {
-      const saved = localStorage.getItem('qcm_bank_v1');
-      S.bank = saved ? JSON.parse(saved) : demo;
-    }
+  function init(){
+    // On essaye d'abord de charger depuis localStorage pour un affichage immédiat,
+    // puis on remplace par l'auto-chargement depuis la racine.
+    const saved = localStorage.getItem('qcm_bank_v1');
+    S.bank = saved ? JSON.parse(saved) : demo;
     refreshSubjectList();
     bind();
     renderIdle();
+    autoLoadRoot(); // rafraîchit dès que les JSON sont disponibles
   }
 
   function bind(){
@@ -274,136 +210,63 @@
     el('btnNext').onclick = ()=> nav(1);
     el('btnPrev').onclick = ()=> nav(-1);
     el('btnReset').onclick = reset;
-    el('btnSave').onclick = saveBank;
-    el('btnLoad').onclick = ()=> el('fileInput').click();
-    el('fileInput').onchange = onImport;
     el('btnShowExplain').onclick = toggleExplain;
     el('btnMarkReview').onclick = toggleReview;
-    el('filterType').onchange = (e)=> { S.filterType = e.target.value || ''; };
-    el('modeSelect').onchange = (e)=> { S.mode = e.target.value; el('modeLabel').textContent = S.mode; updateTimerBadge(); };
   }
 
   function refreshSubjectList(){
     const sel = el('subjectSelect'); sel.innerHTML='';
-    S.bank.subjects.forEach((s, i)=>{
+    (S.bank.subjects||[]).forEach((s, i)=>{
       const o=document.createElement('option'); o.value=i; o.textContent=s.name; sel.appendChild(o);
     });
   }
 
   function start(){
     const idx = parseInt(el('subjectSelect').value || '0',10);
-    S.subjectIndex = isNaN(idx) ? 0 : idx;
-    S.score = 0; S.answered=false; S.streak=0; S.qIndex=0;
-    buildQueue();
-    setupExamTimerIfNeeded();
+    S.subjectIndex = isNaN(idx) ? 0 : idx; S.sectionIndex = 0; S.qIndex = 0; S.score = 0; S.answered=false; S.reviewSet.clear();
     render();
   }
 
-  function buildQueue(){
-    const subj = S.bank.subjects[S.subjectIndex]; if(!subj){ S.queue=[]; return; }
-    let flat = subj.sections.flatMap(s=>{
-      if(S.filterType && s.name !== S.filterType) return [];
-      return (s.questions||[]).map(q=>({...q, _section:s.name}));
-    });
-
-    if (S.mode === 'weak'){
-      const weak = flat.filter(q=>{
-        const k = keyFor(q); const p = S.perf[k]||{seen:0,good:0,bad:0};
-        const acc = p.seen ? p.good/p.seen : 1;
-        return (p.seen>=2 && acc<0.6) || S.reviewSet.has(k);
-      });
-      flat = weak.length ? weak : flat;
-    }
-
-    if (S.mode === 'random' || S.mode === 'weak' || S.mode === 'exam30' || S.mode === 'flash'){
-      shuffle(flat);
-    }
-    S.queue = flat;
-    el('qTotal').textContent = S.queue.length;
-    el('modeLabel').textContent = S.mode;
-    updateTimerBadge();
-    updateStatsPanel();
-  }
-
-  function setupExamTimerIfNeeded(){
-    stopTimer();
-    if(S.mode === 'exam30'){
-      S.timer.active = true;
-      S.timer.left = 30*60;
-      S.timer.t = setInterval(()=>{
-        S.timer.left--;
-        if(S.timer.left<=0){ S.timer.left=0; stopTimer(); endSession("⏱ Temps écoulé – examen terminé."); }
-        updateTimerBadge();
-      }, 1000);
-      updateTimerBadge();
-    }
-  }
-
-  function stopTimer(){ if(S.timer.t){ clearInterval(S.timer.t); } S.timer = {active:false,left:0,t:null}; updateTimerBadge(); }
-  function updateTimerBadge(){
-    const b = el('timerBadge');
-    if(S.mode === 'exam30'){
-      const m = Math.floor(S.timer.left/60), s = S.timer.left%60;
-      b.textContent = `⏱ Examen ${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-    } else { b.textContent = 'Sans minuteur'; }
-  }
-
   function getCurrent(){
-    const subj = S.bank.subjects[S.subjectIndex];
-    const q = S.queue[S.qIndex];
-    return {subj, q, total: S.queue.length};
+    const subj = (S.bank.subjects||[])[S.subjectIndex];
+    if(!subj) return {};
+    const flat = subj.sections.flatMap(s=>s.questions.map(q=>({...q, _section:s.name})));
+    const q = flat[S.qIndex];
+    return {subj, q, total: flat.length};
   }
 
   function renderIdle(){
     el('stage').innerHTML = `<div class="p">
       <h2 style="margin:0 0 6px">Bienvenue 👋</h2>
-      <p style="color:var(--muted)">Place tes fichiers <b>.json</b> à la <b>racine</b> du dépôt : l’app les détecte et les fusionne automatiquement (API GitHub).<br/>Choisis la matière, le mode et un filtre si besoin. Réponse juste = <b>+1</b>, erreur = <b>−1</b>.</p>
+      <p style="color:var(--muted)">Les banques sont chargées automatiquement depuis la racine du dépôt. Réponse juste = <b>+1</b>, erreur = <b>-1</b>. Pas de minuteur.</p>
     </div>`;
   }
 
   function render(){
     const {subj, q, total} = getCurrent();
-    if(!subj || !q){ renderIdle(); el('qIndex').textContent='0'; el('qTotal').textContent=total||0; el('progressBar').style.width='0%'; return; }
+    if(!subj){ renderIdle(); return; }
 
-    el('subjectLabel').textContent = subj.name;
-    el('qIndex').textContent = Math.min(S.qIndex+1, total);
-    el('qTotal').textContent = total;
+    el('subjectLabel').textContent = subj.name || '—';
+    el('qIndex').textContent = Math.min(S.qIndex+1, total||0);
+    el('qTotal').textContent = total||0;
     el('score').textContent = S.score;
     el('progressBar').style.width = total? ((S.qIndex)/total*100).toFixed(1)+'%':'0%';
 
+    if(!q){ el('stage').innerHTML = `<div class="p">Aucune question.</div>`; return; }
+
     el('stage').innerHTML = renderQuestion(q);
 
-    const form = el('qForm'); if(form){ form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)}; }
+    // Hook up events
+    const form = el('qForm');
+    if(form){
+      form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)};
+    }
 
-    const r = document.getElementById('btnReveal');
-    const k = document.getElementById('btnKnow');
-    const d = document.getElementById('btnDont');
-    const a = document.getElementById('flashAnswer');
-    if(r) r.onclick = ()=>{ if(a) a.style.display='block'; };
-    if(k) k.onclick = ()=> window.__flashJudge && window.__flashJudge(true);
-    if(d) d.onclick = ()=> window.__flashJudge && window.__flashJudge(false);
-
-    updateExplain(false); updateReviewBadge();
+    updateExplain(false);
+    updateReviewBadge();
   }
 
   function renderQuestion(q){
-    if (S.mode === 'flash'){
-      const media = (q.type==='image-id' && q.image) ? `<div class="imgwrap" style="margin-bottom:10px"><img src="${q.image}" alt="image"/></div>` : '';
-      return `<div class="grid">
-        <div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
-          <div class="badge">Section: ${q._section||''}</div>
-          <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
-        </div>
-        <div class="q-title">${escapeHTML(q.prompt||'')}</div>
-        <hr class="h"/>
-        ${media}
-        <div id="flashAnswer" style="display:none">${renderAnswerBlock(q)}</div>
-        <div class="actions"><button id="btnReveal">Afficher la réponse</button>
-          <button id="btnKnow" class="ghost">Je savais (+1)</button>
-          <button id="btnDont" class="ghost">Je ne savais pas (−1)</button></div>
-      </div>`;
-    }
-
     const common = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
         <div class="badge">Section: ${q._section||''}</div>
         <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
@@ -452,22 +315,7 @@
     return `<div class="p">Type non supporté.</div>`;
   }
 
-  function renderAnswerBlock(q){
-    if(q.type==='mcq'){
-      const ans = q.choices && q.choices[q.answer]!==undefined ? q.choices[q.answer] : '(?)';
-      return `<div class="pill ok">Réponse: ${escapeHTML(ans)}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
-    }
-    if(q.type==='short' || (q.type==='image-id' && q.mode!=='mcq')){
-      return `<div class="pill ok">Réponse: ${escapeHTML(q.answer_text||'(?)')}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
-    }
-    if(q.type==='image-id' && q.mode==='mcq'){
-      const ans = q.choices && q.choices[q.answer]!==undefined ? q.choices[q.answer] : '(?)';
-      return `<div class="pill ok">Réponse: ${escapeHTML(ans)}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
-    }
-    return '';
-  }
-
-  function keyFor(q){ return (q.prompt||'').slice(0,128); }
+  function keyFor(q){ return (q.prompt||'').slice(0,64); }
 
   function submitAnswer(q){
     if(S.answered) return;
@@ -486,99 +334,53 @@
       ok = (v === q.answer);
     }
 
-    judgeAndLock(q, ok);
-  }
-
-  window.__flashJudge = function(ok){
-    const {q} = getCurrent(); if(!q) return;
-    judgeAndLock(q, ok);
-  }
-
-  function judgeAndLock(q, ok){
     S.score += ok ? 1 : -1; el('score').textContent = S.score;
-    S.streak = ok ? (S.streak+1) : 0;
     const fb = el('feedback');
-    if(fb) fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
+    fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
 
-    const k = keyFor(q);
-    if(!S.perf[k]) S.perf[k] = {seen:0,good:0,bad:0};
-    S.perf[k].seen++; ok ? S.perf[k].good++ : S.perf[k].bad++;
-    updateStatsPanel();
-
-    const form = el('qForm'); if(form){ form.querySelectorAll('input, button').forEach(x=> x.disabled = true); }
+    // Lock inputs
+    const form = el('qForm'); if(form){
+      form.querySelectorAll('input, button').forEach(x=> x.disabled = true);
+    }
   }
 
   function nav(dir){
     const {total} = getCurrent();
-    if(!total){ return; }
-    S.qIndex += dir;
-    if(S.qIndex < 0) S.qIndex = 0;
-    if(S.qIndex >= total){
-      endSession("🎉 Tu as parcouru toutes les questions de cette file.");
-      S.qIndex = total-1;
-      return;
-    }
+    S.qIndex = Math.max(0, Math.min((total||1)-1, S.qIndex + dir));
     S.answered = false;
     render();
   }
 
-  function endSession(msg){
-    const good = totalGood(), bad = totalBad(), seen = good+bad;
-    const acc = seen? Math.round(good/seen*100):0;
-    el('stage').innerHTML = `<div class="p">
-      <h3 style="margin:4px 0 8px">Session terminée</h3>
-      <p class="pill ok">Score: ${S.score}</p>
-      <p class="badge">Vues: ${seen} • Bonnes: ${good} • Mauvaises: ${bad} • Précision: ${acc}%</p>
-      <p style="color:var(--muted)">${escapeHTML(msg||'')}</p>
-    </div>`;
-    stopTimer();
-  }
+  function reset(){ S.qIndex=0; S.score=0; S.answered=false; render(); }
 
-  function reset(){ stopTimer(); S.qIndex=0; S.score=0; S.answered=false; S.streak=0; render(); }
-  function toggleExplain(){ const d = document.getElementById('explain'); if(d) d.open = !d.open; }
+  function toggleExplain(){
+    const d = document.getElementById('explain');
+    if(d) d.open = !d.open;
+  }
 
   function toggleReview(){
     const cur = getCurrent().q; if(!cur) return;
     const k = keyFor(cur);
     if(S.reviewSet.has(k)) S.reviewSet.delete(k); else S.reviewSet.add(k);
-    updateReviewBadge(); updateStatsPanel();
+    updateReviewBadge();
   }
   function updateReviewBadge(){
     const cur = getCurrent().q; if(!cur) return;
-    const badge = document.querySelector('.badge.ok, .badge.ghost'); if(!badge) return;
-    const k = keyFor(cur); badge.className = 'badge ' + (S.reviewSet.has(k)?'ok':'ghost');
+    const badge = document.querySelector('.badge.ok, .badge.ghost');
+    if(!badge) return;
+    const k = keyFor(cur);
+    badge.className = 'badge ' + (S.reviewSet.has(k)?'ok':'ghost');
   }
 
-  function saveBank(){
-    const blob = new Blob([JSON.stringify(S.bank,null,2)],{type:'application/json'});
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'banque_questions.json'; a.click();
-  }
-
-  async function onImport(ev){
-    const file = ev.target.files[0]; if(!file) return;
-    try{
-      const text = await file.text();
-      const json = JSON.parse(text);
-      if(!json.subjects) throw new Error('Format invalide: clé "subjects" manquante');
-      S.bank = json; localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
-      refreshSubjectList(); buildQueue(); renderIdle();
-    }catch(e){ alert('Erreur d\'import: '+ e.message); }
-    finally { ev.target.value = ''; }
-  }
-
-  function totalSeen(){ return Object.values(S.perf).reduce((a,p)=>a+p.seen,0); }
-  function totalGood(){ return Object.values(S.perf).reduce((a,p)=>a+p.good,0); }
-  function totalBad(){ return Object.values(S.perf).reduce((a,p)=>a+p.bad,0); }
-  function updateStatsPanel(){
-    const seen = totalSeen(), good = totalGood(), bad = totalBad();
-    const acc = seen? Math.round(good/seen*100):0;
-    el('stSeen').textContent = seen; el('stGood').textContent = good; el('stBad').textContent = bad;
-    el('stAcc').textContent = acc + '%'; el('stStreak').textContent = S.streak; el('stToReview').textContent = S.reviewSet.size;
-  }
-
+  // utils
   function escapeHTML(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
-  function normalize(s){ return (s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/[^a-z0-9]+/g,''); }
-  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+  function normalize(s){
+    return (s||'')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu,'')
+      .replace(/[^a-z0-9]+/g,'')
+  }
 
   init();
   </script>
