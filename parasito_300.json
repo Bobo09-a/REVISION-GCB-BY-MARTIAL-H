@@ -1,0 +1,3265 @@
+{
+  "subjects": [
+    {
+      "name": "Parasitologie",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "Un examen parasitologique des selles négatif isolé (unique) signifie :",
+              "choices": [
+                "qu’il exclut formellement toute parasitose",
+                "qu’il n’élimine pas la parasitose (répéter les examens)",
+                "qu’il faut traiter d’emblée",
+                "qu’il faut faire une PCR systématique"
+              ],
+              "answer": 1,
+              "explain": "La négativité isolée n’a pas de valeur d’élimination ; répéter selon l’excrétion intermittente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à :",
+              "choices": [
+                "concentrer les kystes de protozoaires",
+                "réaliser une coproculture",
+                "colorer les trophozoïtes",
+                "identifier les œufs d’helminthes par flottation ZnSO4"
+              ],
+              "answer": 0,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Kato permet surtout :",
+              "choices": [
+                "la visualisation des trophozoïtes mobiles",
+                "la mise en évidence des œufs d’helminthes",
+                "la recherche de microfilaires",
+                "l’identification des kystes par fluorescence"
+              ],
+              "answer": 1,
+              "explain": "Préparation épaisse éclaircie, recherche des œufs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Graham (scotch test) recherche :",
+              "choices": [
+                "les kystes de Giardia",
+                "les oocystes de coccidies",
+                "les trophozoïtes d’amibes",
+                "des œufs d’oxyures au niveau anal"
+              ],
+              "answer": 3,
+              "explain": "À réaliser le matin avant toute toilette."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coloration au Lugol en coprologie est utile pour :",
+              "choices": [
+                "différencier Plasmodium falciparum/vivax",
+                "colorer les acido-alcoolo-résistants",
+                "détecter l’antigène HBs",
+                "le diagnostic différentiel des amibes (mise en évidence des noyaux)"
+              ],
+              "answer": 3,
+              "explain": "Iodine — détails nucléaires des amibes/kystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité).",
+              "choices": [
+                "Giardia intestinalis (kyste)",
+                "Balantidium coli (kyste)",
+                "Entamoeba coli (kyste à 8 noyaux)",
+                "Entamoeba histolytica (kyste à 4 noyaux)"
+              ],
+              "answer": 3,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_tropho_hematies.png",
+              "prompt": "Le trophozoïte mobile avec hématies phagocytées évoque :",
+              "choices": [
+                "Entamoeba histolytica (forme histolytica)",
+                "Entamoeba coli (saprophyte)",
+                "Trichomonas intestinalis",
+                "Giardia intestinalis"
+              ],
+              "answer": 0,
+              "explain": "Hématophagie pathognomonique de E. histolytica forme histolytica."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_kyste.png",
+              "prompt": "Kyste ovale à 4 noyaux, paroi lisse, pinceau flagellaire en S :",
+              "choices": [
+                "Chilomastix mesnili",
+                "Blastocystis spp.",
+                "Giardia intestinalis (kyste)",
+                "Entamoeba coli"
+              ],
+              "answer": 2,
+              "explain": "Giardia : kyste ovale, 4 noyaux ; trophozoïte « cerf-volant » à 8 flagelles."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles :",
+              "choices": [
+                "Balantidium coli",
+                "Giardia intestinalis (trophozoïte)",
+                "Trichomonas vaginalis",
+                "Entamoeba histolytica"
+              ],
+              "answer": 1,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichomonas_vaginalis.png",
+              "prompt": "Cellule en forme de goutte d’eau, 4 flagelles antérieurs, membrane ondulante ; prélèvement urogénital :",
+              "choices": [
+                "Trichomonas vaginalis (trophozoïte)",
+                "Leishmania promastigote",
+                "Giardia intestinalis",
+                "Trypanosoma brucei"
+              ],
+              "answer": 0,
+              "explain": "IST ; trophozoïte unique, pas de kyste chez T. vaginalis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez Entamoeba histolytica, la forme kystique mature comporte :",
+              "choices": [
+                "1 noyau",
+                "4 noyaux",
+                "8 noyaux",
+                "2 noyaux"
+              ],
+              "answer": 1,
+              "explain": "Différencier d’E. coli (kyste à 8 noyaux)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La présence d’hématies phagocytées est typique de :",
+              "choices": [
+                "E. histolytica forma minuta",
+                "Giardia intestinalis",
+                "E. coli",
+                "E. histolytica forme histolytica"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir cytolytique pathogène de la forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le réservoir de Giardia intestinalis est surtout :",
+              "choices": [
+                "les mollusques aquatiques",
+                "les bovins exclusivement",
+                "l’homme (parasitoses cosmopolites)",
+                "les moustiques"
+              ],
+              "answer": 2,
+              "explain": "Transmission oro-fécale, kystes mûrs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ascaris_oeuf.png",
+              "prompt": "Œuf ovoïde à double coque (externe brune mamelonnée), non embryonné à la ponte :",
+              "choices": [
+                "Ascaris lumbricoides (œuf)",
+                "Trichuris trichiura (œuf citron)",
+                "Taenia spp. (embryophore)",
+                "Enterobius vermicularis (œuf asymétrique)"
+              ],
+              "answer": 0,
+              "explain": "Ascaris : double coque, externe brune, mamelonnée ; interne lisse jaunâtre."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte :",
+              "choices": [
+                "Enterobius vermicularis (œuf)",
+                "Hymenolepis nana",
+                "Ascaris lumbricoides",
+                "Trichuris trichiura"
+              ],
+              "answer": 0,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichuris_oeuf.png",
+              "prompt": "Œuf en « citron » avec bouchons muqueux polaires :",
+              "choices": [
+                "Trichuris trichiura (œuf)",
+                "Schistosoma haematobium",
+                "Enterobius vermicularis",
+                "Fasciola hepatica"
+              ],
+              "answer": 0,
+              "explain": "Double coque ; bouchons polaires proéminents."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte :",
+              "choices": [
+                "Schistosoma mansoni",
+                "Clonorchis sinensis",
+                "Taenia saginata",
+                "Fasciola hepatica (douve du foie)"
+              ],
+              "answer": 3,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale :",
+              "choices": [
+                "Schistosoma mansoni (éperon latéral)",
+                "Enterobius vermicularis",
+                "Schistosoma haematobium (œuf)",
+                "Ascaris lumbricoides"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_saginata.png",
+              "prompt": "Proglottis larges, utérus à ramifications nombreuses fines ; scolex inerme (4 ventouses) :",
+              "choices": [
+                "Diphyllobothrium latum",
+                "Hymenolepis nana",
+                "Taenia solium (armé)",
+                "Taenia saginata (ténia inerme)"
+              ],
+              "answer": 3,
+              "explain": "Saginata : scolex sans crochets ; solium : scolex armé."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_solium.png",
+              "prompt": "Scolex armé avec rostre à crochets ; proglottis gravides :",
+              "choices": [
+                "Taenia saginata",
+                "Taenia solium (ténia armé)",
+                "Diphyllobothrium latum",
+                "Hymenolepis nana"
+              ],
+              "answer": 1,
+              "explain": "Solium = armé ; risque cysticercose si ingestion d’œufs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "hymenolepis_nana_oeuf.png",
+              "prompt": "Œuf petit (~40 µm) avec filaments polaires (chitinoïdes) :",
+              "choices": [
+                "Trichuris trichiura",
+                "Ascaris lumbricoides",
+                "Taenia spp.",
+                "Hymenolepis nana (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Chitinoïdes bipolaires ; cestode nain."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le scotch test est indiqué en priorité pour :",
+              "choices": [
+                "Taenia saginata",
+                "Ascaris lumbricoides",
+                "Fasciola hepatica",
+                "Enterobius vermicularis"
+              ],
+              "answer": 3,
+              "explain": "Collecte des œufs à la marge anale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par :",
+              "choices": [
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "piqûre de moustique",
+                "contact cutané",
+                "ingestion d’œufs dans l’eau"
+              ],
+              "answer": 0,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_rhabditoide.png",
+              "prompt": "Larve rhabditoïde : double renflement œsophagien ; queue arrondie :",
+              "choices": [
+                "Larve strongyloïde de Strongyloides stercoralis (queue tronquée bifide)",
+                "Microfilaire de Wuchereria bancrofti",
+                "Larve rhabditoïde d’ankylostome (Ancylostoma/Necator) – non infestante",
+                "Larve strongyloïde (infestante) d’ankylostome"
+              ],
+              "answer": 2,
+              "explain": "Rhabditoïde (double renflement), queue arrondie ; non infestante."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde : un seul renflement œsophagien ; queue effilée :",
+              "choices": [
+                "Larve rhabditoïde d’ankylostome",
+                "Microfilaire de Brugia malayi",
+                "Larve strongyloïde de Strongyloides (queue tronquée bifide)",
+                "Larve strongyloïde d’ankylostome – infestante"
+              ],
+              "answer": 3,
+              "explain": "Forme infestante transcutanée (ankylostomes)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide :",
+              "choices": [
+                "Larve rhabditoïde d’ankylostome",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Microfilaire"
+              ],
+              "answer": 2,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie de contamination des ankylostomes est surtout :",
+              "choices": [
+                "vectorielle glossine",
+                "orale (œufs embryonnés)",
+                "transcutanée (larve strongyloïde)",
+                "transplacentaire"
+              ],
+              "answer": 2,
+              "explain": "Pénétration cutanée ; larva migrans cutanée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Baermann est utilisée pour :",
+              "choices": [
+                "dosage des IgE",
+                "mettre en évidence les œufs d’Ascaris",
+                "coproculture d’ankylostome uniquement",
+                "rechercher des larves de Strongyloides"
+              ],
+              "answer": 3,
+              "explain": "Extraction des larves par migration dans l’eau tiède."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent :",
+              "choices": [
+                "Clonorchis sinensis",
+                "Schistosoma mansoni (œuf)",
+                "Schistosoma haematobium (éperon terminal)",
+                "Fasciola hepatica (operculé)"
+              ],
+              "answer": 1,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné :",
+              "choices": [
+                "Clonorchis sinensis (douve de Chine)",
+                "Enterobius vermicularis",
+                "Taenia solium",
+                "Fasciola hepatica"
+              ],
+              "answer": 0,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes :",
+              "choices": [
+                "mollusques d’eau douce",
+                "moustiques",
+                "tiques",
+                "bovins uniquement"
+              ],
+              "answer": 0,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Forme infestante des schistosomes pour l’homme :",
+              "choices": [
+                "métacercaire",
+                "sporocyste",
+                "miracidium",
+                "cercaire (queue bifide)"
+              ],
+              "answer": 3,
+              "explain": "Pénétration transcutanée en eau douce."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_falciparum_gametocyte.png",
+              "prompt": "Gamétocyte falciparum en faucille (banane) :",
+              "choices": [
+                "Plasmodium malariae",
+                "Plasmodium vivax",
+                "Plasmodium ovale",
+                "Plasmodium falciparum (gamétocyte)"
+              ],
+              "answer": 3,
+              "explain": "Morphologie en banane (croissant)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_vivax_schuffner.png",
+              "prompt": "Hématie élargie avec granulations de Schüffner :",
+              "choices": [
+                "P. malariae",
+                "P. ovale",
+                "Plasmodium vivax",
+                "P. falciparum"
+              ],
+              "answer": 2,
+              "explain": "Vivax : jeunes hématies (« grosses ») + granulations."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain :",
+              "choices": [
+                "moustique Anopheles (femelle)",
+                "Aedes",
+                "Culex uniquement",
+                "Glossina (tsé-tsé)"
+              ],
+              "answer": 0,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Technique de dépistage rapide du paludisme :",
+              "choices": [
+                "Western blot",
+                "PCR strictement",
+                "Hémoculture",
+                "TDR (immunochromatographie antigénique)"
+              ],
+              "answer": 3,
+              "explain": "Complète goutte épaisse/frottis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii :",
+              "choices": [
+                "l’homme",
+                "le bovin",
+                "le chat (félidés)",
+                "le moustique"
+              ],
+              "answer": 2,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Microfilaires observées en goutte épaisse nocturne : évoque surtout :",
+              "choices": [
+                "ankylostomose",
+                "filariose lymphatique (Wuchereria bancrofti/Brugia malayi)",
+                "paludisme",
+                "onchocercose (cutanée)"
+              ],
+              "answer": 1,
+              "explain": "Périodicité nocturne classique (selon espèce)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine :",
+              "choices": [
+                "Anopheles",
+                "Simulie",
+                "Aedes",
+                "Glossina (mouche tsé-tsé)"
+              ],
+              "answer": 3,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Clonorchis sinensis (douve de Chine)",
+                "Taenia solium",
+                "Fasciola hepatica"
+              ],
+              "answer": 1,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica (douve du foie)",
+                "Schistosoma mansoni",
+                "Clonorchis sinensis",
+                "Taenia saginata"
+              ],
+              "answer": 0,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Kato permet surtout : (variante)",
+              "choices": [
+                "la visualisation des trophozoïtes mobiles",
+                "la recherche de microfilaires",
+                "l’identification des kystes par fluorescence",
+                "la mise en évidence des œufs d’helminthes"
+              ],
+              "answer": 3,
+              "explain": "Préparation épaisse éclaircie, recherche des œufs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Taenia saginata",
+                "Fasciola hepatica (douve du foie)",
+                "Schistosoma mansoni",
+                "Clonorchis sinensis"
+              ],
+              "answer": 1,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez Entamoeba histolytica, la forme kystique mature comporte : (variante)",
+              "choices": [
+                "1 noyau",
+                "4 noyaux",
+                "2 noyaux",
+                "8 noyaux"
+              ],
+              "answer": 1,
+              "explain": "Différencier d’E. coli (kyste à 8 noyaux)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Hymenolepis nana",
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis (œuf)",
+                "Trichuris trichiura"
+              ],
+              "answer": 2,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Glossina (mouche tsé-tsé)",
+                "Aedes",
+                "Anopheles",
+                "Simulie"
+              ],
+              "answer": 0,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Schistosoma mansoni (éperon latéral)",
+                "Schistosoma haematobium (œuf)",
+                "Enterobius vermicularis"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un examen parasitologique des selles négatif isolé (unique) signifie : (variante)",
+              "choices": [
+                "qu’il exclut formellement toute parasitose",
+                "qu’il faut traiter d’emblée",
+                "qu’il n’élimine pas la parasitose (répéter les examens)",
+                "qu’il faut faire une PCR systématique"
+              ],
+              "answer": 2,
+              "explain": "La négativité isolée n’a pas de valeur d’élimination ; répéter selon l’excrétion intermittente."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité). (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica (kyste à 4 noyaux)",
+                "Balantidium coli (kyste)",
+                "Giardia intestinalis (kyste)",
+                "Entamoeba coli (kyste à 8 noyaux)"
+              ],
+              "answer": 0,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Simulie",
+                "Anopheles",
+                "Aedes",
+                "Glossina (mouche tsé-tsé)"
+              ],
+              "answer": 3,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un examen parasitologique des selles négatif isolé (unique) signifie : (variante)",
+              "choices": [
+                "qu’il exclut formellement toute parasitose",
+                "qu’il faut traiter d’emblée",
+                "qu’il faut faire une PCR systématique",
+                "qu’il n’élimine pas la parasitose (répéter les examens)"
+              ],
+              "answer": 3,
+              "explain": "La négativité isolée n’a pas de valeur d’élimination ; répéter selon l’excrétion intermittente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes : (variante)",
+              "choices": [
+                "tiques",
+                "mollusques d’eau douce",
+                "moustiques",
+                "bovins uniquement"
+              ],
+              "answer": 1,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_falciparum_gametocyte.png",
+              "prompt": "Gamétocyte falciparum en faucille (banane) : (autre cliché)",
+              "choices": [
+                "Plasmodium vivax",
+                "Plasmodium falciparum (gamétocyte)",
+                "Plasmodium malariae",
+                "Plasmodium ovale"
+              ],
+              "answer": 1,
+              "explain": "Morphologie en banane (croissant)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le réservoir de Giardia intestinalis est surtout : (variante)",
+              "choices": [
+                "l’homme (parasitoses cosmopolites)",
+                "les bovins exclusivement",
+                "les mollusques aquatiques",
+                "les moustiques"
+              ],
+              "answer": 0,
+              "explain": "Transmission oro-fécale, kystes mûrs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie de contamination des ankylostomes est surtout : (variante)",
+              "choices": [
+                "orale (œufs embryonnés)",
+                "vectorielle glossine",
+                "transplacentaire",
+                "transcutanée (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Pénétration cutanée ; larva migrans cutanée."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Microfilaire",
+                "Cercaire de schistosome",
+                "Larve rhabditoïde d’ankylostome",
+                "Strongyloides stercoralis (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le scotch test est indiqué en priorité pour : (variante)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Taenia saginata",
+                "Fasciola hepatica",
+                "Enterobius vermicularis"
+              ],
+              "answer": 3,
+              "explain": "Collecte des œufs à la marge anale."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Schistosoma mansoni (éperon latéral)",
+                "Schistosoma haematobium (œuf)",
+                "Ascaris lumbricoides"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes : (variante)",
+              "choices": [
+                "bovins uniquement",
+                "mollusques d’eau douce",
+                "moustiques",
+                "tiques"
+              ],
+              "answer": 1,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichuris_oeuf.png",
+              "prompt": "Œuf en « citron » avec bouchons muqueux polaires : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Schistosoma haematobium",
+                "Fasciola hepatica",
+                "Trichuris trichiura (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Double coque ; bouchons polaires proéminents."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Simulie",
+                "Aedes",
+                "Glossina (mouche tsé-tsé)",
+                "Anopheles"
+              ],
+              "answer": 2,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Graham (scotch test) recherche : (variante)",
+              "choices": [
+                "des œufs d’oxyures au niveau anal",
+                "les trophozoïtes d’amibes",
+                "les kystes de Giardia",
+                "les oocystes de coccidies"
+              ],
+              "answer": 0,
+              "explain": "À réaliser le matin avant toute toilette."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Kato permet surtout : (variante)",
+              "choices": [
+                "la visualisation des trophozoïtes mobiles",
+                "la mise en évidence des œufs d’helminthes",
+                "l’identification des kystes par fluorescence",
+                "la recherche de microfilaires"
+              ],
+              "answer": 1,
+              "explain": "Préparation épaisse éclaircie, recherche des œufs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_solium.png",
+              "prompt": "Scolex armé avec rostre à crochets ; proglottis gravides : (autre cliché)",
+              "choices": [
+                "Diphyllobothrium latum",
+                "Hymenolepis nana",
+                "Taenia solium (ténia armé)",
+                "Taenia saginata"
+              ],
+              "answer": 2,
+              "explain": "Solium = armé ; risque cysticercose si ingestion d’œufs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica (operculé)",
+                "Schistosoma mansoni (œuf)",
+                "Schistosoma haematobium (éperon terminal)",
+                "Clonorchis sinensis"
+              ],
+              "answer": 1,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Trichuris trichiura",
+                "Hymenolepis nana",
+                "Enterobius vermicularis (œuf)",
+                "Ascaris lumbricoides"
+              ],
+              "answer": 2,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_rhabditoide.png",
+              "prompt": "Larve rhabditoïde : double renflement œsophagien ; queue arrondie : (autre cliché)",
+              "choices": [
+                "Larve rhabditoïde d’ankylostome (Ancylostoma/Necator) – non infestante",
+                "Microfilaire de Wuchereria bancrofti",
+                "Larve strongyloïde (infestante) d’ankylostome",
+                "Larve strongyloïde de Strongyloides stercoralis (queue tronquée bifide)"
+              ],
+              "answer": 0,
+              "explain": "Rhabditoïde (double renflement), queue arrondie ; non infestante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le réservoir de Giardia intestinalis est surtout : (variante)",
+              "choices": [
+                "les bovins exclusivement",
+                "les mollusques aquatiques",
+                "les moustiques",
+                "l’homme (parasitoses cosmopolites)"
+              ],
+              "answer": 3,
+              "explain": "Transmission oro-fécale, kystes mûrs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Technique de dépistage rapide du paludisme : (variante)",
+              "choices": [
+                "PCR strictement",
+                "Western blot",
+                "TDR (immunochromatographie antigénique)",
+                "Hémoculture"
+              ],
+              "answer": 2,
+              "explain": "Complète goutte épaisse/frottis."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Balantidium coli",
+                "Entamoeba histolytica",
+                "Giardia intestinalis (trophozoïte)",
+                "Trichomonas vaginalis"
+              ],
+              "answer": 2,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Technique de dépistage rapide du paludisme : (variante)",
+              "choices": [
+                "Hémoculture",
+                "PCR strictement",
+                "TDR (immunochromatographie antigénique)",
+                "Western blot"
+              ],
+              "answer": 2,
+              "explain": "Complète goutte épaisse/frottis."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Schistosoma haematobium (œuf)",
+                "Enterobius vermicularis",
+                "Schistosoma mansoni (éperon latéral)",
+                "Ascaris lumbricoides"
+              ],
+              "answer": 0,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "réaliser une coproculture",
+                "concentrer les kystes de protozoaires",
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "colorer les trophozoïtes"
+              ],
+              "answer": 1,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "le bovin",
+                "l’homme",
+                "le moustique",
+                "le chat (félidés)"
+              ],
+              "answer": 3,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_solium.png",
+              "prompt": "Scolex armé avec rostre à crochets ; proglottis gravides : (autre cliché)",
+              "choices": [
+                "Diphyllobothrium latum",
+                "Taenia saginata",
+                "Hymenolepis nana",
+                "Taenia solium (ténia armé)"
+              ],
+              "answer": 3,
+              "explain": "Solium = armé ; risque cysticercose si ingestion d’œufs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "ingestion d’œufs dans l’eau",
+                "contact cutané",
+                "piqûre de moustique"
+              ],
+              "answer": 0,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_vivax_schuffner.png",
+              "prompt": "Hématie élargie avec granulations de Schüffner : (autre cliché)",
+              "choices": [
+                "P. falciparum",
+                "Plasmodium vivax",
+                "P. malariae",
+                "P. ovale"
+              ],
+              "answer": 1,
+              "explain": "Vivax : jeunes hématies (« grosses ») + granulations."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "contact cutané",
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "ingestion d’œufs dans l’eau",
+                "piqûre de moustique"
+              ],
+              "answer": 1,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Larve rhabditoïde d’ankylostome",
+                "Microfilaire",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le scotch test est indiqué en priorité pour : (variante)",
+              "choices": [
+                "Fasciola hepatica",
+                "Ascaris lumbricoides",
+                "Taenia saginata",
+                "Enterobius vermicularis"
+              ],
+              "answer": 3,
+              "explain": "Collecte des œufs à la marge anale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "contact cutané",
+                "ingestion d’œufs dans l’eau",
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "piqûre de moustique"
+              ],
+              "answer": 2,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichuris_oeuf.png",
+              "prompt": "Œuf en « citron » avec bouchons muqueux polaires : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica",
+                "Trichuris trichiura (œuf)",
+                "Enterobius vermicularis",
+                "Schistosoma haematobium"
+              ],
+              "answer": 1,
+              "explain": "Double coque ; bouchons polaires proéminents."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde : un seul renflement œsophagien ; queue effilée : (autre cliché)",
+              "choices": [
+                "Microfilaire de Brugia malayi",
+                "Larve strongyloïde d’ankylostome – infestante",
+                "Larve strongyloïde de Strongyloides (queue tronquée bifide)",
+                "Larve rhabditoïde d’ankylostome"
+              ],
+              "answer": 1,
+              "explain": "Forme infestante transcutanée (ankylostomes)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_solium.png",
+              "prompt": "Scolex armé avec rostre à crochets ; proglottis gravides : (autre cliché)",
+              "choices": [
+                "Diphyllobothrium latum",
+                "Taenia saginata",
+                "Hymenolepis nana",
+                "Taenia solium (ténia armé)"
+              ],
+              "answer": 3,
+              "explain": "Solium = armé ; risque cysticercose si ingestion d’œufs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Ascaris lumbricoides",
+                "Schistosoma haematobium (œuf)",
+                "Schistosoma mansoni (éperon latéral)"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coloration au Lugol en coprologie est utile pour : (variante)",
+              "choices": [
+                "détecter l’antigène HBs",
+                "le diagnostic différentiel des amibes (mise en évidence des noyaux)",
+                "colorer les acido-alcoolo-résistants",
+                "différencier Plasmodium falciparum/vivax"
+              ],
+              "answer": 1,
+              "explain": "Iodine — détails nucléaires des amibes/kystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_tropho_hematies.png",
+              "prompt": "Le trophozoïte mobile avec hématies phagocytées évoque : (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica (forme histolytica)",
+                "Entamoeba coli (saprophyte)",
+                "Trichomonas intestinalis",
+                "Giardia intestinalis"
+              ],
+              "answer": 0,
+              "explain": "Hématophagie pathognomonique de E. histolytica forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "l’homme",
+                "le chat (félidés)",
+                "le moustique",
+                "le bovin"
+              ],
+              "answer": 1,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_falciparum_gametocyte.png",
+              "prompt": "Gamétocyte falciparum en faucille (banane) : (autre cliché)",
+              "choices": [
+                "Plasmodium malariae",
+                "Plasmodium ovale",
+                "Plasmodium vivax",
+                "Plasmodium falciparum (gamétocyte)"
+              ],
+              "answer": 3,
+              "explain": "Morphologie en banane (croissant)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "réaliser une coproculture",
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "concentrer les kystes de protozoaires",
+                "colorer les trophozoïtes"
+              ],
+              "answer": 2,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La présence d’hématies phagocytées est typique de : (variante)",
+              "choices": [
+                "E. histolytica forme histolytica",
+                "E. histolytica forma minuta",
+                "Giardia intestinalis",
+                "E. coli"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir cytolytique pathogène de la forme histolytica."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_kyste.png",
+              "prompt": "Kyste ovale à 4 noyaux, paroi lisse, pinceau flagellaire en S : (autre cliché)",
+              "choices": [
+                "Entamoeba coli",
+                "Chilomastix mesnili",
+                "Blastocystis spp.",
+                "Giardia intestinalis (kyste)"
+              ],
+              "answer": 3,
+              "explain": "Giardia : kyste ovale, 4 noyaux ; trophozoïte « cerf-volant » à 8 flagelles."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité). (autre cliché)",
+              "choices": [
+                "Giardia intestinalis (kyste)",
+                "Entamoeba coli (kyste à 8 noyaux)",
+                "Entamoeba histolytica (kyste à 4 noyaux)",
+                "Balantidium coli (kyste)"
+              ],
+              "answer": 2,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis (œuf)",
+                "Hymenolepis nana",
+                "Trichuris trichiura"
+              ],
+              "answer": 1,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un examen parasitologique des selles négatif isolé (unique) signifie : (variante)",
+              "choices": [
+                "qu’il exclut formellement toute parasitose",
+                "qu’il n’élimine pas la parasitose (répéter les examens)",
+                "qu’il faut traiter d’emblée",
+                "qu’il faut faire une PCR systématique"
+              ],
+              "answer": 1,
+              "explain": "La négativité isolée n’a pas de valeur d’élimination ; répéter selon l’excrétion intermittente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "moustique Anopheles (femelle)",
+                "Glossina (tsé-tsé)",
+                "Aedes",
+                "Culex uniquement"
+              ],
+              "answer": 0,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Forme infestante des schistosomes pour l’homme : (variante)",
+              "choices": [
+                "sporocyste",
+                "cercaire (queue bifide)",
+                "métacercaire",
+                "miracidium"
+              ],
+              "answer": 1,
+              "explain": "Pénétration transcutanée en eau douce."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_saginata.png",
+              "prompt": "Proglottis larges, utérus à ramifications nombreuses fines ; scolex inerme (4 ventouses) : (autre cliché)",
+              "choices": [
+                "Taenia saginata (ténia inerme)",
+                "Diphyllobothrium latum",
+                "Taenia solium (armé)",
+                "Hymenolepis nana"
+              ],
+              "answer": 0,
+              "explain": "Saginata : scolex sans crochets ; solium : scolex armé."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Taenia saginata",
+                "Fasciola hepatica (douve du foie)",
+                "Schistosoma mansoni",
+                "Clonorchis sinensis"
+              ],
+              "answer": 1,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "le bovin",
+                "l’homme",
+                "le moustique",
+                "le chat (félidés)"
+              ],
+              "answer": 3,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Clonorchis sinensis",
+                "Fasciola hepatica (operculé)",
+                "Schistosoma haematobium (éperon terminal)",
+                "Schistosoma mansoni (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes : (variante)",
+              "choices": [
+                "tiques",
+                "bovins uniquement",
+                "moustiques",
+                "mollusques d’eau douce"
+              ],
+              "answer": 3,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_vivax_schuffner.png",
+              "prompt": "Hématie élargie avec granulations de Schüffner : (autre cliché)",
+              "choices": [
+                "Plasmodium vivax",
+                "P. falciparum",
+                "P. ovale",
+                "P. malariae"
+              ],
+              "answer": 0,
+              "explain": "Vivax : jeunes hématies (« grosses ») + granulations."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le scotch test est indiqué en priorité pour : (variante)",
+              "choices": [
+                "Taenia saginata",
+                "Fasciola hepatica",
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis"
+              ],
+              "answer": 3,
+              "explain": "Collecte des œufs à la marge anale."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Trichomonas vaginalis",
+                "Giardia intestinalis (trophozoïte)",
+                "Balantidium coli",
+                "Entamoeba histolytica"
+              ],
+              "answer": 1,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni (éperon latéral)",
+                "Enterobius vermicularis",
+                "Ascaris lumbricoides",
+                "Schistosoma haematobium (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "le moustique",
+                "l’homme",
+                "le chat (félidés)",
+                "le bovin"
+              ],
+              "answer": 2,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "contact cutané",
+                "piqûre de moustique",
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "ingestion d’œufs dans l’eau"
+              ],
+              "answer": 2,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Microfilaire",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Larve rhabditoïde d’ankylostome"
+              ],
+              "answer": 2,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Glossina (mouche tsé-tsé)",
+                "Simulie",
+                "Aedes",
+                "Anopheles"
+              ],
+              "answer": 0,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_tropho_hematies.png",
+              "prompt": "Le trophozoïte mobile avec hématies phagocytées évoque : (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica (forme histolytica)",
+                "Trichomonas intestinalis",
+                "Giardia intestinalis",
+                "Entamoeba coli (saprophyte)"
+              ],
+              "answer": 0,
+              "explain": "Hématophagie pathognomonique de E. histolytica forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Technique de dépistage rapide du paludisme : (variante)",
+              "choices": [
+                "TDR (immunochromatographie antigénique)",
+                "Hémoculture",
+                "PCR strictement",
+                "Western blot"
+              ],
+              "answer": 0,
+              "explain": "Complète goutte épaisse/frottis."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Taenia saginata",
+                "Fasciola hepatica (douve du foie)",
+                "Schistosoma mansoni",
+                "Clonorchis sinensis"
+              ],
+              "answer": 1,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Trichomonas vaginalis",
+                "Balantidium coli",
+                "Giardia intestinalis (trophozoïte)",
+                "Entamoeba histolytica"
+              ],
+              "answer": 2,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez Entamoeba histolytica, la forme kystique mature comporte : (variante)",
+              "choices": [
+                "1 noyau",
+                "2 noyaux",
+                "8 noyaux",
+                "4 noyaux"
+              ],
+              "answer": 3,
+              "explain": "Différencier d’E. coli (kyste à 8 noyaux)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné : (autre cliché)",
+              "choices": [
+                "Clonorchis sinensis (douve de Chine)",
+                "Taenia solium",
+                "Fasciola hepatica",
+                "Enterobius vermicularis"
+              ],
+              "answer": 0,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica (operculé)",
+                "Clonorchis sinensis",
+                "Schistosoma haematobium (éperon terminal)",
+                "Schistosoma mansoni (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Hymenolepis nana",
+                "Trichuris trichiura",
+                "Enterobius vermicularis (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Graham (scotch test) recherche : (variante)",
+              "choices": [
+                "des œufs d’oxyures au niveau anal",
+                "les oocystes de coccidies",
+                "les kystes de Giardia",
+                "les trophozoïtes d’amibes"
+              ],
+              "answer": 0,
+              "explain": "À réaliser le matin avant toute toilette."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichomonas_vaginalis.png",
+              "prompt": "Cellule en forme de goutte d’eau, 4 flagelles antérieurs, membrane ondulante ; prélèvement urogénital : (autre cliché)",
+              "choices": [
+                "Leishmania promastigote",
+                "Trichomonas vaginalis (trophozoïte)",
+                "Giardia intestinalis",
+                "Trypanosoma brucei"
+              ],
+              "answer": 1,
+              "explain": "IST ; trophozoïte unique, pas de kyste chez T. vaginalis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie de contamination des ankylostomes est surtout : (variante)",
+              "choices": [
+                "transcutanée (larve strongyloïde)",
+                "transplacentaire",
+                "vectorielle glossine",
+                "orale (œufs embryonnés)"
+              ],
+              "answer": 0,
+              "explain": "Pénétration cutanée ; larva migrans cutanée."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité). (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica (kyste à 4 noyaux)",
+                "Balantidium coli (kyste)",
+                "Giardia intestinalis (kyste)",
+                "Entamoeba coli (kyste à 8 noyaux)"
+              ],
+              "answer": 0,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Microfilaires observées en goutte épaisse nocturne : évoque surtout : (variante)",
+              "choices": [
+                "onchocercose (cutanée)",
+                "paludisme",
+                "ankylostomose",
+                "filariose lymphatique (Wuchereria bancrofti/Brugia malayi)"
+              ],
+              "answer": 3,
+              "explain": "Périodicité nocturne classique (selon espèce)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes : (variante)",
+              "choices": [
+                "mollusques d’eau douce",
+                "moustiques",
+                "tiques",
+                "bovins uniquement"
+              ],
+              "answer": 0,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le test de Graham (scotch test) recherche : (variante)",
+              "choices": [
+                "les trophozoïtes d’amibes",
+                "des œufs d’oxyures au niveau anal",
+                "les oocystes de coccidies",
+                "les kystes de Giardia"
+              ],
+              "answer": 1,
+              "explain": "À réaliser le matin avant toute toilette."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica",
+                "Balantidium coli",
+                "Giardia intestinalis (trophozoïte)",
+                "Trichomonas vaginalis"
+              ],
+              "answer": 2,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_saginata.png",
+              "prompt": "Proglottis larges, utérus à ramifications nombreuses fines ; scolex inerme (4 ventouses) : (autre cliché)",
+              "choices": [
+                "Diphyllobothrium latum",
+                "Taenia saginata (ténia inerme)",
+                "Taenia solium (armé)",
+                "Hymenolepis nana"
+              ],
+              "answer": 1,
+              "explain": "Saginata : scolex sans crochets ; solium : scolex armé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Kato permet surtout : (variante)",
+              "choices": [
+                "la mise en évidence des œufs d’helminthes",
+                "la visualisation des trophozoïtes mobiles",
+                "l’identification des kystes par fluorescence",
+                "la recherche de microfilaires"
+              ],
+              "answer": 0,
+              "explain": "Préparation épaisse éclaircie, recherche des œufs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "réaliser une coproculture",
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "colorer les trophozoïtes",
+                "concentrer les kystes de protozoaires"
+              ],
+              "answer": 3,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "le bovin",
+                "le moustique",
+                "l’homme",
+                "le chat (félidés)"
+              ],
+              "answer": 3,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis",
+                "Schistosoma haematobium (œuf)",
+                "Schistosoma mansoni (éperon latéral)"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie de contamination des ankylostomes est surtout : (variante)",
+              "choices": [
+                "orale (œufs embryonnés)",
+                "transcutanée (larve strongyloïde)",
+                "vectorielle glossine",
+                "transplacentaire"
+              ],
+              "answer": 1,
+              "explain": "Pénétration cutanée ; larva migrans cutanée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "moustique Anopheles (femelle)",
+                "Culex uniquement",
+                "Aedes",
+                "Glossina (tsé-tsé)"
+              ],
+              "answer": 0,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "ingestion d’œufs dans l’eau",
+                "contact cutané",
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "piqûre de moustique"
+              ],
+              "answer": 2,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_tropho_hematies.png",
+              "prompt": "Le trophozoïte mobile avec hématies phagocytées évoque : (autre cliché)",
+              "choices": [
+                "Entamoeba coli (saprophyte)",
+                "Entamoeba histolytica (forme histolytica)",
+                "Trichomonas intestinalis",
+                "Giardia intestinalis"
+              ],
+              "answer": 1,
+              "explain": "Hématophagie pathognomonique de E. histolytica forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Simulie",
+                "Anopheles",
+                "Glossina (mouche tsé-tsé)",
+                "Aedes"
+              ],
+              "answer": 2,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "moustique Anopheles (femelle)",
+                "Culex uniquement",
+                "Aedes",
+                "Glossina (tsé-tsé)"
+              ],
+              "answer": 0,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_vivax_schuffner.png",
+              "prompt": "Hématie élargie avec granulations de Schüffner : (autre cliché)",
+              "choices": [
+                "P. ovale",
+                "P. falciparum",
+                "Plasmodium vivax",
+                "P. malariae"
+              ],
+              "answer": 2,
+              "explain": "Vivax : jeunes hématies (« grosses ») + granulations."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Cercaire de schistosome",
+                "Microfilaire",
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Larve rhabditoïde d’ankylostome"
+              ],
+              "answer": 2,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Giardia intestinalis (trophozoïte)",
+                "Entamoeba histolytica",
+                "Trichomonas vaginalis",
+                "Balantidium coli"
+              ],
+              "answer": 0,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Microfilaire",
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Larve rhabditoïde d’ankylostome",
+                "Cercaire de schistosome"
+              ],
+              "answer": 1,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_rhabditoide.png",
+              "prompt": "Larve rhabditoïde : double renflement œsophagien ; queue arrondie : (autre cliché)",
+              "choices": [
+                "Larve strongyloïde de Strongyloides stercoralis (queue tronquée bifide)",
+                "Microfilaire de Wuchereria bancrofti",
+                "Larve strongyloïde (infestante) d’ankylostome",
+                "Larve rhabditoïde d’ankylostome (Ancylostoma/Necator) – non infestante"
+              ],
+              "answer": 3,
+              "explain": "Rhabditoïde (double renflement), queue arrondie ; non infestante."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Clonorchis sinensis",
+                "Fasciola hepatica (operculé)",
+                "Schistosoma mansoni (œuf)",
+                "Schistosoma haematobium (éperon terminal)"
+              ],
+              "answer": 2,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Technique de dépistage rapide du paludisme : (variante)",
+              "choices": [
+                "PCR strictement",
+                "Western blot",
+                "Hémoculture",
+                "TDR (immunochromatographie antigénique)"
+              ],
+              "answer": 3,
+              "explain": "Complète goutte épaisse/frottis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le réservoir de Giardia intestinalis est surtout : (variante)",
+              "choices": [
+                "les moustiques",
+                "les mollusques aquatiques",
+                "les bovins exclusivement",
+                "l’homme (parasitoses cosmopolites)"
+              ],
+              "answer": 3,
+              "explain": "Transmission oro-fécale, kystes mûrs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Glossina (mouche tsé-tsé)",
+                "Anopheles",
+                "Aedes",
+                "Simulie"
+              ],
+              "answer": 0,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichuris_oeuf.png",
+              "prompt": "Œuf en « citron » avec bouchons muqueux polaires : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica",
+                "Schistosoma haematobium",
+                "Trichuris trichiura (œuf)",
+                "Enterobius vermicularis"
+              ],
+              "answer": 2,
+              "explain": "Double coque ; bouchons polaires proéminents."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_tropho.png",
+              "prompt": "Trophozoïte symétrique en « cerf-volant », 2 noyaux antérieurs, 8 flagelles : (autre cliché)",
+              "choices": [
+                "Giardia intestinalis (trophozoïte)",
+                "Trichomonas vaginalis",
+                "Balantidium coli",
+                "Entamoeba histolytica"
+              ],
+              "answer": 0,
+              "explain": "Morphologie typique de Giardia."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni",
+                "Taenia saginata",
+                "Fasciola hepatica (douve du foie)",
+                "Clonorchis sinensis"
+              ],
+              "answer": 2,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "ingestion d’œufs dans l’eau",
+                "piqûre de moustique",
+                "contact cutané",
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)"
+              ],
+              "answer": 3,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "taenia_solium.png",
+              "prompt": "Scolex armé avec rostre à crochets ; proglottis gravides : (autre cliché)",
+              "choices": [
+                "Taenia solium (ténia armé)",
+                "Taenia saginata",
+                "Diphyllobothrium latum",
+                "Hymenolepis nana"
+              ],
+              "answer": 0,
+              "explain": "Solium = armé ; risque cysticercose si ingestion d’œufs."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La présence d’hématies phagocytées est typique de : (variante)",
+              "choices": [
+                "E. coli",
+                "E. histolytica forme histolytica",
+                "E. histolytica forma minuta",
+                "Giardia intestinalis"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir cytolytique pathogène de la forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "colorer les trophozoïtes",
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "réaliser une coproculture",
+                "concentrer les kystes de protozoaires"
+              ],
+              "answer": 3,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte définitif de Toxoplasma gondii : (variante)",
+              "choices": [
+                "le chat (félidés)",
+                "le bovin",
+                "le moustique",
+                "l’homme"
+              ],
+              "answer": 0,
+              "explain": "Cycle sexué chez le félin ; bradyzoïtes/oocystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichuris_oeuf.png",
+              "prompt": "Œuf en « citron » avec bouchons muqueux polaires : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Fasciola hepatica",
+                "Trichuris trichiura (œuf)",
+                "Schistosoma haematobium"
+              ],
+              "answer": 2,
+              "explain": "Double coque ; bouchons polaires proéminents."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "hymenolepis_nana_oeuf.png",
+              "prompt": "Œuf petit (~40 µm) avec filaments polaires (chitinoïdes) : (autre cliché)",
+              "choices": [
+                "Ascaris lumbricoides",
+                "Hymenolepis nana (œuf)",
+                "Taenia spp.",
+                "Trichuris trichiura"
+              ],
+              "answer": 1,
+              "explain": "Chitinoïdes bipolaires ; cestode nain."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni (œuf)",
+                "Fasciola hepatica (operculé)",
+                "Schistosoma haematobium (éperon terminal)",
+                "Clonorchis sinensis"
+              ],
+              "answer": 0,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "concentrer les kystes de protozoaires",
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "colorer les trophozoïtes",
+                "réaliser une coproculture"
+              ],
+              "answer": 0,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "oxyure_oeuf.png",
+              "prompt": "Œuf asymétrique, une face presque plane, embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Trichuris trichiura",
+                "Hymenolepis nana",
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Œuf d’oxyure typique ; scotch test (Graham)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni",
+                "Taenia saginata",
+                "Clonorchis sinensis",
+                "Fasciola hepatica (douve du foie)"
+              ],
+              "answer": 3,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité). (autre cliché)",
+              "choices": [
+                "Entamoeba histolytica (kyste à 4 noyaux)",
+                "Entamoeba coli (kyste à 8 noyaux)",
+                "Balantidium coli (kyste)",
+                "Giardia intestinalis (kyste)"
+              ],
+              "answer": 0,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné : (autre cliché)",
+              "choices": [
+                "Fasciola hepatica",
+                "Taenia solium",
+                "Enterobius vermicularis",
+                "Clonorchis sinensis (douve de Chine)"
+              ],
+              "answer": 3,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "plasmodium_falciparum_gametocyte.png",
+              "prompt": "Gamétocyte falciparum en faucille (banane) : (autre cliché)",
+              "choices": [
+                "Plasmodium vivax",
+                "Plasmodium malariae",
+                "Plasmodium falciparum (gamétocyte)",
+                "Plasmodium ovale"
+              ],
+              "answer": 2,
+              "explain": "Morphologie en banane (croissant)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Simulie",
+                "Anopheles",
+                "Aedes",
+                "Glossina (mouche tsé-tsé)"
+              ],
+              "answer": 3,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde : un seul renflement œsophagien ; queue effilée : (autre cliché)",
+              "choices": [
+                "Larve strongyloïde d’ankylostome – infestante",
+                "Microfilaire de Brugia malayi",
+                "Larve rhabditoïde d’ankylostome",
+                "Larve strongyloïde de Strongyloides (queue tronquée bifide)"
+              ],
+              "answer": 0,
+              "explain": "Forme infestante transcutanée (ankylostomes)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Fasciola hepatica",
+                "Clonorchis sinensis (douve de Chine)",
+                "Taenia solium"
+              ],
+              "answer": 2,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "moustique Anopheles (femelle)",
+                "Glossina (tsé-tsé)",
+                "Aedes",
+                "Culex uniquement"
+              ],
+              "answer": 0,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Microfilaire",
+                "Larve rhabditoïde d’ankylostome",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coloration au Lugol en coprologie est utile pour : (variante)",
+              "choices": [
+                "différencier Plasmodium falciparum/vivax",
+                "colorer les acido-alcoolo-résistants",
+                "le diagnostic différentiel des amibes (mise en évidence des noyaux)",
+                "détecter l’antigène HBs"
+              ],
+              "answer": 2,
+              "explain": "Iodine — détails nucléaires des amibes/kystes."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_haematobium_oeuf.png",
+              "prompt": "Œuf avec éperon terminal (spicule) ; hématurie terminale : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni (éperon latéral)",
+                "Ascaris lumbricoides",
+                "Enterobius vermicularis",
+                "Schistosoma haematobium (œuf)"
+              ],
+              "answer": 3,
+              "explain": "Bilharziose urogénitale ; œuf à éperon terminal."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "clonorchis_oeuf.png",
+              "prompt": "Œuf operculé, couleur jaunâtre, non embryonné : (autre cliché)",
+              "choices": [
+                "Enterobius vermicularis",
+                "Taenia solium",
+                "Fasciola hepatica",
+                "Clonorchis sinensis (douve de Chine)"
+              ],
+              "answer": 3,
+              "explain": "Distome hépatobiliaire ; hôtes intermédiaires mollusque/poisson."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "schisto_mansoni_oeuf.png",
+              "prompt": "Œuf à éperon latéral proéminent : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni (œuf)",
+                "Clonorchis sinensis",
+                "Fasciola hepatica (operculé)",
+                "Schistosoma haematobium (éperon terminal)"
+              ],
+              "answer": 0,
+              "explain": "Bilharziose intestinale : spicule latéral."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coloration au Lugol en coprologie est utile pour : (variante)",
+              "choices": [
+                "colorer les acido-alcoolo-résistants",
+                "détecter l’antigène HBs",
+                "différencier Plasmodium falciparum/vivax",
+                "le diagnostic différentiel des amibes (mise en évidence des noyaux)"
+              ],
+              "answer": 3,
+              "explain": "Iodine — détails nucléaires des amibes/kystes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "contact cutané",
+                "piqûre de moustique",
+                "ingestion d’œufs dans l’eau"
+              ],
+              "answer": 0,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_kyste.png",
+              "prompt": "Identifier le parasite à partir du kyste (dimensions ~10–14 µm, 4 noyaux à maturité). (autre cliché)",
+              "choices": [
+                "Balantidium coli (kyste)",
+                "Entamoeba coli (kyste à 8 noyaux)",
+                "Entamoeba histolytica (kyste à 4 noyaux)",
+                "Giardia intestinalis (kyste)"
+              ],
+              "answer": 2,
+              "explain": "E. histolytica : kyste sphérique 10–14 µm, 4 noyaux à maturité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "réaliser une coproculture",
+                "concentrer les kystes de protozoaires",
+                "colorer les trophozoïtes",
+                "identifier les œufs d’helminthes par flottation ZnSO4"
+              ],
+              "answer": 1,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "Glossina (tsé-tsé)",
+                "moustique Anopheles (femelle)",
+                "Aedes",
+                "Culex uniquement"
+              ],
+              "answer": 1,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le réservoir de Giardia intestinalis est surtout : (variante)",
+              "choices": [
+                "les moustiques",
+                "l’homme (parasitoses cosmopolites)",
+                "les bovins exclusivement",
+                "les mollusques aquatiques"
+              ],
+              "answer": 1,
+              "explain": "Transmission oro-fécale, kystes mûrs."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "entamoeba_tropho_hematies.png",
+              "prompt": "Le trophozoïte mobile avec hématies phagocytées évoque : (autre cliché)",
+              "choices": [
+                "Entamoeba coli (saprophyte)",
+                "Trichomonas intestinalis",
+                "Giardia intestinalis",
+                "Entamoeba histolytica (forme histolytica)"
+              ],
+              "answer": 3,
+              "explain": "Hématophagie pathognomonique de E. histolytica forme histolytica."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_kyste.png",
+              "prompt": "Kyste ovale à 4 noyaux, paroi lisse, pinceau flagellaire en S : (autre cliché)",
+              "choices": [
+                "Chilomastix mesnili",
+                "Entamoeba coli",
+                "Blastocystis spp.",
+                "Giardia intestinalis (kyste)"
+              ],
+              "answer": 3,
+              "explain": "Giardia : kyste ovale, 4 noyaux ; trophozoïte « cerf-volant » à 8 flagelles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La présence d’hématies phagocytées est typique de : (variante)",
+              "choices": [
+                "E. histolytica forma minuta",
+                "E. coli",
+                "Giardia intestinalis",
+                "E. histolytica forme histolytica"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir cytolytique pathogène de la forme histolytica."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Forme infestante des schistosomes pour l’homme : (variante)",
+              "choices": [
+                "sporocyste",
+                "métacercaire",
+                "cercaire (queue bifide)",
+                "miracidium"
+              ],
+              "answer": 2,
+              "explain": "Pénétration transcutanée en eau douce."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "hymenolepis_nana_oeuf.png",
+              "prompt": "Œuf petit (~40 µm) avec filaments polaires (chitinoïdes) : (autre cliché)",
+              "choices": [
+                "Hymenolepis nana (œuf)",
+                "Ascaris lumbricoides",
+                "Taenia spp.",
+                "Trichuris trichiura"
+              ],
+              "answer": 0,
+              "explain": "Chitinoïdes bipolaires ; cestode nain."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "fasciola_oeuf.png",
+              "prompt": "Œuf operculé, jaunâtre, non embryonné à la ponte : (autre cliché)",
+              "choices": [
+                "Schistosoma mansoni",
+                "Taenia saginata",
+                "Clonorchis sinensis",
+                "Fasciola hepatica (douve du foie)"
+              ],
+              "answer": 3,
+              "explain": "Distomatoses : œuf operculé ; cycle indirect via mollusques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur du paludisme humain : (variante)",
+              "choices": [
+                "Glossina (tsé-tsé)",
+                "Aedes",
+                "Culex uniquement",
+                "moustique Anopheles (femelle)"
+              ],
+              "answer": 3,
+              "explain": "Transmission par sporozoïtes salivaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hôte intermédiaire indispensable des distomes : (variante)",
+              "choices": [
+                "tiques",
+                "mollusques d’eau douce",
+                "bovins uniquement",
+                "moustiques"
+              ],
+              "answer": 1,
+              "explain": "Cycle indirect via mollusques (puis parfois second hôte)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La voie de contamination des ankylostomes est surtout : (variante)",
+              "choices": [
+                "orale (œufs embryonnés)",
+                "transplacentaire",
+                "vectorielle glossine",
+                "transcutanée (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Pénétration cutanée ; larva migrans cutanée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vecteur de la trypanosomiase humaine africaine : (variante)",
+              "choices": [
+                "Anopheles",
+                "Glossina (mouche tsé-tsé)",
+                "Aedes",
+                "Simulie"
+              ],
+              "answer": 1,
+              "explain": "Trypanosoma brucei gambiense/rhodesiense."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Microfilaire",
+                "Larve rhabditoïde d’ankylostome",
+                "Cercaire de schistosome"
+              ],
+              "answer": 0,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "concentrer les kystes de protozoaires",
+                "colorer les trophozoïtes",
+                "réaliser une coproculture",
+                "identifier les œufs d’helminthes par flottation ZnSO4"
+              ],
+              "answer": 0,
+              "explain": "Technique de concentration formol-éther."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La technique de Baermann est utilisée pour : (variante)",
+              "choices": [
+                "coproculture d’ankylostome uniquement",
+                "dosage des IgE",
+                "rechercher des larves de Strongyloides",
+                "mettre en évidence les œufs d’Ascaris"
+              ],
+              "answer": 2,
+              "explain": "Extraction des larves par migration dans l’eau tiède."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "trichomonas_vaginalis.png",
+              "prompt": "Cellule en forme de goutte d’eau, 4 flagelles antérieurs, membrane ondulante ; prélèvement urogénital : (autre cliché)",
+              "choices": [
+                "Trichomonas vaginalis (trophozoïte)",
+                "Giardia intestinalis",
+                "Leishmania promastigote",
+                "Trypanosoma brucei"
+              ],
+              "answer": 0,
+              "explain": "IST ; trophozoïte unique, pas de kyste chez T. vaginalis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La contamination par Taenia saginata se fait par : (variante)",
+              "choices": [
+                "ingestion de viande bovine crue/insuffisamment cuite (cysticerques)",
+                "ingestion d’œufs dans l’eau",
+                "piqûre de moustique",
+                "contact cutané"
+              ],
+              "answer": 0,
+              "explain": "Hôte intermédiaire : bovin."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Microfilaire",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)",
+                "Larve rhabditoïde d’ankylostome"
+              ],
+              "answer": 2,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_rhabditoide.png",
+              "prompt": "Larve rhabditoïde : double renflement œsophagien ; queue arrondie : (autre cliché)",
+              "choices": [
+                "Microfilaire de Wuchereria bancrofti",
+                "Larve strongyloïde (infestante) d’ankylostome",
+                "Larve rhabditoïde d’ankylostome (Ancylostoma/Necator) – non infestante",
+                "Larve strongyloïde de Strongyloides stercoralis (queue tronquée bifide)"
+              ],
+              "answer": 2,
+              "explain": "Rhabditoïde (double renflement), queue arrondie ; non infestante."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "ankylostome_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde : un seul renflement œsophagien ; queue effilée : (autre cliché)",
+              "choices": [
+                "Larve strongyloïde d’ankylostome – infestante",
+                "Larve strongyloïde de Strongyloides (queue tronquée bifide)",
+                "Larve rhabditoïde d’ankylostome",
+                "Microfilaire de Brugia malayi"
+              ],
+              "answer": 0,
+              "explain": "Forme infestante transcutanée (ankylostomes)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chez Entamoeba histolytica, la forme kystique mature comporte : (variante)",
+              "choices": [
+                "2 noyaux",
+                "4 noyaux",
+                "1 noyau",
+                "8 noyaux"
+              ],
+              "answer": 1,
+              "explain": "Différencier d’E. coli (kyste à 8 noyaux)."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "strongyloides_larve_strongyloide.png",
+              "prompt": "Larve strongyloïde de Strongyloides stercoralis : queue tronquée/bifide : (autre cliché)",
+              "choices": [
+                "Larve rhabditoïde d’ankylostome",
+                "Microfilaire",
+                "Cercaire de schistosome",
+                "Strongyloides stercoralis (larve strongyloïde)"
+              ],
+              "answer": 3,
+              "explain": "Queue tronquée bifide typique."
+            },
+            {
+              "type": "image-id",
+              "mode": "mcq",
+              "image": "giardia_kyste.png",
+              "prompt": "Kyste ovale à 4 noyaux, paroi lisse, pinceau flagellaire en S : (autre cliché)",
+              "choices": [
+                "Entamoeba coli",
+                "Blastocystis spp.",
+                "Chilomastix mesnili",
+                "Giardia intestinalis (kyste)"
+              ],
+              "answer": 3,
+              "explain": "Giardia : kyste ovale, 4 noyaux ; trophozoïte « cerf-volant » à 8 flagelles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le plasma de Ritchie (formol–éther) sert principalement à : (variante)",
+              "choices": [
+                "identifier les œufs d’helminthes par flottation ZnSO4",
+                "réaliser une coproculture",
+                "colorer les trophozoïtes",
+                "concentrer les kystes de protozoaires"
+              ],
+              "answer": 3,
+              "explain": "Technique de concentration formol-éther."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir miracidium et métacercaire.",
+              "answer_text": "Miracidium : larve ciliée sortant de l’œuf ; Métacercaire : forme enkystée infestante.",
+              "explain": "Distomes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Technique rapide de paludisme au lit du malade.",
+              "answer_text": "TDR antigénique.",
+              "explain": "Complément de la GE/FS."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux caractères différentiels : E. histolytica vs E. coli (kystes).",
+              "answer_text": "E. histolytica : 4 noyaux ; E. coli : 8 noyaux.",
+              "explain": "Taille et chromatine différentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Forme infestante des ankylostomes pour l’homme.",
+              "answer_text": "Larve strongyloïde transcutanée.",
+              "explain": "Dermite de pénétration, larva migrans."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux indications de la technique de Ritchie.",
+              "answer_text": "Concentration des kystes de protozoaires ; améliore la sensibilité en faible excrétion.",
+              "explain": "Formol–éther."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cycle direct vs indirect.",
+              "answer_text": "Direct : un seul hôte (ex. Ascaris) ; Indirect : ≥2 hôtes (ex. Fasciola).",
+              "explain": "Conséquences épidémio et prévention."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Prurit anal nocturne — Enfant d’âge scolaire, démangeaisons nocturnes ; scotch test +\n\nDiagnostic probable ?",
+              "answer_text": "Oxyurose (Enterobius vermicularis).",
+              "explain": "Œufs asymétriques embryonnés ; traitement + hygiène."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Douleurs HCD après consommation de cresson — Fièvre, éosinophilie, coprologie : œufs operculés\n\nDiagnostic probable ?",
+              "answer_text": "Distomatose hépatobiliaire (Fasciola hepatica).",
+              "explain": "Œufs operculés ; cycle via mollusques/végétaux aquatiques."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Segments de ténia dans le linge — Prurit anal, proglottis larges ramifiés ; viande bovine crue\n\nDiagnostic ?",
+              "answer_text": "Téniasis à Taenia saginata.",
+              "explain": "Scolex inerme, proglottis à nombreuses ramifications fines."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Hématurie terminale — Contact eau douce ; examen urines : œufs à éperon terminal\n\nParasite en cause ?",
+              "answer_text": "Schistosoma haematobium.",
+              "explain": "Bilharziose urogénitale ; spicule terminal."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Diarrhées grasses — Ballonnements, malabsorption ; kystes ovales à 4 noyaux\n\nDiagnostic ?",
+              "answer_text": "Giardiose.",
+              "explain": "Kystes de Giardia ; trophozoïte cerf-volant."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #6 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #7 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #8 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #9 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #10 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #11 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #12 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #13 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #14 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #15 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #16 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #17 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #18 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #19 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #20 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #21 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #22 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #23 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #24 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #25 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #26 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #27 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #28 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #29 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas parasitologie #30 — Vignette courte (coprologie, exposition, clinique)\n\nQuel diagnostic/mécanisme est le plus probable ?",
+              "answer_text": "Raisonner par morphologie de l’élément retrouvé et le contexte.",
+              "explain": "Technique adaptée (Ritchie/Kato/Baermann/GE-FS) + prévention."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T19:09:41.915070Z",
+    "images_in_qcm": [
+      "ankylostome_larve_rhabditoide.png",
+      "ankylostome_larve_strongyloide.png",
+      "ascaris_oeuf.png",
+      "clonorchis_oeuf.png",
+      "entamoeba_kyste.png",
+      "entamoeba_tropho_hematies.png",
+      "fasciola_oeuf.png",
+      "giardia_kyste.png",
+      "giardia_tropho.png",
+      "hymenolepis_nana_oeuf.png",
+      "oxyure_oeuf.png",
+      "plasmodium_falciparum_gametocyte.png",
+      "plasmodium_vivax_schuffner.png",
+      "schisto_haematobium_oeuf.png",
+      "schisto_mansoni_oeuf.png",
+      "strongyloides_larve_strongyloide.png",
+      "taenia_saginata.png",
+      "taenia_solium.png",
+      "trichomonas_vaginalis.png",
+      "trichuris_oeuf.png"
+    ],
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
