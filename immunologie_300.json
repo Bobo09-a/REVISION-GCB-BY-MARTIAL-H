@@ -1,0 +1,3037 @@
+{
+  "subjects": [
+    {
+      "name": "Immunologie",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "L’immunité innée se caractérise par :",
+              "choices": [
+                "une mémoire durable spécifique",
+                "l’hypermutation somatique",
+                "une réponse rapide non spécifique",
+                "la recombinaison V(D)J"
+              ],
+              "answer": 2,
+              "explain": "Barrières, phagocytes, NK, complément."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La mémoire immunitaire est une propriété de :",
+              "choices": [
+                "l’immunité innée",
+                "l’immunité adaptative",
+                "la fièvre",
+                "la tolérance centrale uniquement"
+              ],
+              "answer": 1,
+              "explain": "Réponse plus rapide et intense 2ᵉ contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Parmi les cellules suivantes, laquelle relève de l’innée ?",
+              "choices": [
+                "neutrophile",
+                "lymphocyte B mémoire",
+                "lymphocyte T CD4",
+                "plasmocyte"
+              ],
+              "answer": 0,
+              "explain": "Phagocyte de 1ʳᵉ ligne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les récepteurs PRR (ex: TLR) reconnaissent :",
+              "choices": [
+                "des cytokines IL-2/IL-4",
+                "des motifs PAMP/DAMP conservés",
+                "des épitopes uniques recombinés",
+                "des CMH auto"
+              ],
+              "answer": 1,
+              "explain": "Détection large des pathogènes/dommages."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD4 est un marqueur de :",
+              "choices": [
+                "lymphocytes T auxiliaires (Th)",
+                "plasmocytes",
+                "neutrophiles",
+                "T cytotoxiques"
+              ],
+              "answer": 0,
+              "explain": "Co-récepteur TCR pour CMH II."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de :",
+              "choices": [
+                "T auxiliaires",
+                "éosinophiles",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "lymphocytes T cytotoxiques"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules NK reconnaissent :",
+              "choices": [
+                "les IgG via BCR",
+                "les CMH II sur CPA",
+                "les lipopolysaccharides via TCR",
+                "des cellules avec CMH I diminué"
+              ],
+              "answer": 3,
+              "explain": "Surveillance du soi altéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les plasmocytes sont :",
+              "choices": [
+                "des neutrophiles immatures",
+                "des lymphocytes B différenciés sécréteurs d’anticorps",
+                "des cellules dendritiques",
+                "des monocytes activés"
+              ],
+              "answer": 1,
+              "explain": "Production d’Ig."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules dendritiques sont efficaces pour :",
+              "choices": [
+                "présenter l’antigène aux lymphocytes T naïfs",
+                "synthétiser le complément",
+                "produire la fibrine",
+                "phagocyter l’hémoglobine"
+              ],
+              "answer": 0,
+              "explain": "CPA professionnelles."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig la plus abondante du sérum est :",
+              "choices": [
+                "IgA",
+                "IgE",
+                "IgG",
+                "IgM"
+              ],
+              "answer": 2,
+              "explain": "Longue demi-vie, traverse placenta."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La 1ʳᵉ Ig produite lors d’une réponse primaire :",
+              "choices": [
+                "IgM",
+                "IgA",
+                "IgG",
+                "IgE"
+              ],
+              "answer": 0,
+              "explain": "Pentamérique, forte avidité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses :",
+              "choices": [
+                "IgG",
+                "IgM",
+                "IgA",
+                "IgE"
+              ],
+              "answer": 2,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig impliquée dans l’allergie immédiate :",
+              "choices": [
+                "IgE",
+                "IgG4",
+                "IgA2",
+                "IgM"
+              ],
+              "answer": 0,
+              "explain": "Fixe les basophiles/mastocytes (FcεRI)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La région Fab d’un anticorps est responsable de :",
+              "choices": [
+                "la transcytose placentaire",
+                "la fixation aux récepteurs Fc",
+                "la liaison à l’antigène",
+                "l’activation du complément"
+              ],
+              "answer": 2,
+              "explain": "Variabilité V(D)J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le changement de classe (isotype switching) dépend :",
+              "choices": [
+                "de TLR uniquement",
+                "de signaux CD40–CD40L + cytokines",
+                "de la somatisation aléatoire",
+                "de la recombinaison V(D)J"
+              ],
+              "answer": 1,
+              "explain": "AID, IL-4/IFN-γ/TGF-β selon isotype."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH I présente des peptides :",
+              "choices": [
+                "bactériens via TCR B",
+                "endogènes (intracellulaires) aux T CD8",
+                "exogènes aux T CD4",
+                "lipidiques aux NKT via CD1d"
+              ],
+              "answer": 1,
+              "explain": "Chargement RE via TAP, β2m."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH II présente des peptides :",
+              "choices": [
+                "endogènes aux T CD8",
+                "rien, c’est un récepteur BCR",
+                "exogènes aux T CD4",
+                "lipidiques aux TCR γδ"
+              ],
+              "answer": 2,
+              "explain": "Chargement via compartiment endosomal (CLIP/HLA-DM)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La β2-microglobuline est associée :",
+              "choices": [
+                "au BCR",
+                "à CD4",
+                "au CMH II",
+                "au CMH I"
+              ],
+              "answer": 3,
+              "explain": "Sous-unité invariante du CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La co-stimulation T classique implique :",
+              "choices": [
+                "CD40 (T)–CD40L (CPA)",
+                "TLR4–LPS sur lymphocyte T",
+                "FcγR–IgG",
+                "CD28 (T)–B7 (CD80/86) sur CPA"
+              ],
+              "answer": 3,
+              "explain": "Signal 2 indispensable à l’activation T complète."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Absence de co-stimulation lors de la présentation antigénique :",
+              "choices": [
+                "déclenche une mémoire forte",
+                "induit l’anergie T",
+                "provoque une hypersensibilité I",
+                "active le complément"
+              ],
+              "answer": 1,
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-2 est principalement :",
+              "choices": [
+                "une cytokine de prolifération T",
+                "un facteur de croissance B",
+                "un chimiokine neutrophile",
+                "un inhibiteur des NK"
+              ],
+              "answer": 0,
+              "explain": "Autocrine T activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IFN-γ est typique de la réponse :",
+              "choices": [
+                "Th2",
+                "Th17",
+                "Th1",
+                "Tfh"
+              ],
+              "answer": 2,
+              "explain": "Active macrophages, favorise IgG opsonisantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-4 favorise :",
+              "choices": [
+                "réponse Th17",
+                "réponse Th2 et commutation IgE/IgG4",
+                "réponse Treg",
+                "réponse Th1"
+              ],
+              "answer": 1,
+              "explain": "Allergie/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-17 est associée à :",
+              "choices": [
+                "réponse Th17 (neutrophiles, inflammation)",
+                "Th2",
+                "NK uniquement",
+                "Tfh"
+              ],
+              "answer": 0,
+              "explain": "Impliquée dans auto-immunité/infection extracellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "TGF-β et IL-10 sont globalement :",
+              "choices": [
+                "immunorégulatrices (Treg)",
+                "pro-allergiques",
+                "pyrétogènes",
+                "strictement chimiotactiques"
+              ],
+              "answer": 0,
+              "explain": "Tolérance/contrôle de l’inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les voies du complément comprennent :",
+              "choices": [
+                "intrinsèque, extrinsèque",
+                "voie JAK/STAT",
+                "voie NF-κB",
+                "classique, alterne, lectines"
+              ],
+              "answer": 3,
+              "explain": "Toutes convergent vers C3 convertase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cascade aboutit à :",
+              "choices": [
+                "IL-1β",
+                "MAC (C5b-9) lyse membranaire",
+                "TNF-α",
+                "IgE libre"
+              ],
+              "answer": 1,
+              "explain": "Lyse, opsonisation, chimioattraction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "C3b a pour fonction majeure :",
+              "choices": [
+                "pyrogénèse",
+                "dégranulation basophile",
+                "opsonisation",
+                "activation TCR"
+              ],
+              "answer": 2,
+              "explain": "Favorise phagocytose via CR1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à :",
+              "choices": [
+                "des allergies IgE médiées",
+                "des maladies auto-immunes (ex: lupus)",
+                "des lymphomes B",
+                "des anémies ferriprives"
+              ],
+              "answer": 1,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hypersensibilité de type I :",
+              "choices": [
+                "cellulaire retardée",
+                "complexes immuns",
+                "immédiate, IgE médiée (mastocytes)",
+                "IgG/IgM cytotoxique"
+              ],
+              "answer": 2,
+              "explain": "Allergies, anaphylaxie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type II est :",
+              "choices": [
+                "cytotoxique médiée par IgG/IgM + complément",
+                "IgE immédiate",
+                "complexes immuns",
+                "cellulaire retardée"
+              ],
+              "answer": 0,
+              "explain": "Ex: anémie hémolytique auto-immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type III :",
+              "choices": [
+                "IgE",
+                "cellulaire retardée",
+                "complexes immuns (Arthus, sérum-maladie)",
+                "anticorps anti-récepteurs uniquement"
+              ],
+              "answer": 2,
+              "explain": "Dépôts tissulaires → inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type IV :",
+              "choices": [
+                "retardée, médiée par cellules T",
+                "IgE",
+                "complément seul",
+                "IgM"
+              ],
+              "answer": 0,
+              "explain": "Ex: test tuberculinique, dermatite de contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule :",
+              "choices": [
+                "dans le thymus (sélection négative/positive)",
+                "dans les ganglions uniquement",
+                "dans le foie",
+                "dans la rate exclusivement"
+              ],
+              "answer": 0,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance périphérique implique :",
+              "choices": [
+                "isotype switching",
+                "anergie, suppression Treg, ignorance immunologique",
+                "maturation d’affinité",
+                "sélection clonale B"
+              ],
+              "answer": 1,
+              "explain": "Empêche auto-immunité hors thymus/moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un auto-anticorps typique du lupus (LED) :",
+              "choices": [
+                "anti-TSH",
+                "anti-transglutaminase",
+                "anti-AQP4",
+                "anti-ADN natif"
+              ],
+              "answer": 3,
+              "explain": "Profil ANA/anti-DsDNA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un vaccin conjugué (ex: Hib) :",
+              "choices": [
+                "associe polysaccharide à une protéine porteuse",
+                "est un ADN nu",
+                "est un virus vivant atténué",
+                "est un toxoïde"
+              ],
+              "answer": 0,
+              "explain": "Améliore réponse T-dépendante chez nourrisson."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vaccins vivants atténués induisent :",
+              "choices": [
+                "toxicité systématique",
+                "immunité durable avec réponse cellulaire forte",
+                "aucune mémoire",
+                "immunité très brève uniquement humorale"
+              ],
+              "answer": 1,
+              "explain": "Ex: rougeole/oreillons/rubéole."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) :",
+              "choices": [
+                "remplacent l’antigène",
+                "amplifient la réponse immunitaire",
+                "suppriment la réponse",
+                "sont des anticorps monoclonaux"
+              ],
+              "answer": 1,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Dans le déficit en IgA sélectif, on observe :",
+              "choices": [
+                "neutropénie sévère",
+                "infections muqueuses ↑ avec IgA basses",
+                "défaut T CD8 isolé",
+                "complément absent"
+              ],
+              "answer": 1,
+              "explain": "Souvent asymptomatique ou infections respi/intestinales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique :",
+              "choices": [
+                "déficit isolé en IgE",
+                "défaut de neutrophiles uniquement",
+                "déficit isolé en complément C1",
+                "défaut majeur des lymphocytes T (± B/NK)"
+              ],
+              "answer": 3,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire :",
+              "choices": [
+                "hypervitaminose C",
+                "malnutrition, VIH, corticothérapie, chimiothérapie",
+                "vaccins",
+                "activité physique"
+              ],
+              "answer": 1,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à :",
+              "choices": [
+                "infection virale du greffon",
+                "anticorps préformés (ABO/HLA) du receveur",
+                "réponse T retardée",
+                "thrombopénie"
+              ],
+              "answer": 1,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La prévention du rejet implique :",
+              "choices": [
+                "aucun traitement",
+                "appariement HLA + immunosuppresseurs (calcineurine, antiprolifératifs, stéroïdes)",
+                "anticoagulants seuls",
+                "vitamines"
+              ],
+              "answer": 1,
+              "explain": "Baisse activation T/B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La GVH (greffon contre hôte) concerne surtout :",
+              "choices": [
+                "greffe autologue",
+                "transfusion simple sans leucocytes",
+                "greffe rénale",
+                "greffe de moelle allogénique (cellules du donneur attaquent receveur)"
+              ],
+              "answer": 3,
+              "explain": "Réaction T donneur vs tissus receveur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ELISA sandwich détecte :",
+              "choices": [
+                "des acides nucléiques",
+                "un antigène entre anticorps capture/détection",
+                "des IgE uniquement",
+                "uniquement des IgG"
+              ],
+              "answer": 1,
+              "explain": "Signal proportionnel à Ag."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Western blot permet :",
+              "choices": [
+                "détection d’ADN par PCR",
+                "détection de protéines séparées par taille",
+                "cytométrie des cellules vivantes",
+                "analyse de lipides"
+              ],
+              "answer": 1,
+              "explain": "Transfert sur membrane + anticorps spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cytométrie en flux mesure :",
+              "choices": [
+                "la radioactivité",
+                "uniquement la masse molaire",
+                "la conductance",
+                "des paramètres cellule par cellule (Taille, complexité, fluorescence)"
+              ],
+              "answer": 3,
+              "explain": "Marquages multi-couleurs (CD)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Immunofluorescence indirecte :",
+              "choices": [
+                "utilise l’hémagglutination exclusivement",
+                "utilise anticorps secondaire fluorescent contre l’anticorps primaire",
+                "utilise un isotope radioactif",
+                "n’utilise pas d’anticorps"
+              ],
+              "answer": 1,
+              "explain": "Amplification du signal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante)",
+              "choices": [
+                "des allergies IgE médiées",
+                "des anémies ferriprives",
+                "des maladies auto-immunes (ex: lupus)",
+                "des lymphomes B"
+              ],
+              "answer": 2,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance périphérique implique : (variante)",
+              "choices": [
+                "isotype switching",
+                "anergie, suppression Treg, ignorance immunologique",
+                "sélection clonale B",
+                "maturation d’affinité"
+              ],
+              "answer": 1,
+              "explain": "Empêche auto-immunité hors thymus/moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "TGF-β et IL-10 sont globalement : (variante)",
+              "choices": [
+                "immunorégulatrices (Treg)",
+                "pyrétogènes",
+                "strictement chimiotactiques",
+                "pro-allergiques"
+              ],
+              "answer": 0,
+              "explain": "Tolérance/contrôle de l’inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH I présente des peptides : (variante)",
+              "choices": [
+                "bactériens via TCR B",
+                "endogènes (intracellulaires) aux T CD8",
+                "lipidiques aux NKT via CD1d",
+                "exogènes aux T CD4"
+              ],
+              "answer": 1,
+              "explain": "Chargement RE via TAP, β2m."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La prévention du rejet implique : (variante)",
+              "choices": [
+                "anticoagulants seuls",
+                "aucun traitement",
+                "vitamines",
+                "appariement HLA + immunosuppresseurs (calcineurine, antiprolifératifs, stéroïdes)"
+              ],
+              "answer": 3,
+              "explain": "Baisse activation T/B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig impliquée dans l’allergie immédiate : (variante)",
+              "choices": [
+                "IgA2",
+                "IgE",
+                "IgG4",
+                "IgM"
+              ],
+              "answer": 1,
+              "explain": "Fixe les basophiles/mastocytes (FcεRI)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD4 est un marqueur de : (variante)",
+              "choices": [
+                "plasmocytes",
+                "T cytotoxiques",
+                "neutrophiles",
+                "lymphocytes T auxiliaires (Th)"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH II."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante)",
+              "choices": [
+                "sont des anticorps monoclonaux",
+                "remplacent l’antigène",
+                "amplifient la réponse immunitaire",
+                "suppriment la réponse"
+              ],
+              "answer": 2,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance périphérique implique : (variante) (variante)",
+              "choices": [
+                "sélection clonale B",
+                "maturation d’affinité",
+                "isotype switching",
+                "anergie, suppression Treg, ignorance immunologique"
+              ],
+              "answer": 3,
+              "explain": "Empêche auto-immunité hors thymus/moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Absence de co-stimulation lors de la présentation antigénique : (variante)",
+              "choices": [
+                "provoque une hypersensibilité I",
+                "induit l’anergie T",
+                "déclenche une mémoire forte",
+                "active le complément"
+              ],
+              "answer": 1,
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hypersensibilité de type I : (variante)",
+              "choices": [
+                "cellulaire retardée",
+                "immédiate, IgE médiée (mastocytes)",
+                "IgG/IgM cytotoxique",
+                "complexes immuns"
+              ],
+              "answer": 1,
+              "explain": "Allergies, anaphylaxie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’immunité innée se caractérise par : (variante)",
+              "choices": [
+                "une mémoire durable spécifique",
+                "une réponse rapide non spécifique",
+                "la recombinaison V(D)J",
+                "l’hypermutation somatique"
+              ],
+              "answer": 1,
+              "explain": "Barrières, phagocytes, NK, complément."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hypersensibilité de type I : (variante) (variante)",
+              "choices": [
+                "cellulaire retardée",
+                "complexes immuns",
+                "IgG/IgM cytotoxique",
+                "immédiate, IgE médiée (mastocytes)"
+              ],
+              "answer": 3,
+              "explain": "Allergies, anaphylaxie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "T auxiliaires"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à : (variante)",
+              "choices": [
+                "anticorps préformés (ABO/HLA) du receveur",
+                "thrombopénie",
+                "réponse T retardée",
+                "infection virale du greffon"
+              ],
+              "answer": 0,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le changement de classe (isotype switching) dépend : (variante)",
+              "choices": [
+                "de TLR uniquement",
+                "de la recombinaison V(D)J",
+                "de signaux CD40–CD40L + cytokines",
+                "de la somatisation aléatoire"
+              ],
+              "answer": 2,
+              "explain": "AID, IL-4/IFN-γ/TGF-β selon isotype."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH II présente des peptides : (variante)",
+              "choices": [
+                "lipidiques aux TCR γδ",
+                "exogènes aux T CD4",
+                "rien, c’est un récepteur BCR",
+                "endogènes aux T CD8"
+              ],
+              "answer": 1,
+              "explain": "Chargement via compartiment endosomal (CLIP/HLA-DM)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante)",
+              "choices": [
+                "T auxiliaires",
+                "éosinophiles",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "lymphocytes T cytotoxiques"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La β2-microglobuline est associée : (variante)",
+              "choices": [
+                "au BCR",
+                "au CMH II",
+                "au CMH I",
+                "à CD4"
+              ],
+              "answer": 2,
+              "explain": "Sous-unité invariante du CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Western blot permet : (variante)",
+              "choices": [
+                "détection de protéines séparées par taille",
+                "analyse de lipides",
+                "cytométrie des cellules vivantes",
+                "détection d’ADN par PCR"
+              ],
+              "answer": 0,
+              "explain": "Transfert sur membrane + anticorps spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Absence de co-stimulation lors de la présentation antigénique : (variante)",
+              "choices": [
+                "active le complément",
+                "induit l’anergie T",
+                "déclenche une mémoire forte",
+                "provoque une hypersensibilité I"
+              ],
+              "answer": 1,
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante)",
+              "choices": [
+                "malnutrition, VIH, corticothérapie, chimiothérapie",
+                "activité physique",
+                "hypervitaminose C",
+                "vaccins"
+              ],
+              "answer": 0,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à : (variante) (variante)",
+              "choices": [
+                "réponse T retardée",
+                "thrombopénie",
+                "infection virale du greffon",
+                "anticorps préformés (ABO/HLA) du receveur"
+              ],
+              "answer": 3,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-17 est associée à : (variante)",
+              "choices": [
+                "réponse Th17 (neutrophiles, inflammation)",
+                "NK uniquement",
+                "Th2",
+                "Tfh"
+              ],
+              "answer": 0,
+              "explain": "Impliquée dans auto-immunité/infection extracellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante)",
+              "choices": [
+                "suppriment la réponse",
+                "remplacent l’antigène",
+                "amplifient la réponse immunitaire",
+                "sont des anticorps monoclonaux"
+              ],
+              "answer": 2,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante)",
+              "choices": [
+                "dans les ganglions uniquement",
+                "dans le thymus (sélection négative/positive)",
+                "dans la rate exclusivement",
+                "dans le foie"
+              ],
+              "answer": 1,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "T auxiliaires"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique : (variante)",
+              "choices": [
+                "déficit isolé en IgE",
+                "défaut de neutrophiles uniquement",
+                "défaut majeur des lymphocytes T (± B/NK)",
+                "déficit isolé en complément C1"
+              ],
+              "answer": 2,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules NK reconnaissent : (variante)",
+              "choices": [
+                "les CMH II sur CPA",
+                "les lipopolysaccharides via TCR",
+                "les IgG via BCR",
+                "des cellules avec CMH I diminué"
+              ],
+              "answer": 3,
+              "explain": "Surveillance du soi altéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses : (variante)",
+              "choices": [
+                "IgE",
+                "IgG",
+                "IgM",
+                "IgA"
+              ],
+              "answer": 3,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La 1ʳᵉ Ig produite lors d’une réponse primaire : (variante)",
+              "choices": [
+                "IgE",
+                "IgG",
+                "IgM",
+                "IgA"
+              ],
+              "answer": 2,
+              "explain": "Pentamérique, forte avidité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à : (variante) (variante) (variante)",
+              "choices": [
+                "infection virale du greffon",
+                "thrombopénie",
+                "réponse T retardée",
+                "anticorps préformés (ABO/HLA) du receveur"
+              ],
+              "answer": 3,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante) (variante)",
+              "choices": [
+                "remplacent l’antigène",
+                "suppriment la réponse",
+                "amplifient la réponse immunitaire",
+                "sont des anticorps monoclonaux"
+              ],
+              "answer": 2,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à : (variante) (variante) (variante)",
+              "choices": [
+                "thrombopénie",
+                "réponse T retardée",
+                "infection virale du greffon",
+                "anticorps préformés (ABO/HLA) du receveur"
+              ],
+              "answer": 3,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante) (variante)",
+              "choices": [
+                "dans la rate exclusivement",
+                "dans le foie",
+                "dans le thymus (sélection négative/positive)",
+                "dans les ganglions uniquement"
+              ],
+              "answer": 2,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type IV : (variante)",
+              "choices": [
+                "complément seul",
+                "IgE",
+                "retardée, médiée par cellules T",
+                "IgM"
+              ],
+              "answer": 2,
+              "explain": "Ex: test tuberculinique, dermatite de contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-4 favorise : (variante)",
+              "choices": [
+                "réponse Treg",
+                "réponse Th2 et commutation IgE/IgG4",
+                "réponse Th17",
+                "réponse Th1"
+              ],
+              "answer": 1,
+              "explain": "Allergie/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La région Fab d’un anticorps est responsable de : (variante)",
+              "choices": [
+                "la liaison à l’antigène",
+                "l’activation du complément",
+                "la transcytose placentaire",
+                "la fixation aux récepteurs Fc"
+              ],
+              "answer": 0,
+              "explain": "Variabilité V(D)J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante)",
+              "choices": [
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "éosinophiles",
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses : (variante) (variante)",
+              "choices": [
+                "IgM",
+                "IgG",
+                "IgE",
+                "IgA"
+              ],
+              "answer": 3,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante)",
+              "choices": [
+                "des lymphomes B",
+                "des anémies ferriprives",
+                "des maladies auto-immunes (ex: lupus)",
+                "des allergies IgE médiées"
+              ],
+              "answer": 2,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cytométrie en flux mesure : (variante)",
+              "choices": [
+                "la conductance",
+                "des paramètres cellule par cellule (Taille, complexité, fluorescence)",
+                "uniquement la masse molaire",
+                "la radioactivité"
+              ],
+              "answer": 1,
+              "explain": "Marquages multi-couleurs (CD)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante)",
+              "choices": [
+                "activité physique",
+                "hypervitaminose C",
+                "vaccins",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le rejet hyperaigu est dû à : (variante)",
+              "choices": [
+                "anticorps préformés (ABO/HLA) du receveur",
+                "réponse T retardée",
+                "thrombopénie",
+                "infection virale du greffon"
+              ],
+              "answer": 0,
+              "explain": "Survient minutes-heures."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses : (variante)",
+              "choices": [
+                "IgE",
+                "IgM",
+                "IgG",
+                "IgA"
+              ],
+              "answer": 3,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH II présente des peptides : (variante)",
+              "choices": [
+                "lipidiques aux TCR γδ",
+                "rien, c’est un récepteur BCR",
+                "endogènes aux T CD8",
+                "exogènes aux T CD4"
+              ],
+              "answer": 3,
+              "explain": "Chargement via compartiment endosomal (CLIP/HLA-DM)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante)",
+              "choices": [
+                "lymphocytes T cytotoxiques",
+                "éosinophiles",
+                "T auxiliaires",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 0,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante)",
+              "choices": [
+                "dans le foie",
+                "dans le thymus (sélection négative/positive)",
+                "dans les ganglions uniquement",
+                "dans la rate exclusivement"
+              ],
+              "answer": 1,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La 1ʳᵉ Ig produite lors d’une réponse primaire : (variante)",
+              "choices": [
+                "IgM",
+                "IgG",
+                "IgA",
+                "IgE"
+              ],
+              "answer": 0,
+              "explain": "Pentamérique, forte avidité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante)",
+              "choices": [
+                "vaccins",
+                "hypervitaminose C",
+                "activité physique",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante)",
+              "choices": [
+                "des anémies ferriprives",
+                "des maladies auto-immunes (ex: lupus)",
+                "des lymphomes B",
+                "des allergies IgE médiées"
+              ],
+              "answer": 1,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-2 est principalement : (variante)",
+              "choices": [
+                "un inhibiteur des NK",
+                "un chimiokine neutrophile",
+                "une cytokine de prolifération T",
+                "un facteur de croissance B"
+              ],
+              "answer": 2,
+              "explain": "Autocrine T activés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "éosinophiles",
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante)",
+              "choices": [
+                "dans les ganglions uniquement",
+                "dans la rate exclusivement",
+                "dans le foie",
+                "dans le thymus (sélection négative/positive)"
+              ],
+              "answer": 3,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "vaccins",
+                "hypervitaminose C",
+                "activité physique",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules NK reconnaissent : (variante)",
+              "choices": [
+                "les lipopolysaccharides via TCR",
+                "les CMH II sur CPA",
+                "les IgG via BCR",
+                "des cellules avec CMH I diminué"
+              ],
+              "answer": 3,
+              "explain": "Surveillance du soi altéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante) (variante)",
+              "choices": [
+                "suppriment la réponse",
+                "sont des anticorps monoclonaux",
+                "amplifient la réponse immunitaire",
+                "remplacent l’antigène"
+              ],
+              "answer": 2,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "T auxiliaires"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "hypervitaminose C",
+                "activité physique",
+                "vaccins",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante) (variante)",
+              "choices": [
+                "dans les ganglions uniquement",
+                "dans le foie",
+                "dans la rate exclusivement",
+                "dans le thymus (sélection négative/positive)"
+              ],
+              "answer": 3,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’immunité innée se caractérise par : (variante)",
+              "choices": [
+                "l’hypermutation somatique",
+                "une réponse rapide non spécifique",
+                "la recombinaison V(D)J",
+                "une mémoire durable spécifique"
+              ],
+              "answer": 1,
+              "explain": "Barrières, phagocytes, NK, complément."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Absence de co-stimulation lors de la présentation antigénique : (variante) (variante)",
+              "choices": [
+                "déclenche une mémoire forte",
+                "induit l’anergie T",
+                "active le complément",
+                "provoque une hypersensibilité I"
+              ],
+              "answer": 1,
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "TGF-β et IL-10 sont globalement : (variante)",
+              "choices": [
+                "strictement chimiotactiques",
+                "pyrétogènes",
+                "pro-allergiques",
+                "immunorégulatrices (Treg)"
+              ],
+              "answer": 3,
+              "explain": "Tolérance/contrôle de l’inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La β2-microglobuline est associée : (variante)",
+              "choices": [
+                "au BCR",
+                "au CMH II",
+                "au CMH I",
+                "à CD4"
+              ],
+              "answer": 2,
+              "explain": "Sous-unité invariante du CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante)",
+              "choices": [
+                "des lymphomes B",
+                "des allergies IgE médiées",
+                "des anémies ferriprives",
+                "des maladies auto-immunes (ex: lupus)"
+              ],
+              "answer": 3,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Western blot permet : (variante) (variante)",
+              "choices": [
+                "analyse de lipides",
+                "cytométrie des cellules vivantes",
+                "détection de protéines séparées par taille",
+                "détection d’ADN par PCR"
+              ],
+              "answer": 2,
+              "explain": "Transfert sur membrane + anticorps spécifiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T auxiliaires",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type IV : (variante)",
+              "choices": [
+                "IgM",
+                "complément seul",
+                "IgE",
+                "retardée, médiée par cellules T"
+              ],
+              "answer": 3,
+              "explain": "Ex: test tuberculinique, dermatite de contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique : (variante)",
+              "choices": [
+                "défaut de neutrophiles uniquement",
+                "défaut majeur des lymphocytes T (± B/NK)",
+                "déficit isolé en IgE",
+                "déficit isolé en complément C1"
+              ],
+              "answer": 1,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante)",
+              "choices": [
+                "malnutrition, VIH, corticothérapie, chimiothérapie",
+                "vaccins",
+                "activité physique",
+                "hypervitaminose C"
+              ],
+              "answer": 0,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ELISA sandwich détecte : (variante)",
+              "choices": [
+                "des acides nucléiques",
+                "des IgE uniquement",
+                "un antigène entre anticorps capture/détection",
+                "uniquement des IgG"
+              ],
+              "answer": 2,
+              "explain": "Signal proportionnel à Ag."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La région Fab d’un anticorps est responsable de : (variante)",
+              "choices": [
+                "l’activation du complément",
+                "la liaison à l’antigène",
+                "la transcytose placentaire",
+                "la fixation aux récepteurs Fc"
+              ],
+              "answer": 1,
+              "explain": "Variabilité V(D)J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD4 est un marqueur de : (variante)",
+              "choices": [
+                "neutrophiles",
+                "plasmocytes",
+                "T cytotoxiques",
+                "lymphocytes T auxiliaires (Th)"
+              ],
+              "answer": 3,
+              "explain": "Co-récepteur TCR pour CMH II."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante)",
+              "choices": [
+                "des maladies auto-immunes (ex: lupus)",
+                "des lymphomes B",
+                "des allergies IgE médiées",
+                "des anémies ferriprives"
+              ],
+              "answer": 0,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le changement de classe (isotype switching) dépend : (variante)",
+              "choices": [
+                "de signaux CD40–CD40L + cytokines",
+                "de la recombinaison V(D)J",
+                "de TLR uniquement",
+                "de la somatisation aléatoire"
+              ],
+              "answer": 0,
+              "explain": "AID, IL-4/IFN-γ/TGF-β selon isotype."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-4 favorise : (variante)",
+              "choices": [
+                "réponse Treg",
+                "réponse Th2 et commutation IgE/IgG4",
+                "réponse Th1",
+                "réponse Th17"
+              ],
+              "answer": 1,
+              "explain": "Allergie/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les voies du complément comprennent : (variante)",
+              "choices": [
+                "classique, alterne, lectines",
+                "intrinsèque, extrinsèque",
+                "voie JAK/STAT",
+                "voie NF-κB"
+              ],
+              "answer": 0,
+              "explain": "Toutes convergent vers C3 convertase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante)",
+              "choices": [
+                "vaccins",
+                "hypervitaminose C",
+                "activité physique",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique : (variante)",
+              "choices": [
+                "déficit isolé en IgE",
+                "défaut de neutrophiles uniquement",
+                "déficit isolé en complément C1",
+                "défaut majeur des lymphocytes T (± B/NK)"
+              ],
+              "answer": 3,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La GVH (greffon contre hôte) concerne surtout : (variante)",
+              "choices": [
+                "greffe autologue",
+                "transfusion simple sans leucocytes",
+                "greffe rénale",
+                "greffe de moelle allogénique (cellules du donneur attaquent receveur)"
+              ],
+              "answer": 3,
+              "explain": "Réaction T donneur vs tissus receveur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante)",
+              "choices": [
+                "dans le foie",
+                "dans les ganglions uniquement",
+                "dans la rate exclusivement",
+                "dans le thymus (sélection négative/positive)"
+              ],
+              "answer": 3,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T auxiliaires",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type IV : (variante) (variante)",
+              "choices": [
+                "retardée, médiée par cellules T",
+                "IgM",
+                "IgE",
+                "complément seul"
+              ],
+              "answer": 0,
+              "explain": "Ex: test tuberculinique, dermatite de contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-4 favorise : (variante)",
+              "choices": [
+                "réponse Treg",
+                "réponse Th17",
+                "réponse Th2 et commutation IgE/IgG4",
+                "réponse Th1"
+              ],
+              "answer": 2,
+              "explain": "Allergie/parasitoses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante) (variante)",
+              "choices": [
+                "des anémies ferriprives",
+                "des lymphomes B",
+                "des maladies auto-immunes (ex: lupus)",
+                "des allergies IgE médiées"
+              ],
+              "answer": 2,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "vaccins",
+                "malnutrition, VIH, corticothérapie, chimiothérapie",
+                "hypervitaminose C",
+                "activité physique"
+              ],
+              "answer": 1,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "T auxiliaires",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles"
+              ],
+              "answer": 2,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules NK reconnaissent : (variante) (variante)",
+              "choices": [
+                "les lipopolysaccharides via TCR",
+                "les CMH II sur CPA",
+                "les IgG via BCR",
+                "des cellules avec CMH I diminué"
+              ],
+              "answer": 3,
+              "explain": "Surveillance du soi altéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type III : (variante)",
+              "choices": [
+                "cellulaire retardée",
+                "IgE",
+                "complexes immuns (Arthus, sérum-maladie)",
+                "anticorps anti-récepteurs uniquement"
+              ],
+              "answer": 2,
+              "explain": "Dépôts tissulaires → inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante)",
+              "choices": [
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles"
+              ],
+              "answer": 2,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Immunofluorescence indirecte : (variante)",
+              "choices": [
+                "utilise anticorps secondaire fluorescent contre l’anticorps primaire",
+                "utilise l’hémagglutination exclusivement",
+                "utilise un isotope radioactif",
+                "n’utilise pas d’anticorps"
+              ],
+              "answer": 0,
+              "explain": "Amplification du signal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante) (variante) (variante)",
+              "choices": [
+                "amplifient la réponse immunitaire",
+                "suppriment la réponse",
+                "remplacent l’antigène",
+                "sont des anticorps monoclonaux"
+              ],
+              "answer": 0,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les voies du complément comprennent : (variante) (variante)",
+              "choices": [
+                "intrinsèque, extrinsèque",
+                "voie JAK/STAT",
+                "voie NF-κB",
+                "classique, alterne, lectines"
+              ],
+              "answer": 3,
+              "explain": "Toutes convergent vers C3 convertase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cascade aboutit à : (variante)",
+              "choices": [
+                "IL-1β",
+                "MAC (C5b-9) lyse membranaire",
+                "IgE libre",
+                "TNF-α"
+              ],
+              "answer": 1,
+              "explain": "Lyse, opsonisation, chimioattraction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles",
+                "T auxiliaires"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante) (variante)",
+              "choices": [
+                "dans le thymus (sélection négative/positive)",
+                "dans la rate exclusivement",
+                "dans les ganglions uniquement",
+                "dans le foie"
+              ],
+              "answer": 0,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type II est : (variante)",
+              "choices": [
+                "cytotoxique médiée par IgG/IgM + complément",
+                "IgE immédiate",
+                "complexes immuns",
+                "cellulaire retardée"
+              ],
+              "answer": 0,
+              "explain": "Ex: anémie hémolytique auto-immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante)",
+              "choices": [
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cascade aboutit à : (variante) (variante)",
+              "choices": [
+                "TNF-α",
+                "IgE libre",
+                "MAC (C5b-9) lyse membranaire",
+                "IL-1β"
+              ],
+              "answer": 2,
+              "explain": "Lyse, opsonisation, chimioattraction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "éosinophiles",
+                "lymphocytes T cytotoxiques",
+                "T auxiliaires",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 1,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH I présente des peptides : (variante) (variante)",
+              "choices": [
+                "lipidiques aux NKT via CD1d",
+                "endogènes (intracellulaires) aux T CD8",
+                "exogènes aux T CD4",
+                "bactériens via TCR B"
+              ],
+              "answer": 1,
+              "explain": "Chargement RE via TAP, β2m."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH I présente des peptides : (variante) (variante) (variante)",
+              "choices": [
+                "bactériens via TCR B",
+                "lipidiques aux NKT via CD1d",
+                "exogènes aux T CD4",
+                "endogènes (intracellulaires) aux T CD8"
+              ],
+              "answer": 3,
+              "explain": "Chargement RE via TAP, β2m."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les voies du complément comprennent : (variante) (variante) (variante)",
+              "choices": [
+                "voie JAK/STAT",
+                "intrinsèque, extrinsèque",
+                "voie NF-κB",
+                "classique, alterne, lectines"
+              ],
+              "answer": 3,
+              "explain": "Toutes convergent vers C3 convertase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La prévention du rejet implique : (variante) (variante)",
+              "choices": [
+                "appariement HLA + immunosuppresseurs (calcineurine, antiprolifératifs, stéroïdes)",
+                "aucun traitement",
+                "anticoagulants seuls",
+                "vitamines"
+              ],
+              "answer": 0,
+              "explain": "Baisse activation T/B."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance centrale T se déroule : (variante)",
+              "choices": [
+                "dans les ganglions uniquement",
+                "dans le thymus (sélection négative/positive)",
+                "dans le foie",
+                "dans la rate exclusivement"
+              ],
+              "answer": 1,
+              "explain": "Élimination des T auto-réactifs forts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses : (variante) (variante) (variante)",
+              "choices": [
+                "IgE",
+                "IgM",
+                "IgG",
+                "IgA"
+              ],
+              "answer": 3,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type II est : (variante)",
+              "choices": [
+                "complexes immuns",
+                "IgE immédiate",
+                "cytotoxique médiée par IgG/IgM + complément",
+                "cellulaire retardée"
+              ],
+              "answer": 2,
+              "explain": "Ex: anémie hémolytique auto-immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante) (variante)",
+              "choices": [
+                "des lymphomes B",
+                "des anémies ferriprives",
+                "des maladies auto-immunes (ex: lupus)",
+                "des allergies IgE médiées"
+              ],
+              "answer": 2,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IFN-γ est typique de la réponse : (variante)",
+              "choices": [
+                "Th1",
+                "Tfh",
+                "Th2",
+                "Th17"
+              ],
+              "answer": 0,
+              "explain": "Active macrophages, favorise IgG opsonisantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La β2-microglobuline est associée : (variante) (variante)",
+              "choices": [
+                "au CMH II",
+                "à CD4",
+                "au CMH I",
+                "au BCR"
+              ],
+              "answer": 2,
+              "explain": "Sous-unité invariante du CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique : (variante) (variante)",
+              "choices": [
+                "déficit isolé en complément C1",
+                "déficit isolé en IgE",
+                "défaut de neutrophiles uniquement",
+                "défaut majeur des lymphocytes T (± B/NK)"
+              ],
+              "answer": 3,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type IV : (variante) (variante) (variante)",
+              "choices": [
+                "IgM",
+                "IgE",
+                "complément seul",
+                "retardée, médiée par cellules T"
+              ],
+              "answer": 3,
+              "explain": "Ex: test tuberculinique, dermatite de contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH II présente des peptides : (variante) (variante)",
+              "choices": [
+                "endogènes aux T CD8",
+                "rien, c’est un récepteur BCR",
+                "exogènes aux T CD4",
+                "lipidiques aux TCR γδ"
+              ],
+              "answer": 2,
+              "explain": "Chargement via compartiment endosomal (CLIP/HLA-DM)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hypersensibilité de type I : (variante)",
+              "choices": [
+                "IgG/IgM cytotoxique",
+                "immédiate, IgE médiée (mastocytes)",
+                "cellulaire retardée",
+                "complexes immuns"
+              ],
+              "answer": 1,
+              "explain": "Allergies, anaphylaxie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hypersensibilité de type I : (variante)",
+              "choices": [
+                "cellulaire retardée",
+                "IgG/IgM cytotoxique",
+                "immédiate, IgE médiée (mastocytes)",
+                "complexes immuns"
+              ],
+              "answer": 2,
+              "explain": "Allergies, anaphylaxie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cascade aboutit à : (variante)",
+              "choices": [
+                "IL-1β",
+                "IgE libre",
+                "TNF-α",
+                "MAC (C5b-9) lyse membranaire"
+              ],
+              "answer": 3,
+              "explain": "Lyse, opsonisation, chimioattraction."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La GVH (greffon contre hôte) concerne surtout : (variante)",
+              "choices": [
+                "greffe rénale",
+                "transfusion simple sans leucocytes",
+                "greffe autologue",
+                "greffe de moelle allogénique (cellules du donneur attaquent receveur)"
+              ],
+              "answer": 3,
+              "explain": "Réaction T donneur vs tissus receveur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH II présente des peptides : (variante) (variante)",
+              "choices": [
+                "rien, c’est un récepteur BCR",
+                "lipidiques aux TCR γδ",
+                "endogènes aux T CD8",
+                "exogènes aux T CD4"
+              ],
+              "answer": 3,
+              "explain": "Chargement via compartiment endosomal (CLIP/HLA-DM)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IFN-γ est typique de la réponse : (variante) (variante)",
+              "choices": [
+                "Tfh",
+                "Th1",
+                "Th17",
+                "Th2"
+              ],
+              "answer": 1,
+              "explain": "Active macrophages, favorise IgG opsonisantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "lymphocytes T cytotoxiques",
+                "T auxiliaires",
+                "éosinophiles",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)"
+              ],
+              "answer": 0,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le changement de classe (isotype switching) dépend : (variante) (variante)",
+              "choices": [
+                "de signaux CD40–CD40L + cytokines",
+                "de la somatisation aléatoire",
+                "de la recombinaison V(D)J",
+                "de TLR uniquement"
+              ],
+              "answer": 0,
+              "explain": "AID, IL-4/IFN-γ/TGF-β selon isotype."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante) (variante) (variante) (variante) (variante)",
+              "choices": [
+                "vaccins",
+                "hypervitaminose C",
+                "malnutrition, VIH, corticothérapie, chimiothérapie",
+                "activité physique"
+              ],
+              "answer": 2,
+              "explain": "Altèrent production/fonction immune."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-17 est associée à : (variante) (variante)",
+              "choices": [
+                "Th2",
+                "Tfh",
+                "NK uniquement",
+                "réponse Th17 (neutrophiles, inflammation)"
+              ],
+              "answer": 3,
+              "explain": "Impliquée dans auto-immunité/infection extracellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IL-17 est associée à : (variante)",
+              "choices": [
+                "Th2",
+                "Tfh",
+                "NK uniquement",
+                "réponse Th17 (neutrophiles, inflammation)"
+              ],
+              "answer": 3,
+              "explain": "Impliquée dans auto-immunité/infection extracellulaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Absence de co-stimulation lors de la présentation antigénique : (variante) (variante)",
+              "choices": [
+                "active le complément",
+                "déclenche une mémoire forte",
+                "induit l’anergie T",
+                "provoque une hypersensibilité I"
+              ],
+              "answer": 2,
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type III : (variante)",
+              "choices": [
+                "IgE",
+                "complexes immuns (Arthus, sérum-maladie)",
+                "cellulaire retardée",
+                "anticorps anti-récepteurs uniquement"
+              ],
+              "answer": 1,
+              "explain": "Dépôts tissulaires → inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante)",
+              "choices": [
+                "des maladies auto-immunes (ex: lupus)",
+                "des allergies IgE médiées",
+                "des lymphomes B",
+                "des anémies ferriprives"
+              ],
+              "answer": 0,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le changement de classe (isotype switching) dépend : (variante) (variante)",
+              "choices": [
+                "de signaux CD40–CD40L + cytokines",
+                "de la somatisation aléatoire",
+                "de TLR uniquement",
+                "de la recombinaison V(D)J"
+              ],
+              "answer": 0,
+              "explain": "AID, IL-4/IFN-γ/TGF-β selon isotype."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La 1ʳᵉ Ig produite lors d’une réponse primaire : (variante)",
+              "choices": [
+                "IgA",
+                "IgM",
+                "IgG",
+                "IgE"
+              ],
+              "answer": 1,
+              "explain": "Pentamérique, forte avidité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance périphérique implique : (variante) (variante) (variante)",
+              "choices": [
+                "sélection clonale B",
+                "isotype switching",
+                "anergie, suppression Treg, ignorance immunologique",
+                "maturation d’affinité"
+              ],
+              "answer": 2,
+              "explain": "Empêche auto-immunité hors thymus/moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le CMH I présente des peptides : (variante) (variante) (variante)",
+              "choices": [
+                "lipidiques aux NKT via CD1d",
+                "endogènes (intracellulaires) aux T CD8",
+                "exogènes aux T CD4",
+                "bactériens via TCR B"
+              ],
+              "answer": 1,
+              "explain": "Chargement RE via TAP, β2m."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’immunité innée se caractérise par : (variante) (variante)",
+              "choices": [
+                "l’hypermutation somatique",
+                "la recombinaison V(D)J",
+                "une réponse rapide non spécifique",
+                "une mémoire durable spécifique"
+              ],
+              "answer": 2,
+              "explain": "Barrières, phagocytes, NK, complément."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante)",
+              "choices": [
+                "lymphocytes T cytotoxiques",
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "éosinophiles",
+                "T auxiliaires"
+              ],
+              "answer": 0,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante)",
+              "choices": [
+                "des allergies IgE médiées",
+                "des maladies auto-immunes (ex: lupus)",
+                "des anémies ferriprives",
+                "des lymphomes B"
+              ],
+              "answer": 1,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La tolérance périphérique implique : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "isotype switching",
+                "maturation d’affinité",
+                "sélection clonale B",
+                "anergie, suppression Treg, ignorance immunologique"
+              ],
+              "answer": 3,
+              "explain": "Empêche auto-immunité hors thymus/moelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La cytométrie en flux mesure : (variante) (variante)",
+              "choices": [
+                "la radioactivité",
+                "des paramètres cellule par cellule (Taille, complexité, fluorescence)",
+                "la conductance",
+                "uniquement la masse molaire"
+              ],
+              "answer": 1,
+              "explain": "Marquages multi-couleurs (CD)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le SCID (immunodéficience combinée sévère) implique : (variante)",
+              "choices": [
+                "déficit isolé en IgE",
+                "déficit isolé en complément C1",
+                "défaut majeur des lymphocytes T (± B/NK)",
+                "défaut de neutrophiles uniquement"
+              ],
+              "answer": 2,
+              "explain": "Formes ADA, X-liée (γc)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Type III : (variante) (variante)",
+              "choices": [
+                "anticorps anti-récepteurs uniquement",
+                "cellulaire retardée",
+                "complexes immuns (Arthus, sérum-maladie)",
+                "IgE"
+              ],
+              "answer": 2,
+              "explain": "Dépôts tissulaires → inflammation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La mémoire immunitaire est une propriété de : (variante)",
+              "choices": [
+                "la tolérance centrale uniquement",
+                "l’immunité adaptative",
+                "la fièvre",
+                "l’immunité innée"
+              ],
+              "answer": 1,
+              "explain": "Réponse plus rapide et intense 2ᵉ contact."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La 1ʳᵉ Ig produite lors d’une réponse primaire : (variante) (variante)",
+              "choices": [
+                "IgM",
+                "IgG",
+                "IgE",
+                "IgA"
+              ],
+              "answer": 0,
+              "explain": "Pentamérique, forte avidité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’Ig prédominante dans les secrétions muqueuses : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "IgA",
+                "IgM",
+                "IgG",
+                "IgE"
+              ],
+              "answer": 0,
+              "explain": "Forme dimérique avec pièce J."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CD8 est un marqueur de : (variante) (variante)",
+              "choices": [
+                "T régulateurs (classiquement CD4/CD25/FoxP3)",
+                "T auxiliaires",
+                "lymphocytes T cytotoxiques",
+                "éosinophiles"
+              ],
+              "answer": 2,
+              "explain": "Co-récepteur TCR pour CMH I."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un déficit précoce de la voie classique (C1q/C2/C4) prédispose à : (variante) (variante) (variante)",
+              "choices": [
+                "des maladies auto-immunes (ex: lupus)",
+                "des lymphomes B",
+                "des anémies ferriprives",
+                "des allergies IgE médiées"
+              ],
+              "answer": 0,
+              "explain": "Clairance des complexes immuns déficiente."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ELISA sandwich détecte : (variante) (variante)",
+              "choices": [
+                "uniquement des IgG",
+                "un antigène entre anticorps capture/détection",
+                "des acides nucléiques",
+                "des IgE uniquement"
+              ],
+              "answer": 1,
+              "explain": "Signal proportionnel à Ag."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les voies du complément comprennent : (variante) (variante) (variante) (variante)",
+              "choices": [
+                "voie JAK/STAT",
+                "intrinsèque, extrinsèque",
+                "voie NF-κB",
+                "classique, alterne, lectines"
+              ],
+              "answer": 3,
+              "explain": "Toutes convergent vers C3 convertase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vaccins vivants atténués induisent : (variante)",
+              "choices": [
+                "immunité durable avec réponse cellulaire forte",
+                "immunité très brève uniquement humorale",
+                "aucune mémoire",
+                "toxicité systématique"
+              ],
+              "answer": 0,
+              "explain": "Ex: rougeole/oreillons/rubéole."
+            },
+            {
+              "type": "mcq",
+              "prompt": "IFN-γ est typique de la réponse : (variante) (variante)",
+              "choices": [
+                "Th2",
+                "Th17",
+                "Tfh",
+                "Th1"
+              ],
+              "answer": 3,
+              "explain": "Active macrophages, favorise IgG opsonisantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Adjuvants (ex: sels d’aluminium) : (variante) (variante) (variante)",
+              "choices": [
+                "amplifient la réponse immunitaire",
+                "sont des anticorps monoclonaux",
+                "suppriment la réponse",
+                "remplacent l’antigène"
+              ],
+              "answer": 0,
+              "explain": "Stimulation innate/CPA."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les cellules NK reconnaissent : (variante) (variante) (variante)",
+              "choices": [
+                "des cellules avec CMH I diminué",
+                "les lipopolysaccharides via TCR",
+                "les IgG via BCR",
+                "les CMH II sur CPA"
+              ],
+              "answer": 0,
+              "explain": "Surveillance du soi altéré."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une cause fréquente d’immunodéficience secondaire : (variante) (variante) (variante)",
+              "choices": [
+                "hypervitaminose C",
+                "activité physique",
+                "vaccins",
+                "malnutrition, VIH, corticothérapie, chimiothérapie"
+              ],
+              "answer": 3,
+              "explain": "Altèrent production/fonction immune."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir immunité innée.",
+              "answer_text": "Réponse rapide, non spécifique, sans mémoire durable (barrières, phagocytes, complément).",
+              "explain": "Agit en minutes/heures."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir immunité adaptative.",
+              "answer_text": "Réponse spécifique avec mémoire (lymphocytes B/T, anticorps).",
+              "explain": "Plus lente au 1er contact."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux marqueurs des T régulateurs.",
+              "answer_text": "CD4, CD25 et transcription facteur FoxP3.",
+              "explain": "Tolérance périphérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle cellule initie classiquement l’immunité adaptative ?",
+              "answer_text": "Cellule dendritique (CPA) migrante vers ganglion.",
+              "explain": "Présente via CMH I/II avec co-stimulation."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer 5 isotypes d’Ig.",
+              "answer_text": "IgM, IgD, IgG, IgA, IgE.",
+              "explain": "Fonctions et localisations distinctes."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir maturation d’affinité.",
+              "answer_text": "Sélection de clones B à affinité accrue après hypermutation somatique dans centres germinatifs.",
+              "explain": "Dépend de l’aide Tfh et AID."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir cross-presentation.",
+              "answer_text": "Capacité de CPA à présenter des antigènes exogènes sur CMH I aux CD8.",
+              "explain": "Permet réponse cytotoxique contre virus/tumeurs."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un rôle de HLA-DM.",
+              "answer_text": "Échange CLIP contre peptide antigénique dans CMH II.",
+              "explain": "Facilite chargement correct."
+            },
+            {
+              "type": "short",
+              "prompt": "Associer profils Th ↔ fonctions.",
+              "answer_text": "Th1: IFN-γ, intracellulaire ; Th2: IL-4/5/13, parasites/allergie ; Th17: IL-17, extracellulaire ; Treg: IL-10/TGF-β, régulation.",
+              "explain": "Schéma synthétique."
+            },
+            {
+              "type": "short",
+              "prompt": "Nommer un inhibiteur du complément.",
+              "answer_text": "C1-inhibiteur (déficit → angio-œdème héréditaire).",
+              "explain": "Régule activation précoce."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple de type II.",
+              "answer_text": "Anémie hémolytique auto-immune ; Goodpasture ; Graves (stimulant).",
+              "explain": "Fixation anticorps sur antigènes de surface/récepteurs."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir auto-immunité.",
+              "answer_text": "Rupture de tolérance menant à une réponse contre le soi.",
+              "explain": "Auto-anticorps et/ou cellules T auto-réactives."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir « booster » vaccinal.",
+              "answer_text": "Rappel qui réactive la mémoire et augmente l’affinité/les titres d’anticorps.",
+              "explain": "Phénomène d’amplification secondaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux immunodéficiences primaires.",
+              "answer_text": "SCID, agammaglobulinémie de Bruton, déficit IgA, granulomatose chronique.",
+              "explain": "Défauts génétiques."
+            },
+            {
+              "type": "short",
+              "prompt": "Différencier autogreffe, allogreffe, xénogreffe.",
+              "answer_text": "Auto: soi→soi ; Allo: humain différent ; Xéno: inter-espèces.",
+              "explain": "Impacts immunologiques distincts."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe d’un test immunochromatographique (lateral flow).",
+              "answer_text": "Migration capillaire, capture d’Ag/Ac sur lignes, lecture visuelle rapide.",
+              "explain": "Tests rapides (ex: antigéniques)."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’adjuvant.",
+              "answer_text": "Hydroxyde/phosphate d’aluminium.",
+              "explain": "Stimule l’immunité innée/CPA."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence PRR vs TCR/BCR.",
+              "answer_text": "PRR: reconnaissent PAMP/DAMP ; TCR/BCR: spécifiques d’épitope via recombinaison.",
+              "explain": "Innate vs adaptative."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir co-stimulation.",
+              "answer_text": "Signal 2 (ex: CD28–B7) nécessaire à l’activation T complète.",
+              "explain": "Sans co-stim: anergie/apoptose."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux tests pour auto-anticorps.",
+              "answer_text": "ANA (IF), anti-DsDNA (ELISA/IF), anti-CCP, anti-ENA…",
+              "explain": "Dépend du contexte clinique."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Allergie immédiate — Contexte d’urticaire/anaphylaxie après arachides\n\nType d’hypersensibilité et médiateurs ?",
+              "answer_text": "Type I, IgE, dégranulation mastocytaire (histamine).",
+              "explain": "Traitement: adrénaline + prise en charge allergologique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Déficit en complément — Infections répétées par bactéries encapsulées, C3 bas\n\nHypothèse ?",
+              "answer_text": "Déficit du complément (voie classique/alterne).",
+              "explain": "Risque infections graves, vaccination conseillée."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] SCID — Nourrisson avec infections opportunistes, lymphocytes T très bas\n\nDiagnostic le plus probable ?",
+              "answer_text": "Immunodéficience combinée sévère.",
+              "explain": "Orientation génétique et isolement protecteur."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Maladie auto-immune — Femme 25 ans, ANA+, anti-DsDNA+\n\nDiagnostic probable ?",
+              "answer_text": "Lupus érythémateux disséminé.",
+              "explain": "Atteinte multisystémique, complément bas possible."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Rejet de greffe aigu — Greffé rénal S+7, créat↑, fièvre, douleur\n\nMécanisme immunitaire principal ?",
+              "answer_text": "Réponse cellulaire T anti-HLA.",
+              "explain": "Biopsie, intensification immunosuppression."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #6 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #7 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #8 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #9 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #10 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #11 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #12 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #13 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #14 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #15 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #16 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #17 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #18 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #19 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #20 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #21 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #22 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #23 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #24 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #25 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #26 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #27 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #28 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #29 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas immuno #30 — Vignette courte (allergie, auto-immunité, déficit, vaccination, greffe)\n\nQuel est le mécanisme/diagnostic ?",
+              "answer_text": "Raisonner par type de réponse et biomarqueurs.",
+              "explain": "Toujours confronter au contexte clinique."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:56:08.242218Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
