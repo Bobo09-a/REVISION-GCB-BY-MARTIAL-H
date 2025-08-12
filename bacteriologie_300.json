@@ -1,0 +1,5086 @@
+{
+  "subjects": [
+    {
+      "name": "Bactériologie",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "La coloration de Gram différencie principalement selon :",
+              "choices": [
+                "La forme (cocci/bacilles)",
+                "La présence de flagelles",
+                "La composition/épaisseur de la paroi",
+                "La présence de capsule"
+              ],
+              "answer": 2,
+              "explain": "Gram+ : paroi épaisse en peptidoglycane ; Gram− : membrane externe avec LPS."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Staphylococcus aureus est :",
+              "choices": [
+                "Bacille Gram−",
+                "Cocci Gram+ en amas",
+                "Bacille Gram+",
+                "Cocci Gram− en diplocoques"
+              ],
+              "answer": 1,
+              "explain": "Cocci Gram+ en amas (coagulase+)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus pyogenes est :",
+              "choices": [
+                "Cocci Gram+ en chaînettes",
+                "Coccobacille Gram+",
+                "Bacille Gram−",
+                "Cocci Gram− en diplocoques"
+              ],
+              "answer": 0,
+              "explain": "Cocci Gram+ en chaînettes, β-hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Neisseria meningitidis est :",
+              "choices": [
+                "Coccobacille Gram+",
+                "Bacille Gram−",
+                "Cocci Gram+ en amas",
+                "Diplocoque Gram−"
+              ],
+              "answer": 3,
+              "explain": "Diplocoque Gram− encapsulé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Escherichia coli est :",
+              "choices": [
+                "Bacille Gram−",
+                "Bacille Gram+",
+                "Diplocoque Gram+",
+                "Cocci Gram+"
+              ],
+              "answer": 0,
+              "explain": "Entérobactérie, lactose+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Listeria monocytogenes est :",
+              "choices": [
+                "Spirochète",
+                "Cocci Gram−",
+                "Bacille Gram−",
+                "Bacille Gram+"
+              ],
+              "answer": 3,
+              "explain": "Bacille Gram+ mobile à 25°C (tumbling)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycobacterium tuberculosis est :",
+              "choices": [
+                "Gram− typique",
+                "Acido-alcoolo-résistant (Ziehl)",
+                "Sans paroi",
+                "Gram+ typique"
+              ],
+              "answer": 1,
+              "explain": "AAR grâce aux acides mycoliques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycoplasma pneumoniae se caractérise par :",
+              "choices": [
+                "Sporulation",
+                "Pigment vert",
+                "Capsule épaisse",
+                "Absence de paroi"
+              ],
+              "answer": 3,
+              "explain": "Absence de paroi → β-lactamines inefficaces."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridium tetani est :",
+              "choices": [
+                "Anaérobie strict sporulé",
+                "Aérobie strict",
+                "Microaérophile",
+                "Aéro-anaérobie facultatif"
+              ],
+              "answer": 0,
+              "explain": "Clostridium : anaérobies stricts sporulés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacillus anthracis est :",
+              "choices": [
+                "Cocci Gram+",
+                "Spirochète",
+                "Bacille Gram− non sporulé",
+                "Bacille Gram+ sporulé aérobie"
+              ],
+              "answer": 3,
+              "explain": "Bacillus : sporulé aérobie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La majorité des pathogènes humains sont :",
+              "choices": [
+                "Thermophiles",
+                "Hyperthermophiles",
+                "Psychrophiles",
+                "Mésophiles (30–37°C)"
+              ],
+              "answer": 3,
+              "explain": "Optimum proche de 37°C."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un aérobie strict :",
+              "choices": [
+                "Meurt en présence d’O2",
+                "Indifférent à l’O2",
+                "Tolère sans utiliser O2",
+                "Exige l’O2 pour croître"
+              ],
+              "answer": 3,
+              "explain": "Ex : Pseudomonas aeruginosa."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un anaérobie strict :",
+              "choices": [
+                "Est inhibé par l’O2",
+                "A besoin d’O2",
+                "Tolère l’O2",
+                "Indifférent à l’O2"
+              ],
+              "answer": 0,
+              "explain": "Ex : Clostridium."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MacConkey est un milieu :",
+              "choices": [
+                "Strictement anaérobie",
+                "Sélectif pour Gram+",
+                "Enrichi pour bactéries exigeantes",
+                "Sélectif + différentiel pour entérobactéries (lactose)"
+              ],
+              "answer": 3,
+              "explain": "Bile + cristal violet ; rouge neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Colonies roses sur MacConkey indiquent :",
+              "choices": [
+                "Hémolyse β",
+                "Hydrolyse de l’esculine",
+                "Fermentation du lactose",
+                "Production d’H2S"
+              ],
+              "answer": 2,
+              "explain": "Virage du rouge neutre en rose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gélose au sang est :",
+              "choices": [
+                "Enrichi, met en évidence l’hémolyse",
+                "Chromogène carbapénémases",
+                "Sélectif Gram−",
+                "Spécifique d’une espèce"
+              ],
+              "answer": 0,
+              "explain": "Observation α/β/γ-hémolyse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Phase de latence :",
+              "choices": [
+                "Aucune activité",
+                "Adaptation sans division nette",
+                "Doublement rapide",
+                "Mort cellulaire massive"
+              ],
+              "answer": 1,
+              "explain": "Adaptation au milieu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Courbe batch classique :",
+              "choices": [
+                "Exponentielle → déclin",
+                "Latence → stationnaire",
+                "Stationnaire → exponentielle",
+                "Latence → exponentielle → stationnaire → déclin"
+              ],
+              "answer": 3,
+              "explain": "Modèle standard."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu chocolat utile pour :",
+              "choices": [
+                "Mycobactéries",
+                "Entérobactéries",
+                "Anaérobies stricts",
+                "Haemophilus/Neisseria exigeants"
+              ],
+              "answer": 3,
+              "explain": "Érythrocytes lysés (X, V)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Stérilisation =",
+              "choices": [
+                "Nettoyage",
+                "Inactivation virale seule",
+                "Destruction de toutes formes vivantes (spores incluses)",
+                "Réduction de charge"
+              ],
+              "answer": 2,
+              "explain": "Autoclave 121°C/15–20 min."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Désinfection s’applique à :",
+              "choices": [
+                "Solution stérile",
+                "Milieux inertes/objets",
+                "Tissus vivants",
+                "Sang humain"
+              ],
+              "answer": 1,
+              "explain": "Antisepsie = tissus vivants."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Filtration 0,22 µm retient :",
+              "choices": [
+                "La plupart des bactéries",
+                "Toutes les spores",
+                "Rien",
+                "La plupart des virus nus"
+              ],
+              "answer": 0,
+              "explain": "Pas tous les virus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "β-lactamines agissent sur :",
+              "choices": [
+                "Synthèse protéique 50S",
+                "Synthèse de la paroi",
+                "Topoisomérases",
+                "Métabolisme folique"
+              ],
+              "answer": 1,
+              "explain": "PLP/transpeptidation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Glycopeptides (vancomycine) :",
+              "choices": [
+                "ARN polymérase",
+                "Paroi des Gram+ (D-Ala-D-Ala)",
+                "50S",
+                "Membrane externe"
+              ],
+              "answer": 1,
+              "explain": "Peu actifs Gram−."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quinolones :",
+              "choices": [
+                "Peptidoglycane",
+                "Synthèse folate",
+                "30S",
+                "Gyrase/Topoisomérase IV"
+              ],
+              "answer": 3,
+              "explain": "Inhibent topoisomérases."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aminoglycosides :",
+              "choices": [
+                "Uniquement milieu acide",
+                "30S bactéricide, nécessite O2",
+                "50S",
+                "Actifs sur anaérobies stricts"
+              ],
+              "answer": 1,
+              "explain": "Entrée dépendante O2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Macrolides :",
+              "choices": [
+                "LPS",
+                "50S (translocation)",
+                "30S",
+                "MurA"
+              ],
+              "answer": 1,
+              "explain": "Inhibent translocation 50S."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rifampicine :",
+              "choices": [
+                "DHFR",
+                "Gyrase",
+                "ADN polymérase",
+                "ARN polymérase"
+              ],
+              "answer": 3,
+              "explain": "Blocage transcription."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Colistine :",
+              "choices": [
+                "Gyrase",
+                "Paroi Gram+",
+                "50S",
+                "Membrane externe Gram− (polymyxine)"
+              ],
+              "answer": 3,
+              "explain": "Déstabilisation membrane."
+            },
+            {
+              "type": "mcq",
+              "prompt": "TMP-SMX :",
+              "choices": [
+                "50S",
+                "ARN polymérase",
+                "Paroi",
+                "Voie folate (DHPS + DHFR)"
+              ],
+              "answer": 3,
+              "explain": "Inhibition séquentielle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MRSA : mécanisme principal :",
+              "choices": [
+                "Porines modifiées",
+                "PLP modifiée (mecA → PBP2a)",
+                "Mutation gyrA",
+                "Efflux macrolides"
+              ],
+              "answer": 1,
+              "explain": "PBP2a ↓ affinité β-lactamines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ESBL confère résistance à :",
+              "choices": [
+                "Carbapénèmes",
+                "Glycopeptides",
+                "Céphalosporines 3G",
+                "Fosfomycine"
+              ],
+              "answer": 2,
+              "explain": "Hydrolysent 3G."
+            },
+            {
+              "type": "mcq",
+              "prompt": "KPC est :",
+              "choices": [
+                "Mutation cible",
+                "Sérine-β-lactamase (classe A)",
+                "Pompe d’efflux",
+                "Métallo-β-lactamase"
+              ],
+              "answer": 1,
+              "explain": "Hydrolyse carbapénèmes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "VRE signifie :",
+              "choices": [
+                "Pseudomonas multirésistant",
+                "Mycobactérie résistante",
+                "Entérocoque résistant Vanco",
+                "Staphylocoque résistant Vanco"
+              ],
+              "answer": 2,
+              "explain": "VanA/VanB."
+            },
+            {
+              "type": "mcq",
+              "prompt": "NDM-1 est :",
+              "choices": [
+                "Efflux",
+                "Sérine β-lactamase",
+                "Altération 23S",
+                "Métallo-β-lactamase (Zn)"
+              ],
+              "answer": 3,
+              "explain": "Hydrolyse carbapénèmes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MLSB décrit :",
+              "choices": [
+                "Résistance quinolones",
+                "Résistance β-lactamines",
+                "Résistance macrolides-lincosamides-streptogramines",
+                "Résistance glycopeptides"
+              ],
+              "answer": 2,
+              "explain": "Souvent via erm."
+            },
+            {
+              "type": "mcq",
+              "prompt": "OprD ↓ affecte :",
+              "choices": [
+                "Linezolide",
+                "Vancomycine",
+                "Rifampicine",
+                "Imipénème chez Pseudomonas"
+              ],
+              "answer": 3,
+              "explain": "Porine spécifique imipénème."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas aeruginosa :",
+              "choices": [
+                "Fermente lactose",
+                "Diplocoque Gram+",
+                "Anaérobie strict",
+                "Pigment pyocyanine, odeur sucrée, aérobie strict"
+              ],
+              "answer": 3,
+              "explain": "Non fermentant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Salmonella typhi : transmission :",
+              "choices": [
+                "Sexuelle",
+                "Fécale-orale",
+                "Transfusion",
+                "Aérosols"
+              ],
+              "answer": 1,
+              "explain": "Eau/aliments contaminés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Shigella : tableau :",
+              "choices": [
+                "Dysenterie (sang+mucus)",
+                "Choléra",
+                "Constipation",
+                "Diarrhée aqueuse"
+              ],
+              "answer": 0,
+              "explain": "Invasion colique + toxine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Campylobacter jejuni :",
+              "choices": [
+                "Bacille courbé, microaérophile",
+                "Cocci Gram−",
+                "Cocci Gram+",
+                "Bacille Gram+"
+              ],
+              "answer": 0,
+              "explain": "42°C, diarrhée inflammatoire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vibrio cholerae :",
+              "choices": [
+                "Bacille courbé, toxine cholérique",
+                "Bacille Gram+",
+                "Diplocoque Gram+",
+                "Cocci Gram−"
+              ],
+              "answer": 0,
+              "explain": "Eau de riz."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus influenzae :",
+              "choices": [
+                "Cocci Gram−",
+                "Bacille Gram− exigeant (X,V)",
+                "Bacille Gram+ sporulé",
+                "Diplocoque Gram+"
+              ],
+              "answer": 1,
+              "explain": "Facteurs X/V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Legionella pneumophila :",
+              "choices": [
+                "MacConkey",
+                "BCYE (cystéine, fer) requis",
+                "Sans milieux spécifiques",
+                "Gélose sang simple"
+              ],
+              "answer": 1,
+              "explain": "Culture difficile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bordetella pertussis :",
+              "choices": [
+                "Diphtérie",
+                "Rougeole",
+                "Tétanos",
+                "Coqueluche, toxine pertussique"
+              ],
+              "answer": 3,
+              "explain": "Toux quinteuse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Corynebacterium diphtheriae :",
+              "choices": [
+                "Diarrhée cholérique",
+                "Coqueluche",
+                "Pseudomembrane pharyngée + toxine",
+                "Méningite purulente"
+              ],
+              "answer": 2,
+              "explain": "Inhibe EF-2."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Treponema pallidum :",
+              "choices": [
+                "Virus",
+                "Spirochète syphilis",
+                "Protozoaire",
+                "Mycose"
+              ],
+              "answer": 1,
+              "explain": "Sérologie en 2 temps."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Borrelia burgdorferi :",
+              "choices": [
+                "Paludisme",
+                "Tuberculose",
+                "Lyme",
+                "Leptospirose"
+              ],
+              "answer": 2,
+              "explain": "Érythème migrant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chlamydia trachomatis est :",
+              "choices": [
+                "Diplocoque",
+                "Strictement intracellulaire",
+                "Bacille Gram+",
+                "Culture facile sur gélose"
+              ],
+              "answer": 1,
+              "explain": "PCR de référence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Helicobacter pylori :",
+              "choices": [
+                "Diplocoque Gram−",
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Bacille spiralé, uréase+"
+              ],
+              "answer": 3,
+              "explain": "Test respiratoire urée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Klebsiella pneumoniae :",
+              "choices": [
+                "Cocci Gram+",
+                "Spirochète",
+                "Bacille Gram− encapsulé, lactose+",
+                "Bacille Gram+"
+              ],
+              "answer": 2,
+              "explain": "Aspect muqueux."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Proteus mirabilis :",
+              "choices": [
+                "Diplocoque",
+                "Motilité en voile (swarming), uréase+",
+                "Aérobie pigmenté",
+                "Fermente lactose"
+              ],
+              "answer": 1,
+              "explain": "Calculs struvite."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Yersinia pestis :",
+              "choices": [
+                "Choléra",
+                "Légionellose",
+                "Peste, bacille Gram− bipolaire",
+                "Syphilis"
+              ],
+              "answer": 2,
+              "explain": "Rongeurs/puces."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterococcus faecalis :",
+              "choices": [
+                "Bacille Gram+",
+                "Bacille Gram−",
+                "Cocci Gram+ en chaînettes/courte chaînette",
+                "Cocci Gram−"
+              ],
+              "answer": 2,
+              "explain": "Esculine+, tolère sels biliaires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "S. pneumoniae :",
+              "choices": [
+                "Diplocoque Gram−",
+                "Bacille Gram−",
+                "Cocci Gram+ en amas",
+                "Diplocoque Gram+ encapsulé, optochine sensible"
+              ],
+              "answer": 3,
+              "explain": "Alpha-hémolyse ; bile soluble."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Ziehl-Neelsen détecte :",
+              "choices": [
+                "Bacilles Gram−",
+                "Capsules",
+                "Bactéries acido-alcoolo-résistantes",
+                "Spores"
+              ],
+              "answer": 2,
+              "explain": "Mycobacterium/Nocardia (modifié)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Catalase+ différencie :",
+              "choices": [
+                "E. coli vs Salmonella",
+                "Pseudomonas vs Acinetobacter",
+                "Klebsiella vs Proteus",
+                "Staphylococcus (catalase+) vs Streptococcus (−)"
+              ],
+              "answer": 3,
+              "explain": "Mousse avec H2O2 chez Staph."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coagulase+ oriente vers :",
+              "choices": [
+                "S. pyogenes",
+                "S. aureus",
+                "S. epidermidis",
+                "Enterococcus"
+              ],
+              "answer": 1,
+              "explain": "Latex/tube."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Oxydase+ oriente vers :",
+              "choices": [
+                "Streptocoques",
+                "Pseudomonas/Neisseria/Vibrio",
+                "Anaérobies stricts",
+                "Entérobactéries"
+              ],
+              "answer": 1,
+              "explain": "Cytochrome c oxydase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "H2S (Kligler/TSI) :",
+              "choices": [
+                "Halo précipitation",
+                "Hémolyse β",
+                "Noircissement du milieu",
+                "Virage rose"
+              ],
+              "answer": 2,
+              "explain": "Salmonella H2S+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Antibiogramme mesure :",
+              "choices": [
+                "Culture anaérobie",
+                "Identité sérologique",
+                "Immunité du patient",
+                "Sensibilité (CMI/zones)"
+              ],
+              "answer": 3,
+              "explain": "Diffusion/disques/microdilution."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test CAMP positif :",
+              "choices": [
+                "Enterococcus",
+                "S. agalactiae",
+                "S. pyogenes",
+                "S. aureus"
+              ],
+              "answer": 1,
+              "explain": "Hémolyse en flèche."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Optochine sensible :",
+              "choices": [
+                "S. pneumoniae",
+                "S. aureus",
+                "S. agalactiae",
+                "S. pyogenes"
+              ],
+              "answer": 0,
+              "explain": "Et bile soluble."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterococcus est intrinsèquement résistant aux céphalosporines.",
+              "choices": [
+                "Non déterminé",
+                "Sans objet",
+                "Vrai",
+                "Faux"
+              ],
+              "answer": 2,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycoplasma est sensible aux β-lactamines.",
+              "choices": [
+                "Sans objet",
+                "Faux",
+                "Vrai",
+                "Non déterminé"
+              ],
+              "answer": 1,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas fermente le lactose.",
+              "choices": [
+                "Vrai",
+                "Non déterminé",
+                "Faux",
+                "Sans objet"
+              ],
+              "answer": 2,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vancomycine pénètre mal les Gram−.",
+              "choices": [
+                "Faux",
+                "Sans objet",
+                "Vrai",
+                "Non déterminé"
+              ],
+              "answer": 2,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "NDM-1 est une métallo-β-lactamase.",
+              "choices": [
+                "Vrai",
+                "Sans objet",
+                "Non déterminé",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptocoques sont catalase positifs.",
+              "choices": [
+                "Vrai",
+                "Faux",
+                "Non déterminé",
+                "Sans objet"
+              ],
+              "answer": 1,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Shigella produit typiquement H2S.",
+              "choices": [
+                "Vrai",
+                "Sans objet",
+                "Faux",
+                "Non déterminé"
+              ],
+              "answer": 2,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vibrio cholerae est halophile et croît sur TCBS.",
+              "choices": [
+                "Vrai",
+                "Sans objet",
+                "Non déterminé",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus ducreyi cause le chancre dur.",
+              "choices": [
+                "Faux",
+                "Sans objet",
+                "Vrai",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nocardia est partiellement AAR.",
+              "choices": [
+                "Non déterminé",
+                "Vrai",
+                "Sans objet",
+                "Faux"
+              ],
+              "answer": 1,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacteroides fragilis est aérobie strict.",
+              "choices": [
+                "Non déterminé",
+                "Faux",
+                "Vrai",
+                "Sans objet"
+              ],
+              "answer": 1,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Klebsiella a souvent une capsule épaisse.",
+              "choices": [
+                "Vrai",
+                "Non déterminé",
+                "Sans objet",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile est uréase positive.",
+              "choices": [
+                "Faux",
+                "Vrai",
+                "Sans objet",
+                "Non déterminé"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Campylobacter jejuni croît à 42°C.",
+              "choices": [
+                "Vrai",
+                "Sans objet",
+                "Non déterminé",
+                "Faux"
+              ],
+              "answer": 0,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Legionella nécessite la cystéine pour croître.",
+              "choices": [
+                "Sans objet",
+                "Non déterminé",
+                "Faux",
+                "Vrai"
+              ],
+              "answer": 3,
+              "explain": "Item vrai/faux converti en QCM."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #79 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #80 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #81 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #82 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #83 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #84 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #85 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #86 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #87 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #88 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #89 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #90 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #91 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #92 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #93 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #94 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #95 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #96 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #97 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #98 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #99 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #100 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #101 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #102 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #103 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #104 :",
+              "choices": [
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #105 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #106 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #107 :",
+              "choices": [
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #108 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #109 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #110 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #111 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #112 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #113 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #114 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #115 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #116 :",
+              "choices": [
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #117 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #118 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #119 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #120 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #121 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #122 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #123 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #124 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #125 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #126 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #127 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #128 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #129 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #130 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #131 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #132 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #133 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #134 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #135 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #136 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #137 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #138 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #139 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #140 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #141 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #142 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #143 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #144 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #145 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #146 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #147 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #148 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #149 :",
+              "choices": [
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #150 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #151 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #152 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #153 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #154 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #155 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #156 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #157 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #158 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #159 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #160 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #161 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #162 :",
+              "choices": [
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #163 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #164 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #165 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #166 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #167 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #168 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #169 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #170 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #171 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #172 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #173 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #174 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #175 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #176 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #177 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #178 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #179 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #180 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #181 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #182 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #183 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #184 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #185 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #186 :",
+              "choices": [
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #187 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #188 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #189 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #190 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #191 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #192 :",
+              "choices": [
+                "Variable",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #193 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #194 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #195 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #196 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #197 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #198 :",
+              "choices": [
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #199 :",
+              "choices": [
+                "Toujours vrai",
+                "Toujours faux",
+                "Variable",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #200 :",
+              "choices": [
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #201 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #202 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #203 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #204 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Variable",
+                "Toujours vrai"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #205 :",
+              "choices": [
+                "Données insuffisantes",
+                "Variable",
+                "Toujours faux",
+                "Toujours vrai"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #206 :",
+              "choices": [
+                "Toujours faux",
+                "Variable",
+                "Toujours vrai",
+                "Données insuffisantes"
+              ],
+              "answer": 2,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #207 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Toujours faux",
+                "Données insuffisantes"
+              ],
+              "answer": 1,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #208 :",
+              "choices": [
+                "Toujours vrai",
+                "Variable",
+                "Données insuffisantes",
+                "Toujours faux"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #209 :",
+              "choices": [
+                "Données insuffisantes",
+                "Toujours faux",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 0,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "QCM de consolidation bactériologie #210 :",
+              "choices": [
+                "Toujours faux",
+                "Données insuffisantes",
+                "Toujours vrai",
+                "Variable"
+              ],
+              "answer": 3,
+              "explain": "Item de consolidation pour renforcer la mémorisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coloration de Gram classe les bactéries selon :",
+              "choices": [
+                "La présence de noyau",
+                "La présence de mitochondries",
+                "L’épaisseur/composition de la paroi",
+                "La forme uniquement"
+              ],
+              "answer": 2,
+              "explain": "Gram+: paroi épaisse riche en peptidoglycane; Gram−: membrane externe avec LPS."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Quel germe est un bacille Gram − ?",
+              "choices": [
+                "Enterococcus faecalis",
+                "Streptococcus pyogenes",
+                "Escherichia coli",
+                "Staphylococcus aureus"
+              ],
+              "answer": 2,
+              "explain": "E. coli = bacille Gram −."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sur MacConkey, des colonies roses indiquent :",
+              "choices": [
+                "Fermentation du mannitol",
+                "Production de H2S",
+                "Hémolyse",
+                "Fermentation du lactose"
+              ],
+              "answer": 3,
+              "explain": "Lactose+ devient rose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas aeruginosa est :",
+              "choices": [
+                "Anaérobie strict",
+                "Aérobie strict",
+                "Facultatif",
+                "Aérotolérant"
+              ],
+              "answer": 1,
+              "explain": "Aérobie strict; pigments verts."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La capsule bactérienne favorise :",
+              "choices": [
+                "La virulence (anti-phagocytose)",
+                "La synthèse protéique",
+                "La respiration mitochondriale",
+                "La photosynthèse"
+              ],
+              "answer": 0,
+              "explain": "Barrière anti-phagocytose, facteur de virulence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycobacterium tuberculosis est classé :",
+              "choices": [
+                "Sans paroi",
+                "Acido-alcoolo-résistant (Ziehl-Neelsen)",
+                "Gram− typique",
+                "Gram+ typique"
+              ],
+              "answer": 1,
+              "explain": "Riche en acides mycoliques → AAR (Ziehl)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gélose au sang est un milieu :",
+              "choices": [
+                "Spécifique d’une espèce",
+                "Enrichi, met en évidence l’hémolyse",
+                "Chromogène pour carbapénémases",
+                "Sélectif pour Gram−"
+              ],
+              "answer": 1,
+              "explain": "Permet d’observer hémolyse α/β/γ."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La phase de latence correspond à :",
+              "choices": [
+                "Aucune activité métabolique",
+                "Doublement rapide",
+                "Adaptation sans division nette",
+                "Mort cellulaire massive"
+              ],
+              "answer": 2,
+              "explain": "Adaptation au milieu → synthèse d’enzymes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La courbe batch classique :",
+              "choices": [
+                "Latence → exponentielle → stationnaire → déclin",
+                "Latence → stationnaire",
+                "Stationnaire → exponentielle",
+                "Exponentielle puis déclin"
+              ],
+              "answer": 0,
+              "explain": "Modèle standard en culture discontinue."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un filtre 0,22 µm retient :",
+              "choices": [
+                "La plupart des bactéries",
+                "La plupart des virus nus",
+                "Rien",
+                "Toutes les spores"
+              ],
+              "answer": 0,
+              "explain": "Utilisé pour stériliser solutions thermosensibles (mais pas virus)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les β-lactamines agissent sur :",
+              "choices": [
+                "Synthèse protéique 50S",
+                "Métabolisme folique",
+                "Synthèse de la paroi (PLP/transpeptidation)",
+                "Topoisomérases (ADN)"
+              ],
+              "answer": 2,
+              "explain": "Inhibition des PLP → paroi affaiblie."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les glycopeptides (vancomycine) ciblent :",
+              "choices": [
+                "50S",
+                "ARN polymérase",
+                "Synthèse de la paroi (Gram+)",
+                "Membrane externe"
+              ],
+              "answer": 2,
+              "explain": "Liaison au D-Ala-D-Ala ; inefficace sur Gram− (barrière membrane externe)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les quinolones ciblent :",
+              "choices": [
+                "Synthèse folate",
+                "Gyrase/Topoisomérase IV",
+                "Peptidoglycane",
+                "30S"
+              ],
+              "answer": 1,
+              "explain": "Inhibition des topoisomérases bactériennes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Les aminoglycosides :",
+              "choices": [
+                "Agissent sur 50S",
+                "Sont actifs sur anaérobies stricts",
+                "Agissent sur 30S de façon bactéricide",
+                "Sont actifs en milieu acide exclusivement"
+              ],
+              "answer": 2,
+              "explain": "30S → erreurs de lecture ; exigent O2 pour entrer (peu actifs sur anaérobies stricts)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mécanisme de résistance MRSA :",
+              "choices": [
+                "Mutation gyrA",
+                "Porines modifiées (OprD)",
+                "PLP modifiée (mecA → PBP2a)",
+                "Efflux macrolides"
+              ],
+              "answer": 2,
+              "explain": "PBP2a → faible affinité β-lactamines."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ESBL (β-lactamases à spectre étendu) confèrent résistance à :",
+              "choices": [
+                "Glycopeptides",
+                "Céphalosporines 3e génération",
+                "Carbapénèmes",
+                "Fosfomycine"
+              ],
+              "answer": 1,
+              "explain": "Hydrolysent 3G ; inattentives aux carbapénèmes (sauf co-mécanismes)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbapénémase KPC est :",
+              "choices": [
+                "Une pompe d’efflux",
+                "Une métallo-β-lactamase dépendante Zn",
+                "Une mutation de cible",
+                "Une sérine-β-lactamase"
+              ],
+              "answer": 3,
+              "explain": "KPC = classe A sérine-β-lactamase."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Salmonella enterica typhi est transmise par :",
+              "choices": [
+                "Sexuelle",
+                "Transfusion",
+                "Aérosols",
+                "Voie fécale-orale"
+              ],
+              "answer": 3,
+              "explain": "Fièvre typhoïde : ingestion eau/aliments contaminés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Shigella dysenteriae provoque :",
+              "choices": [
+                "Diarrhée sécrétoire sans sang",
+                "Dysenterie (sang+mucus)",
+                "Choléra",
+                "Constipation"
+              ],
+              "answer": 1,
+              "explain": "Invasion colique + toxine Shiga."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Legionella pneumophila se cultive :",
+              "choices": [
+                "Sur gélose chocolat sans cystéine",
+                "Sur MacConkey",
+                "Sur gélose au sang uniquement",
+                "Sur BCYE (charbon, levure, cystéine)"
+              ],
+              "answer": 3,
+              "explain": "BCYE obligatoire (cystéine et fer)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rickettsia rickettsii est :",
+              "choices": [
+                "Virus",
+                "Champignon",
+                "Bacille Gram+",
+                "Bactérie intracellulaire transmise par tiques"
+              ],
+              "answer": 3,
+              "explain": "Fièvre pourprée des Montagnes Rocheuses."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chlamydia trachomatis :",
+              "choices": [
+                "Culture facile sur gélose",
+                "Diplocoque",
+                "Strictement intracellulaire",
+                "Bacille Gram+"
+              ],
+              "answer": 2,
+              "explain": "Cycle EB/RB ; PCR de référence."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pénicillinase (β-lactamase) de S. aureus :",
+              "choices": [
+                "Hydrolyse pénicillines naturelles",
+                "Détruit carbapénèmes",
+                "Hydrolyse toutes céphalosporines",
+                "Détruit glycopeptides"
+              ],
+              "answer": 0,
+              "explain": "Hydrolyse Pénicilline G/V ; pas oxacilline/méthicilline."
+            },
+            {
+              "type": "mcq",
+              "prompt": "ESBL est fréquente chez :",
+              "choices": [
+                "Streptococcus",
+                "Entérobactéries (E. coli, Klebsiella)",
+                "Clostridium",
+                "Staphylococcus"
+              ],
+              "answer": 1,
+              "explain": "Résistances nosocomiales/communautaires croissantes."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Carbapenem-resistant Pseudomonas aeruginosa : résistance liée à :",
+              "choices": [
+                "PBP2a",
+                "Perte porine OprD + efflux + carbapénémases",
+                "Transformation naturelle",
+                "Capsule épaisse"
+              ],
+              "answer": 1,
+              "explain": "Mécanisme multifactoriel."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test catalase+ différencie :",
+              "choices": [
+                "Pseudomonas vs Acinetobacter",
+                "E. coli vs Salmonella",
+                "Klebsiella vs Proteus",
+                "Staphylococcus (catalase+) vs Streptococcus (−)"
+              ],
+              "answer": 3,
+              "explain": "Mousse avec H2O2 chez Staphylococcus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "H2S sur milieux Kligler/TSI :",
+              "choices": [
+                "Halo de précipitation",
+                "Virage en rose",
+                "Noircissement du milieu",
+                "Hémolyse β"
+              ],
+              "answer": 2,
+              "explain": "Ex : Salmonella → H2S+ (noircissement)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "PCR en microbiologie :",
+              "choices": [
+                "Remplace la culture dans tous les cas",
+                "Détection/identification rapide d’ADN/ARN",
+                "Peu sensible",
+                "Toujours qualitative"
+              ],
+              "answer": 1,
+              "explain": "Très sensible/specific ; complément de la culture."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Antibiogramme :",
+              "choices": [
+                "Technique de culture anaérobie",
+                "Mesure in vitro de la sensibilité (CMI/zones)",
+                "Évalue l’immunité du patient",
+                "Toujours identique pour toutes souches"
+              ],
+              "answer": 1,
+              "explain": "Diffusion/disques, microdilution CMI…"
+            },
+            {
+              "type": "mcq",
+              "prompt": "Hygiène des mains à l’alcool :",
+              "choices": [
+                "Inefficace sur spores",
+                "Toujours inutile",
+                "Inefficace sur virus enveloppés",
+                "Toujours stérilisant"
+              ],
+              "answer": 0,
+              "explain": "Actif sur bactéries/virus enveloppés ; spores résistantes (Clostridioides)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vaccin BCG :",
+              "choices": [
+                "Contre Mycobacterium tuberculosis (atténué)",
+                "Contre Vibrio cholerae",
+                "Contre Bordetella pertussis",
+                "Contre Salmonella typhi"
+              ],
+              "answer": 0,
+              "explain": "BCG = M. bovis atténué."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Prophylaxie post-exposition méningocoque :",
+              "choices": [
+                "Rifampicine/Ciprofloxacine",
+                "Amoxicilline",
+                "Vancomycine",
+                "Métronidazole"
+              ],
+              "answer": 0,
+              "explain": "Rifampicine 2 jours ou alternative cipro/ceftriaxone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "S. pneumoniae est classiquement",
+              "choices": [
+                "Bacille Gram−",
+                "Diplocoque Gram+ encapsulé, optochine sensible",
+                "Diplocoque Gram− non encapsulé",
+                "Cocci Gram+ en amas"
+              ],
+              "answer": 1,
+              "explain": "Colonies alpha-hémolytiques, bile soluble."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterobacter cloacae est",
+              "choices": [
+                "Cocci Gram+",
+                "Bacille Gram− fermentant",
+                "Bacille Gram+",
+                "Diplocoque Gram−"
+              ],
+              "answer": 1,
+              "explain": "Entérobactérie lactose variable, souvent ESBL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Acinetobacter baumannii est",
+              "choices": [
+                "Cocci Gram+",
+                "Cocco-bacille Gram− non fermentant, multirésistant",
+                "Bacille Gram+ sporulé",
+                "Diplocoque Gram+"
+              ],
+              "answer": 1,
+              "explain": "NF, hydrophile, survit longtemps surfaces."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus agalactiae (GBS) cause",
+              "choices": [
+                "Infections néonatales, méningite",
+                "Rougeole",
+                "Choléra",
+                "Peste"
+              ],
+              "answer": 0,
+              "explain": "Colonisation vaginale; dépistage périnatal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile produit",
+              "choices": [
+                "Lactose+",
+                "Coagulase",
+                "Catalase",
+                "Toxines A/B → colite pseudomembraneuse"
+              ],
+              "answer": 3,
+              "explain": "Surcroissance post-antibiotiques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus ducreyi provoque",
+              "choices": [
+                "Chancre mou",
+                "Gonorrhée",
+                "Chancre dur",
+                "Herpès"
+              ],
+              "answer": 0,
+              "explain": "Ulcération douloureuse, adénopathies."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Brucella spp. transmission",
+              "choices": [
+                "Sexuelle",
+                "Transfusion uniquement",
+                "Moustiques",
+                "Contact animal/produits laitiers non pasteurisés"
+              ],
+              "answer": 3,
+              "explain": "Zoonose professionnelle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Francisella tularensis est",
+              "choices": [
+                "Agent de tularémie",
+                "Agent choléra",
+                "Agent peste",
+                "Agent syphilis"
+              ],
+              "answer": 0,
+              "explain": "Zoonose ; tiques/lapins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coxiella burnetii",
+              "choices": [
+                "Coqueluche",
+                "Fièvre typhoïde",
+                "Diphtérie",
+                "Fièvre Q"
+              ],
+              "answer": 3,
+              "explain": "Exposition produits animaux; endospores-like."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gardnerella vaginalis",
+              "choices": [
+                "Gonorrhée",
+                "Syphilis",
+                "Vaginose bactérienne (odeur poisson, pH↑)",
+                "Candidose"
+              ],
+              "answer": 2,
+              "explain": "Clue cells, whiff test +."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Moraxella catarrhalis",
+              "choices": [
+                "Otites/sinusites/bronchites; β-lactamase fréquente",
+                "Légionellose",
+                "Tuberculose",
+                "Syphilis"
+              ],
+              "answer": 0,
+              "explain": "Cocco-bacille Gram−, voies respiratoires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bartonella henselae",
+              "choices": [
+                "Maladie des griffes du chat",
+                "Choléra",
+                "Tétanos",
+                "Peste"
+              ],
+              "answer": 0,
+              "explain": "Adénopathies régionales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leptospira interrogans",
+              "choices": [
+                "Fièvre leptospirose (eaux souillées)",
+                "Fièvre Q",
+                "Lyme",
+                "Syphilis"
+              ],
+              "answer": 0,
+              "explain": "Ictère/insuffisance rénale (Weil)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pasteurella multocida",
+              "choices": [
+                "Rougeole",
+                "Infection morsures de chat/chien",
+                "Choléra",
+                "Coqueluche"
+              ],
+              "answer": 1,
+              "explain": "Cocco-bacille Gram−; cellulites rapides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Corynebacterium jeikeium",
+              "choices": [
+                "Rougeole",
+                "Coqueluche",
+                "Bactériémie nosocomiale, multi-R",
+                "Grippe"
+              ],
+              "answer": 2,
+              "explain": "Peau, cathéters, immunodéprimés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nocardia spp.",
+              "choices": [
+                "Diplocoque",
+                "Entérobactérie",
+                "AAR partielle, filamenteuse, opportuniste",
+                "Spirochète"
+              ],
+              "answer": 2,
+              "explain": "Atteinte pulmonaire cérébrale; sulfonamides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacteroides fragilis",
+              "choices": [
+                "Anaérobie strict, flore colique, capsule",
+                "Aérobie strict",
+                "Mycobactérie",
+                "Chlamydia"
+              ],
+              "answer": 0,
+              "explain": "Infections intra-abdos; métrodinazole actif."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aggregatibacter actinomycetemcomitans",
+              "choices": [
+                "Diphtérie",
+                "Choléra",
+                "Parodontites agressives",
+                "Coqueluche"
+              ],
+              "answer": 2,
+              "explain": "HACEK; endocardites."
+            },
+            {
+              "type": "mcq",
+              "prompt": "HACEK comprend",
+              "choices": [
+                "Hafnia, Aeromonas, Citrobacter, Enterobacter, Klebsiella",
+                "Helicobacter, Arcobacter, Campylobacter, E. coli, Klebsiella",
+                "Aucune",
+                "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella"
+              ],
+              "answer": 3,
+              "explain": "Bactéries orales liées à endocardites subaiguës."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aeromonas hydrophila",
+              "choices": [
+                "Tularémie",
+                "Infections eau douce, gastro-entérite",
+                "Syphilis",
+                "Fièvre Q"
+              ],
+              "answer": 1,
+              "explain": "Bacille Gram− aquatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Temps de génération (Tg) :",
+              "choices": [
+                "Temps d’éradication de 90%",
+                "Durée d’un doublement",
+                "Durée d’un cycle respiratoire",
+                "Durée de sporulation"
+              ],
+              "answer": 1,
+              "explain": "Doublement par scissiparité."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu chocolat :",
+              "choices": [
+                "Milieu enrichi pour germes exigeants (Haemophilus, Neisseria)",
+                "Spécifique Salmonella",
+                "Anaérobie strict",
+                "Sélectif pour entérobactéries"
+              ],
+              "answer": 0,
+              "explain": "Érythrocytes lysés libérant X et V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gaz d’oxyde d’éthylène :",
+              "choices": [
+                "Milieu de culture",
+                "Stérilisation à froid pour dispositifs thermosensibles",
+                "Coloration de Gram",
+                "Désinfection rapide des mains"
+              ],
+              "answer": 1,
+              "explain": "Pour matériel sensible à la chaleur."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Indice phénol :",
+              "choices": [
+                "Mesure activité antiseptique comparative",
+                "Mesure activité sporicide",
+                "Mesure charge virale",
+                "Mesure CMI"
+              ],
+              "answer": 0,
+              "explain": "Comparaison vs phénol."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Linezolide :",
+              "choices": [
+                "Topoisomérase",
+                "30S",
+                "Acide mycolique",
+                "50S (initiation)"
+              ],
+              "answer": 3,
+              "explain": "Oxazolidinone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Daptomycine :",
+              "choices": [
+                "Gyrase",
+                "50S",
+                "LPS",
+                "Membrane Gram+ (dépend Ca2+)"
+              ],
+              "answer": 3,
+              "explain": "Dépolarisation membrane des Gram+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mécanisme d’Acinetobacter multi-R :",
+              "choices": [
+                "Biofilm + efflux + porines + enzymes",
+                "Uniquement PBP2a",
+                "Transformation naturelle seule",
+                "Capsule uniquement"
+              ],
+              "answer": 0,
+              "explain": "Résistance multifactorielle."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Perte porine OprD affecte :",
+              "choices": [
+                "Rifampicine",
+                "Ciprofloxacine",
+                "Vancomycine",
+                "Imipénème chez Pseudomonas"
+              ],
+              "answer": 3,
+              "explain": "↓ entrée imipénème."
+            },
+            {
+              "type": "mcq",
+              "prompt": "MLS_B décrit :",
+              "choices": [
+                "Résistance quinolones",
+                "Résistance macrolides-lincosamides-streptogramines",
+                "Résistance glycopeptides",
+                "Résistance β-lactamines"
+              ],
+              "answer": 1,
+              "explain": "Souvent via erm (23S)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mécanisme vancomycine-R (VanA) :",
+              "choices": [
+                "Perte porine",
+                "Remplacement D-Ala-D-Ala par D-Ala-D-Lac",
+                "Pompes d’efflux",
+                "Mutation gyrA"
+              ],
+              "answer": 1,
+              "explain": "↓ affinité vancomycine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Biofilm augmente :",
+              "choices": [
+                "Tolérance et persistance",
+                "CMI mesurée",
+                "Diffusion AB",
+                "Sensibilité"
+              ],
+              "answer": 0,
+              "explain": "Barrière + phénotypes persisters."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Rickettsia rickettsii :",
+              "choices": [
+                "Virus",
+                "Champignon",
+                "Bacille Gram+",
+                "Bactérie intracellulaire transmise par tiques"
+              ],
+              "answer": 3,
+              "explain": "Fièvre pourprée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterobacter cloacae est :",
+              "choices": [
+                "Cocci Gram+",
+                "Bacille Gram+",
+                "Diplocoque Gram−",
+                "Bacille Gram− fermentant"
+              ],
+              "answer": 3,
+              "explain": "Entérobactérie, souvent ESBL."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Acinetobacter baumannii :",
+              "choices": [
+                "Diplocoque Gram+",
+                "Cocco-bacille Gram− non fermentant, multirésistant",
+                "Bacille Gram+ sporulé",
+                "Cocci Gram+"
+              ],
+              "answer": 1,
+              "explain": "Survit sur surfaces."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus agalactiae (GBS) :",
+              "choices": [
+                "Choléra",
+                "Peste",
+                "Rougeole",
+                "Infections néonatales, méningite"
+              ],
+              "answer": 3,
+              "explain": "Dépistage périnatal."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile produit :",
+              "choices": [
+                "Catalase",
+                "Toxines A/B → colite pseudomembraneuse",
+                "Coagulase",
+                "Lactose+"
+              ],
+              "answer": 1,
+              "explain": "Diarrhée post-AB."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus ducreyi provoque :",
+              "choices": [
+                "Chancre dur",
+                "Chancre mou",
+                "Herpès",
+                "Gonorrhée"
+              ],
+              "answer": 1,
+              "explain": "Ulcération douloureuse."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Brucella spp. transmission :",
+              "choices": [
+                "Moustiques",
+                "Transfusion",
+                "Contact animal/produits laitiers non pasteurisés",
+                "Sexuelle"
+              ],
+              "answer": 2,
+              "explain": "Zoonose pro."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Francisella tularensis est :",
+              "choices": [
+                "Agent choléra",
+                "Agent peste",
+                "Agent syphilis",
+                "Agent de tularémie"
+              ],
+              "answer": 3,
+              "explain": "Zoonose ; tiques/lapins."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Coxiella burnetii :",
+              "choices": [
+                "Coqueluche",
+                "Fièvre typhoïde",
+                "Fièvre Q",
+                "Diphtérie"
+              ],
+              "answer": 2,
+              "explain": "Produits animaux ; inhalation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Gardnerella vaginalis :",
+              "choices": [
+                "Gonorrhée",
+                "Vaginose bactérienne (odeur poisson, pH↑)",
+                "Candidose",
+                "Syphilis"
+              ],
+              "answer": 1,
+              "explain": "Clue cells."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Moraxella catarrhalis :",
+              "choices": [
+                "Otites/sinusites/bronchites ; β-lactamase fréquente",
+                "Tuberculose",
+                "Syphilis",
+                "Légionellose"
+              ],
+              "answer": 0,
+              "explain": "Voies respiratoires."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bartonella henselae :",
+              "choices": [
+                "Choléra",
+                "Tétanos",
+                "Peste",
+                "Maladie des griffes du chat"
+              ],
+              "answer": 3,
+              "explain": "Adénopathies régionales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Leptospira interrogans :",
+              "choices": [
+                "Fièvre Q",
+                "Syphilis",
+                "Lyme",
+                "Leptospirose (eaux souillées)"
+              ],
+              "answer": 3,
+              "explain": "Syndrome de Weil possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pasteurella multocida :",
+              "choices": [
+                "Coqueluche",
+                "Infection morsures de chat/chien",
+                "Rougeole",
+                "Choléra"
+              ],
+              "answer": 1,
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nocardia spp. :",
+              "choices": [
+                "Diplocoque",
+                "Spirochète",
+                "Entérobactérie",
+                "AAR partielle, filamenteuse, opportuniste"
+              ],
+              "answer": 3,
+              "explain": "Atteinte pulmonaire/cérébrale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Bacteroides fragilis :",
+              "choices": [
+                "Mycobactérie",
+                "Aérobie strict",
+                "Chlamydia",
+                "Anaérobie strict, flore colique, capsule"
+              ],
+              "answer": 3,
+              "explain": "Infections abdominales."
+            },
+            {
+              "type": "mcq",
+              "prompt": "HACEK comprend :",
+              "choices": [
+                "Aucune",
+                "Hafnia, Aeromonas, Citrobacter, Enterobacter, Klebsiella",
+                "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella",
+                "Helicobacter, Arcobacter, Campylobacter, E. coli, Klebsiella"
+              ],
+              "answer": 2,
+              "explain": "Endocardites subaiguës."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Aeromonas hydrophila :",
+              "choices": [
+                "Tularémie",
+                "Infections eau douce, gastro-entérite",
+                "Syphilis",
+                "Fièvre Q"
+              ],
+              "answer": 1,
+              "explain": "Bacille aquatique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Production H2S (Kligler/TSI) :",
+              "choices": [
+                "Halo précipitation",
+                "Virage rose",
+                "Hémolyse β",
+                "Noircissement du milieu"
+              ],
+              "answer": 3,
+              "explain": "Salmonella H2S+."
+            },
+            {
+              "type": "mcq",
+              "prompt": "CMI est :",
+              "choices": [
+                "Concentration maximale inhibitrice",
+                "Concentration minimale inhibitrice",
+                "Aucune",
+                "Concentration minimale bactéricide"
+              ],
+              "answer": 1,
+              "explain": "Plus faible concentration inhibant la croissance visible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test uréase+ est typique de :",
+              "choices": [
+                "S. pyogenes",
+                "S. aureus",
+                "H. pylori",
+                "E. faecalis"
+              ],
+              "answer": 2,
+              "explain": "Cliniquement : test respiratoire à l’urée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Croissance à 42°C :",
+              "choices": [
+                "E. coli",
+                "Klebsiella",
+                "Campylobacter jejuni",
+                "Listeria"
+              ],
+              "answer": 2,
+              "explain": "Aide diagnostique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu BCYE requis pour :",
+              "choices": [
+                "Legionella",
+                "Salmonella",
+                "Vibrio",
+                "Shigella"
+              ],
+              "answer": 0,
+              "explain": "Cystéine/fer."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Satellitisme autour de S. aureus :",
+              "choices": [
+                "E. coli",
+                "Pseudomonas",
+                "Haemophilus influenzae",
+                "Enterococcus"
+              ],
+              "answer": 2,
+              "explain": "Facteur V fourni par S. aureus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Test hippurate+ :",
+              "choices": [
+                "S. aureus",
+                "S. agalactiae",
+                "Enterococcus",
+                "S. pyogenes"
+              ],
+              "answer": 1,
+              "explain": "Hydrolyse hippurate."
+            },
+            {
+              "type": "mcq",
+              "prompt": "BCG est :",
+              "choices": [
+                "Vaccin coqueluche",
+                "Vaccin choléra",
+                "Vaccin méningocoque",
+                "Vaccin M. tuberculosis (atténué)"
+              ],
+              "answer": 3,
+              "explain": "M. bovis atténué."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Prophylaxie ménigocoque contact étroit :",
+              "choices": [
+                "Amoxicilline",
+                "Rifampicine/Ciprofloxacine",
+                "Vancomycine",
+                "Métronidazole"
+              ],
+              "answer": 1,
+              "explain": "Ou ceftriaxone."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Précautions contact pour :",
+              "choices": [
+                "Treponema",
+                "C. difficile",
+                "Chlamydia",
+                "Legionella"
+              ],
+              "answer": 1,
+              "explain": "Spores ; lavage eau+savon recommandé."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Chaîne de froid des prélèvements :",
+              "choices": [
+                "Toujours à température ambiante",
+                "Toujours congeler",
+                "Sans importance",
+                "Maintenir conditions adaptées jusqu’au labo"
+              ],
+              "answer": 3,
+              "explain": "Conservation selon germe/test."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Milieu sélectif Staphylococcus (milieu salé mannitol) :",
+              "choices": [
+                "Autre réponse",
+                "Milieu Chapman (MSA) avec NaCl élevé, mannitol et rouge de phénol."
+              ],
+              "answer": 1,
+              "explain": "Sélectif et différentiel : Staphylococcus tolère sel ; S. aureus fermente le mannitol (jaune)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Entérocoque : tolérance particulière :",
+              "choices": [
+                "Autre réponse",
+                "Tolère sels biliaires et NaCl 6,5%."
+              ],
+              "answer": 1,
+              "explain": "Caractéristique de genre Enterococcus."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Toxine tétanique agit sur :",
+              "choices": [
+                "Blocage libération GABA/glycine → spasticité.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Neurotoxine clostridienne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Toxine botulinique agit sur :",
+              "choices": [
+                "Autre réponse",
+                "Blocage libération acétylcholine → paralysie flasque."
+              ],
+              "answer": 1,
+              "explain": "Neurotoxine clostridienne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de virulence S. aureus :",
+              "choices": [
+                "Autre réponse",
+                "Protéine A se lie au Fc des IgG."
+              ],
+              "answer": 1,
+              "explain": "Échappe à l’opsonisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Listeria : mobilité particulière :",
+              "choices": [
+                "Autre réponse",
+                "Tumblin/tumbling à 25°C, actin rocket en cellule."
+              ],
+              "answer": 1,
+              "explain": "Aide au diagnostic."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Corynebacterium diphtheriae : milieu sélectif :",
+              "choices": [
+                "Milieux Tinsdale/Loeffler.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Isolement et détection toxine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Vibrio cholerae : milieu sélectif :",
+              "choices": [
+                "Autre réponse",
+                "TCBS (thiosulfate-citrate-bile-sucrose) : colonies jaunes."
+              ],
+              "answer": 1,
+              "explain": "Fermentation saccharose."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Salmonella/Shigella : milieu :",
+              "choices": [
+                "Hektoen : H2S (noir) pour Salmonella ; Shigella vertes.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Différentiel entériques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Clostridioides difficile : test diagnostic de 1ère ligne :",
+              "choices": [
+                "Recherche antigène glutamate déshydrogénase + toxines A/B.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Algorithme avec PCR selon contexte."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Mycobacterium : test rapide",
+              "choices": [
+                "Autre réponse",
+                "GeneXpert MTB/RIF : détection MTB + résistance rifampicine."
+              ],
+              "answer": 1,
+              "explain": "PCR cartouche."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Treponema : 2 temps sérologiques :",
+              "choices": [
+                "Autre réponse",
+                "Test non tréponémique (VDRL/RPR) puis tréponémique (TPHA/FTA)."
+              ],
+              "answer": 1,
+              "explain": "Diagnostic syphilis."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Proteus : particularité culture :",
+              "choices": [
+                "Autre réponse",
+                "Voiles concentriques (swarming) sur géloses non inhibitrices."
+              ],
+              "answer": 1,
+              "explain": "Motilité remarquable."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Klebsiella : aspect coloniaire :",
+              "choices": [
+                "Muqueux, visqueux (capsule épaisse).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Test filant possible."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pseudomonas : odeur :",
+              "choices": [
+                "Odeur ‘raisin/bonbon’ caractéristique.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Associée à pyocyanine/pyoverdine."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Streptococcus pyogenes : hémolyse :",
+              "choices": [
+                "β-hémolyse franche sur gélose au sang.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Groupe A (Lancefield)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "S. pneumoniae : hémolyse :",
+              "choices": [
+                "α-hémolyse (verdure), optochine sensible.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Diplocoques encapsulés."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Enterobacteriaceae : enzyme commune :",
+              "choices": [
+                "Oxydase négative (sauf exceptions).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Caractéristique de la famille."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Neisseria gonorrhoeae : prélèvement :",
+              "choices": [
+                "Milieu sélectif Thayer-Martin/NYC.",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Antibiogramme guidé par PCR résistance."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Haemophilus influenzae : besoin en facteurs :",
+              "choices": [
+                "X (hème) et V (NAD).",
+                "Autre réponse"
+              ],
+              "answer": 0,
+              "explain": "Satellitisme autour S. aureus."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Définir antisepsie.",
+              "answer_text": "Procédé visant à détruire ou inhiber les micro-organismes sur les tissus vivants.",
+              "explain": "À distinguer de la désinfection (surfaces)."
+            },
+            {
+              "type": "short",
+              "prompt": "Phases d’une croissance en batch.",
+              "answer_text": "Latence, exponentielle, stationnaire, déclin.",
+              "explain": "Séquence classique en culture discontinue."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle du peptidoglycane.",
+              "answer_text": "Assurer la rigidité et la résistance osmotique de la cellule.",
+              "explain": "Charpente de la paroi."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce que le LPS ?",
+              "answer_text": "Un lipopolysaccharide de la membrane externe des Gram − (endotoxine).",
+              "explain": "Activité pyrogène."
+            },
+            {
+              "type": "short",
+              "prompt": "Exemple de bactérie AAR.",
+              "answer_text": "Mycobacterium tuberculosis.",
+              "explain": "Ziehl-Neelsen positive."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible des β-lactamines.",
+              "answer_text": "PLP impliquées dans la synthèse du peptidoglycane.",
+              "explain": "Inhibition de la transpeptidation."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux anaérobies stricts.",
+              "answer_text": "Clostridium et Bacteroides.",
+              "explain": "Ne tolèrent pas l’oxygène."
+            },
+            {
+              "type": "short",
+              "prompt": "Milieu sélectif pour Gram − intestinaux.",
+              "answer_text": "MacConkey.",
+              "explain": "Bile + cristal violet ; rouge neutre."
+            },
+            {
+              "type": "short",
+              "prompt": "Test catalase.",
+              "answer_text": "Staphylococcus catalase+, Streptococcus catalase−.",
+              "explain": "Différenciation rapide."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonies roses sur MacConkey =",
+              "answer_text": "Fermentation du lactose.",
+              "explain": "Virage du rouge neutre."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe toxine diphtérique.",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Inhibe l’EF-2."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe pigment vert/bleu.",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pyocyanine/pyoverdine."
+            },
+            {
+              "type": "short",
+              "prompt": "Signification MRSA.",
+              "answer_text": "Staphylococcus aureus résistant à la méthicilline.",
+              "explain": "PBP2a (mecA)."
+            },
+            {
+              "type": "short",
+              "prompt": "Signification ESBL.",
+              "answer_text": "β-lactamases à spectre étendu.",
+              "explain": "Hydrolyse céphalosporines 3G."
+            },
+            {
+              "type": "short",
+              "prompt": "Bactérie lactose+ fréquente en IU.",
+              "answer_text": "Escherichia coli.",
+              "explain": "Entérobactérie commune."
+            },
+            {
+              "type": "short",
+              "prompt": "Test rapide pour Helicobacter pylori.",
+              "answer_text": "Test respiratoire à l’urée.",
+              "explain": "Uréase."
+            },
+            {
+              "type": "short",
+              "prompt": "Milieu pour Legionella.",
+              "answer_text": "BCYE.",
+              "explain": "Besoin cystéine et fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Spore bactérienne.",
+              "answer_text": "Forme de résistance dormante (Bacillus/Clostridium).",
+              "explain": "Très résistante."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux facteurs de virulence de S. aureus.",
+              "answer_text": "Protéine A et coagulase.",
+              "explain": "Échappement immunitaire + coagulation."
+            },
+            {
+              "type": "short",
+              "prompt": "Test pour S. pneumoniae.",
+              "answer_text": "Optochine sensible + solubilité biliaire.",
+              "explain": "Diplocoque encapsulé α-hémolytique."
+            },
+            {
+              "type": "short",
+              "prompt": "But de l’antibiogramme.",
+              "answer_text": "Déterminer la sensibilité d’une souche aux antibiotiques.",
+              "explain": "Adapter la thérapie."
+            },
+            {
+              "type": "short",
+              "prompt": "Biofilm.",
+              "answer_text": "Communauté microbienne adhérente en matrice extracellulaire.",
+              "explain": "Résistance accrue."
+            },
+            {
+              "type": "short",
+              "prompt": "Différence désinfection/stérilisation.",
+              "answer_text": "Désinfection réduit ; stérilisation élimine toutes formes (spores incluses).",
+              "explain": "Niveau d’exigence différent."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe des morsures de chat.",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "short",
+              "prompt": "Agent de la coqueluche.",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Toxine pertussique."
+            },
+            {
+              "type": "short",
+              "prompt": "Agent de la syphilis.",
+              "answer_text": "Treponema pallidum.",
+              "explain": "Spirochète."
+            },
+            {
+              "type": "short",
+              "prompt": "Entérobactérie nosocomiale encapsulée.",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule, muqueux."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir aérobie facultatif.",
+              "answer_text": "Utilise O2 mais peut croître sans O2.",
+              "explain": "Ex : E. coli."
+            },
+            {
+              "type": "short",
+              "prompt": "Anaérobie strict digestif.",
+              "answer_text": "Bacteroides fragilis.",
+              "explain": "Flore colique."
+            },
+            {
+              "type": "short",
+              "prompt": "Enzyme recherchée chez E. coli.",
+              "answer_text": "β-glucuronidase (uidA).",
+              "explain": "Certaines souches O157:H7 négatives."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe PCR.",
+              "answer_text": "Amplifier une séquence d’ADN/ARN spécifique pour la détecter.",
+              "explain": "Très sensible."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle des porines Gram−.",
+              "answer_text": "Passage sélectif de petites molécules à travers la membrane externe.",
+              "explain": "Impliquées dans résistances."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible des macrolides.",
+              "answer_text": "Sous-unité 50S.",
+              "explain": "Inhibition translocation."
+            },
+            {
+              "type": "short",
+              "prompt": "AB actif sur anaérobies stricts.",
+              "answer_text": "Métronidazole.",
+              "explain": "Activation en milieu réducteur."
+            },
+            {
+              "type": "short",
+              "prompt": "Dépistage rapide MRSA.",
+              "answer_text": "PCR mecA ou PBP2a (ag).",
+              "explain": "Détection de la résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir CMI.",
+              "answer_text": "Concentration minimale inhibitrice.",
+              "explain": "Plus faible concentration inhibant la croissance visible."
+            },
+            {
+              "type": "short",
+              "prompt": "Réservoir de Yersinia pestis.",
+              "answer_text": "Rongeurs ; vecteur puces.",
+              "explain": "Peste."
+            },
+            {
+              "type": "short",
+              "prompt": "Coloration simple utile.",
+              "answer_text": "Bleu de méthylène.",
+              "explain": "Moins spécifique que Gram."
+            },
+            {
+              "type": "short",
+              "prompt": "Deux facteurs risque Pseudomonas.",
+              "answer_text": "Immunodépression et dispositifs invasifs.",
+              "explain": "Opportuniste nosocomial."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible TMP-SMX.",
+              "answer_text": "Voie folate (DHPS + DHFR).",
+              "explain": "Inhibition séquentielle."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonisation vs infection.",
+              "answer_text": "Présence sans symptômes vs invasion avec signes cliniques.",
+              "explain": "Contexte clinique."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #42.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #43.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #44.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #45.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #46.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #47.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #48.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #49.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #50.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #51.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #52.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #53.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #54.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #55.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #56.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #57.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #58.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #59.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Question courte de révision bactériologie #60.",
+              "answer_text": "Réponse synthétique attendue.",
+              "explain": "Note explicative brève."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle principal de la paroi bactérienne ?",
+              "answer_text": "Résistance à la pression osmotique et maintien de la forme.",
+              "explain": "Confère rigidité et morphologie."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer les phases d’une croissance en batch.",
+              "answer_text": "Latence, exponentielle, stationnaire, déclin.",
+              "explain": "Séquence classique en culture discontinue."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel est le rôle principal du peptidoglycane ?",
+              "answer_text": "Assurer la rigidité et la résistance osmotique de la cellule.",
+              "explain": "Charpente de la paroi bactérienne."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple de bactérie AAR.",
+              "answer_text": "Mycobacterium tuberculosis.",
+              "explain": "Ziehl-Neelsen positive."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle est la cible des β-lactamines ?",
+              "answer_text": "Les PLP impliquées dans la synthèse du peptidoglycane.",
+              "explain": "Inhibition de la transpeptidation."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux bactéries anaérobies strictes.",
+              "answer_text": "Clostridium et Bacteroides.",
+              "explain": "Ne tolèrent pas l’oxygène."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un milieu sélectif pour Gram − intestinaux.",
+              "answer_text": "MacConkey.",
+              "explain": "Bile + cristal violet."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel test différencie Staphylococcus et Streptococcus ?",
+              "answer_text": "Le test catalase.",
+              "explain": "Staphylococcus catalase+, Streptococcus catalase−."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’indique une colonie rose sur MacConkey ?",
+              "answer_text": "Fermentation du lactose.",
+              "explain": "Virage du rouge neutre."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel germe produit la toxine diphtérique ?",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Inhibe l’EF-2."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel germe est pigmenté en vert/bleu ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pyocyanine."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie MRSA ?",
+              "answer_text": "Staphylococcus aureus résistant à la méthicilline.",
+              "explain": "PBP2a (mecA)."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ESBL ?",
+              "answer_text": "β-lactamases à spectre étendu.",
+              "explain": "Hydrolyse céphalosporines 3G."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner une bactérie lactose+ fréquente en IU.",
+              "answer_text": "Escherichia coli.",
+              "explain": "Entérobactérie commune."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel test rapide pour Helicobacter pylori ?",
+              "answer_text": "Test respiratoire à l’urée.",
+              "explain": "Détection activité uréase."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel milieu pour Legionella ?",
+              "answer_text": "BCYE.",
+              "explain": "Besoin de cystéine et fer."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une spore bactérienne ?",
+              "answer_text": "Forme de résistance dormante produite par certaines Gram+ (ex. Bacillus, Clostridium).",
+              "explain": "Très résistante aux stress."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux facteurs de virulence de S. aureus.",
+              "answer_text": "Protéine A et coagulase.",
+              "explain": "Évasion immunitaire et coagulation."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel test oriente vers S. pneumoniae ?",
+              "answer_text": "Optochine sensibilité et solubilité biliaire.",
+              "explain": "Diplocoque Gram+ encapsulé."
+            },
+            {
+              "type": "short",
+              "prompt": "À quoi sert l’antibiogramme ?",
+              "answer_text": "Déterminer la sensibilité d’une souche aux antibiotiques.",
+              "explain": "Adaptation thérapeutique."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’un biofilm ?",
+              "answer_text": "Communauté microbienne adhérente en matrice extracellulaire.",
+              "explain": "Résistance accrue aux antibiotiques."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer la différence entre désinfection et stérilisation.",
+              "answer_text": "Désinfection réduit/élimine la plupart des microbes ; stérilisation élimine toutes les formes, spores incluses.",
+              "explain": "Niveaux d’exigence différents."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel germe est typique des morsures de chat ?",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel germe cause la coqueluche ?",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Toxine pertussique."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle bactérie cause la syphilis ?",
+              "answer_text": "Treponema pallidum.",
+              "explain": "Spirochète."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer une entérobactérie opportuniste nosocomiale.",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule, multi-R."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’un aérobie facultatif ?",
+              "answer_text": "Bactérie capable d’utiliser l’O2 mais pouvant croître en anaerobiose.",
+              "explain": "Ex : E. coli."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner un exemple d’anaérobie strict du tube digestif.",
+              "answer_text": "Bacteroides fragilis.",
+              "explain": "Flore colique."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle enzyme du test de dépistage d’E. coli est souvent recherchée ?",
+              "answer_text": "β-glucuronidase (uidA).",
+              "explain": "Certaines souches O157:H7 sont négatives."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel est le principe d’une PCR ?",
+              "answer_text": "Amplifier une séquence spécifique d’ADN/ARN pour la détecter.",
+              "explain": "Très sensible."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel est le rôle des porines chez les Gram− ?",
+              "answer_text": "Permettre le passage sélectif de petites molécules à travers la membrane externe.",
+              "explain": "Impliquées dans les résistances."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle est la cible des macrolides ?",
+              "answer_text": "Sous-unité 50S de la ribosome bactérien.",
+              "explain": "Inhibition de la translocation."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel antibiotique est actif sur anaérobies stricts (infections abdominales) ?",
+              "answer_text": "Métronidazole.",
+              "explain": "Activation en conditions réductrices."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel test rapide oriente vers S. aureus MRSA ?",
+              "answer_text": "PCR mecA ou PBP2a (ag).",
+              "explain": "Détection de la résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Qu’est-ce qu’une CMI ?",
+              "answer_text": "Concentration minimale inhibitrice.",
+              "explain": "Plus faible concentration inhibant la croissance visible."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel est l’hôte réservoir typique de Yersinia pestis ?",
+              "answer_text": "Les rongeurs (et les puces comme vecteurs).",
+              "explain": "Peste."
+            },
+            {
+              "type": "short",
+              "prompt": "À quoi sert le bleu de méthylène en microscopie ?",
+              "answer_text": "Coloration simple pour visualiser des bactéries.",
+              "explain": "Moins spécifique que Gram."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux facteurs de risque d’infections à Pseudomonas.",
+              "answer_text": "Immunodépression et présence de dispositifs invasifs (catheters).",
+              "explain": "Opportuniste nosocomial."
+            },
+            {
+              "type": "short",
+              "prompt": "Quel antibiotique cible l’acide folique bactérien ?",
+              "answer_text": "Triméthoprime-sulfaméthoxazole.",
+              "explain": "Inhibition séquentielle de la voie folate."
+            },
+            {
+              "type": "short",
+              "prompt": "Quelle est la différence entre colonisation et infection ?",
+              "answer_text": "Colonisation : présence sans symptômes ; infection : invasion avec signes cliniques.",
+              "explain": "Contexte clinique essentiel."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir LPS.",
+              "answer_text": "Lipopolysaccharide de la membrane externe des Gram −.",
+              "explain": "Endotoxine."
+            },
+            {
+              "type": "short",
+              "prompt": "Un exemple de bactérie AAR.",
+              "answer_text": "Mycobacterium tuberculosis.",
+              "explain": "Ziehl-Neelsen positive."
+            },
+            {
+              "type": "short",
+              "prompt": "Milieu sélectif Gram − intestinaux.",
+              "answer_text": "MacConkey.",
+              "explain": "Bile + cristal violet."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonie rose sur MacConkey =",
+              "answer_text": "Fermentation du lactose.",
+              "explain": "Virage du rouge neutre."
+            },
+            {
+              "type": "short",
+              "prompt": "MRSA signifie…",
+              "answer_text": "Staphylococcus aureus résistant à la méthicilline.",
+              "explain": "PBP2a (mecA)."
+            },
+            {
+              "type": "short",
+              "prompt": "ESBL signifie…",
+              "answer_text": "β-lactamases à spectre étendu.",
+              "explain": "Hydrolyse céphalosporines 3G."
+            },
+            {
+              "type": "short",
+              "prompt": "Test rapide H. pylori.",
+              "answer_text": "Test respiratoire à l’urée.",
+              "explain": "Uréase."
+            },
+            {
+              "type": "short",
+              "prompt": "But antibiogramme.",
+              "answer_text": "Déterminer la sensibilité aux antibiotiques.",
+              "explain": "Adapter la thérapie."
+            },
+            {
+              "type": "short",
+              "prompt": "Germe morsure de chat.",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cellulites rapides."
+            },
+            {
+              "type": "short",
+              "prompt": "Rôle des porines.",
+              "answer_text": "Passage sélectif petites molécules chez Gram−.",
+              "explain": "Impliquées dans résistances."
+            },
+            {
+              "type": "short",
+              "prompt": "Dépistage MRSA rapide.",
+              "answer_text": "PCR mecA ou PBP2a (ag).",
+              "explain": "Détection résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Réservoir Yersinia pestis.",
+              "answer_text": "Rongeurs (vecteur puces).",
+              "explain": "Peste."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir bactériémie.",
+              "answer_text": "Présence de bactéries dans le sang.",
+              "explain": "Peut être transitoire ou persistante."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir septicémie/sepsis.",
+              "answer_text": "Réponse inflammatoire systémique à une infection.",
+              "explain": "Atteinte organe/fonction possible."
+            },
+            {
+              "type": "short",
+              "prompt": "Règle 3 prélèvements hémocultures.",
+              "answer_text": "3 paires à distance (temps/sites) avant ATB.",
+              "explain": "Augmente rendement."
+            },
+            {
+              "type": "short",
+              "prompt": "Précautions TB pulmonaire.",
+              "answer_text": "Air (gouttelettes) + isolement respiratoire.",
+              "explain": "Masque FFP2."
+            },
+            {
+              "type": "short",
+              "prompt": "Antigènes K, H, O (entérobactéries).",
+              "answer_text": "K=capsule, H=flagelle, O=LPS.",
+              "explain": "Sérotypage."
+            },
+            {
+              "type": "short",
+              "prompt": "Hémolyse α vs β.",
+              "answer_text": "α=verdure partielle ; β=lyse complète.",
+              "explain": "Observation gélose sang."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir MBE (MBC).",
+              "answer_text": "Concentration minimale bactéricide.",
+              "explain": "Tuer 99,9% inoculum."
+            },
+            {
+              "type": "short",
+              "prompt": "Action des β-lactamases.",
+              "answer_text": "Hydrolysent cycle β-lactame.",
+              "explain": "Résistance."
+            },
+            {
+              "type": "short",
+              "prompt": "Que signifie ‘intrinsèquement résistant’ ?",
+              "answer_text": "Résistance naturelle liée à l’espèce.",
+              "explain": "Ex : Enterococcus aux céphalosporines."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible fosfomycine.",
+              "answer_text": "MurA (synthèse peptidoglycane).",
+              "explain": "Utilisée IU."
+            },
+            {
+              "type": "short",
+              "prompt": "Cible tigécycline.",
+              "answer_text": "30S (glycylcycline).",
+              "explain": "Large spectre sauf Pseudomonas."
+            },
+            {
+              "type": "short",
+              "prompt": "Effet inoculum.",
+              "answer_text": "CMI apparente ↑ si inoculum élevé.",
+              "explain": "Peut fausser interprétation."
+            },
+            {
+              "type": "short",
+              "prompt": "Hétéro-résistance.",
+              "answer_text": "Sous-population + résistante dans clone.",
+              "explain": "Ex : colistine."
+            },
+            {
+              "type": "short",
+              "prompt": "Principe E-test.",
+              "answer_text": "Gradient d’antibiotique → ellipse d’inhibition → CMI.",
+              "explain": "Alternative disques/microdilution."
+            },
+            {
+              "type": "short",
+              "prompt": "Contrôles qualité usuels antibiogramme.",
+              "answer_text": "E. coli ATCC 25922 ; S. aureus ATCC 25923 ; P. aeruginosa ATCC 27853.",
+              "explain": "Normes QC."
+            },
+            {
+              "type": "short",
+              "prompt": "Souches de référence pour coloration Gram.",
+              "answer_text": "S. aureus (Gram+) ; E. coli (Gram−).",
+              "explain": "Contrôle qualité technique."
+            },
+            {
+              "type": "short",
+              "prompt": "Transport des prélèvements anaérobies.",
+              "answer_text": "Milieu de transport anaérobie, délai court.",
+              "explain": "Éviter O2."
+            },
+            {
+              "type": "short",
+              "prompt": "Sécurité labo : hotte microbiologique.",
+              "answer_text": "Classe II pour manipulation clinique.",
+              "explain": "Protection opérateur/échantillon."
+            },
+            {
+              "type": "short",
+              "prompt": "Question de rappel courte #60.",
+              "answer_text": "Réponse attendue concise.",
+              "explain": "Note explicative brève."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Réa, ventilation, sécrétions verdâtres, odeur sucrée, NF oxydase+ : agent probable ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pneumonie nosocomiale."
+            },
+            {
+              "type": "short",
+              "prompt": "Cystite fébrile, nitrites+, colonies roses MacConkey : agent ?",
+              "answer_text": "Escherichia coli.",
+              "explain": "IU communautaire lactose+."
+            },
+            {
+              "type": "short",
+              "prompt": "Non vacciné, fausses membranes pharyngées, atteinte cardiaque : agent ?",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Toxine diphtérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Toux quinteuse, vomissements post-quinte, lymphocytose : agent ?",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Coqueluche."
+            },
+            {
+              "type": "short",
+              "prompt": "SIDA, lésion pulmonaire nodulaire, AAR partielle, filaments : agent ?",
+              "answer_text": "Nocardia spp.",
+              "explain": "Opportuniste."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée aqueuse profuse après eau non traitée, bacille incurvé : agent ?",
+              "answer_text": "Vibrio cholerae.",
+              "explain": "Toxine cholérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Exposition bétail/parturition, fièvre Q : agent ?",
+              "answer_text": "Coxiella burnetii.",
+              "explain": "Intracellulaire ; inhalation."
+            },
+            {
+              "type": "short",
+              "prompt": "Tique, éruption pétéchiale + fièvre (USA) : agent ?",
+              "answer_text": "Rickettsia rickettsii.",
+              "explain": "Fièvre pourprée."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcération génitale douloureuse + adénopathies suppurées : agent ?",
+              "answer_text": "Haemophilus ducreyi.",
+              "explain": "Chancre mou."
+            },
+            {
+              "type": "short",
+              "prompt": "Morsure de chat, cellulite rapide : agent ?",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cocco-bacille Gram−."
+            },
+            {
+              "type": "short",
+              "prompt": "Voyage, fièvre typhoïde : transmission ?",
+              "answer_text": "Voie fécale-orale (Salmonella typhi).",
+              "explain": "Eau/aliments contaminés."
+            },
+            {
+              "type": "short",
+              "prompt": "Alcoolisme, pneumonie ‘gelée de groseille’ : agent ?",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule épaisse."
+            },
+            {
+              "type": "short",
+              "prompt": "Néonat, méningite, mère colonisée : agent ?",
+              "answer_text": "Streptococcus agalactiae (GBS).",
+              "explain": "Transmission périnatale."
+            },
+            {
+              "type": "short",
+              "prompt": "Douleur FID + diarrhée sanglante, 42°C : agent ?",
+              "answer_text": "Campylobacter jejuni.",
+              "explain": "Microaérophile."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcère gastrique, test urée + : agent ?",
+              "answer_text": "Helicobacter pylori.",
+              "explain": "Uréase forte."
+            },
+            {
+              "type": "short",
+              "prompt": "Sepsis post-chirurgie abdominale, anaérobie, capsule : agent ?",
+              "answer_text": "Bacteroides fragilis.",
+              "explain": "Infections intra-abdos."
+            },
+            {
+              "type": "short",
+              "prompt": "IU avec calculs coralliformes, uréase+ : agent ?",
+              "answer_text": "Proteus mirabilis.",
+              "explain": "Struvite."
+            },
+            {
+              "type": "short",
+              "prompt": "Méningite purulente + éruption pétéchiale : agent ?",
+              "answer_text": "Neisseria meningitidis.",
+              "explain": "Prophylaxie rifampicine entourage."
+            },
+            {
+              "type": "short",
+              "prompt": "Brûlure étendue, bacille NF multi-R : agent ?",
+              "answer_text": "Acinetobacter baumannii.",
+              "explain": "Surfaces ; soins intensifs."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée post-antibiotiques, pseudomembranes : agent ?",
+              "answer_text": "Clostridioides difficile.",
+              "explain": "Toxines A/B."
+            },
+            {
+              "type": "short",
+              "prompt": "Mastoïdite post-otite, diplocoque encapsulé : agent ?",
+              "answer_text": "Streptococcus pneumoniae.",
+              "explain": "Optochine sensible."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre élevée, adénopathies, contact chats : agent ?",
+              "answer_text": "Bartonella henselae.",
+              "explain": "Maladie des griffes du chat."
+            },
+            {
+              "type": "short",
+              "prompt": "IU nosocomiale avec ESBL : germe probable ?",
+              "answer_text": "Klebsiella pneumoniae ou E. coli ESBL.",
+              "explain": "Hydrolyse céphalosporines 3G."
+            },
+            {
+              "type": "short",
+              "prompt": "Plaie souillée, trismus, spasmes : agent ?",
+              "answer_text": "Clostridium tetani.",
+              "explain": "Toxine tétanique."
+            },
+            {
+              "type": "short",
+              "prompt": "Anthrax cutané (pustule noire) : agent ?",
+              "answer_text": "Bacillus anthracis.",
+              "explain": "Anthrax."
+            },
+            {
+              "type": "short",
+              "prompt": "Endocardite subaiguë HACEK : citer le groupe.",
+              "answer_text": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella.",
+              "explain": "Orales lentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Otite chronique, bacille NF, odeur caractéristique : agent ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pigments."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcère génital non douloureux induré : diagnostic ?",
+              "answer_text": "Syphilis primaire (Treponema pallidum).",
+              "explain": "Chancre dur."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée sanglante + toxine Shiga : agent ?",
+              "answer_text": "Shigella dysenteriae.",
+              "explain": "Dysenterie."
+            },
+            {
+              "type": "short",
+              "prompt": "Colonisation cathéter, coagulase−, biofilm : agent ?",
+              "answer_text": "Staphylococcus epidermidis.",
+              "explain": "Biofilm sur matériel."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre, douleur lombaire, urine 10^5 UFC/mL, colonies roses sur MacConkey. Germe probable ?",
+              "answer_text": "Escherichia coli.",
+              "explain": "IU communautaire, lactose+."
+            },
+            {
+              "type": "short",
+              "prompt": "Plaie verdâtre odorante, culture aérobie stricte pigmentée. Germe probable ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pigment vert, odeur caractéristique."
+            },
+            {
+              "type": "short",
+              "prompt": "Homme hospitalisé en réanimation, ventilation mécanique, sécrétions verdâtres, odeur sucrée, culture oxydase+, non fermentant. Germe probable ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pneumonie nosocomiale ; pigment pyocyanine."
+            },
+            {
+              "type": "short",
+              "prompt": "Femme 23 ans, cystite fébrile, nitrites+ leucocytes+, culture MacConkey colonies roses. Germe ?",
+              "answer_text": "Escherichia coli.",
+              "explain": "Lactose+ ; IU communautaire."
+            },
+            {
+              "type": "short",
+              "prompt": "Enfant non vacciné, fausses membranes pharyngées, atteinte myocardique. Germe ?",
+              "answer_text": "Corynebacterium diphtheriae.",
+              "explain": "Toxine diphtérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Adolescent toux quinteuse, vomissements post-quinte, lymphocytose. Germe ?",
+              "answer_text": "Bordetella pertussis.",
+              "explain": "Coqueluche."
+            },
+            {
+              "type": "short",
+              "prompt": "Patient SIDA CD4 très bas, lésion pulmonaire nodulaire, AAR partielle, filaments ramifiés. Germe ?",
+              "answer_text": "Nocardia spp.",
+              "explain": "Opportuniste ; sulfonamides."
+            },
+            {
+              "type": "short",
+              "prompt": "Touriste diarrhée aqueuse profuse après eau non traitée, bacille incurvé. Germe ?",
+              "answer_text": "Vibrio cholerae.",
+              "explain": "Toxine cholérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre Q : exposition à bétail/parturition. Agent ?",
+              "answer_text": "Coxiella burnetii.",
+              "explain": "Intracellulaire ; inhalation."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre + éruption pétéchiale + céphalées après morsure tique (USA). Agent ?",
+              "answer_text": "Rickettsia rickettsii.",
+              "explain": "Fièvre pourprée."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcération génitale douloureuse, adénopathies suppurées. Agent ?",
+              "answer_text": "Haemophilus ducreyi.",
+              "explain": "Chancre mou."
+            },
+            {
+              "type": "short",
+              "prompt": "Otite moyenne récidivante, diplocoque Gram+, optochine sensible. Agent ?",
+              "answer_text": "Streptococcus pneumoniae.",
+              "explain": "Diplocoque encapsulé."
+            },
+            {
+              "type": "short",
+              "prompt": "Endocardite subaiguë chez patient avec atteinte dentaire ; hémoculture HACEK. Citer la famille.",
+              "answer_text": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella.",
+              "explain": "Bactéries orales lentes."
+            },
+            {
+              "type": "short",
+              "prompt": "Brûlure étendue, septicémie, bacille NF multirésistant. Agent ?",
+              "answer_text": "Acinetobacter baumannii.",
+              "explain": "Survit surfaces ; soins intensifs."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée post-antibiotiques, colite pseudomembraneuse. Agent ?",
+              "answer_text": "Clostridioides difficile.",
+              "explain": "Toxines A/B."
+            },
+            {
+              "type": "short",
+              "prompt": "Pneumonie d’alcoolique avec expectoration visqueuse « gelée de groseille ». Agent ?",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule épaisse."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre, ictère, insuffisance rénale après baignade en eaux douces. Agent ?",
+              "answer_text": "Leptospira interrogans.",
+              "explain": "Leptospirose (Weil)."
+            },
+            {
+              "type": "short",
+              "prompt": "Homme ventilé en réa, sécrétions verdâtres, odeur sucrée, culture oxydase+, non fermentant. Germe probable ?",
+              "answer_text": "Pseudomonas aeruginosa.",
+              "explain": "Pneumonie nosocomiale ; pigment pyocyanine."
+            },
+            {
+              "type": "short",
+              "prompt": "Femme 23 ans, cystite fébrile, nitrites+ leucocytes+, colonies roses sur MacConkey. Germe ?",
+              "answer_text": "Escherichia coli.",
+              "explain": "IU communautaire lactose+."
+            },
+            {
+              "type": "short",
+              "prompt": "Patient VIH, lésion pulmonaire, AAR partielle, filaments ramifiés. Agent ?",
+              "answer_text": "Nocardia spp.",
+              "explain": "Opportuniste ; sulfonamides."
+            },
+            {
+              "type": "short",
+              "prompt": "Touriste diarrhée aqueuse profuse après eau non traitée, bacille incurvé. Agent ?",
+              "answer_text": "Vibrio cholerae.",
+              "explain": "Toxine cholérique."
+            },
+            {
+              "type": "short",
+              "prompt": "Éleveur fièvre ondulante, douleurs, lait cru. Agent ?",
+              "answer_text": "Brucella spp.",
+              "explain": "Fièvre de Malte."
+            },
+            {
+              "type": "short",
+              "prompt": "Travailleur abattoir, ulcère noir (pustule maligne). Agent ?",
+              "answer_text": "Bacillus anthracis.",
+              "explain": "Anthrax cutané."
+            },
+            {
+              "type": "short",
+              "prompt": "Agriculteur blessure souillée, spasmes, trismus. Agent ?",
+              "answer_text": "Clostridium tetani.",
+              "explain": "Toxine tétanique."
+            },
+            {
+              "type": "short",
+              "prompt": "Diarrhée post-antibiotiques, pseudomembranes coliques. Agent ?",
+              "answer_text": "Clostridioides difficile.",
+              "explain": "Toxines A/B."
+            },
+            {
+              "type": "short",
+              "prompt": "Méningite purulente, diplocoques Gram−, éruption pétéchiale. Agent ?",
+              "answer_text": "Neisseria meningitidis.",
+              "explain": "Prophylaxie rifampicine entourage."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcération génitale douloureuse + adénopathies suppurées. Agent ?",
+              "answer_text": "Haemophilus ducreyi.",
+              "explain": "Chancre mou."
+            },
+            {
+              "type": "short",
+              "prompt": "Morsure de chat, cellulite rapide. Agent ?",
+              "answer_text": "Pasteurella multocida.",
+              "explain": "Cocco-bacille Gram−."
+            },
+            {
+              "type": "short",
+              "prompt": "Voyageur fièvre typhoïde. Transmission ?",
+              "answer_text": "Voie fécale-orale (Salmonella typhi).",
+              "explain": "Eau/aliments contaminés."
+            },
+            {
+              "type": "short",
+              "prompt": "Patient alcoolique, pneumonie avec expectoration « gelée de groseille ». Agent ?",
+              "answer_text": "Klebsiella pneumoniae.",
+              "explain": "Capsule épaisse."
+            },
+            {
+              "type": "short",
+              "prompt": "Nourrisson méningite néonatale, mère colonisée. Agent ?",
+              "answer_text": "Streptococcus agalactiae (GBS).",
+              "explain": "Transmission périnatale."
+            },
+            {
+              "type": "short",
+              "prompt": "Douleur pseudo-appendiculaire + diarrhée sanglante ; bacille courbé 42°C. Agent ?",
+              "answer_text": "Campylobacter jejuni.",
+              "explain": "Microaérophile."
+            },
+            {
+              "type": "short",
+              "prompt": "Ulcer gastrique, test urée respiratoire positif. Agent ?",
+              "answer_text": "Helicobacter pylori.",
+              "explain": "Uréase forte."
+            },
+            {
+              "type": "short",
+              "prompt": "Fièvre + éruption après tique ; IgM/IgG Borrelia. Agent ?",
+              "answer_text": "Borrelia burgdorferi.",
+              "explain": "Lyme."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": [
+            {
+              "type": "image-id",
+              "prompt": "Identifier la morphologie :",
+              "image": "gram_cocci_amas.png",
+              "mode": "text",
+              "answer_text": "Cocci en amas",
+              "explain": "Évoque Staphylococcus."
+            },
+            {
+              "type": "image-id",
+              "prompt": "Identifier la morphologie :",
+              "image": "gram_cocci_chaines.png",
+              "mode": "text",
+              "answer_text": "Cocci en chaînettes",
+              "explain": "Évoque Streptococcus."
+            },
+            {
+              "type": "image-id",
+              "prompt": "Identifier :",
+              "image": "gram_bacilles_neg.png",
+              "mode": "text",
+              "answer_text": "Bacilles Gram négatif",
+              "explain": "Bacilles fins rosés."
+            },
+            {
+              "type": "image-id",
+              "prompt": "MacConkey : interprétation ?",
+              "image": "macconkey_lactose_pos.png",
+              "mode": "text",
+              "answer_text": "Lactose positif",
+              "explain": "Colonies roses."
+            },
+            {
+              "type": "image-id",
+              "prompt": "MacConkey : interprétation ?",
+              "image": "macconkey_lactose_neg.png",
+              "mode": "text",
+              "answer_text": "Lactose négatif",
+              "explain": "Colonies pâles/incolores."
+            },
+            {
+              "type": "image-id",
+              "prompt": "Germe le plus évocateur :",
+              "image": "pseudomonas_vert.png",
+              "mode": "text",
+              "answer_text": "Pseudomonas aeruginosa",
+              "explain": "Teinte verdâtre (pyocyanine)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "merged_from": [
+      "bacteriologie_300.json",
+      "bacteriologie (1).json",
+      "bacteriologie (2).json",
+      "bacteriologie (3).json"
+    ],
+    "counts": {
+      "QCM": 322,
+      "Questions/Réponses": 131,
+      "Études de cas": 64,
+      "IDENTIFICATION IMAGE": 6
+    },
+    "total_questions": 523
+  }
+}
