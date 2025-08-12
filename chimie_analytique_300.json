@@ -1,0 +1,3037 @@
+{
+  "subjects": [
+    {
+      "name": "Chimie analytique",
+      "sections": [
+        {
+          "name": "QCM",
+          "questions": [
+            {
+              "type": "mcq",
+              "prompt": "La fraction molaire xi d’un constituant i vaut :",
+              "choices": [
+                "mi / Σmi",
+                "ni / V",
+                "mi / V",
+                "ni / Σni"
+              ],
+              "answer": 3,
+              "explain": "Définition de xi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fraction massique wi d’un constituant vaut :",
+              "choices": [
+                "mi / V",
+                "ni / Σni",
+                "ni / V",
+                "mi / Σmi"
+              ],
+              "answer": 3,
+              "explain": "Définition de wi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration pondérale Cp s’exprime en :",
+              "choices": [
+                "mol·kg⁻¹",
+                "g·L⁻¹",
+                "Pa",
+                "mol·L⁻¹"
+              ],
+              "answer": 1,
+              "explain": "Cp = m/V en g·L⁻¹."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La molarité C est :",
+              "choices": [
+                "V/n (L·mol⁻¹)",
+                "n/V (mol·L⁻¹)",
+                "m/V (g·L⁻¹)",
+                "n/m (mol·g⁻¹)"
+              ],
+              "answer": 1,
+              "explain": "C = n/V."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La relation entre Cp et C est :",
+              "choices": [
+                "Cp = C/M²",
+                "Cp = C·M",
+                "Cp = C/M",
+                "Cp = M/C"
+              ],
+              "answer": 1,
+              "explain": "Avec M masse molaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La molalité Cm est :",
+              "choices": [
+                "moles de soluté par kg de solvant",
+                "g·L⁻¹ de solvant",
+                "mol·kg⁻¹ de solution",
+                "mol·L⁻¹ de solution"
+              ],
+              "answer": 0,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La normalité N vérifie :",
+              "choices": [
+                "N = C²",
+                "N = C/n",
+                "N = 1/C",
+                "N = n·C (n = nombre d’équivalents)"
+              ],
+              "answer": 3,
+              "explain": "Équiv./L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’osmolarité ω d’une solution idéale :",
+              "choices": [
+                "ω = α·C/n",
+                "ω = C·[1+α(n−1)] = i·C",
+                "ω = C·n²",
+                "ω = C seulement"
+              ],
+              "answer": 1,
+              "explain": "Facteur d’ionisation i."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour NaCl totalement dissocié, i vaut :",
+              "choices": [
+                "0",
+                "3",
+                "2",
+                "1"
+              ],
+              "answer": 2,
+              "explain": "Na⁺ + Cl⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plus la constante diélectrique du solvant est élevée :",
+              "choices": [
+                "plus la dissociation ionique est favorisée",
+                "plus la dissociation est freinée",
+                "les non-électrolytes deviennent ioniques",
+                "pas d’effet"
+              ],
+              "answer": 0,
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le produit ionique de l’eau à 25 °C vaut :",
+              "choices": [
+                "Ke = 10⁻⁷",
+                "Ke = 1",
+                "Ke = 10⁻¹",
+                "Ke = 10⁻¹⁴"
+              ],
+              "answer": 3,
+              "explain": "Ke = [H₃O⁺][OH⁻]."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure :",
+              "choices": [
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[H₃O⁺] = 10⁻¹⁴ M",
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[OH⁻] = 10⁻¹ M"
+              ],
+              "answer": 0,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La relation fondamentale est :",
+              "choices": [
+                "pH + pOH = pKe",
+                "pH·pOH = pKe",
+                "pH = pOH",
+                "pH + pOH = 7 quel que soit T"
+              ],
+              "answer": 0,
+              "explain": "À 25 °C, pKe≈14."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Brønsted d’un acide :",
+              "choices": [
+                "donneur de proton H⁺",
+                "accepteur d’électron",
+                "donneur d’électron",
+                "accepteur de doublet"
+              ],
+              "answer": 0,
+              "explain": "Base = accepteur H⁺."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide :",
+              "choices": [
+                "donneur de proton",
+                "donneur de doublet",
+                "accepteur de proton",
+                "accepteur de doublet d’électrons"
+              ],
+              "answer": 3,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Pour un couple AH/A⁻ :",
+              "choices": [
+                "Ka = [A⁻][H₃O⁺]/[AH]",
+                "Ka = [AH]/([A⁻][H₃O⁺])",
+                "Ka = [H₂O]/[H₃O⁺]",
+                "Ka = 1/[Kb]"
+              ],
+              "answer": 0,
+              "explain": "Définition Ka."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Relation Ka, Kb d’un même couple :",
+              "choices": [
+                "Ka = Kb",
+                "Ka·Kb = Ke",
+                "Ka+Kb = Ke",
+                "Ka/Kb = Ke"
+              ],
+              "answer": 1,
+              "explain": "À 25 °C, pKa + pKb = 14."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch :",
+              "choices": [
+                "pH = pKa",
+                "pH = pKa + log([base]/[acide])",
+                "pH = pKa + ln([acide]/[base])",
+                "pH = pKa − log([base]/[acide])"
+              ],
+              "answer": 1,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Zone de virage d’un indicateur HIn/In⁻ :",
+              "choices": [
+                "≈ pKi ± 1",
+                "≈ pKi ± 0,1",
+                "≈ pKa ± 3",
+                "indépendante du pKi"
+              ],
+              "answer": 0,
+              "explain": "Seuil perceptif (×10)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un indicateur acido-basique est :",
+              "choices": [
+                "un colorant neutre",
+                "un acide faible dont les formes ont des couleurs différentes",
+                "un oxydant",
+                "une base forte"
+              ],
+              "answer": 1,
+              "explain": "HIn/In⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Au point d’équivalence acide fort/base forte :",
+              "choices": [
+                "pH ≈ 7 (à 25 °C)",
+                "pH indéfini",
+                "pH < 7",
+                "pH > 7"
+              ],
+              "answer": 0,
+              "explain": "Neutralisation H₃O⁺/OH⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Demi-équivalence d’un acide faible dosé par base forte :",
+              "choices": [
+                "pH = 7",
+                "pH = pKb",
+                "pH = pKe",
+                "pH = pKa"
+              ],
+              "answer": 3,
+              "explain": "Tampon équimolaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte :",
+              "choices": [
+                "pH 9–11 uniquement",
+                "indifférent",
+                "pH 3–5 uniquement",
+                "zone de virage proche de 7"
+              ],
+              "answer": 3,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Saccharose est-il titrable par NaOH ?",
+              "choices": [
+                "Non, ce n’est pas un acide",
+                "Oui, par neutralisation",
+                "Oui, par oxydation",
+                "Oui, par complexation"
+              ],
+              "answer": 0,
+              "explain": "Question de nature acido-basique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équivalence dosage base faible par acide fort :",
+              "choices": [
+                "pH < 7",
+                "pH = 7",
+                "pH > 7",
+                "pH = pKa"
+              ],
+              "answer": 0,
+              "explain": "Solution du sel acide → acide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Produit de solubilité d’AgCl :",
+              "choices": [
+                "Ks = 1/[Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺]²/[Cl⁻]",
+                "Ks = [AgCl]",
+                "Ks = [Ag⁺][Cl⁻]"
+              ],
+              "answer": 3,
+              "explain": "Équilibre hétérogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Condition de précipitation :",
+              "choices": [
+                "Q = [M⁺][A⁻] > Ks",
+                "Q < Ks",
+                "Q = Ks/2",
+                "Q = 0"
+              ],
+              "answer": 0,
+              "explain": "Ion product Q."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun :",
+              "choices": [
+                "inverse le signe de Ks",
+                "aucun effet",
+                "diminue la solubilité",
+                "augmente la solubilité"
+              ],
+              "answer": 2,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Argentimétrie — méthode de Mohr :",
+              "choices": [
+                "pH < 3",
+                "complexe EDTA",
+                "indicateur thiocyanate",
+                "utilise CrO₄²⁻ comme indicateur, pH ~ 7–10"
+              ],
+              "answer": 3,
+              "explain": "Fin de titrage : Ag₂CrO₄ rouge-brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard :",
+              "choices": [
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA",
+                "dosage indirect avec SCN⁻, repérage Fe³⁺"
+              ],
+              "answer": 3,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale :",
+              "choices": [
+                "E = E° + (0,1)·log(C)",
+                "E = nE° + 0,059 log aox",
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = E° − RT/F"
+              ],
+              "answer": 2,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Titrage KMnO₄ (permanganate) :",
+              "choices": [
+                "auto-indicateur (violet → incolore/rose pâle)",
+                "nécessite bleu de méthylène",
+                "nécessite fuchsine",
+                "nécessite phénolphtaléine"
+              ],
+              "answer": 0,
+              "explain": "Couleur propre du MnO₄⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Iodometrie/Iodimétrie :",
+              "choices": [
+                "utilise rouge de méthyle",
+                "utilise l’empois d’amidon comme indicateur",
+                "utilise EBT",
+                "utilise murexide"
+              ],
+              "answer": 1,
+              "explain": "Complexe bleu amidon–I₂."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Complexométrie par EDTA :",
+              "choices": [
+                "précipite AgCl",
+                "ligand hexadentate 1:1 avec M²⁺",
+                "ligand monodentate",
+                "réagit seulement avec Fe³⁺"
+              ],
+              "answer": 1,
+              "explain": "Stabilité élevée β."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Indicateur métallochromique courant (dureté) :",
+              "choices": [
+                "Fuchsine",
+                "Alizarine S uniquement",
+                "Eriochrome Black T (EBT)",
+                "Rouge Congo"
+              ],
+              "answer": 2,
+              "explain": "Virage rouge vin → bleu à l’équivalence (Mg/Ca)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une électrode de référence classique :",
+              "choices": [
+                "Pt indicatrice",
+                "Li/Li⁺",
+                "Ag/AgCl (chlorure d’argent)",
+                "électrode de verre"
+              ],
+              "answer": 2,
+              "explain": "Potentiel stable connu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "pH-mètre : étalonnage avec :",
+              "choices": [
+                "HCl 0,1 M",
+                "eau distillée",
+                "NaCl 1 M",
+                "au moins deux tampons pH connus"
+              ],
+              "answer": 3,
+              "explain": "Pour régler pente/interception."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La conductimétrie mesure :",
+              "choices": [
+                "le potentiel d’oxydoréduction",
+                "la conductance/ conductivité d’une solution ionique",
+                "l’absorbance UV",
+                "la fluorescence"
+              ],
+              "answer": 1,
+              "explain": "Fonction de la concentration ionique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La coulométrie consiste à :",
+              "choices": [
+                "mesurer un pH",
+                "peser un précipité",
+                "mesurer la charge électrique passée pour quantifier l’analyte",
+                "mesurer une DO"
+              ],
+              "answer": 2,
+              "explain": "Q = n·z·F."
+            },
+            {
+              "type": "mcq",
+              "prompt": "En ampérométrie :",
+              "choices": [
+                "on mesure un courant en fonction du potentiel ou du temps",
+                "on mesure une masse",
+                "on mesure Rf",
+                "on mesure un pH uniquement"
+              ],
+              "answer": 0,
+              "explain": "Techniques voltampérométriques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Loi de Beer–Lambert :",
+              "choices": [
+                "A = ε·l·C",
+                "A = C/ε",
+                "A = ε·l/C",
+                "A = ε/C"
+              ],
+              "answer": 0,
+              "explain": "Absorbance proportionnelle à la concentration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Additivité des absorbances :",
+              "choices": [
+                "A_tot = A₁·A₂",
+                "A_tot = max(A_i)",
+                "A_tot = ΣA_i aux mêmes conditions",
+                "A_tot = 0"
+              ],
+              "answer": 2,
+              "explain": "Superposition indépendante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "UV-Visible : composant clé :",
+              "choices": [
+                "électrode de verre",
+                "monochromateur (sélection λ)",
+                "pompe HPLC",
+                "cathode à fil chaud"
+              ],
+              "answer": 1,
+              "explain": "Sépare les longueurs d’onde."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Fluorescence vs phosphorescence :",
+              "choices": [
+                "aucun lien",
+                "l’inverse",
+                "fluorescence : émission rapide, phosphorescence : plus lente",
+                "mêmes temps de vie"
+              ],
+              "answer": 2,
+              "explain": "États singulet/triplet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "RMN ¹H mesure :",
+              "choices": [
+                "la conductivité",
+                "la masse moléculaire",
+                "la résonance des protons en champ magnétique",
+                "l’absorbance visible"
+              ],
+              "answer": 2,
+              "explain": "Chimie structurale."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse :",
+              "choices": [
+                "mesure m/z des ions",
+                "mesure Rf",
+                "mesure Ks",
+                "mesure pH"
+              ],
+              "answer": 0,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de rétention en CCM :",
+              "choices": [
+                "Rf = distance soluté / distance front solvant",
+                "Rf = front/soluté",
+                "Rf = 1/k'",
+                "Rf = tR/t0"
+              ],
+              "answer": 0,
+              "explain": "0 < Rf < 1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Capacité (HPLC/GC) :",
+              "choices": [
+                "k' = 1/tR",
+                "k' = t0/tR",
+                "k' = tR",
+                "k' = (tR − t0)/t0"
+              ],
+              "answer": 3,
+              "explain": "Mesure la rétention relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité :",
+              "choices": [
+                "α = tR₂ − tR₁",
+                "α = w₂/w₁",
+                "α = k'₁ + k'₂",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Résolution :",
+              "choices": [
+                "Rs = α/k'",
+                "Rs = k'₂ − k'₁",
+                "Rs = 2·(tR₂ − tR₁)/(w₁ + w₂)",
+                "Rs = tR₂/tR₁"
+              ],
+              "answer": 2,
+              "explain": "Séparation des pics."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Van Deemter :",
+              "choices": [
+                "H = A·B·C",
+                "H = A + B/u + C·u",
+                "H = k'/α",
+                "H = A/u² + Bu"
+              ],
+              "answer": 1,
+              "explain": "Optimise la vitesse linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nombre de plateaux :",
+              "choices": [
+                "N = (w/tR)²",
+                "N = 16·(tR/w)² (approx.)",
+                "N = 2·(tR/w)",
+                "N = 4·(w/tR)²"
+              ],
+              "answer": 1,
+              "explain": "Efficacité de colonne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Détecteur GC courant :",
+              "choices": [
+                "Photodiode array",
+                "RID (réfractomètre)",
+                "FID (flamme ionisation)",
+                "Électrode de verre"
+              ],
+              "answer": 2,
+              "explain": "Hydrocarbures/organique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Élution en HPLC :",
+              "choices": [
+                "unique gradient",
+                "aucune",
+                "isocratique ou en gradient",
+                "unique isocratique"
+              ],
+              "answer": 2,
+              "explain": "Programmation de phase mobile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La moyenne d’un jeu de mesures est :",
+              "choices": [
+                "x̄ = n/ΣXi",
+                "x̄ = ΣXi²",
+                "x̄ = √ΣXi",
+                "x̄ = ΣXi / n"
+              ],
+              "answer": 3,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S :",
+              "choices": [
+                "S = ΣXi / n",
+                "S = √(Σ(Xi − x̄)² / n)",
+                "S = Σ(Xi − x̄)",
+                "S = 1/x̄"
+              ],
+              "answer": 1,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La variance V :",
+              "choices": [
+                "V = √S",
+                "V = 1/S",
+                "V = S²",
+                "V = S"
+              ],
+              "answer": 2,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le coefficient de variation :",
+              "choices": [
+                "CV = x̄/S",
+                "CV = S·x̄",
+                "CV = S/x̄²",
+                "CV = 100·S/x̄ (%)"
+              ],
+              "answer": 3,
+              "explain": "Dispersion relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le coefficient de détermination R² :",
+              "choices": [
+                "mesure la DO",
+                "mesure la pKa",
+                "mesure la qualité d’une régression (0–1)",
+                "mesure la masse molaire"
+              ],
+              "answer": 2,
+              "explain": "Ajustement linéaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Limite de détection (cours) :",
+              "choices": [
+                "LDM = 3·S",
+                "LDM = 3/S",
+                "LDM = 10·S",
+                "LDM = S/3"
+              ],
+              "answer": 0,
+              "explain": "Définition simplifiée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Limite de quantification (cours) :",
+              "choices": [
+                "LQM = 30·S",
+                "LQM = 10·S",
+                "LQM = 3·S",
+                "LQM = S/10"
+              ],
+              "answer": 1,
+              "explain": "Définition simplifiée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Justesse :",
+              "choices": [
+                "spécificité",
+                "dispersion des mesures",
+                "robustesse",
+                "écart à la valeur vraie (100% − erreur relative)"
+              ],
+              "answer": 3,
+              "explain": "Trueness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Fidélité :",
+              "choices": [
+                "sensibilité",
+                "sélectivité",
+                "accord entre mesures répétées (répétabilité/reproductibilité)",
+                "exactitude systématique"
+              ],
+              "answer": 2,
+              "explain": "Precision."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Robustesse :",
+              "choices": [
+                "capacité à détecter bas",
+                "exactitude",
+                "insensibilité à de petites variations opératoires",
+                "sélectivité"
+              ],
+              "answer": 2,
+              "explain": "Stabilité de méthode."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité :",
+              "choices": [
+                "capacité à augmenter le signal",
+                "capacité à filtrer un bruit",
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à changer de matrice"
+              ],
+              "answer": 2,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Justesse : (reformulation)",
+              "choices": [
+                "écart à la valeur vraie (100% − erreur relative)",
+                "dispersion des mesures",
+                "robustesse",
+                "spécificité"
+              ],
+              "answer": 0,
+              "explain": "Trueness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch : (formulation 2)",
+              "choices": [
+                "pH = pKa − log([base]/[acide])",
+                "pH = pKa + ln([acide]/[base])",
+                "pH = pKa + log([base]/[acide])",
+                "pH = pKa"
+              ],
+              "answer": 2,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Capacité (HPLC/GC) : (reformulation)",
+              "choices": [
+                "k' = t0/tR",
+                "k' = (tR − t0)/t0",
+                "k' = tR",
+                "k' = 1/tR"
+              ],
+              "answer": 1,
+              "explain": "Mesure la rétention relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (variante)",
+              "choices": [
+                "mesure m/z des ions",
+                "mesure Ks",
+                "mesure pH",
+                "mesure Rf"
+              ],
+              "answer": 0,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Élution en HPLC : (formulation 2)",
+              "choices": [
+                "unique isocratique",
+                "isocratique ou en gradient",
+                "aucune",
+                "unique gradient"
+              ],
+              "answer": 1,
+              "explain": "Programmation de phase mobile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (formulation 2)",
+              "choices": [
+                "α = w₂/w₁",
+                "α = tR₂ − tR₁",
+                "α = k'₁ + k'₂",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plus la constante diélectrique du solvant est élevée : (reformulation)",
+              "choices": [
+                "les non-électrolytes deviennent ioniques",
+                "pas d’effet",
+                "plus la dissociation ionique est favorisée",
+                "plus la dissociation est freinée"
+              ],
+              "answer": 2,
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Élution en HPLC : (reformulation)",
+              "choices": [
+                "unique gradient",
+                "isocratique ou en gradient",
+                "aucune",
+                "unique isocratique"
+              ],
+              "answer": 1,
+              "explain": "Programmation de phase mobile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Limite de détection (cours) : (reformulation)",
+              "choices": [
+                "LDM = 10·S",
+                "LDM = 3·S",
+                "LDM = S/3",
+                "LDM = 3/S"
+              ],
+              "answer": 1,
+              "explain": "Définition simplifiée."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2)",
+              "choices": [
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[OH⁻] = 10⁻¹ M",
+                "[H₃O⁺] = 10⁻¹⁴ M",
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M"
+              ],
+              "answer": 3,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide : (reformulation)",
+              "choices": [
+                "donneur de proton",
+                "donneur de doublet",
+                "accepteur de proton",
+                "accepteur de doublet d’électrons"
+              ],
+              "answer": 3,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fraction massique wi d’un constituant vaut : (formulation 2)",
+              "choices": [
+                "mi / Σmi",
+                "mi / V",
+                "ni / Σni",
+                "ni / V"
+              ],
+              "answer": 0,
+              "explain": "Définition de wi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Produit de solubilité d’AgCl : (reformulation)",
+              "choices": [
+                "Ks = 1/[Ag⁺][Cl⁻]",
+                "Ks = [AgCl]",
+                "Ks = [Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺]²/[Cl⁻]"
+              ],
+              "answer": 2,
+              "explain": "Équilibre hétérogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale : (variante)",
+              "choices": [
+                "E = E° + (0,1)·log(C)",
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = nE° + 0,059 log aox",
+                "E = E° − RT/F"
+              ],
+              "answer": 1,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S : (variante)",
+              "choices": [
+                "S = 1/x̄",
+                "S = √(Σ(Xi − x̄)² / n)",
+                "S = ΣXi / n",
+                "S = Σ(Xi − x̄)"
+              ],
+              "answer": 1,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2) (variante)",
+              "choices": [
+                "[OH⁻] = 10⁻¹ M",
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[H₃O⁺] = 10⁻¹⁴ M"
+              ],
+              "answer": 1,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Robustesse : (reformulation)",
+              "choices": [
+                "exactitude",
+                "insensibilité à de petites variations opératoires",
+                "capacité à détecter bas",
+                "sélectivité"
+              ],
+              "answer": 1,
+              "explain": "Stabilité de méthode."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Demi-équivalence d’un acide faible dosé par base forte : (reformulation)",
+              "choices": [
+                "pH = pKa",
+                "pH = pKe",
+                "pH = pKb",
+                "pH = 7"
+              ],
+              "answer": 0,
+              "explain": "Tampon équimolaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun : (formulation 2)",
+              "choices": [
+                "inverse le signe de Ks",
+                "augmente la solubilité",
+                "aucun effet",
+                "diminue la solubilité"
+              ],
+              "answer": 3,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Loi de Beer–Lambert : (variante)",
+              "choices": [
+                "A = ε/C",
+                "A = C/ε",
+                "A = ε·l/C",
+                "A = ε·l·C"
+              ],
+              "answer": 3,
+              "explain": "Absorbance proportionnelle à la concentration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Une électrode de référence classique : (formulation 2)",
+              "choices": [
+                "Ag/AgCl (chlorure d’argent)",
+                "Li/Li⁺",
+                "électrode de verre",
+                "Pt indicatrice"
+              ],
+              "answer": 0,
+              "explain": "Potentiel stable connu."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (formulation 2)",
+              "choices": [
+                "mesure Ks",
+                "mesure Rf",
+                "mesure m/z des ions",
+                "mesure pH"
+              ],
+              "answer": 2,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch : (variante)",
+              "choices": [
+                "pH = pKa − log([base]/[acide])",
+                "pH = pKa",
+                "pH = pKa + ln([acide]/[base])",
+                "pH = pKa + log([base]/[acide])"
+              ],
+              "answer": 3,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Indicateur métallochromique courant (dureté) : (formulation 2)",
+              "choices": [
+                "Eriochrome Black T (EBT)",
+                "Rouge Congo",
+                "Fuchsine",
+                "Alizarine S uniquement"
+              ],
+              "answer": 0,
+              "explain": "Virage rouge vin → bleu à l’équivalence (Mg/Ca)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide : (variante)",
+              "choices": [
+                "accepteur de proton",
+                "donneur de doublet",
+                "donneur de proton",
+                "accepteur de doublet d’électrons"
+              ],
+              "answer": 3,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch : (variante) (reformulation)",
+              "choices": [
+                "pH = pKa + ln([acide]/[base])",
+                "pH = pKa + log([base]/[acide])",
+                "pH = pKa − log([base]/[acide])",
+                "pH = pKa"
+              ],
+              "answer": 1,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante)",
+              "choices": [
+                "pH 3–5 uniquement",
+                "zone de virage proche de 7",
+                "indifférent",
+                "pH 9–11 uniquement"
+              ],
+              "answer": 1,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Argentimétrie — méthode de Mohr : (reformulation)",
+              "choices": [
+                "utilise CrO₄²⁻ comme indicateur, pH ~ 7–10",
+                "pH < 3",
+                "complexe EDTA",
+                "indicateur thiocyanate"
+              ],
+              "answer": 0,
+              "explain": "Fin de titrage : Ag₂CrO₄ rouge-brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide : (variante) (formulation 2)",
+              "choices": [
+                "donneur de proton",
+                "accepteur de doublet d’électrons",
+                "accepteur de proton",
+                "donneur de doublet"
+              ],
+              "answer": 1,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Résolution : (variante)",
+              "choices": [
+                "Rs = α/k'",
+                "Rs = tR₂/tR₁",
+                "Rs = 2·(tR₂ − tR₁)/(w₁ + w₂)",
+                "Rs = k'₂ − k'₁"
+              ],
+              "answer": 2,
+              "explain": "Séparation des pics."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2) (variante) (reformulation)",
+              "choices": [
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[H₃O⁺] = 10⁻¹⁴ M",
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[OH⁻] = 10⁻¹ M"
+              ],
+              "answer": 0,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Additivité des absorbances : (variante)",
+              "choices": [
+                "A_tot = ΣA_i aux mêmes conditions",
+                "A_tot = 0",
+                "A_tot = A₁·A₂",
+                "A_tot = max(A_i)"
+              ],
+              "answer": 0,
+              "explain": "Superposition indépendante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Titrage KMnO₄ (permanganate) : (formulation 2)",
+              "choices": [
+                "nécessite phénolphtaléine",
+                "nécessite fuchsine",
+                "nécessite bleu de méthylène",
+                "auto-indicateur (violet → incolore/rose pâle)"
+              ],
+              "answer": 3,
+              "explain": "Couleur propre du MnO₄⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Additivité des absorbances : (reformulation)",
+              "choices": [
+                "A_tot = max(A_i)",
+                "A_tot = A₁·A₂",
+                "A_tot = ΣA_i aux mêmes conditions",
+                "A_tot = 0"
+              ],
+              "answer": 2,
+              "explain": "Superposition indépendante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité : (reformulation)",
+              "choices": [
+                "capacité à changer de matrice",
+                "capacité à filtrer un bruit",
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à augmenter le signal"
+              ],
+              "answer": 2,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (formulation 2) (variante)",
+              "choices": [
+                "α = w₂/w₁",
+                "α = k'₁ + k'₂",
+                "α = tR₂ − tR₁",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun : (variante)",
+              "choices": [
+                "augmente la solubilité",
+                "diminue la solubilité",
+                "aucun effet",
+                "inverse le signe de Ks"
+              ],
+              "answer": 1,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (variante) (reformulation)",
+              "choices": [
+                "mesure pH",
+                "mesure Ks",
+                "mesure m/z des ions",
+                "mesure Rf"
+              ],
+              "answer": 2,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un indicateur acido-basique est : (variante)",
+              "choices": [
+                "une base forte",
+                "un colorant neutre",
+                "un oxydant",
+                "un acide faible dont les formes ont des couleurs différentes"
+              ],
+              "answer": 3,
+              "explain": "HIn/In⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La variance V : (formulation 2)",
+              "choices": [
+                "V = 1/S",
+                "V = √S",
+                "V = S²",
+                "V = S"
+              ],
+              "answer": 2,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Justesse : (reformulation) (formulation 2)",
+              "choices": [
+                "dispersion des mesures",
+                "écart à la valeur vraie (100% − erreur relative)",
+                "robustesse",
+                "spécificité"
+              ],
+              "answer": 1,
+              "explain": "Trueness."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Condition de précipitation : (formulation 2)",
+              "choices": [
+                "Q = [M⁺][A⁻] > Ks",
+                "Q = Ks/2",
+                "Q < Ks",
+                "Q = 0"
+              ],
+              "answer": 0,
+              "explain": "Ion product Q."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Robustesse : (formulation 2)",
+              "choices": [
+                "sélectivité",
+                "capacité à détecter bas",
+                "insensibilité à de petites variations opératoires",
+                "exactitude"
+              ],
+              "answer": 2,
+              "explain": "Stabilité de méthode."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fraction molaire xi d’un constituant i vaut : (formulation 2)",
+              "choices": [
+                "ni / V",
+                "mi / V",
+                "mi / Σmi",
+                "ni / Σni"
+              ],
+              "answer": 3,
+              "explain": "Définition de xi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nombre de plateaux : (formulation 2)",
+              "choices": [
+                "N = 4·(w/tR)²",
+                "N = 16·(tR/w)² (approx.)",
+                "N = 2·(tR/w)",
+                "N = (w/tR)²"
+              ],
+              "answer": 1,
+              "explain": "Efficacité de colonne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Demi-équivalence d’un acide faible dosé par base forte : (reformulation)",
+              "choices": [
+                "pH = pKa",
+                "pH = pKb",
+                "pH = pKe",
+                "pH = 7"
+              ],
+              "answer": 0,
+              "explain": "Tampon équimolaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "mesure Rf",
+                "mesure pH",
+                "mesure Ks",
+                "mesure m/z des ions"
+              ],
+              "answer": 3,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Robustesse : (reformulation)",
+              "choices": [
+                "capacité à détecter bas",
+                "sélectivité",
+                "insensibilité à de petites variations opératoires",
+                "exactitude"
+              ],
+              "answer": 2,
+              "explain": "Stabilité de méthode."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Capacité (HPLC/GC) : (reformulation) (reformulation)",
+              "choices": [
+                "k' = tR",
+                "k' = (tR − t0)/t0",
+                "k' = t0/tR",
+                "k' = 1/tR"
+              ],
+              "answer": 1,
+              "explain": "Mesure la rétention relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S : (variante) (formulation 2)",
+              "choices": [
+                "S = Σ(Xi − x̄)",
+                "S = √(Σ(Xi − x̄)² / n)",
+                "S = ΣXi / n",
+                "S = 1/x̄"
+              ],
+              "answer": 1,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité : (reformulation) (variante)",
+              "choices": [
+                "capacité à filtrer un bruit",
+                "capacité à augmenter le signal",
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à changer de matrice"
+              ],
+              "answer": 2,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Argentimétrie — méthode de Mohr : (reformulation) (variante)",
+              "choices": [
+                "utilise CrO₄²⁻ comme indicateur, pH ~ 7–10",
+                "complexe EDTA",
+                "pH < 3",
+                "indicateur thiocyanate"
+              ],
+              "answer": 0,
+              "explain": "Fin de titrage : Ag₂CrO₄ rouge-brique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Robustesse : (formulation 2)",
+              "choices": [
+                "insensibilité à de petites variations opératoires",
+                "exactitude",
+                "sélectivité",
+                "capacité à détecter bas"
+              ],
+              "answer": 0,
+              "explain": "Stabilité de méthode."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Produit de solubilité d’AgCl : (formulation 2)",
+              "choices": [
+                "Ks = [AgCl]",
+                "Ks = [Ag⁺]²/[Cl⁻]",
+                "Ks = 1/[Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺][Cl⁻]"
+              ],
+              "answer": 3,
+              "explain": "Équilibre hétérogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Détecteur GC courant : (formulation 2)",
+              "choices": [
+                "FID (flamme ionisation)",
+                "Photodiode array",
+                "Électrode de verre",
+                "RID (réfractomètre)"
+              ],
+              "answer": 0,
+              "explain": "Hydrocarbures/organique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (variante) (formulation 2)",
+              "choices": [
+                "mesure m/z des ions",
+                "mesure Ks",
+                "mesure Rf",
+                "mesure pH"
+              ],
+              "answer": 0,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale : (variante) (variante)",
+              "choices": [
+                "E = E° − RT/F",
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = E° + (0,1)·log(C)",
+                "E = nE° + 0,059 log aox"
+              ],
+              "answer": 1,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Loi de Beer–Lambert : (variante)",
+              "choices": [
+                "A = ε·l/C",
+                "A = ε·l·C",
+                "A = C/ε",
+                "A = ε/C"
+              ],
+              "answer": 1,
+              "explain": "Absorbance proportionnelle à la concentration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Capacité (HPLC/GC) : (reformulation) (reformulation) (variante)",
+              "choices": [
+                "k' = t0/tR",
+                "k' = 1/tR",
+                "k' = (tR − t0)/t0",
+                "k' = tR"
+              ],
+              "answer": 2,
+              "explain": "Mesure la rétention relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide : (variante) (formulation 2) (variante)",
+              "choices": [
+                "accepteur de doublet d’électrons",
+                "donneur de doublet",
+                "accepteur de proton",
+                "donneur de proton"
+              ],
+              "answer": 0,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S : (variante)",
+              "choices": [
+                "S = Σ(Xi − x̄)",
+                "S = ΣXi / n",
+                "S = 1/x̄",
+                "S = √(Σ(Xi − x̄)² / n)"
+              ],
+              "answer": 3,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Nombre de plateaux : (formulation 2)",
+              "choices": [
+                "N = 2·(tR/w)",
+                "N = 4·(w/tR)²",
+                "N = 16·(tR/w)² (approx.)",
+                "N = (w/tR)²"
+              ],
+              "answer": 2,
+              "explain": "Efficacité de colonne."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante) (formulation 2)",
+              "choices": [
+                "zone de virage proche de 7",
+                "indifférent",
+                "pH 3–5 uniquement",
+                "pH 9–11 uniquement"
+              ],
+              "answer": 0,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante)",
+              "choices": [
+                "α = k'₁ + k'₂",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = w₂/w₁",
+                "α = tR₂ − tR₁"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plus la constante diélectrique du solvant est élevée : (variante)",
+              "choices": [
+                "les non-électrolytes deviennent ioniques",
+                "pas d’effet",
+                "plus la dissociation est freinée",
+                "plus la dissociation ionique est favorisée"
+              ],
+              "answer": 3,
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équivalence dosage base faible par acide fort : (variante)",
+              "choices": [
+                "pH = pKa",
+                "pH > 7",
+                "pH < 7",
+                "pH = 7"
+              ],
+              "answer": 2,
+              "explain": "Solution du sel acide → acide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équivalence dosage base faible par acide fort : (reformulation)",
+              "choices": [
+                "pH = 7",
+                "pH < 7",
+                "pH > 7",
+                "pH = pKa"
+              ],
+              "answer": 1,
+              "explain": "Solution du sel acide → acide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2) (variante) (reformulation) (variante)",
+              "choices": [
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[OH⁻] = 10⁻¹ M",
+                "[H₃O⁺] = 10⁻¹⁴ M"
+              ],
+              "answer": 1,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de rétention en CCM : (formulation 2)",
+              "choices": [
+                "Rf = front/soluté",
+                "Rf = tR/t0",
+                "Rf = 1/k'",
+                "Rf = distance soluté / distance front solvant"
+              ],
+              "answer": 3,
+              "explain": "0 < Rf < 1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Résolution : (variante) (variante)",
+              "choices": [
+                "Rs = tR₂/tR₁",
+                "Rs = k'₂ − k'₁",
+                "Rs = α/k'",
+                "Rs = 2·(tR₂ − tR₁)/(w₁ + w₂)"
+              ],
+              "answer": 3,
+              "explain": "Séparation des pics."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2)",
+              "choices": [
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "adsorption sur AgCl (Fajans)",
+                "complexation EDTA"
+              ],
+              "answer": 1,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Un indicateur acido-basique est : (variante) (reformulation)",
+              "choices": [
+                "une base forte",
+                "un acide faible dont les formes ont des couleurs différentes",
+                "un oxydant",
+                "un colorant neutre"
+              ],
+              "answer": 1,
+              "explain": "HIn/In⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plus la constante diélectrique du solvant est élevée : (reformulation) (reformulation)",
+              "choices": [
+                "pas d’effet",
+                "plus la dissociation ionique est favorisée",
+                "plus la dissociation est freinée",
+                "les non-électrolytes deviennent ioniques"
+              ],
+              "answer": 1,
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Indicateur métallochromique courant (dureté) : (reformulation)",
+              "choices": [
+                "Fuchsine",
+                "Alizarine S uniquement",
+                "Eriochrome Black T (EBT)",
+                "Rouge Congo"
+              ],
+              "answer": 2,
+              "explain": "Virage rouge vin → bleu à l’équivalence (Mg/Ca)."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de rétention en CCM : (variante)",
+              "choices": [
+                "Rf = 1/k'",
+                "Rf = tR/t0",
+                "Rf = front/soluté",
+                "Rf = distance soluté / distance front solvant"
+              ],
+              "answer": 3,
+              "explain": "0 < Rf < 1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch : (variante) (variante)",
+              "choices": [
+                "pH = pKa + log([base]/[acide])",
+                "pH = pKa − log([base]/[acide])",
+                "pH = pKa",
+                "pH = pKa + ln([acide]/[base])"
+              ],
+              "answer": 0,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante) (formulation 2)",
+              "choices": [
+                "pH 9–11 uniquement",
+                "indifférent",
+                "zone de virage proche de 7",
+                "pH 3–5 uniquement"
+              ],
+              "answer": 2,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fraction massique wi d’un constituant vaut : (formulation 2) (formulation 2)",
+              "choices": [
+                "mi / Σmi",
+                "ni / Σni",
+                "mi / V",
+                "ni / V"
+              ],
+              "answer": 0,
+              "explain": "Définition de wi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Facteur de rétention en CCM : (formulation 2)",
+              "choices": [
+                "Rf = distance soluté / distance front solvant",
+                "Rf = tR/t0",
+                "Rf = 1/k'",
+                "Rf = front/soluté"
+              ],
+              "answer": 0,
+              "explain": "0 < Rf < 1."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La moyenne d’un jeu de mesures est : (variante)",
+              "choices": [
+                "x̄ = √ΣXi",
+                "x̄ = ΣXi / n",
+                "x̄ = ΣXi²",
+                "x̄ = n/ΣXi"
+              ],
+              "answer": 1,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun : (reformulation)",
+              "choices": [
+                "inverse le signe de Ks",
+                "augmente la solubilité",
+                "diminue la solubilité",
+                "aucun effet"
+              ],
+              "answer": 2,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante)",
+              "choices": [
+                "α = tR₂ − tR₁",
+                "α = w₂/w₁",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = k'₁ + k'₂"
+              ],
+              "answer": 2,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Produit de solubilité d’AgCl : (reformulation)",
+              "choices": [
+                "Ks = 1/[Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺]²/[Cl⁻]",
+                "Ks = [AgCl]"
+              ],
+              "answer": 1,
+              "explain": "Équilibre hétérogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Plus la constante diélectrique du solvant est élevée : (reformulation) (reformulation) (formulation 2)",
+              "choices": [
+                "plus la dissociation est freinée",
+                "pas d’effet",
+                "les non-électrolytes deviennent ioniques",
+                "plus la dissociation ionique est favorisée"
+              ],
+              "answer": 3,
+              "explain": "Stabilisation des ions."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Capacité (HPLC/GC) : (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "k' = t0/tR",
+                "k' = (tR − t0)/t0",
+                "k' = 1/tR",
+                "k' = tR"
+              ],
+              "answer": 1,
+              "explain": "Mesure la rétention relative."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Loi de Beer–Lambert : (reformulation)",
+              "choices": [
+                "A = ε/C",
+                "A = C/ε",
+                "A = ε·l/C",
+                "A = ε·l·C"
+              ],
+              "answer": 3,
+              "explain": "Absorbance proportionnelle à la concentration."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2) (reformulation)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Élution en HPLC : (reformulation) (reformulation)",
+              "choices": [
+                "unique gradient",
+                "aucune",
+                "unique isocratique",
+                "isocratique ou en gradient"
+              ],
+              "answer": 3,
+              "explain": "Programmation de phase mobile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2) (variante) (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[OH⁻] = 10⁻¹ M",
+                "[H₃O⁺] = 10⁻¹⁴ M"
+              ],
+              "answer": 1,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Élution en HPLC : (reformulation) (variante)",
+              "choices": [
+                "aucune",
+                "isocratique ou en gradient",
+                "unique gradient",
+                "unique isocratique"
+              ],
+              "answer": 1,
+              "explain": "Programmation de phase mobile."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante) (reformulation)",
+              "choices": [
+                "α = w₂/w₁",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = k'₁ + k'₂",
+                "α = tR₂ − tR₁"
+              ],
+              "answer": 1,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité : (reformulation) (variante)",
+              "choices": [
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à augmenter le signal",
+                "capacité à filtrer un bruit",
+                "capacité à changer de matrice"
+              ],
+              "answer": 0,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun : (reformulation) (reformulation)",
+              "choices": [
+                "augmente la solubilité",
+                "diminue la solubilité",
+                "inverse le signe de Ks",
+                "aucun effet"
+              ],
+              "answer": 1,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale : (variante) (variante) (formulation 2)",
+              "choices": [
+                "E = E° + (0,1)·log(C)",
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = E° − RT/F",
+                "E = nE° + 0,059 log aox"
+              ],
+              "answer": 1,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Produit de solubilité d’AgCl : (formulation 2)",
+              "choices": [
+                "Ks = [Ag⁺]²/[Cl⁻]",
+                "Ks = [AgCl]",
+                "Ks = 1/[Ag⁺][Cl⁻]",
+                "Ks = [Ag⁺][Cl⁻]"
+              ],
+              "answer": 3,
+              "explain": "Équilibre hétérogène."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale : (formulation 2)",
+              "choices": [
+                "E = E° − RT/F",
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = E° + (0,1)·log(C)",
+                "E = nE° + 0,059 log aox"
+              ],
+              "answer": 1,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "En ampérométrie : (variante)",
+              "choices": [
+                "on mesure un courant en fonction du potentiel ou du temps",
+                "on mesure un pH uniquement",
+                "on mesure Rf",
+                "on mesure une masse"
+              ],
+              "answer": 0,
+              "explain": "Techniques voltampérométriques."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Condition de précipitation : (formulation 2) (formulation 2)",
+              "choices": [
+                "Q = Ks/2",
+                "Q < Ks",
+                "Q = 0",
+                "Q = [M⁺][A⁻] > Ks"
+              ],
+              "answer": 3,
+              "explain": "Ion product Q."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante) (reformulation)",
+              "choices": [
+                "α = k'₁ + k'₂",
+                "α = tR₂ − tR₁",
+                "α = w₂/w₁",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Iodometrie/Iodimétrie : (formulation 2)",
+              "choices": [
+                "utilise murexide",
+                "utilise rouge de méthyle",
+                "utilise l’empois d’amidon comme indicateur",
+                "utilise EBT"
+              ],
+              "answer": 2,
+              "explain": "Complexe bleu amidon–I₂."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S : (variante) (formulation 2)",
+              "choices": [
+                "S = 1/x̄",
+                "S = √(Σ(Xi − x̄)² / n)",
+                "S = ΣXi / n",
+                "S = Σ(Xi − x̄)"
+              ],
+              "answer": 1,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante) (formulation 2) (variante)",
+              "choices": [
+                "pH 9–11 uniquement",
+                "zone de virage proche de 7",
+                "pH 3–5 uniquement",
+                "indifférent"
+              ],
+              "answer": 1,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (formulation 2)",
+              "choices": [
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = tR₂ − tR₁",
+                "α = k'₁ + k'₂",
+                "α = w₂/w₁"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Le produit ionique de l’eau à 25 °C vaut : (reformulation)",
+              "choices": [
+                "Ke = 10⁻¹",
+                "Ke = 1",
+                "Ke = 10⁻¹⁴",
+                "Ke = 10⁻⁷"
+              ],
+              "answer": 2,
+              "explain": "Ke = [H₃O⁺][OH⁻]."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La fraction molaire xi d’un constituant i vaut : (formulation 2) (variante)",
+              "choices": [
+                "mi / V",
+                "ni / Σni",
+                "mi / Σmi",
+                "ni / V"
+              ],
+              "answer": 1,
+              "explain": "Définition de xi."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La variance V : (formulation 2)",
+              "choices": [
+                "V = 1/S",
+                "V = S²",
+                "V = √S",
+                "V = S"
+              ],
+              "answer": 1,
+              "explain": "Définition."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Additivité des absorbances : (reformulation)",
+              "choices": [
+                "A_tot = A₁·A₂",
+                "A_tot = ΣA_i aux mêmes conditions",
+                "A_tot = 0",
+                "A_tot = max(A_i)"
+              ],
+              "answer": 1,
+              "explain": "Superposition indépendante."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équation de Nernst générale : (variante) (variante) (reformulation)",
+              "choices": [
+                "E = E° + (0,059/n)·log(ared/aox) à 25 °C",
+                "E = E° + (0,1)·log(C)",
+                "E = E° − RT/F",
+                "E = nE° + 0,059 log aox"
+              ],
+              "answer": 0,
+              "explain": "Forme simplifiée en base 10."
+            },
+            {
+              "type": "mcq",
+              "prompt": "L’écart-type (population) S : (variante) (reformulation)",
+              "choices": [
+                "S = √(Σ(Xi − x̄)² / n)",
+                "S = 1/x̄",
+                "S = Σ(Xi − x̄)",
+                "S = ΣXi / n"
+              ],
+              "answer": 0,
+              "explain": "Dispersion."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité : (reformulation) (variante) (formulation 2)",
+              "choices": [
+                "capacité à augmenter le signal",
+                "capacité à changer de matrice",
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à filtrer un bruit"
+              ],
+              "answer": 2,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Expression Henderson–Hasselbalch : (formulation 2) (variante)",
+              "choices": [
+                "pH = pKa",
+                "pH = pKa + ln([acide]/[base])",
+                "pH = pKa − log([base]/[acide])",
+                "pH = pKa + log([base]/[acide])"
+              ],
+              "answer": 3,
+              "explain": "Tampons."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante) (reformulation) (reformulation)",
+              "choices": [
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = k'₁ + k'₂",
+                "α = tR₂ − tR₁",
+                "α = w₂/w₁"
+              ],
+              "answer": 0,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante) (reformulation) (reformulation)",
+              "choices": [
+                "α = tR₂ − tR₁",
+                "α = k'₁ + k'₂",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)",
+                "α = w₂/w₁"
+              ],
+              "answer": 2,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Demi-équivalence d’un acide faible dosé par base forte : (reformulation) (reformulation)",
+              "choices": [
+                "pH = pKb",
+                "pH = pKa",
+                "pH = 7",
+                "pH = pKe"
+              ],
+              "answer": 1,
+              "explain": "Tampon équimolaire."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante) (formulation 2) (reformulation)",
+              "choices": [
+                "pH 9–11 uniquement",
+                "indifférent",
+                "pH 3–5 uniquement",
+                "zone de virage proche de 7"
+              ],
+              "answer": 3,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La concentration pondérale Cp s’exprime en : (formulation 2)",
+              "choices": [
+                "mol·L⁻¹",
+                "g·L⁻¹",
+                "Pa",
+                "mol·kg⁻¹"
+              ],
+              "answer": 1,
+              "explain": "Cp = m/V en g·L⁻¹."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2) (reformulation) (reformulation)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2) (reformulation) (reformulation) (variante)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "adsorption sur AgCl (Fajans)",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante) (reformulation)",
+              "choices": [
+                "zone de virage proche de 7",
+                "pH 3–5 uniquement",
+                "indifférent",
+                "pH 9–11 uniquement"
+              ],
+              "answer": 0,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Sélectivité : (variante) (variante) (reformulation) (reformulation) (reformulation)",
+              "choices": [
+                "α = tR₂ − tR₁",
+                "α = k'₁ + k'₂",
+                "α = w₂/w₁",
+                "α = k'₂ / k'₁ (k'₂ > k'₁)"
+              ],
+              "answer": 3,
+              "explain": "Pouvoir discriminant."
+            },
+            {
+              "type": "mcq",
+              "prompt": "À 25 °C, pour l’eau pure : (formulation 2) (variante) (reformulation) (variante) (variante)",
+              "choices": [
+                "[H₃O⁺]=[OH⁻]=10⁻¹ M",
+                "[H₃O⁺] = [OH⁻] = 10⁻⁷ M",
+                "[OH⁻] = 10⁻¹ M",
+                "[H₃O⁺] = 10⁻¹⁴ M"
+              ],
+              "answer": 1,
+              "explain": "Milieu neutre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spectrométrie de masse : (variante) (reformulation) (reformulation)",
+              "choices": [
+                "mesure Rf",
+                "mesure m/z des ions",
+                "mesure pH",
+                "mesure Ks"
+              ],
+              "answer": 1,
+              "explain": "Fragmentation/ionisation."
+            },
+            {
+              "type": "mcq",
+              "prompt": "La normalité N vérifie : (formulation 2)",
+              "choices": [
+                "N = C²",
+                "N = C/n",
+                "N = n·C (n = nombre d’équivalents)",
+                "N = 1/C"
+              ],
+              "answer": 2,
+              "explain": "Équiv./L."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Spécificité : (reformulation) (reformulation)",
+              "choices": [
+                "capacité à changer de matrice",
+                "capacité à mesurer l’analyte sans interférences",
+                "capacité à augmenter le signal",
+                "capacité à filtrer un bruit"
+              ],
+              "answer": 1,
+              "explain": "Sélectivité analytique."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Méthode de Volhard : (reformulation) (formulation 2) (variante)",
+              "choices": [
+                "dosage indirect avec SCN⁻, repérage Fe³⁺",
+                "direct par Cl⁻ avec CrO₄²⁻",
+                "complexation EDTA",
+                "adsorption sur AgCl (Fajans)"
+              ],
+              "answer": 0,
+              "explain": "Ag⁺ en excès, retour par SCN⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Choix d’indicateur pour acide fort/base forte : (variante)",
+              "choices": [
+                "pH 3–5 uniquement",
+                "pH 9–11 uniquement",
+                "indifférent",
+                "zone de virage proche de 7"
+              ],
+              "answer": 3,
+              "explain": "Saut de pH centré sur 7."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Équivalence dosage base faible par acide fort : (variante) (formulation 2)",
+              "choices": [
+                "pH > 7",
+                "pH < 7",
+                "pH = 7",
+                "pH = pKa"
+              ],
+              "answer": 1,
+              "explain": "Solution du sel acide → acide."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Définition Lewis d’un acide : (reformulation) (variante)",
+              "choices": [
+                "accepteur de doublet d’électrons",
+                "donneur de doublet",
+                "accepteur de proton",
+                "donneur de proton"
+              ],
+              "answer": 0,
+              "explain": "Base de Lewis = donneur de doublet."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Effet d’ion commun : (reformulation) (reformulation)",
+              "choices": [
+                "augmente la solubilité",
+                "inverse le signe de Ks",
+                "diminue la solubilité",
+                "aucun effet"
+              ],
+              "answer": 2,
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Au point d’équivalence acide fort/base forte : (reformulation)",
+              "choices": [
+                "pH < 7",
+                "pH indéfini",
+                "pH ≈ 7 (à 25 °C)",
+                "pH > 7"
+              ],
+              "answer": 2,
+              "explain": "Neutralisation H₃O⁺/OH⁻."
+            },
+            {
+              "type": "mcq",
+              "prompt": "Demi-équivalence d’un acide faible dosé par base forte : (variante)",
+              "choices": [
+                "pH = pKb",
+                "pH = pKa",
+                "pH = pKe",
+                "pH = 7"
+              ],
+              "answer": 1,
+              "explain": "Tampon équimolaire."
+            }
+          ]
+        },
+        {
+          "name": "Questions/Réponses",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "Énoncer la loi de dilution d’Oswald.",
+              "answer_text": "Pour un électrolyte faible, la dissociation augmente avec la dilution.",
+              "explain": "K = α²·C/(1−α)."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le degré de dissociation α.",
+              "answer_text": "Fraction des entités dissociées par rapport au total initial.",
+              "explain": "0 ≤ α ≤ 1."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux définitions d’un acide.",
+              "answer_text": "Brønsted: donneur de H⁺ ; Lewis: accepteur de doublet.",
+              "explain": "Approches complémentaires."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux méthodes de préparation d’un tampon.",
+              "answer_text": "Mélange équimolaire acide faible / base conjuguée ; demi-équivalence d’un dosage.",
+              "explain": "Égalité des quantités conjuguées."
+            },
+            {
+              "type": "short",
+              "prompt": "Écrire l’expression du pH avant, à, et après l’équivalence pour AH/BOH.",
+              "answer_text": "Avant: excès fort ; À l’équivalence: sel/tampon ; Après: excès titrant.",
+              "explain": "Utiliser bilans matière + Henderson si applicable."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir le produit de solubilité.",
+              "answer_text": "Constante thermodynamique associée à l’équilibre de dissolution d’un sel peu soluble.",
+              "explain": "Dépend de T."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir pM en complexométrie.",
+              "answer_text": "pM = −log[M²⁺] libre ; mesure de la séquestration par ligand.",
+              "explain": "Analogue pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Durcir un tampon pour EDTA ?",
+              "answer_text": "Maintenir pH ~10 (NH₃/NH₄⁺) pour Ca²⁺/Mg²⁺.",
+              "explain": "Optimise la complexation et l’indicateur."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux électrodes de référence.",
+              "answer_text": "Calomel saturée (SCE) ; Ag/AgCl.",
+              "explain": "Potentiels constants."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux applications UV-Vis en clinique.",
+              "answer_text": "Glucose (GOD-POD), protéines (Biuret)/albumine, bilirubines.",
+              "explain": "Dosages colorimétriques."
+            },
+            {
+              "type": "short",
+              "prompt": "Composants d’un spectrophotomètre.",
+              "answer_text": "Source, monochromateur, cuve, détecteur, électronique.",
+              "explain": "Chaîne de mesure optique."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux techniques de séparation non chromatographiques.",
+              "answer_text": "Extraction liquide-liquide ; distillation.",
+              "explain": "Séparer par solubilité/T° d’ébullition."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir HETP.",
+              "answer_text": "Hauteur équivalente à un plateau théorique : H = L/N.",
+              "explain": "Mesure d’efficacité de colonne."
+            },
+            {
+              "type": "short",
+              "prompt": "Citer deux référentiels qualité.",
+              "answer_text": "ISO/IEC 17025 ; ISO 9000.",
+              "explain": "BPL/GBEA en appui organisationnel."
+            },
+            {
+              "type": "short",
+              "prompt": "Décrire brièvement une procédure analytique.",
+              "answer_text": "Définir le problème → choisir la méthode → échantillonnage → mesure (étalonnage) → validation.",
+              "explain": "Chaîne logique de décision."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Expliquer l’effet d’ion commun.",
+              "answer_text": "Ajout d’un ion commun diminue la solubilité d’un sel faiblement soluble.",
+              "explain": "Déplacement d’équilibre."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la normalité.",
+              "answer_text": "Équivalents par litre (N = n·C).",
+              "explain": "Nombre d’équivalents mis en jeu."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Donner deux méthodes d’argintrimétrie.",
+              "answer_text": "Mohr ; Volhard ; (Fajans par adsorption).",
+              "explain": "Selon matrice et pH."
+            },
+            {
+              "type": "short",
+              "prompt": "Définir la résolution chromatographique.",
+              "answer_text": "Rs = 2·(tR2 − tR1)/(w1 + w2).",
+              "explain": "Qualité de séparation."
+            }
+          ]
+        },
+        {
+          "name": "Études de cas",
+          "questions": [
+            {
+              "type": "short",
+              "prompt": "[Cas] Choix d’indicateur — Dosage HCl 0,1 M par NaOH 0,1 M\n\nQuel indicateur choisir ?",
+              "answer_text": "Phénolphtaléine ou rouge de phénol (zone proche 7).",
+              "explain": "Saut de pH étroit autour de 7."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Tampon HAc/Ac⁻ — Préparer pH ~ 4,8\n\nQue faites-vous ?",
+              "answer_text": "Mélanger quantités équimolaires acide acétique / acétate de sodium.",
+              "explain": "pH ≈ pKa (4,76)."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Précipitation sélective — Mélange Cl⁻/I⁻ avec Ag⁺ limitant\n\nQui précipite en premier ?",
+              "answer_text": "AgI (Ks plus faible).",
+              "explain": "Sélection par Ks."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] LOD/LOQ — Méthode avec S = 0,012 UA\n\nDonner LDM et LQM (cours).",
+              "answer_text": "LDM ≈ 0,036 ; LQM ≈ 0,12 (UA).",
+              "explain": "3·S et 10·S."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Dureté de l’eau — Dosage EDTA à pH 10 avec EBT\n\nQuels ions dosés ?",
+              "answer_text": "Ca²⁺ et Mg²⁺.",
+              "explain": "Complexation 1:1 EDTA."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Chromatographie — Deux pics se chevauchent\n\nQuelle grandeur optimiser ?",
+              "answer_text": "Résolution Rs (via α, k', N).",
+              "explain": "Augmenter α/N ou ajuster k'."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Spectro UV-Vis — Absorbance hors linéarité (>1,5)\n\nQue faire ?",
+              "answer_text": "Diluer l’échantillon.",
+              "explain": "Zone linéaire limitée."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] pH-métrie — Pente mesurée 52 mV/décade à 25 °C\n\nConclusion ?",
+              "answer_text": "Sonde décalibrée (attendu ~59 mV/décade).",
+              "explain": "Recalibrer."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Iodimétrie — Amidon ajouté trop tôt\n\nConséquence ?",
+              "answer_text": "Complexe trop stable → fin de titrage faussée.",
+              "explain": "Ajouter proche de l’équivalence."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Volhard retour — Cl⁻ dans matrice colorée\n\nPourquoi méthode de retour ?",
+              "answer_text": "Fin de titrage plus nette via Fe³⁺/SCN⁻.",
+              "explain": "Milieu acide et complexe soluble."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #11 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #12 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #13 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #14 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #15 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #16 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #17 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #18 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #19 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #20 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #21 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #22 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #23 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #24 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #25 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #26 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #27 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #28 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #29 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            },
+            {
+              "type": "short",
+              "prompt": "[Cas] Cas analytique #30 — Problème de séparation/détection\n\nQuelle stratégie ?",
+              "answer_text": "Optimiser la préparation d’échantillon et la sélectivité.",
+              "explain": "Adapter la méthode à la matrice."
+            }
+          ]
+        },
+        {
+          "name": "IDENTIFICATION IMAGE",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-08-12T18:04:19.560272Z",
+    "counts": {
+      "mcq": 200,
+      "short": 70,
+      "cases": 30,
+      "total": 300
+    }
+  }
+}
