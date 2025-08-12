@@ -51,7 +51,7 @@
   <header>
     <div class="bar">
       <div class="title">📚 Révisions GCB – QCM Futuriste</div>
-      <div class="chip" id="version">v1.3</div>
+      <div class="chip" id="version">v1.4</div>
       <div class="chip" id="timerBadge">Sans minuteur</div>
     </div>
     <div class="bar" style="gap:10px;">
@@ -124,27 +124,20 @@
         <summary class="p">ℹ️ Format de la banque de questions (pour import)</summary>
         <div class="p">
 <pre style="white-space:pre-wrap; font-size:12px; color:var(--muted); margin:0">
-{
-  "subjects": [
-    {
-      "name": "Bactériologie",
-      "sections": [
-        { "name": "QCM", "questions": [
-          {"type":"mcq","prompt":"Gram + cocci…","choices":["Staph","E. coli","Salmonella"],"answer":0,"explain":"…"}
-        ]},
-        { "name": "Questions/Réponses", "questions": [
-          {"type":"short","prompt":"Définir stérilisation.","answer_text":"Destruction…","explain":"…"}
-        ]},
-        { "name": "IDENTIFICATION IMAGE", "questions": [
-          {"type":"image-id","prompt":"Nommer le germe.","image":"gram_staph.jpg","mode":"text","answer_text":"Staphylococcus aureus","explain":"…"}
-        ]},
-        { "name": "ÉTUDES DE CAS", "questions": [
-          {"type":"short","prompt":"Patiente fébrile avec…","answer_text":"E. coli","explain":"…"}
-        ]}
-      ]
-    }
-  ]
-}
+{ "subjects": [ { "name": "Bactériologie", "sections": [
+  { "name": "QCM", "questions": [
+    {"type":"mcq","prompt":"Gram + cocci…","choices":["Staph","E. coli","Salmonella"],"answer":0,"explain":"…"}
+  ]},
+  { "name": "Questions/Réponses", "questions": [
+    {"type":"short","prompt":"Définir stérilisation.","answer_text":"Destruction…","explain":"…"}
+  ]},
+  { "name": "IDENTIFICATION IMAGE", "questions": [
+    {"type":"image-id","prompt":"Nommer le germe.","image":"gram_staph.jpg","mode":"text","answer_text":"Staphylococcus aureus","explain":"…"}
+  ]},
+  { "name": "ÉTUDES DE CAS", "questions": [
+    {"type":"short","prompt":"Patiente fébrile avec…","answer_text":"E. coli","explain":"…"}
+  ]}
+]} ] }
 </pre>
           <div class="badge">💡 Pour l'IDENTIFICATION IMAGE: place tes images <b>à la racine du dépôt</b> (même dossier que <code>index.html</code>) et indique seulement le <b>nom du fichier</b> (ex: <code>gram_staph.jpg</code>). <code>mode:"text"</code> = réponse saisie, <code>mode:"mcq"</code> = choix multiples.</div>
         </div>
@@ -182,13 +175,13 @@
     timer: {active:false, left:0, t:null}, // examen
   };
 
-  // ---- fichiers JSON à la racine (ajoute ici d'autres fichiers si tu veux) ----
+  // ---- fichiers JSON à la racine ----
   const DATA_FILES = [
     './bacteriologie.json'
     // './biochimie.json', './microbiologie_avancee.json', etc.
   ];
 
-  // --- Demo bank (utilisée si aucun fichier trouvé) ---
+  // --- Demo bank (fallback) ---
   const demo = {
     subjects:[
       { name:"Bactériologie", sections:[
@@ -225,13 +218,11 @@
 
   // --- Init ---
   async function init(){
-    // 1) essaie de charger depuis la racine (DATA_FILES)
     const repoBank = await loadBankFromFiles();
     if (repoBank) {
       S.bank = repoBank;
       localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
     } else {
-      // 2) sinon, localStorage, sinon demo
       const saved = localStorage.getItem('qcm_bank_v1');
       S.bank = saved ? JSON.parse(saved) : demo;
     }
@@ -270,23 +261,20 @@
     render();
   }
 
-  // Construit la queue selon matière, filtre type, et mode
   function buildQueue(){
     const subj = S.bank.subjects[S.subjectIndex]; if(!subj){ S.queue=[]; return; }
-    // flatten + marquer la section
     let flat = subj.sections.flatMap(s=>{
       if(S.filterType && s.name !== S.filterType) return [];
       return (s.questions||[]).map(q=>({...q, _section:s.name}));
     });
 
     if (S.mode === 'weak'){
-      // garder les questions faibles : perf <60% et vues >=2 OU marquées à revoir
       const weak = flat.filter(q=>{
         const k = keyFor(q); const p = S.perf[k]||{seen:0,good:0,bad:0};
         const acc = p.seen ? p.good/p.seen : 1;
         return (p.seen>=2 && acc<0.6) || S.reviewSet.has(k);
       });
-      flat = weak.length ? weak : flat; // fallback si vide
+      flat = weak.length ? weak : flat;
     }
 
     if (S.mode === 'random' || S.mode === 'weak' || S.mode === 'exam30' || S.mode === 'flash'){
@@ -303,7 +291,7 @@
     stopTimer();
     if(S.mode === 'exam30'){
       S.timer.active = true;
-      S.timer.left = 30*60; // 30 minutes en secondes
+      S.timer.left = 30*60;
       S.timer.t = setInterval(()=>{
         S.timer.left--;
         if(S.timer.left<=0){ S.timer.left=0; stopTimer(); endSession("⏱ Temps écoulé – examen terminé."); }
@@ -346,13 +334,23 @@
     el('progressBar').style.width = total? ((S.qIndex)/total*100).toFixed(1)+'%':'0%';
 
     el('stage').innerHTML = renderQuestion(q);
-    const form = el('qForm');
-    if(form){ form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)}; }
+
+    // hook form
+    const form = el('qForm'); if(form){ form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)}; }
+
+    // hook flashcards buttons (sans injecter de <script> dans les templates)
+    const r = document.getElementById('btnReveal');
+    const k = document.getElementById('btnKnow');
+    const d = document.getElementById('btnDont');
+    const a = document.getElementById('flashAnswer');
+    if(r) r.onclick = ()=>{ if(a) a.style.display='block'; };
+    if(k) k.onclick = ()=> window.__flashJudge && window.__flashJudge(true);
+    if(d) d.onclick = ()=> window.__flashJudge && window.__flashJudge(false);
+
     updateExplain(false); updateReviewBadge();
   }
 
   function renderQuestion(q){
-    // Mode Flashcards
     if (S.mode === 'flash'){
       const media = (q.type==='image-id' && q.image) ? `<div class="imgwrap" style="margin-bottom:10px"><img src="${q.image}" alt="image"/></div>` : '';
       return `<div class="grid">
@@ -367,8 +365,7 @@
         <div class="actions"><button id="btnReveal">Afficher la réponse</button>
           <button id="btnKnow" class="ghost">Je savais (+1)</button>
           <button id="btnDont" class="ghost">Je ne savais pas (−1)</button></div>
-      </div>
-      <script>(function(){const r=document.getElementById('btnReveal'),k=document.getElementById('btnKnow'),d=document.getElementById('btnDont'),a=document.getElementById('flashAnswer'); if(r) r.onclick=()=>a.style.display='block'; if(k) k.onclick=()=>window.__flashJudge&&window.__flashJudge(true); if(d) d.onclick=()=>window.__flashJudge&&window.__flashJudge(false);})();</script>`;
+      </div>`;
     }
 
     const common = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
@@ -456,10 +453,9 @@
     judgeAndLock(q, ok);
   }
 
-  // Utilisé par le mode flashcards
   window.__flashJudge = function(ok){
     const {q} = getCurrent(); if(!q) return;
-    judgeAndLock(q, ok, /*isFlash*/true);
+    judgeAndLock(q, ok);
   }
 
   function judgeAndLock(q, ok){
@@ -468,13 +464,11 @@
     const fb = el('feedback');
     if(fb) fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
 
-    // perf
     const k = keyFor(q);
     if(!S.perf[k]) S.perf[k] = {seen:0,good:0,bad:0};
     S.perf[k].seen++; ok ? S.perf[k].good++ : S.perf[k].bad++;
     updateStatsPanel();
 
-    // lock
     const form = el('qForm'); if(form){ form.querySelectorAll('input, button').forEach(x=> x.disabled = true); }
   }
 
@@ -536,7 +530,6 @@
     finally { ev.target.value = ''; }
   }
 
-  // --- Stats helpers ---
   function totalSeen(){ return Object.values(S.perf).reduce((a,p)=>a+p.seen,0); }
   function totalGood(){ return Object.values(S.perf).reduce((a,p)=>a+p.good,0); }
   function totalBad(){ return Object.values(S.perf).reduce((a,p)=>a+p.bad,0); }
@@ -547,7 +540,6 @@
     el('stAcc').textContent = acc + '%'; el('stStreak').textContent = S.streak; el('stToReview').textContent = S.reviewSet.size;
   }
 
-  // --- utils ---
   function escapeHTML(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
   function normalize(s){ return (s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/[^a-z0-9]+/g,''); }
   function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
