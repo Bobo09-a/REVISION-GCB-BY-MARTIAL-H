@@ -22,7 +22,7 @@
       background:linear-gradient(180deg, rgba(11,15,26,.92), rgba(11,15,26,.65));
       border-bottom:1px solid rgba(125,123,255,.25);
     }
-    .bar{display:flex; align-items:center; gap:8px; padding:10px 12px;}
+    .bar{display:flex; align-items:center; gap:8px; padding:10px 12px; flex-wrap:wrap}
     .title{font-weight:700; letter-spacing:.2px;}
     .chip{background:var(--chip); border:1px solid rgba(109,240,255,.25); padding:6px 10px; border-radius:999px; font-size:12px; color:var(--muted)}
     select, button, input[type="text"], input[type="file"], textarea{
@@ -36,6 +36,7 @@
     .grid{display:grid; grid-template-columns:1fr; gap:12px}
     @media(min-width:520px){
       .grid-2{grid-template-columns: 1fr 1fr}
+      .grid-3{grid-template-columns: 1fr 1fr 1fr}
     }
     .panel{border:1px solid rgba(109,240,255,.2); border-radius:16px; background:linear-gradient(180deg, rgba(22,28,50,.72), rgba(12,17,33,.72)); box-shadow:0 8px 24px rgba(0,0,0,.25);}
     .panel .p{padding:14px;}
@@ -62,11 +63,26 @@
   <header>
     <div class="bar">
       <div class="title">📚 Révisions GCB – QCM Futuriste</div>
-      <div class="chip" id="version">v1.0</div>
+      <div class="chip" id="version">v1.1</div>
+      <div class="chip" id="timerBadge">Sans minuteur</div>
     </div>
-    <div class="bar" style="gap:10px; flex-wrap:wrap">
+    <div class="bar" style="gap:10px;">
       <div class="row" style="flex:3">
         <select id="subjectSelect" aria-label="Choisir une matière"></select>
+        <select id="filterType" aria-label="Filtrer par type">
+          <option value="">Tous les types</option>
+          <option>QCM</option>
+          <option>Questions/Réponses</option>
+          <option>IDENTIFICATION IMAGE</option>
+          <option>ÉTUDES DE CAS</option>
+        </select>
+        <select id="modeSelect" aria-label="Choisir un mode">
+          <option value="normal">Mode normal</option>
+          <option value="random">Mode aléatoire</option>
+          <option value="weak">Mode faiblesses</option>
+          <option value="exam30">Mode examen (30 min)</option>
+          <option value="flash">Flashcards</option>
+        </select>
         <button id="btnStart">Démarrer</button>
       </div>
       <div class="row" style="flex:2">
@@ -81,10 +97,10 @@
       <div class="panel">
         <div class="p">
           <div class="row" style="align-items:center; gap:12px">
-            <div class="badge">Sans minuteur</div>
             <div class="badge">Score: <span class="score" id="score">0</span></div>
             <div class="badge">Question <span id="qIndex">0</span>/<span id="qTotal">0</span></div>
             <div class="badge">Matière: <span id="subjectLabel">—</span></div>
+            <div class="badge">Mode: <span id="modeLabel">normal</span></div>
           </div>
           <div class="progress" style="margin:10px 0 4px"><i id="progressBar"></i></div>
         </div>
@@ -92,7 +108,8 @@
 
       <div class="panel" id="card">
         <div class="p" id="stage">
-          <p style="color:var(--muted); margin:0">Choisis une matière puis clique <b>Démarrer</b>. Tu peux aussi <b>Importer</b> un fichier JSON de questions généré à partir de tes documents (je convertirai tes cours dès que tu me les enverras).</n>
+          <p style="color:var(--muted); margin:0">Choisis une matière, un mode et éventuellement un filtre de type, puis clique <b>Démarrer</b>.  
+          Importe ton JSON (je convertirai tes cours). Règles : juste = <b>+1</b>, erreur = <b>−1</b>.</p>
         </div>
       </div>
 
@@ -102,6 +119,18 @@
           <button id="btnNext">Suivant ⟶</button>
         </div>
       </div>
+
+      <details class="panel">
+        <summary class="p">📊 Statistiques & progression</summary>
+        <div class="p grid-3">
+          <div class="badge">Vues: <b id="stSeen">0</b></div>
+          <div class="badge">Bonnes: <b id="stGood">0</b></div>
+          <div class="badge">Mauvaises: <b id="stBad">0</b></div>
+          <div class="badge">Précision: <b id="stAcc">0%</b></div>
+          <div class="badge">Série actuelle: <b id="stStreak">0</b></div>
+          <div class="badge">À revoir: <b id="stToReview">0</b></div>
+        </div>
+      </details>
 
       <details class="panel">
         <summary class="p">ℹ️ Format de la banque de questions (pour import)</summary>
@@ -120,13 +149,16 @@
         ]},
         { "name": "IDENTIFICATION IMAGE", "questions": [
           {"type":"image-id","prompt":"Nommer le germe.","image":"gram_staph.jpg","mode":"text","answer_text":"Staphylococcus aureus","explain":"…"}
+        ]},
+        { "name": "ÉTUDES DE CAS", "questions": [
+          {"type":"short","prompt":"Patiente fébrile avec…","answer_text":"E. coli","explain":"…"}
         ]}
       ]
     }
   ]
 }
 </pre>
-          <div class=\"badge\">💡 Pour l'IDENTIFICATION IMAGE: place tes images <b>à la racine du dépôt</b> (même dossier que <code>index.html<\/code>) et renseigne juste le <b>nom du fichier</b> dans <code>image<\/code> (ex: <code>gram_staph.jpg<\/code>). Mode <code>text<\/code> = réponse saisie, Mode <code>mcq<\/code> = choix multiples avec <code>choices<\/code> + <code>answer<\/code>.<\/div>
+          <div class="badge">💡 Pour l'IDENTIFICATION IMAGE: place tes images <b>à la racine du dépôt</b> (même dossier que <code>index.html</code>) et indique seulement le <b>nom du fichier</b> (ex: <code>gram_staph.jpg</code>). <code>mode:"text"</code> = réponse saisie, <code>mode:"mcq"</code> = choix multiples.</div>
         </div>
       </details>
     </div>
@@ -150,14 +182,19 @@
   const S = {
     bank: { subjects: [] },
     subjectIndex: -1,
-    sectionIndex: 0,
+    mode: 'normal',             // normal | random | weak | exam30 | flash
+    filterType: '',             // '', 'QCM', 'Questions/Réponses', 'IDENTIFICATION IMAGE', 'ÉTUDES DE CAS'
+    queue: [],                  // liste aplatie des questions courantes
     qIndex: 0,
     score: 0,
     answered: false,
-    reviewSet: new Set(),
+    reviewSet: new Set(),       // marquées à revoir (manuel)
+    perf: {},                   // perf par question key: {seen, good, bad}
+    streak: 0,
+    timer: {active:false, left:0, t:null}, // examen
   };
 
-  // --- Demo bank (you will replace via Import) ---
+  // --- Demo bank (remplacée via Import) ---
   const demo = {
     subjects:[
       { name:"Bactériologie", sections:[
@@ -170,6 +207,9 @@
         ]},
         {name:"IDENTIFICATION IMAGE", questions:[
           {type:"image-id", prompt:"Identifier la morphologie.", image:"demo_gram.jpg", mode:"text", answer_text:"Cocci en amas", explain:"Aspect typique des staphylocoques."}
+        ]},
+        {name:"ÉTUDES DE CAS", questions:[
+          {type:"short", prompt:"Fièvre + BU nitrites/leucocytes, entérobactérie lactose+ : germe probable ?", answer_text:"Escherichia coli", explain:"IU communautaire fréquente ; MacConkey lactose+ oriente E. coli."}
         ]}
       ]},
       { name:"Biochimie structurale", sections:[
@@ -177,7 +217,7 @@
           {type:"mcq", prompt:"Le monomère des protéines est :", choices:["Acide gras","Acide aminé","Nucléotide"], answer:1, explain:"Les acides aminés forment des polypeptides."}
         ]},
         {name:"Questions/Réponses", questions:[
-          {type:"short", prompt:"Donner la définition d'une enzyme.", answer_text:"Protéine catalytique qui accélère une réaction sans être consommée.", explain:"Abaisse l'énergie d'activation."}
+          {type:"short", prompt:"Définir une enzyme.", answer_text:"Protéine catalytique qui accélère une réaction sans être consommée.", explain:"Abaisse l'énergie d'activation."}
         ]},
         {name:"IDENTIFICATION IMAGE", questions:[
           {type:"image-id", prompt:"Nommer la structure.", image:"demo_aa.png", mode:"text", answer_text:"Acide aminé", explain:"Groupe amine + carboxyle + R."}
@@ -205,6 +245,8 @@
     el('fileInput').onchange = onImport;
     el('btnShowExplain').onclick = toggleExplain;
     el('btnMarkReview').onclick = toggleReview;
+    el('filterType').onchange = (e)=> { S.filterType = e.target.value || ''; };
+    el('modeSelect').onchange = (e)=> { S.mode = e.target.value; el('modeLabel').textContent = S.mode; updateTimerBadge(); };
   }
 
   function refreshSubjectList(){
@@ -216,29 +258,90 @@
 
   function start(){
     const idx = parseInt(el('subjectSelect').value || '0',10);
-    S.subjectIndex = isNaN(idx) ? 0 : idx; S.sectionIndex = 0; S.qIndex = 0; S.score = 0; S.answered=false; S.reviewSet.clear();
+    S.subjectIndex = isNaN(idx) ? 0 : idx;
+    S.score = 0; S.answered=false; S.streak=0; S.qIndex=0;
+    buildQueue();
+    setupExamTimerIfNeeded();
     render();
   }
 
+  // Construit la queue selon matière, filtre type, et mode
+  function buildQueue(){
+    const subj = S.bank.subjects[S.subjectIndex]; if(!subj){ S.queue=[]; return; }
+    // flatten + marquer la section
+    let flat = subj.sections.flatMap(s=>{
+      if(S.filterType && s.name !== S.filterType) return [];
+      return (s.questions||[]).map(q=>({...q, _section:s.name}));
+    });
+
+    if (S.mode === 'weak'){
+      // garder les questions faibles : perf <60% et vues >=2 OU marquées à revoir
+      const weak = flat.filter(q=>{
+        const k = keyFor(q); const p = S.perf[k]||{seen:0,good:0,bad:0};
+        const acc = p.seen ? p.good/p.seen : 1;
+        return (p.seen>=2 && acc<0.6) || S.reviewSet.has(k);
+      });
+      flat = weak.length ? weak : flat; // fallback si vide
+    }
+
+    if (S.mode === 'random' || S.mode === 'weak' || S.mode === 'exam30' || S.mode === 'flash'){
+      shuffle(flat);
+    }
+    S.queue = flat;
+    el('qTotal').textContent = S.queue.length;
+    el('modeLabel').textContent = S.mode;
+    updateTimerBadge();
+    updateStatsPanel();
+  }
+
+  function setupExamTimerIfNeeded(){
+    stopTimer();
+    if(S.mode === 'exam30'){
+      S.timer.active = true;
+      S.timer.left = 30*60; // 30 minutes en secondes
+      S.timer.t = setInterval(()=>{
+        S.timer.left--;
+        if(S.timer.left<=0){ S.timer.left=0; stopTimer(); endSession("⏱ Temps écoulé – examen terminé."); }
+        updateTimerBadge();
+      }, 1000);
+      updateTimerBadge();
+    }
+  }
+
+  function stopTimer(){
+    if(S.timer.t){ clearInterval(S.timer.t); }
+    S.timer = {active:false,left:0,t:null};
+    updateTimerBadge();
+  }
+
+  function updateTimerBadge(){
+    const b = el('timerBadge');
+    if(S.mode === 'exam30'){
+      const m = Math.floor(S.timer.left/60), s = S.timer.left%60;
+      b.textContent = `⏱ Examen ${pad(m)}:${pad(s)}`;
+    } else {
+      b.textContent = 'Sans minuteur';
+    }
+  }
+
+  function pad(n){ return (n<10?'0':'')+n; }
+
   function getCurrent(){
     const subj = S.bank.subjects[S.subjectIndex];
-    if(!subj) return {};
-    const sec = subj.sections[S.sectionIndex];
-    const flat = subj.sections.flatMap(s=>s.questions.map(q=>({...q, _section:s.name})));
-    const q = flat[S.qIndex];
-    return {subj, sec, q, total: flat.length};
+    const q = S.queue[S.qIndex];
+    return {subj, q, total: S.queue.length};
   }
 
   function renderIdle(){
     el('stage').innerHTML = `<div class="p">
       <h2 style="margin:0 0 6px">Bienvenue 👋</h2>
-      <p style="color:var(--muted)">Importe tes cours (JSON) et révise chaque notion via QCM, Questions/Réponses et IDENTIFICATION IMAGE. Réponse juste = <b>+1</b>, erreur = <b>-1</b>. Pas de minuteur.</p>
+      <p style="color:var(--muted)">Choisis la matière, le mode (normal, aléatoire, faiblesses, examen 30 min, flashcards) et le filtre par type. Réponse juste = <b>+1</b>, erreur = <b>−1</b>. Importe ton JSON pour charger tes cours.</p>
     </div>`;
   }
 
   function render(){
     const {subj, q, total} = getCurrent();
-    if(!subj){ renderIdle(); return; }
+    if(!subj || !q){ renderIdle(); el('qIndex').textContent='0'; el('qTotal').textContent=total||0; el('progressBar').style.width='0%'; return; }
 
     el('subjectLabel').textContent = subj.name;
     el('qIndex').textContent = Math.min(S.qIndex+1, total);
@@ -246,16 +349,12 @@
     el('score').textContent = S.score;
     el('progressBar').style.width = total? ((S.qIndex)/total*100).toFixed(1)+'%':'0%';
 
-    if(!q){ el('stage').innerHTML = `<div class="p">Aucune question. Importez une banque pour cette matière.</div>`; return; }
-
     el('stage').innerHTML = renderQuestion(q);
-
-    // Hook up events
     const form = el('qForm');
     if(form){
       form.onsubmit = (ev)=>{ev.preventDefault(); submitAnswer(q)};
       const choices = form.querySelectorAll('input[name="c"]');
-      choices.forEach(c=> c.addEventListener('change', ()=>{ if(!S.answered){ /* enable submit if needed */ }}));
+      choices.forEach(c=> c.addEventListener('change', ()=>{}));
     }
 
     updateExplain(false);
@@ -263,16 +362,45 @@
   }
 
   function renderQuestion(q){
-    const common = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
+    const commonTop = `<div class="row" style="align-items:center; justify-content:space-between; margin-bottom:8px">
         <div class="badge">Section: ${q._section||''}</div>
         <div class="badge ${S.reviewSet.has(keyFor(q))?'ok':'ghost'}">À revoir</div>
       </div>
       <div class="q-title">${escapeHTML(q.prompt||'')}</div>
       <hr class="h"/>`;
 
+    // Mode Flashcards : affichage dédié
+    if (S.mode === 'flash'){
+      // flash supporte mcq/short/image-id mais en mode “révéler réponse”
+      const media = (q.type==='image-id' && q.image) ? `<div class="imgwrap" style="margin-bottom:10px"><img src="${q.image}" alt="image"/></div>` : '';
+      return `<div class="grid">
+        ${commonTop}
+        ${media}
+        <div id="flashAnswer" style="display:none">
+          ${renderAnswerBlock(q)}
+        </div>
+        <div class="actions">
+          <button id="btnReveal">Afficher la réponse</button>
+          <button id="btnKnow" class="ghost">Je savais (+1)</button>
+          <button id="btnDont" class="ghost">Je ne savais pas (−1)</button>
+        </div>
+      </div>
+      <script>
+        (function(){
+          const r = document.getElementById('btnReveal');
+          const k = document.getElementById('btnKnow');
+          const d = document.getElementById('btnDont');
+          const a = document.getElementById('flashAnswer');
+          if(r){ r.onclick = ()=>{ a.style.display='block'; }; }
+          if(k){ k.onclick = ()=>{ window.__flashJudge && window.__flashJudge(true); }; }
+          if(d){ d.onclick = ()=>{ window.__flashJudge && window.__flashJudge(false); }; }
+        })();
+      </script>`;
+    }
+
     if(q.type === 'mcq'){
       const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
-      return `<form id="qForm" class="grid" autocomplete="off">${common}
+      return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
         <div class="choices">${opts}</div>
         <div class="actions"><button id="btnSubmit">Valider</button></div>
         <div id="feedback"></div>
@@ -280,7 +408,7 @@
       </form>`;
     }
     if(q.type === 'short'){
-      return `<form id="qForm" class="grid" autocomplete="off">${common}
+      return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
         <input type="text" id="shortAns" placeholder="Écris ta réponse" required />
         <div class="actions"><button id="btnSubmit">Valider</button></div>
         <div id="feedback"></div>
@@ -291,7 +419,7 @@
       const img = q.image ? `<div class="imgwrap"><img src="${q.image}" alt="image à identifier" onerror="this.alt='(image introuvable)'; this.style.opacity=.6;"/></div>` : '';
       if(q.mode === 'mcq'){
         const opts = (q.choices||[]).map((c,i)=>`<label class="choice"><input type="radio" name="c" value="${i}" required><div>${escapeHTML(c)}</div></label>`).join('');
-        return `<form id="qForm" class="grid" autocomplete="off">${common}
+        return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
           ${img}
           <div class="choices">${opts}</div>
           <div class="actions"><button id="btnSubmit">Valider</button></div>
@@ -299,7 +427,7 @@
           <details id="explain"><summary class="p">Voir l'explication</summary><div class="p">${escapeHTML(q.explain||'')}</div></details>
         </form>`;
       } else {
-        return `<form id="qForm" class="grid" autocomplete="off">${common}
+        return `<form id="qForm" class="grid" autocomplete="off">${commonTop}
           ${img}
           <input type="text" id="shortAns" placeholder="Nom exact…" required />
           <div class="actions"><button id="btnSubmit">Valider</button></div>
@@ -311,7 +439,22 @@
     return `<div class="p">Type non supporté.</div>`;
   }
 
-  function keyFor(q){ return (q.prompt||'').slice(0,64); }
+  function renderAnswerBlock(q){
+    if(q.type==='mcq'){
+      const ans = q.choices && q.choices[q.answer]!==undefined ? q.choices[q.answer] : '(?)';
+      return `<div class="pill ok">Réponse: ${escapeHTML(ans)}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
+    }
+    if(q.type==='short' || (q.type==='image-id' && q.mode!=='mcq')){
+      return `<div class="pill ok">Réponse: ${escapeHTML(q.answer_text||'(?)')}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
+    }
+    if(q.type==='image-id' && q.mode==='mcq'){
+      const ans = q.choices && q.choices[q.answer]!==undefined ? q.choices[q.answer] : '(?)';
+      return `<div class="pill ok">Réponse: ${escapeHTML(ans)}</div><div style="margin-top:8px; color:var(--muted)">${escapeHTML(q.explain||'')}</div>`;
+    }
+    return '';
+  }
+
+  function keyFor(q){ return (q.prompt||'').slice(0,128); }
 
   function submitAnswer(q){
     if(S.answered) return;
@@ -330,24 +473,67 @@
       ok = (v === q.answer);
     }
 
+    judgeAndLock(q, ok);
+  }
+
+  // Utilisé par le mode flashcards
+  window.__flashJudge = function(ok){
+    const {q} = getCurrent(); if(!q) return;
+    judgeAndLock(q, ok, /*isFlash*/true);
+  }
+
+  function judgeAndLock(q, ok, isFlash=false){
     S.score += ok ? 1 : -1; el('score').textContent = S.score;
+    S.streak = ok ? (S.streak+1) : 0;
     const fb = el('feedback');
-    fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
+    if(fb) fb.innerHTML = ok ? `<div class="pill ok">✔ Réponse correcte (+1)</div>` : `<div class="pill bad">✖ Mauvaise réponse (−1)</div>`;
+
+    // mise à jour perf
+    const k = keyFor(q);
+    if(!S.perf[k]) S.perf[k] = {seen:0,good:0,bad:0};
+    S.perf[k].seen++; ok ? S.perf[k].good++ : S.perf[k].bad++;
+    updateStatsPanel();
 
     // Lock inputs
-    const form = el('qForm'); if(form){
-      form.querySelectorAll('input, button').forEach(x=> x.disabled = true);
-    }
+    const form = el('qForm');
+    if(form){ form.querySelectorAll('input, button').forEach(x=> x.disabled = true); }
+    // En flash, pas de form : on passe direct
+
+    // passage auto en examen/flash (optionnel) : on laisse “Suivant”
   }
 
   function nav(dir){
     const {total} = getCurrent();
-    S.qIndex = Math.max(0, Math.min(total-1, S.qIndex + dir));
+    if(!total){ return; }
+    S.qIndex += dir;
+    if(S.qIndex < 0) S.qIndex = 0;
+    if(S.qIndex >= total){
+      endSession("🎉 Tu as parcouru toutes les questions de cette file.");
+      S.qIndex = total-1;
+      return;
+    }
     S.answered = false;
     render();
   }
 
-  function reset(){ S.qIndex=0; S.score=0; S.answered=false; render(); }
+  function endSession(msg){
+    // Résumé simple
+    const good = totalGood(), bad = totalBad(), seen = good+bad;
+    const acc = seen? Math.round(good/seen*100):0;
+    el('stage').innerHTML = `<div class="p">
+      <h3 style="margin:4px 0 8px">Session terminée</h3>
+      <p class="pill ok">Score: ${S.score}</p>
+      <p class="badge">Vues: ${seen} • Bonnes: ${good} • Mauvaises: ${bad} • Précision: ${acc}%</p>
+      <p style="color:var(--muted)">${escapeHTML(msg||'')}</p>
+    </div>`;
+    stopTimer();
+  }
+
+  function reset(){
+    stopTimer();
+    S.qIndex=0; S.score=0; S.answered=false; S.streak=0;
+    render();
+  }
 
   function toggleExplain(){
     const d = document.getElementById('explain');
@@ -358,7 +544,7 @@
     const cur = getCurrent().q; if(!cur) return;
     const k = keyFor(cur);
     if(S.reviewSet.has(k)) S.reviewSet.delete(k); else S.reviewSet.add(k);
-    updateReviewBadge();
+    updateReviewBadge(); updateStatsPanel();
   }
   function updateReviewBadge(){
     const cur = getCurrent().q; if(!cur) return;
@@ -380,7 +566,9 @@
       const json = JSON.parse(text);
       if(!json.subjects) throw new Error('Format invalide: clé "subjects" manquante');
       S.bank = json; localStorage.setItem('qcm_bank_v1', JSON.stringify(S.bank));
-      refreshSubjectList(); start();
+      refreshSubjectList();
+      // Maintenir filtres et mode choisis, construire queue
+      buildQueue(); renderIdle();
     }catch(e){
       alert('Erreur d\'import: '+ e.message);
     } finally {
@@ -388,7 +576,23 @@
     }
   }
 
-  // utils
+  // --- Stats helpers ---
+  function totalSeen(){ return Object.values(S.perf).reduce((a,p)=>a+p.seen,0); }
+  function totalGood(){ return Object.values(S.perf).reduce((a,p)=>a+p.good,0); }
+  function totalBad(){ return Object.values(S.perf).reduce((a,p)=>a+p.bad,0); }
+
+  function updateStatsPanel(){
+    const seen = totalSeen(), good = totalGood(), bad = totalBad();
+    const acc = seen? Math.round(good/seen*100):0;
+    el('stSeen').textContent = seen;
+    el('stGood').textContent = good;
+    el('stBad').textContent = bad;
+    el('stAcc').textContent = acc + '%';
+    el('stStreak').textContent = S.streak;
+    el('stToReview').textContent = S.reviewSet.size;
+  }
+
+  // --- utils ---
   function escapeHTML(s){ return (s||'').replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
   function normalize(s){
     return (s||'')
@@ -397,6 +601,7 @@
       .replace(/\p{Diacritic}/gu,'')
       .replace(/[^a-z0-9]+/g,'')
   }
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
   init();
   </script>
