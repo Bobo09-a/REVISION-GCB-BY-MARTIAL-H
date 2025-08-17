@@ -1,0 +1,14 @@
+{
+    "images": [
+        {
+            "nom": "hematologie_schema.png",
+            "description": "Schéma explicatif des lignées sanguines",
+            "path": "./hematologie_schema.png"
+        },
+        {
+            "nom": "parasite_cycle.png",
+            "description": "Cycle évolutif du parasite",
+            "path": "./parasite_cycle.png"
+        }
+    ]
+}

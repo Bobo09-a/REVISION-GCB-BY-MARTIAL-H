@@ -1,0 +1,39 @@
+{
+    "Examens": [
+        {
+            "source": "EXAMEN BLANC GCB 2023.pdf",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Définir et calculer la clairance de la créatinine",
+                    "reponse": ""
+                },
+                {
+                    "id": 2,
+                    "question": "Par quelle méthode pourrait-on calculer la clairance de la créatinine ? Écrivez la formule.",
+                    "reponse": ""
+                },
+                {
+                    "id": 3,
+                    "question": "Quel organe vital est dysfonctionnel au vu des résultats ? Quelle affection soupçonnez-vous ?",
+                    "reponse": ""
+                }
+            ]
+        },
+        {
+            "source": "QCM HEMATOLOGIE ATELIER BOS.pdf",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Quel est le tube approprié pour la NFS ?",
+                    "reponse": ""
+                },
+                {
+                    "id": 2,
+                    "question": "Interprétez et commentez l’hémogramme donné",
+                    "reponse": ""
+                }
+            ]
+        }
+    ]
+}
